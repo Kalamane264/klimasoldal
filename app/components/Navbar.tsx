@@ -27,8 +27,8 @@ export default function Navbar(){
     const [isContactOpen, setIsContactOpen] = useState(false);
 
     const navLinks = [
-        { name: t.nav.services, href: "#services" },
-        { name: t.nav.education, href: "#education" },
+        { name: t.nav.services, href: "/szolgaltatasok" },
+        { name: t.nav.education, href: "/tudastar" },
         { name: t.nav.contact, href: "#contact" },
     ];
 
@@ -57,20 +57,20 @@ export default function Navbar(){
             <div className="w-8 h-8 bg-primary rounded-tr-xl rounded-bl-xl flex items-center justify-center">
               <span className="text-white text-lg">E</span>
             </div>
-            EcoClimate<span className="text-accent">.hu</span>
+            EK-Klima<span className="text-accent">.hu</span>
           </div>
         </Link>
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.name}
               href={link.href}
               className="text-foreground hover:text-primary font-medium transition-colors"
             >
               {link.name}
-            </a>
+            </Link>
           ))}
           
           <div className="flex items-center gap-4 pl-4 border-l border-border">

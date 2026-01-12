@@ -1,21 +1,25 @@
 import type { Metadata } from "next";
 import { LanguageProvider } from "@/app/lib/i18n";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Outfit, DM_Sans } from "next/font/google";
 import "./globals.css";
 import "./styles.scss";
 
 import Navbar from '@/app/components/Navbar';
 import { Footer } from "./components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const outfit = Outfit({
   subsets: ["latin"],
-});
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-outfit"
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const dm_sans = DM_Sans({
   subsets: ["latin"],
-});
+  display: "swap",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-dm-sans"
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -29,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${outfit.variable} ${dm_sans.variable}`}>
         <LanguageProvider>
           <Navbar />
           {children}

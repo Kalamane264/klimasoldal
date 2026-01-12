@@ -57,7 +57,7 @@ export default function Navbar(){
             <div className="w-8 h-8 bg-primary rounded-tr-xl rounded-bl-xl flex items-center justify-center">
               <span className="text-white text-lg">E</span>
             </div>
-            EK-Klima<span className="text-accent">.hu</span>
+            EcoClimate<span className="text-accent">.hu</span>
           </div>
         </Link>
 

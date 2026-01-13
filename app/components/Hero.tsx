@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "@/app/ui/button";
 import { useLanguage } from "@/app/lib/i18n";
 import { ArrowRight, ChevronDown } from "lucide-react";
@@ -9,20 +10,6 @@ import { motion } from "framer-motion";
 
 export function Hero() {
   const { t } = useLanguage();
-
-  const scrollToServices = () => {
-    const servicesSection = document.getElementById('services');
-    if (servicesSection) {
-      servicesSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
-  const scrollToEducation = () => {
-    const educationSection = document.getElementById('education');
-    if (educationSection) {
-      educationSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   return (
     <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden bg-gradient-to-br from-secondary/30 to-background">
@@ -43,21 +30,23 @@ export function Hero() {
             {t.hero.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button 
-              size="lg" 
-              onClick={scrollToServices}
-              className="bg-primary hover:bg-primary/90 text-white text-lg h-12 px-8 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105"
-            >
-              {t.hero.cta} <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              onClick={scrollToEducation}
-              className="h-12 px-8 rounded-full border-primary/20 text-primary hover:bg-primary/5"
-            >
-              {t.hero.secondaryCta}
-            </Button>
+            <Link href="/szolgaltatasok">
+              <Button
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-white text-lg h-12 px-8 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105"
+              >
+                {t.hero.cta} <ArrowRight className="ml-2 w-5 h-5" />
+              </Button>
+            </Link>
+            <Link href="/tudastar">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="h-12 px-8 rounded-full border-primary/20 text-primary hover:bg-primary/5"
+              >
+                {t.hero.secondaryCta}
+              </Button>
+            </Link>
           </div>
         </motion.div>
 
@@ -68,11 +57,6 @@ export function Hero() {
           className="relative lg:-mr-12"
         >
           <div className="relative aspect-[4/3] md:aspect-[16/10] rounded-2xl overflow-hidden shadow-2xl shadow-slate-200/50">
-           {/*  <img 
-              src={heroImage} 
-              alt="Futuristic sustainable smart home" 
-              className="w-full h-full object-cover"
-            /> */}
             <Image
               src={heroImage}
               alt="Futuristic sustainable smart home"

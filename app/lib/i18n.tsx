@@ -21,6 +21,7 @@ type Translations = {
   services: {
     title: string;
     subtitle: string;
+    buttonText: string;
     ac: {
       title: string;
       desc: string;
@@ -120,21 +121,22 @@ const translations: Record<Language, Translations> = {
     services: {
       title: "Our Expertise",
       subtitle: "Comprehensive solutions for your home's energy and comfort needs.",
+      buttonText: "More",
       ac: {
-        title: "Air Conditioning",
-        desc: "Modern, energy-efficient cooling solutions for hot summer days. Silent operation and air purification."
+        title: "Air Conditioning Installation",
+        desc: "We install, replace and maintain air conditioning systems for apartments and family houses. Our services focus on fast execution, transparent, favorable pricing and reliable solutions for everyday comfort."
       },
       heatpump: {
         title: "Heat Pump Installation",
-        desc: "The future of heating. Highly efficient systems that warm your home in winter and cool it in summer."
+        desc: "We provide installation of energy-efficient heating and cooling systems for residential properties. These solutions can reduce energy consumption while maintaining a balanced indoor temperature year-round."
       },
       electric: {
-        title: "Electrical Installation",
-        desc: "Complete electrical wiring, upgrades, and maintenance for new builds and renovations."
+        title: "Electrical Services",
+        desc: "We offer residential electrical services ranging from minor repairs to complete electrical installations. All work is carried out with a strong focus on safety, compliance and long-term reliability."
       },
       smart: {
-        title: "Smart Home",
-        desc: "Automated climate control and energy management for maximum comfort and efficiency.",
+        title: "Smart Home Solutions",
+        desc: "We deliver easy-to-use smart home solutions for apartments and family houses. Automation improves comfort and helps optimize overall energy usage.",
         badge: "Coming Soon"
       }
     },
@@ -278,23 +280,24 @@ const translations: Record<Language, Translations> = {
       secondaryCta: "Tudjon meg többet"
     },
     services: {
-      title: "Szolgáltatásaink",
-      subtitle: "Átfogó megoldások otthona energiahatékonyságáért és kényelméért.",
+      title: "Szolgáltatásaink lakossági megrendelők számára",
+      subtitle: "Elsősorban lakások és családi házak számára kínálunk megbízható műszaki megoldásokat, rövid határidőkkel és átlátható árakkal. Szolgáltatásaink célja, hogy a mindennapi komfort gyorsan, felesleges bonyodalmak nélkül megvalósuljon – legyen szó klímaszerelésről, hőszivattyú telepítésről vagy elektromos munkákról.",
+      buttonText: "Bővebben",
       ac: {
-        title: "Légkondicionálás",
-        desc: "Modern, energiatakarékos hűtési megoldások a forró nyári napokra. Csendes működés és légtisztítás."
+        title: "Klímaszerelés",
+        desc: "Új klímaberendezések telepítését, meglévők cseréjét és karbantartását vállaljuk lakásokban és családi házakban. Gyors kivitelezéssel, átlátható, kedvező árakkal és megbízható megoldásokkal segítjük az otthoni komfort kialakítását."
       },
       heatpump: {
         title: "Hőszivattyú Telepítés",
-        desc: "A fűtés jövője. Kiemelkedően hatékony rendszerek, amelyek télen fűtenek, nyáron hűtenek."
+        desc: "Energiahatékony fűtési és hűtési rendszerek telepítését végezzük lakossági ingatlanokban. Megoldásaink csökkentik az energiafelhasználást, miközben egész évben egyenletes hőmérsékletet biztosítanak."
       },
       electric: {
         title: "Villanyszerelés",
-        desc: "Teljes körű elektromos kivitelezés, felújítás és karbantartás új építésű és meglévő ingatlanoknál."
+        desc: "Lakossági villanyszerelési munkákat vállalunk kisebb javításoktól a teljes elektromos kiépítésig. A biztonságos, szabványos és hosszú távon megbízható működés minden esetben elsődleges szempont."
       },
       smart: {
         title: "Okosotthon",
-        desc: "Automatizált klímavezérlés és energiamenedzsment a maximális kényelemért.",
+        desc: "Kényelmesen kezelhető okosotthon megoldásokat kínálunk lakásokhoz és családi házakhoz. Az automatizált rendszerek növelik a komfortot és segítenek az energiafelhasználás optimalizálásában.",
         badge: "Hamarosan"
       }
     },

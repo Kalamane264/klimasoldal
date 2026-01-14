@@ -9,6 +9,7 @@ type Translations = {
     home: string;
     services: string;
     education: string;
+    areas: string;
     contact: string;
     getQuote: string;
   };
@@ -101,6 +102,26 @@ type Translations = {
     email: string;
     address: string;
   };
+  serviceAreas: {
+    title: string;
+    subtitle: string;
+    budapest: {
+      title: string;
+      desc: string;
+      districts: string;
+      viewMore: string;
+    };
+    pecs: {
+      title: string;
+      desc: string;
+      districts: string;
+      viewMore: string;
+    };
+    whyUs: {
+      title: string;
+      items: Array<{ title: string; desc: string }>;
+    };
+  };
 };
 
 const translations: Record<Language, Translations> = {
@@ -109,6 +130,7 @@ const translations: Record<Language, Translations> = {
       home: "Home",
       services: "Services",
       education: "Knowledge Base",
+      areas: "Service areas",
       contact: "Contact",
       getQuote: "Get a Quote"
     },
@@ -119,8 +141,8 @@ const translations: Record<Language, Translations> = {
       secondaryCta: "Learn About Heat Pumps"
     },
     services: {
-      title: "Our Expertise",
-      subtitle: "Comprehensive solutions for your home's energy and comfort needs.",
+      title: "Our services for residential customers",
+      subtitle: "We provide reliable engineering solutions primarily for apartments and family homes, with short lead times and transparent pricing. Our services are designed to deliver everyday comfort quickly and seamlessly – whether it’s air conditioning installation, heat pump setup, or electrical work.",
       buttonText: "More",
       ac: {
         title: "Air Conditioning Installation",
@@ -263,13 +285,47 @@ const translations: Record<Language, Translations> = {
       phone: "Phone",
       email: "Email",
       address: "Service Area"
-    }
+    },
+    serviceAreas: {
+      title: "Service Areas",
+      subtitle: "We provide professional climate control solutions in the following regions of Hungary.",
+      budapest: {
+        title: "Budapest & Metropolitan Area",
+        desc: "Full coverage across all districts of Budapest and the surrounding Pest county settlements.",
+        districts: "All 23 districts of Budapest, including Buda and Pest sides, and neighboring towns like Érd, Dunakeszi, and Budaörs.",
+        viewMore: "View Budapest details",
+      },
+      pecs: {
+        title: "Pécs & Baranya County",
+        desc: "Our regional center in Southern Hungary, providing the same high-quality services to local residents.",
+        districts: "Pécs city and surrounding settlements in Baranya county within a 30km radius.",
+        viewMore: "View Pécs details",
+      },
+      whyUs: {
+        title: "Why Choose Us in These Areas?",
+        items: [
+          {
+            title: "Rapid Response",
+            desc: "Our localized teams ensure quick response times for both emergency repairs and scheduled installations.",
+          },
+          {
+            title: "Local Expertise",
+            desc: "We understand the specific building types and regional climate patterns in Budapest and Pécs.",
+          },
+          {
+            title: "Unmatched Reliability",
+            desc: "Years of dedicated service and hundreds of satisfied customers across our primary service regions.",
+          },
+        ],
+      },
+    },
   },
   hu: {
     nav: {
       home: "Főoldal",
       services: "Szolgáltatások",
       education: "Tudástár",
+      areas: "Területek",
       contact: "Kapcsolat",
       getQuote: "Ajánlatkérés"
     },
@@ -424,7 +480,40 @@ const translations: Record<Language, Translations> = {
       phone: "Telefon",
       email: "Email",
       address: "Működési Terület"
-    }
+    },
+    serviceAreas: {
+      title: "Szolgáltatási Területek",
+      subtitle: "Professzionális klímatechnikai megoldásokat kínálunk Magyarország alábbi régióiban.",
+      budapest: {
+        title: "Budapest és környéke",
+        desc: "Teljes körű szolgáltatást nyújtunk Budapest összes kerületében és a környező Pest megyei településeken.",
+        districts: "Budapest mind a 23 kerülete, Buda és Pest oldalon egyaránt, valamint a környező városok, mint Érd, Dunakeszi és Budaörs.",
+        viewMore: "Budapest részletei",
+      },
+      pecs: {
+        title: "Pécs és Baranya megye",
+        desc: "Dél-magyarországi központunkon keresztül ugyanazt a magas színvonalú szolgáltatást biztosítjuk a helyi lakosoknak.",
+        districts: "Pécs városa és a környező Baranya megyei települések 30 km-es körzetben.",
+        viewMore: "Pécs részletei",
+      },
+      whyUs: {
+        title: "Miért érdemes minket választani ezeken a területeken?",
+        items: [
+          {
+            title: "Gyors kiszállás",
+            desc: "Helyi csapataink révén rövid határidővel vállaljuk a kiszállást sürgős javítások és tervezett telepítések esetén is.",
+          },
+          {
+            title: "Helyi szakértelem",
+            desc: "Ismerjük a budapesti és pécsi épülettípusok sajátosságait és a helyi éghajlati viszonyokat.",
+          },
+          {
+            title: "Megbízhatóság",
+            desc: "Több éves szakmai tapasztalatunk és elégedett ügyfeleink százai a garancia a minőségi munkavégzésre.",
+          },
+        ],
+      },
+    },
   }
 };
 

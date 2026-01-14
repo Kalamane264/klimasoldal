@@ -29,6 +29,7 @@ export default function Navbar(){
     const navLinks = [
         { name: t.nav.services, href: "/szolgaltatasok" },
         { name: t.nav.education, href: "/tudastar" },
+        { name: t.nav.areas, href: "/teruletek" },
         { name: t.nav.contact, href: "#contact" },
     ];
 

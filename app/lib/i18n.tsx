@@ -105,6 +105,7 @@ type Translations = {
   serviceAreas: {
     title: string;
     subtitle: string;
+    coverage: string;
     budapest: {
       title: string;
       desc: string;
@@ -289,6 +290,7 @@ const translations: Record<Language, Translations> = {
     serviceAreas: {
       title: "Service Areas",
       subtitle: "We provide professional climate control solutions in the following regions of Hungary.",
+      coverage: "Coverage",
       budapest: {
         title: "Budapest & Metropolitan Area",
         desc: "Full coverage across all districts of Budapest and the surrounding Pest county settlements.",
@@ -484,6 +486,7 @@ const translations: Record<Language, Translations> = {
     serviceAreas: {
       title: "Szolgáltatási Területek",
       subtitle: "Professzionális klímatechnikai megoldásokat kínálunk Magyarország alábbi régióiban.",
+      coverage: "Lefedettség",
       budapest: {
         title: "Budapest és környéke",
         desc: "Teljes körű szolgáltatást nyújtunk Budapest összes kerületében és a környező Pest megyei településeken.",

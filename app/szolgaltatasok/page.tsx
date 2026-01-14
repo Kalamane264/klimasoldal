@@ -128,12 +128,16 @@ export default function Szolgaltatasok() {
                     {service.desc}
                   </CardDescription>
                     <Link href={ service.href }>
-                    <Button
+                    {/* <Button
                         size="lg" 
                         className="mt-4 cursor-pointer bg-primary hover:bg-primary/90 text-white text-lg h-12 px-8 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105"
                     >
                         { t.services.buttonText } <ArrowRight className="ml-2 w-5 h-5" />
-                    </Button>
+                    </Button> */}
+                    <Button className="mt-4 cursor-pointer w-full bg-primary hover:bg-primary/90 text-white group">
+                    { t.services.buttonText }
+                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+                  </Button>
                     </Link>
                 </CardContent>
               </Card>

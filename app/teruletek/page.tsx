@@ -48,7 +48,7 @@ export default function TeruletekPage() {
                 <div className="bg-slate-50 p-6 rounded-xl mb-8 flex-grow">
                   <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
                     <CheckCircle2 className="w-5 h-5 text-primary" />
-                    Lefedettség
+                    { t.serviceAreas.coverage }
                   </h3>
                   <p className="text-sm text-slate-600 leading-relaxed">
                     {t.serviceAreas.budapest.districts}
@@ -80,7 +80,7 @@ export default function TeruletekPage() {
                 <div className="bg-slate-50 p-6 rounded-xl mb-8 flex-grow">
                   <h3 className="font-semibold text-slate-900 mb-4 flex items-center gap-2">
                     <CheckCircle2 className="w-5 h-5 text-accent" />
-                    Lefedettség
+                    { t.serviceAreas.coverage }
                   </h3>
                   <p className="text-sm text-slate-600 leading-relaxed">
                     {t.serviceAreas.pecs.districts}

@@ -289,19 +289,23 @@ const translations: Record<Language, Translations> = {
     },
     serviceAreas: {
       title: "Service Areas",
-      subtitle: "We provide professional climate control solutions in the following regions of Hungary.",
+      subtitle: `Our services are available throughout Hungary, covering the installation of new air conditioning units and heat pumps, as well as the repair, cleaning, and maintenance of existing systems.
+        <br/><br/>
+        While we operate nationwide, we can provide faster and more cost-effective call-outs in certain regions where we have a regular presence.
+        <br/><br/>
+        These priority service areas are detailed below.`,
       coverage: "Coverage",
       budapest: {
-        title: "Budapest & Metropolitan Area",
-        desc: "Full coverage across all districts of Budapest and the surrounding Pest county settlements.",
+        title: "Air Conditioning Installation in Budapest and Surrounding Areas",
+        desc: "In Budapest and its surrounding areas, high-rise apartment buildings and 'panel' housing projects are common, where the installation of air conditioning units and heat pumps requires specialized expertise.",
         districts: "All 23 districts of Budapest, including Buda and Pest sides, and neighboring towns like Érd, Dunakeszi, and Budaörs.",
-        viewMore: "View Budapest details",
+        viewMore: "AC installation - Budapest",
       },
       pecs: {
-        title: "Pécs & Baranya County",
-        desc: "Our regional center in Southern Hungary, providing the same high-quality services to local residents.",
+        title: "AC Installation – Pécs & Baranya County",
+        desc: "In Pécs and its surroundings, residential areas with detached houses and varied terrain are common, where the installation of air conditioning units and heat pumps often requires unique technical solutions.",
         districts: "Pécs city and surrounding settlements in Baranya county within a 30km radius.",
-        viewMore: "View Pécs details",
+        viewMore: "AC installation - Pécs",
       },
       whyUs: {
         title: "Why Choose Us in These Areas?",
@@ -316,7 +320,7 @@ const translations: Record<Language, Translations> = {
           },
           {
             title: "Unmatched Reliability",
-            desc: "Years of dedicated service and hundreds of satisfied customers across our primary service regions.",
+            desc: "Our professional experience and satisfied clients guarantee high-quality work.",
           },
         ],
       },
@@ -484,23 +488,31 @@ const translations: Record<Language, Translations> = {
       address: "Működési Terület"
     },
     serviceAreas: {
-      title: "Szolgáltatási Területek",
-      subtitle: "Professzionális klímatechnikai megoldásokat kínálunk Magyarország alábbi régióiban.",
+      title: "Szolgáltatási területeink",
+      subtitle: `
+      Szolgáltatásaink Magyarország teljes területén elérhetők: új klímaberendezések és hőszivattyúk telepítése, valamint meglévő rendszerek javítása, tisztítása és karbantartása egyaránt.
+      <br /> \n \n
+      <br />
+      Országosan dolgozunk, ugyanakkor vannak olyan térségek, ahol rendszeres jelenlétünknek köszönhetően <b>gyorsabb és kedvezőbb</b> kiszállást tudunk biztosítani.
+      <br />
+      <br />
+      Ezeket a kiemelt szolgáltatási területeket lentebb részletesen bemutatjuk.
+      `,
       coverage: "Lefedettség",
       budapest: {
-        title: "Budapest és környéke",
-        desc: "Teljes körű szolgáltatást nyújtunk Budapest összes kerületében és a környező Pest megyei településeken.",
+        title: "Klímaszerelés Budapesten és környékén",
+        desc: "Budapesten és környékén gyakoriak az emeletes társasházak és panelprojektek, ahol a klímaberendezések és hőszivattyúk telepítése speciális szakértelmet igényel.",
         districts: "Budapest mind a 23 kerülete, Buda és Pest oldalon egyaránt, valamint a környező városok, mint Érd, Dunakeszi és Budaörs.",
-        viewMore: "Budapest részletei",
+        viewMore: "Klímaszerelés - Budapest",
       },
       pecs: {
-        title: "Pécs és Baranya megye",
-        desc: "Dél-magyarországi központunkon keresztül ugyanazt a magas színvonalú szolgáltatást biztosítjuk a helyi lakosoknak.",
+        title: "Klímaszerelés - Pécs és Baranya megye",
+        desc: "Pécsen és környékén jellemzőek a családi házas övezetek és a domborzatilag tagolt városrészek, ahol a klímaberendezések és hőszivattyúk telepítése sokszor egyedi műszaki megoldásokat igényel.",
         districts: "Pécs városa és a környező Baranya megyei települések 30 km-es körzetben.",
-        viewMore: "Pécs részletei",
+        viewMore: "Klímaszerelés - Pécs",
       },
       whyUs: {
-        title: "Miért érdemes minket választani ezeken a területeken?",
+        title: "Miért előnyös minket választani ezeken a területeken?",
         items: [
           {
             title: "Gyors kiszállás",
@@ -512,7 +524,7 @@ const translations: Record<Language, Translations> = {
           },
           {
             title: "Megbízhatóság",
-            desc: "Több éves szakmai tapasztalatunk és elégedett ügyfeleink százai a garancia a minőségi munkavégzésre.",
+            desc: "Szakmai tapasztalatunk és elégedett ügyfeleink garancia a minőségi munkavégzésre.",
           },
         ],
       },

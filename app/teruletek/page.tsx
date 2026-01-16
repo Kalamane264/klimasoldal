@@ -25,8 +25,9 @@ export default function TeruletekPage() {
             <h1 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
               {t.serviceAreas.title}
             </h1>
-            <p className="text-xl text-muted-foreground">
-              {t.serviceAreas.subtitle}
+            <p className="text-xl text-muted-foreground" 
+                dangerouslySetInnerHTML={{__html: t.serviceAreas.subtitle}}>
+              {   }
             </p>
           </div>
 

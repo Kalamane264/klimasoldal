@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/app/lib/i18n";
 import { Button } from "@/app/ui/button";
+import { useGoBack } from "@/app/lib/useGoBack";
 import { 
   ArrowLeft, CheckCircle2, Zap, ShieldCheck, 
   MapPin, TrendingDown
@@ -17,6 +18,7 @@ import {
 
 export default function ACInstallation() {
   const { language } = useLanguage();
+  const goBack = useGoBack();
   
   const t = language === 'hu' ? {
     h1: "Klímaszerelés lakossági ügyfeleknek",
@@ -66,12 +68,10 @@ export default function ACInstallation() {
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
-          <Link href="/#services">
-            <Button variant="ghost" className="mb-8 flex items-center gap-2 hover:bg-slate-100">
-              <ArrowLeft className="w-4 h-4" />
-              {language === 'hu' ? 'Vissza a szolgáltatásokhoz' : 'Back to services'}
+            <Button onClick={ goBack } variant="ghost" className="cursor-pointer mb-8 flex items-center gap-2 hover:bg-slate-100">
+                <ArrowLeft className="w-4 h-4" />
+                {language === 'hu' ? 'Vissza' : 'Back'}
             </Button>
-          </Link>
 
           <div className="max-w-4xl mx-auto">
             <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>

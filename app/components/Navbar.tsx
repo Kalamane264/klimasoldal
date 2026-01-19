@@ -30,7 +30,7 @@ export default function Navbar(){
         { name: t.nav.services, href: "/szolgaltatasok" },
         { name: t.nav.education, href: "/tudastar" },
         { name: t.nav.areas, href: "/teruletek" },
-        { name: t.nav.contact, href: "#contact" },
+        { name: t.nav.contact, href: "/kapcsolat" },
     ];
 
     useEffect(() => {
@@ -79,7 +79,7 @@ export default function Navbar(){
               variant="ghost" 
               size="sm" 
               onClick={toggleLanguage}
-              className="flex items-center gap-2 font-medium"
+              className="cursor-pointer flex items-center gap-2 font-medium"
             >
               <Globe className="w-4 h-4" />
               {language.toUpperCase()}
@@ -87,7 +87,7 @@ export default function Navbar(){
             
             <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
               <DialogTrigger asChild>
-                <Button className="bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
+                <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
                   {t.nav.getQuote}
                 </Button>
               </DialogTrigger>

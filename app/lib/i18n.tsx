@@ -101,6 +101,7 @@ type Translations = {
     phone: string;
     email: string;
     address: string;
+    area: string;
   };
   serviceAreas: {
     title: string;
@@ -285,7 +286,8 @@ const translations: Record<Language, Translations> = {
       subtitle: "Ready to upgrade your home? Contact us for a free consultation.",
       phone: "Phone",
       email: "Email",
-      address: "Service Area"
+      address: "Service Area",
+      area: "Pécs | Budapest & Pest County"
     },
     serviceAreas: {
       title: "Service Areas",
@@ -485,7 +487,8 @@ const translations: Record<Language, Translations> = {
       subtitle: "Készen áll otthona korszerűsítésére? Keressen minket ingyenes konzultációért.",
       phone: "Telefon",
       email: "Email",
-      address: "Működési Terület"
+      address: "Működési Terület",
+      area: "Pécs | Budapest és Pest megye"
     },
     serviceAreas: {
       title: "Szolgáltatási területeink",

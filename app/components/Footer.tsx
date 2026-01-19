@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "@/app/ui/button";
 import { useLanguage } from "@/app/lib/i18n";
 import { Phone, Mail, MapPin } from "lucide-react";
@@ -32,7 +33,7 @@ export function Footer() {
             <div className="flex gap-4">
               <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
                 <DialogTrigger asChild>
-                  <Button className="bg-primary hover:bg-primary/90 text-white">
+                  <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white">
                     {t.nav.getQuote}
                   </Button>
                 </DialogTrigger>
@@ -78,7 +79,7 @@ export function Footer() {
                 <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-primary">
                   <Phone className="w-5 h-5" />
                 </div>
-                <span>+36 30 123 4567</span>
+                <span>+36 70 275 9141</span>
               </li>
               <li className="flex items-center gap-3 text-slate-300 hover:text-primary transition-colors cursor-pointer">
                 <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-primary">
@@ -90,7 +91,7 @@ export function Footer() {
                 <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-primary">
                   <MapPin className="w-5 h-5" />
                 </div>
-                <span>Budapest & Pest County</span>
+                <span>{ t.contact.area }</span>
               </li>
             </ul>
           </div>
@@ -98,10 +99,26 @@ export function Footer() {
           <div className="space-y-6">
             <h3 className="text-xl font-bold">{t.nav.services}</h3>
             <ul className="space-y-2 text-slate-400">
-              <li>{t.services.heatpump.title}</li>
-              <li>{t.services.ac.title}</li>
-              <li>{t.services.electric.title}</li>
-              <li>{t.services.smart.title}</li>
+              <li>
+                <Link href="/szolgaltatasok/klimaszereles">
+                  {t.services.ac.title}
+                </Link>
+              </li>
+              <li>
+                <Link href="/szolgaltatasok/hoszivattyu-telepites">
+                  {t.services.heatpump.title}
+                </Link>
+              </li>
+              <li>
+                <Link href="/szolgaltatasok/villanyszereles">
+                  {t.services.electric.title}
+                </Link>
+              </li>
+              <li>
+                <Link href="/szolgaltatasok/okosotthon">
+                  {t.services.smart.title}
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

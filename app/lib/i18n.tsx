@@ -137,7 +137,7 @@ const translations: Record<Language, Translations> = {
     },
     hero: {
       title: "Sustainable Comfort for Modern Living",
-      subtitle: "Professional installation of Heat Pumps, Air Conditioning, and Electrical Systems. Future-proof your home with EcoClimate.",
+      subtitle: "Professional installation of Heat Pumps, Air Conditioning, and Electrical Systems. Future-proof your home with AClimate.",
       cta: "Explore Services",
       secondaryCta: "Learn About Heat Pumps"
     },
@@ -337,7 +337,7 @@ const translations: Record<Language, Translations> = {
     },
     hero: {
       title: "Fenntartható Kényelem Modern Otthonokba",
-      subtitle: "Hőszivattyúk, klímák és elektromos rendszerek professzionális telepítése. Tegye jövőbiztossá otthonát az EcoClimate-tel.",
+      subtitle: "Hőszivattyúk, klímák és elektromos rendszerek professzionális telepítése. Tegye jövőbiztossá otthonát az AClimate-tel.",
       cta: "Szolgáltatásaink",
       secondaryCta: "Tudjon meg többet"
     },

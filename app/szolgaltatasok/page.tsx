@@ -57,9 +57,6 @@ export default function Szolgaltatasok() {
           transition={{ duration: 0.6 }}
           className="space-y-6 z-10"
         >
-          {/* <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-medium text-sm">
-            EcoClimate.hu
-          </div> */}
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-heading font-bold text-slate-900 leading-[1.1]">
             {t.services.title}
           </h1>

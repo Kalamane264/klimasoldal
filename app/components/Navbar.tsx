@@ -55,10 +55,10 @@ export default function Navbar(){
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
           <div className="text-2xl font-heading font-bold text-primary flex items-center gap-2">
-            <div className="w-8 h-8 bg-primary rounded-tr-xl rounded-bl-xl flex items-center justify-center">
-              <span className="text-white text-lg">E</span>
+            <div className="w-10 h-8 bg-primary rounded-tr-xl rounded-bl-xl flex items-center justify-center">
+              <span className="text-white text-lg">AC</span>
             </div>
-            EcoClimate<span className="text-accent">.hu</span>
+            AClimate<span className="text-accent">.hu</span>
           </div>
         </Link>
 

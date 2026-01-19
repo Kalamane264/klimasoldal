@@ -55,8 +55,8 @@ export default function TeruletekPage() {
                     {t.serviceAreas.budapest.districts}
                   </p>
                 </div>
-                <Link href="/szolgaltatasi-teruletek/budapest">
-                  <Button className="w-full bg-primary hover:bg-primary/90 text-white group">
+                <Link href="/teruletek/budapest-klimaszereles">
+                  <Button className="cursor-pointer w-full bg-primary hover:bg-primary/90 text-white group">
                     {t.serviceAreas.budapest.viewMore}
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>
@@ -87,8 +87,8 @@ export default function TeruletekPage() {
                     {t.serviceAreas.pecs.districts}
                   </p>
                 </div>
-                <Link href="/szolgaltatasi-teruletek/pecs">
-                  <Button variant="outline" className="w-full border-accent text-accent hover:bg-accent hover:text-white group">
+                <Link href="/teruletek/pecs-klimaszereles">
+                  <Button variant="outline" className="cursor-pointer w-full border-accent text-accent hover:bg-accent hover:text-white group">
                     {t.serviceAreas.pecs.viewMore}
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </Button>

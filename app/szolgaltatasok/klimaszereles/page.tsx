@@ -79,7 +79,7 @@ export default function ACInstallation() {
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-slate-900 mb-6">{t.h1}</h1>
                 <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed max-w-3xl">{t.lead}</p>
                 <Link href="/kapcsolat">
-                  <Button size="lg" className="bg-primary text-white hover:bg-primary/90 rounded-full px-8 py-6 text-lg">
+                  <Button size="lg" className="cursor-pointer bg-primary text-white hover:bg-primary/90 rounded-full px-8 py-6 text-lg">
                     {language === 'hu' ? 'Kapcsolatfelvétel' : 'Contact Us'}
                   </Button>
                 </Link>
@@ -165,7 +165,7 @@ export default function ACInstallation() {
               <div className="bg-primary p-12 rounded-3xl text-center text-white shadow-xl shadow-primary/20">
                 <h2 className="text-3xl md:text-4xl font-heading font-bold mb-8 leading-tight">{t.cta}</h2>
                 <Link href="/kapcsolat">
-                  <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-slate-100 rounded-full px-12 py-8 text-xl font-bold">
+                  <Button size="lg" variant="secondary" className="cursor-pointer  bg-white text-primary hover:bg-slate-100 rounded-full px-12 py-8 text-xl font-bold">
                     {language === 'hu' ? 'Kapcsolatfelvétel' : 'Contact Us'}
                   </Button>
                 </Link>

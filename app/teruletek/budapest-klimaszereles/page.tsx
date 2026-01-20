@@ -215,8 +215,8 @@ export default function BudapestKlimaszerelesPage(){
                 <h2 className="text-2xl md:text-3xl font-heading font-bold text-slate-900 mb-6">
                   {t.cta}
                 </h2>
-                <Link href="/#contact">
-                  <Button size="lg" className="bg-primary text-white hover:bg-primary/90 px-8 py-6 text-lg rounded-full">
+                <Link href="/kapcsolat">
+                  <Button size="lg" className="cursor-pointer bg-primary text-white hover:bg-primary/90 px-8 py-6 text-lg rounded-full">
                     {language === 'hu' ? 'Vegye fel velünk a kapcsolatot' : 'Contact us today'}
                   </Button>
                 </Link>

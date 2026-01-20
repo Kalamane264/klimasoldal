@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +14,7 @@ export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden bg-gradient-to-br from-secondary/30 to-background">
       <div className="container mx-auto px-4 md:px-6 grid lg:grid-cols-[0.9fr_1.1fr] gap-12 items-center">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -32,17 +32,17 @@ export function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <Link href="/szolgaltatasok">
               <Button
-                size="lg" 
-                className="bg-primary hover:bg-primary/90 text-white text-lg h-12 px-8 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105"
+                size="lg"
+                className="cursor-pointer bg-primary hover:bg-primary/90 text-white text-lg h-12 px-8 rounded-full shadow-xl shadow-primary/20 transition-all hover:scale-105"
               >
                 {t.hero.cta} <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
             </Link>
             <Link href="/tudastar">
-              <Button 
-                variant="outline" 
-                size="lg" 
-                className="h-12 px-8 rounded-full border-primary/20 text-primary hover:bg-primary/5"
+              <Button
+                variant="outline"
+                size="lg"
+                className="cursor-pointer h-12 px-8 rounded-full border-primary/20 text-primary hover:bg-primary/5"
               >
                 {t.hero.secondaryCta}
               </Button>
@@ -50,7 +50,7 @@ export function Hero() {
           </div>
         </motion.div>
 
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -66,7 +66,7 @@ export function Hero() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
           </div>
-          
+
           {/* Decorative elements */}
           <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-accent/20 rounded-full blur-2xl -z-10" />
           <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary/20 rounded-full blur-3xl -z-10" />

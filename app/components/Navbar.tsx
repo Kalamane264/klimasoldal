@@ -169,15 +169,28 @@ export default function Navbar(){
       {isOpen && (
         <div className="absolute top-full left-0 w-full bg-background border-b border-border md:hidden animate-in slide-in-from-top-5">
           <div className="flex flex-col p-4 gap-4">
+            <div className="flex flex-col py-2 border-b border-border/50">
+              <Link href="/keszulekek" onClick={() => setIsOpen(false)} className="text-lg font-medium text-foreground py-2">
+                {language === 'hu' ? 'Készülékek' : 'Products'}
+              </Link>
+              <div className="flex flex-col pl-4 gap-2 pb-2">
+                <Link href="/klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Klímák' : '• AC Units'}
+                </Link>
+                <Link href="/hoszivattyuk" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Hőszivattyúk' : '• Heat Pumps'}
+                </Link>
+              </div>
+            </div>
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
                 className="text-lg font-medium text-foreground py-2 border-b border-border/50"
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
             
             <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>

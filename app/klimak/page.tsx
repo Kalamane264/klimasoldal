@@ -1,11 +1,40 @@
-import ProductList from "../components/ProductList"
+"use client";
+
+import ProductList from "../components/ProductList";
 import { products } from "@/app/lib/products";
+import { useLanguage } from "@/app/lib/i18n";
 
 export default function KlimaLista() {
+  const { language } = useLanguage();
+  const klimak = products.filter((p) => p.type == "ac");
 
-    const klimak = products.filter(p => p.type == "ac");
-
-    return <>
-    <ProductList products={klimak} />
-    </>
+  return (
+    <div className="min-h-screen bg-background font-sans">
+      <main className="pt-32 pb-24">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="mb-12">
+            <h1 className="text-4xl font-heading font-bold text-slate-900 mb-4">
+              {language === "hu"
+                ? "Klímakészülékek telepítéssel – választható modellek"
+                : "Air conditioning with installation – available models"}
+            </h1>
+            <p className="text-lg text-muted-foreground maxWidth_700">
+              {language === "hu"
+                ? `Ezen az oldalon az általunk kínált klímakészülékek közül válogathat, a 
+                feltüntetett árak telepítéssel együtt értendők.
+                A megfelelő klíma kiválasztása nemcsak ár, hanem teljesítmény, elhelyezés és 
+                használati szokások kérdése is — ebben szakmai segítséget nyújtunk a tervezéstől
+                 a kivitelezésig.`
+                : `On this page, you can browse our range of air conditioning units. All listed 
+                prices include the cost of installation.
+                Choosing the right AC is not just about the price — it is also a matter of 
+                performance, placement, and usage habits. We provide professional support 
+                throughout the entire process, from planning to final installation.`}
+            </p>
+          </div>
+          <ProductList products={klimak} />
+        </div>
+      </main>
+    </div>
+  );
 }

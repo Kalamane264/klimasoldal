@@ -64,7 +64,7 @@ export default function ProductDetails({ product }: Props) {
 
               <Link href="/kapcsolat">
                 <Button size="lg" className="w-full bg-primary text-white rounded-full py-6 text-lg font-bold">
-                  {language === 'hu' ? 'Ajánlatot kérek erre a készülékre' : 'Request a quote for this device'}
+                  {language === 'hu' ? 'Kapcsolatfelvétel' : 'Contact'}
                 </Button>
               </Link>
             </motion.div>

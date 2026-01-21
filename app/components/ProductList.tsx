@@ -55,7 +55,7 @@ export default function ProductList({products}: Props ) {
                   </CardContent>
                   <CardFooter>
                     <Link href={`/keszulekek/${product.id}`} className="w-full">
-                      <Button className="w-full" variant="outline">
+                      <Button className="cursor-pointer w-full bg-primary hover:bg-primary/90 hover:scale-[1.02] transition-all duration-200">
                         {language === 'hu' ? 'Részletek' : 'Details'}
                       </Button>
                     </Link>

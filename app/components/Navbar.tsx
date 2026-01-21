@@ -69,7 +69,7 @@ export default function Navbar(){
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden xl:flex items-center gap-8">
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-1 text-foreground hover:text-primary font-medium transition-colors outline-none">
               {language === 'hu' ? 'Készülékek' : 'Products'} <ChevronDown className="w-4 h-4" />
@@ -150,7 +150,7 @@ export default function Navbar(){
         </div>
 
         {/* Mobile Toggle */}
-        <div className="md:hidden flex items-center gap-4">
+        <div className="xl:hidden flex items-center gap-4">
           <Button 
             variant="ghost" 
             size="sm" 
@@ -167,7 +167,7 @@ export default function Navbar(){
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-background border-b border-border md:hidden animate-in slide-in-from-top-5">
+        <div className="absolute top-full left-0 w-full bg-background border-b border-border xl:hidden animate-in slide-in-from-top-5">
           <div className="flex flex-col p-4 gap-4">
             <div className="flex flex-col py-2 border-b border-border/50">
               <Link href="/keszulekek" onClick={() => setIsOpen(false)} className="text-lg font-medium text-foreground py-2">

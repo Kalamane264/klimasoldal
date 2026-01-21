@@ -10,10 +10,16 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/app/ui/dialog";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/app/ui/dropdown-menu";
 import { Input } from "@/app/ui/input";
 import { Label } from "@/app/ui/label";
 import { Textarea } from "@/app/ui/textarea";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Globe, ChevronDown } from "lucide-react";
 
 import Link from "next/link";
 import { cn } from '@/app/lib/utils';
@@ -64,6 +70,23 @@ export default function Navbar(){
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
+          <DropdownMenu>
+            <DropdownMenuTrigger className="flex items-center gap-1 text-foreground hover:text-primary font-medium transition-colors outline-none">
+              {language === 'hu' ? 'Készülékek' : 'Products'} <ChevronDown className="w-4 h-4" />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="start" className="w-48">
+              <DropdownMenuItem asChild>
+                <Link href="/klimak" className="cursor-pointer w-full">
+                  {language === 'hu' ? 'Klímák' : 'AC Units'}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/hoszivattyuk" className="cursor-pointer w-full">
+                  {language === 'hu' ? 'Hőszivattyúk' : 'Heat Pumps'}
+                </Link>
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
           {navLinks.map((link) => (
             <Link
               key={link.name}

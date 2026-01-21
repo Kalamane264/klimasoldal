@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${dm_sans.variable}`}>
+      <body className={`${outfit.variable} ${dm_sans.variable} mybody`}>
         <LanguageProvider>
           <Navbar />
           {children}

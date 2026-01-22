@@ -63,7 +63,7 @@ export default function ProductDetails({ product }: Props) {
               </div>
 
               <Link href="/kapcsolat">
-                <Button size="lg" className="w-full bg-primary text-white rounded-full py-6 text-lg font-bold">
+                <Button size="lg" className="cursor-pointer w-full bg-primary text-white rounded-full py-6 text-lg font-bold">
                   {language === 'hu' ? 'Kapcsolatfelvétel' : 'Contact'}
                 </Button>
               </Link>

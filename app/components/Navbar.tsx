@@ -24,6 +24,7 @@ import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { cn } from '@/app/lib/utils';
 import { useLanguage } from "@/app/lib/i18n";
+import { ContactDialog } from "./ContactDialog";
 
 export default function Navbar(){
 
@@ -108,7 +109,17 @@ export default function Navbar(){
               {language.toUpperCase()}
             </Button>
             
-            <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
+            <ContactDialog 
+              open={isContactOpen} 
+              onOpenChange={setIsContactOpen}
+              trigger={
+                <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
+                  {t.nav.getQuote}
+                </Button>
+              }
+            />
+
+            {/* <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
               <DialogTrigger asChild>
                 <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
                   {t.nav.getQuote}
@@ -145,7 +156,7 @@ export default function Navbar(){
                   {language === 'hu' ? "Küldés" : "Send Request"}
                 </Button>
               </DialogContent>
-            </Dialog>
+            </Dialog> */}
           </div>
         </div>
 
@@ -167,7 +178,7 @@ export default function Navbar(){
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-background border-b border-border xl:hidden animate-in slide-in-from-top-5">
+        <div className="absolute top-full left-0 w-full bg-background border-b border-border xl:hidden animate-in slide-in-from-top-5 max-h-[calc(100vh-100%)] overflow-y-auto">
           <div className="flex flex-col p-4 gap-4">
             <div className="flex flex-col py-2 border-b border-border/50">
               <Link href="/keszulekek" onClick={() => setIsOpen(false)} className="text-lg font-medium text-foreground py-2">
@@ -192,8 +203,21 @@ export default function Navbar(){
                 {link.name}
               </Link>
             ))}
+
+            <ContactDialog 
+              open={isContactOpen} 
+              onOpenChange={(val) => {
+                setIsContactOpen(val);
+                if (!val) setIsOpen(false);
+              }}
+              trigger={
+                <Button className="w-full mt-2 bg-primary text-white">
+                  {t.nav.getQuote}
+                </Button>
+              }
+            />
             
-            <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
+            {/* <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
               <DialogTrigger asChild>
                 <Button className="w-full mt-2 bg-primary text-white">
                   {t.nav.getQuote}
@@ -233,7 +257,7 @@ export default function Navbar(){
                   {language === 'hu' ? "Küldés" : "Send Request"}
                 </Button>
               </DialogContent>
-            </Dialog>
+            </Dialog> */}
           </div>
         </div>
       )}

@@ -26,8 +26,8 @@ export const products: Product[] = [
         { label: "WiFi vezérlés", value: "Igen" },
         { label: "Zajszint (beltéri)", value: "21–40 dB(A)" },
         { label: "Fűtési teljesítmény", value: "2,8 kW" },
-        { label: "H-tarifa kompatibilis", value: "Igen" },
-        { label: "Garancia", value: "3 év" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
             <p>A <strong>Syen Charm SOH09CH-E32DA1B</strong> modell a modern technológia és az elegáns esztétika ötvözete. Az inverteres technológiának köszönhetően a készülék rendkívül energiatakarékos, így nemcsak a komfortérzetet növeli, hanem a rezsiköltségeket is optimalizálja.</p>
@@ -64,7 +64,7 @@ export const products: Product[] = [
         { label: "Noise level (Indoor unit)", value: "21–40 dB(A)" },
         { label: "Heating capacity", value: "2.8 kW" },
         { label: "H-tariff compatible", value: "Yes" },
-        { label: "Warranty", value: "3 years" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
             <p>The <strong>Syen Charm SOH09CH-E32DA1B</strong> model is a blend of modern technology and elegant aesthetics. Thanks to its advanced inverter technology, this unit is highly energy-efficient, enhancing your comfort while optimizing utility costs.</p>

@@ -12,7 +12,8 @@ type Props = {
 
 export default function ProductDetails({ product }: Props) {
   const { language } = useLanguage();
-  let longDesc = language === 'hu' ? product.hu.longDesc : product.en.longDesc;
+  const longDesc = language === 'hu' ? product.hu.longDesc : product.en.longDesc;
+  const specsExtended = language === 'hu' ? product.hu.specsExtended : product.en.specsExtended;
 
   return (
     <div className="min-h-screen bg-background font-sans">
@@ -48,7 +49,7 @@ export default function ProductDetails({ product }: Props) {
               </p>
 
               <div className="space-y-4 mb-8">
-                {product.specsExtended.map(spec => (
+                {specsExtended.map(spec => (
                   <div key={spec.label} className="flex justify-between border-b border-border/50 pb-2">
                     <span className="text-muted-foreground">{spec.label}</span>
                     <span className="font-bold">{spec.value}</span>
@@ -59,7 +60,6 @@ export default function ProductDetails({ product }: Props) {
               <div className="bg-slate-50 p-6 rounded-2xl mb-8">
                 <h3 className="font-bold mb-3">{language === 'hu' ? 'Leírás' : 'Description'}</h3>
                 <div dangerouslySetInnerHTML={{__html: longDesc}} className="text-muted-foreground leading-relaxed">
-                  
                 </div>
               </div>
 

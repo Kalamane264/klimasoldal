@@ -6,3 +6,15 @@ body.mybody[data-scroll-locked] {
 .maxWidth_700 {
     max-width: 700px;
 }
+
+.product-description {
+    h3 {
+        margin-top: 15px;
+    }
+    ul {
+        margin-top: 15px;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+}

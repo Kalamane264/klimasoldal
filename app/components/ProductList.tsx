@@ -41,7 +41,7 @@ export default function ProductList({ products }: Props) {
             <CardHeader>
               <div className="flex justify-between items-start mb-2">
                 <Badge variant="outline">
-                  {language === "hu" ? product.hu.title : product.en.title}
+                  {language === "hu" ? product.hu.typeName : product.en.typeName}
                 </Badge>
                 <span className="font-bold text-primary">{product.price}</span>
               </div>

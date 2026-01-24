@@ -12,6 +12,7 @@ type Props = {
 
 export default function ProductDetails({ product }: Props) {
   const { language } = useLanguage();
+  let longDesc = language === 'hu' ? product.hu.longDesc : product.en.longDesc;
 
   return (
     <div className="min-h-screen bg-background font-sans">
@@ -34,7 +35,7 @@ export default function ProductDetails({ product }: Props) {
             <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }}>
               <div className="mb-6">
                 <span className="text-primary font-bold uppercase tracking-wider text-sm">
-                  {language === 'hu' ? product.hu.title : product.en.title}
+                  {language === 'hu' ? product.hu.typeName : product.en.typeName}
                 </span>
                 <h1 className="text-4xl font-heading font-bold text-slate-900 mt-2">{product.name}</h1>
                 <div className="mt-4 text-3xl font-bold text-primary">
@@ -57,9 +58,9 @@ export default function ProductDetails({ product }: Props) {
 
               <div className="bg-slate-50 p-6 rounded-2xl mb-8">
                 <h3 className="font-bold mb-3">{language === 'hu' ? 'Leírás' : 'Description'}</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  {language === 'hu' ? product.hu.longDesc : product.en.longDesc}
-                </p>
+                <div dangerouslySetInnerHTML={{__html: longDesc}} className="text-muted-foreground leading-relaxed">
+                  
+                </div>
               </div>
 
               <Link href="/kapcsolat">

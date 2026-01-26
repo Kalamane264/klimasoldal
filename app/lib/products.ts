@@ -79,6 +79,15 @@ export const products: Product[] = [
         </div> `,
     },
     price: "290.000 Ft",
+    pics: [
+        { src: "syen-charm-2-7-indoor-01.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-2-7-indoor-02.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-2-7-indoor-03.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-2-7-indoor-04.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-2-7-indoor-05.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-2-7-outdoor.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-2-7-remote.jpg", width: 1750, height: 1279 }
+    ]
   },
 ];
 
@@ -90,6 +99,13 @@ export type Product = {
   hu: MultilingualProps;
   en: MultilingualProps;
   price: string;
+  pics: 
+    {
+        src: string;
+        width: number;
+        height: number;
+    }[]
+  ;
 };
 
 type MultilingualProps = {

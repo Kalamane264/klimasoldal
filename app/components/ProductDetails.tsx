@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "@/app/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowLeft, Zap } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -65,14 +65,18 @@ export default function ProductDetails({ product }: Props) {
           </Link>
 
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-            <motion.div
+            {/*  <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
-            >
-              {/* <div className="aspect-square bg-slate-100 rounded-3xl flex items-center justify-center text-slate-300">
+            > */}
+            {/* <div className="aspect-square bg-slate-100 rounded-3xl flex items-center justify-center text-slate-300">
               </div> */}
 
-              <div id="pswp-gallery" className="relative">
+            <div className="wrapper-div min-w-0 max-w-full overflow-hidden">
+              <div
+                id="pswp-gallery"
+                className="relative min-w-0 max-w-full overflow-hidden"
+              >
                 <Swiper
                   modules={[Navigation]}
                   navigation={{
@@ -108,15 +112,15 @@ export default function ProductDetails({ product }: Props) {
                 <button
                   disabled={isBeginning}
                   className="
-                    gallery-prev
-                    absolute left-2 top-1/2 -translate-y-1/2
-                    rounded-full bg-white/80 p-1
-                    text-gray-700
-                    shadow
-                    hover:bg-white
-                    transition
-                    z-10
-                    "
+                      gallery-prev
+                      absolute left-2 top-1/2 -translate-y-1/2
+                      rounded-full bg-white/80 p-1
+                      text-gray-700
+                      shadow
+                      hover:bg-white
+                      transition
+                      z-10
+                      "
                 >
                   <ChevronLeft className="w-4 h-4" />
                 </button>
@@ -125,20 +129,21 @@ export default function ProductDetails({ product }: Props) {
                 <button
                   disabled={isEnd}
                   className="
-                    gallery-next
-                    absolute right-2 top-1/2 -translate-y-1/2
-                    rounded-full bg-white/80 p-1
-                    text-gray-700
-                    shadow
-                    hover:bg-white
-                    transition
-                    z-10
-                    "
+                      gallery-next
+                      absolute right-2 top-1/2 -translate-y-1/2
+                      rounded-full bg-white/80 p-1
+                      text-gray-700
+                      shadow
+                      hover:bg-white
+                      transition
+                      z-10
+                      "
                 >
                   <ChevronRight className="w-4 h-4" />
                 </button>
               </div>
-            </motion.div>
+            </div>
+            {/* </motion.div> */}
 
             <motion.div
               initial={{ opacity: 0, x: 20 }}

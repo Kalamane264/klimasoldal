@@ -22,3 +22,8 @@ body.mybody[data-scroll-locked] {
 .gallery-next:disabled, .gallery-prev:disabled {
     opacity: 0.3;
 }
+
+.product-card-picture {
+    background-size: cover;
+    background-position: center;
+}

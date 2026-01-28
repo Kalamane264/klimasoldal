@@ -113,7 +113,7 @@ export default function ProductDetails({ product }: Props) {
                   disabled={isBeginning}
                   className="
                       gallery-prev
-                      absolute left-2 top-1/2 -translate-y-1/2
+                      absolute left-2 bottom-1 -translate-y-1/2
                       rounded-full bg-white/80 p-1
                       text-gray-700
                       shadow
@@ -130,7 +130,7 @@ export default function ProductDetails({ product }: Props) {
                   disabled={isEnd}
                   className="
                       gallery-next
-                      absolute right-2 top-1/2 -translate-y-1/2
+                      absolute right-2 bottom-1 -translate-y-1/2
                       rounded-full bg-white/80 p-1
                       text-gray-700
                       shadow

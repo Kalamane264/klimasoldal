@@ -122,16 +122,16 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-            <p>A <strong>Syen Charm SOH12CH-E32DA1D</strong> modell a modern technológia és az elegáns esztétika ötvözete. Az inverteres technológiának köszönhetően a készülék rendkívül energiatakarékos, így nemcsak a komfortérzetet növeli, hanem a rezsiköltségeket is optimalizálja.</p>
-            
-            <h3>Főbb jellemzők:</h3>
-            <ul>
-                <li><strong>Intelligens vezérlés:</strong> Precíz hőmérséklet-szabályozás az Ön igényeire szabva.</li>
-                <li><strong>Egész éves használat:</strong> Stabil hűtési teljesítmény nyáron és hatékony fűtés a hűvösebb hónapokban.</li>
-                <li><strong>Halk működés:</strong> Ideális választás hálószobákba vagy nappalikba is.</li>
-                <li><strong>Garantált minőség:</strong> Professzionális telepítéssel és teljes körű szakmai támogatással kínáljuk.</li>
-            </ul>
-        </div>`,
+          <p>A <strong>Syen Charm SOH12CH-E32DA1D</strong> modell kiegyensúlyozott teljesítményt kínál a mindennapi komfort érdekében. Az inverteres technológiának köszönhetően energiatakarékosan működik, miközben stabil hűtést és fűtést biztosít közepes méretű helyiségekben.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Pontos hőmérséklet-szabályozás:</strong> Intelligens vezérlés az állandó komfort érdekében.</li>
+              <li><strong>Egész éves használatra tervezve:</strong> Megbízható hűtés nyáron és hatékony fűtés az átmeneti időszakokban.</li>
+              <li><strong>Csendes üzemelés:</strong> Zavartalan pihenés és mindennapi használat.</li>
+              <li><strong>Biztos háttér:</strong> Szakszerű telepítéssel és szakmai támogatással kínáljuk.</li>
+          </ul>
+      </div>`,
     },
     en: {
       fullName: "Syen Charm SOH12CH-E32DA1D Inverter Split Air Conditioner",
@@ -159,16 +159,16 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
-            <p>The <strong>Syen Charm SOH12CH-E32DA1D</strong> model is a blend of modern technology and elegant aesthetics. Thanks to its advanced inverter technology, this unit is highly energy-efficient, enhancing your comfort while optimizing utility costs.</p>
-            
-            <h3>Key Features:</h3>
-            <ul>
-                <li><strong>Intelligent Control:</strong> Precise temperature management tailored to your needs.</li>
-                <li><strong>All-Season Performance:</strong> Stable cooling in the summer and efficient heating during colder months.</li>
-                <li><strong>Ultra-Quiet Operation:</strong> An ideal choice for bedrooms and living rooms alike.</li>
-                <li><strong>Guaranteed Quality:</strong> Offered with professional installation and full expert support.</li>
-            </ul>
-        </div> `,
+          <p>The <strong>Syen Charm SOH12CH-E32DA1D</strong> model offers balanced performance for everyday comfort. Thanks to its inverter technology, it operates energy-efficiently while providing stable cooling and heating for medium-sized rooms.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Precise Temperature Control:</strong> Intelligent management for constant comfort.</li>
+              <li><strong>Designed for Year-Round Use:</strong> Reliable cooling in summer and efficient heating during transitional seasons.</li>
+              <li><strong>Quiet Operation:</strong> Undisturbed rest and seamless everyday use.</li>
+              <li><strong>Reliable Background:</strong> Offered with professional installation and expert support.</li>
+          </ul>
+      </div>`,
     },
     price: "310.000 Ft",
     powerCooling: 3.2,
@@ -214,16 +214,16 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-            <p>A <strong>Syen Charm SOH18CH-E32DA1A</strong> modell a modern technológia és az elegáns esztétika ötvözete. Az inverteres technológiának köszönhetően a készülék rendkívül energiatakarékos, így nemcsak a komfortérzetet növeli, hanem a rezsiköltségeket is optimalizálja.</p>
-            
-            <h3>Főbb jellemzők:</h3>
-            <ul>
-                <li><strong>Intelligens vezérlés:</strong> Precíz hőmérséklet-szabályozás az Ön igényeire szabva.</li>
-                <li><strong>Egész éves használat:</strong> Stabil hűtési teljesítmény nyáron és hatékony fűtés a hűvösebb hónapokban.</li>
-                <li><strong>Halk működés:</strong> Ideális választás hálószobákba vagy nappalikba is.</li>
-                <li><strong>Garantált minőség:</strong> Professzionális telepítéssel és teljes körű szakmai támogatással kínáljuk.</li>
-            </ul>
-        </div>`,
+          <p>A <strong>Syen Charm SOH18CH-E32DA1A</strong> klímaberendezés nagyobb teljesítményével ideális választás tágasabb nappalik és nagyobb helyiségek klimatizálására. Korszerű inverteres technológiája hatékony működést biztosít alacsony energiafelhasználás mellett.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Erőteljes, mégis takarékos működés:</strong> Hatékony klímaszabályozás nagyobb terekben is.</li>
+              <li><strong>Négy évszakos megoldás:</strong> Megbízható hűtés nyáron és stabil fűtési teljesítmény a hűvösebb időben.</li>
+              <li><strong>Alacsony zajszint:</strong> Komfortos környezet akár folyamatos üzem mellett is.</li>
+              <li><strong>Professzionális kivitelezés:</strong> Telepítéssel és teljes körű szakmai háttérrel.</li>
+          </ul>
+      </div>`,
     },
     en: {
       fullName: "Syen Charm SOH18CH-E32DA1A Inverter Split Air Conditioner",
@@ -251,16 +251,16 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
-            <p>The <strong>Syen Charm SOH18CH-E32DA1A</strong> model is a blend of modern technology and elegant aesthetics. Thanks to its advanced inverter technology, this unit is highly energy-efficient, enhancing your comfort while optimizing utility costs.</p>
-            
-            <h3>Key Features:</h3>
-            <ul>
-                <li><strong>Intelligent Control:</strong> Precise temperature management tailored to your needs.</li>
-                <li><strong>All-Season Performance:</strong> Stable cooling in the summer and efficient heating during colder months.</li>
-                <li><strong>Ultra-Quiet Operation:</strong> An ideal choice for bedrooms and living rooms alike.</li>
-                <li><strong>Guaranteed Quality:</strong> Offered with professional installation and full expert support.</li>
-            </ul>
-        </div> `,
+          <p>With its increased capacity, the <strong>Syen Charm SOH18CH-E32DA1A</strong> air conditioner is the ideal choice for climate control in spacious living rooms and larger areas. Its advanced inverter technology ensures efficient operation with low energy consumption, providing a perfect balance between power and economy.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Powerful Yet Economical:</strong> Effective climate control with 4.6 kW cooling and 5.2 kW heating capacity, even in larger spaces.</li>
+              <li><strong>Four-Season Solution:</strong> Reliable cooling in summer and stable heating performance during colder weather.</li>
+              <li><strong>Low Noise Level:</strong> A comfortable environment even during continuous operation.</li>
+              <li><strong>Professional Execution:</strong> Offered with expert installation and full professional support.</li>
+          </ul>
+      </div>`,
     },
     price: "420.000 Ft",
     powerCooling: 4.6,
@@ -306,16 +306,16 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-            <p>A <strong>Syen Charm SOH24CH-E32DA1A</strong> modell a modern technológia és az elegáns esztétika ötvözete. Az inverteres technológiának köszönhetően a készülék rendkívül energiatakarékos, így nemcsak a komfortérzetet növeli, hanem a rezsiköltségeket is optimalizálja.</p>
-            
-            <h3>Főbb jellemzők:</h3>
-            <ul>
-                <li><strong>Intelligens vezérlés:</strong> Precíz hőmérséklet-szabályozás az Ön igényeire szabva.</li>
-                <li><strong>Egész éves használat:</strong> Stabil hűtési teljesítmény nyáron és hatékony fűtés a hűvösebb hónapokban.</li>
-                <li><strong>Halk működés:</strong> Ideális választás hálószobákba vagy nappalikba is.</li>
-                <li><strong>Garantált minőség:</strong> Professzionális telepítéssel és teljes körű szakmai támogatással kínáljuk.</li>
-            </ul>
-        </div>`,
+          <p>A <strong>Syen Charm SOH24CH-E32DA1A</strong> modell nagy teljesítményével kiváló megoldást nyújt nagy alapterületű helyiségek és nyitott terek klimatizálására. Az inverteres rendszer hatékony működést biztosít még intenzív igénybevétel mellett is.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Magas teljesítmény:</strong> Hatékony hűtés és fűtés nagyobb terekben is.</li>
+              <li><strong>Egész éves komfort:</strong> Megbízható működés szélsőségesebb időjárási körülmények között is.</li>
+              <li><strong>Stabil és csendes üzem:</strong> Kiegyensúlyozott teljesítmény hosszú távon.</li>
+              <li><strong>Teljes körű megoldás:</strong> Szakszerű telepítéssel és szakmai támogatással.</li>
+          </ul>
+      </div>`,
     },
     en: {
       fullName: "Syen Charm SOH24CH-E32DA1A Inverter Split Air Conditioner",
@@ -343,16 +343,16 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
-            <p>The <strong>Syen Charm SOH24CH-E32DA1A</strong> model is a blend of modern technology and elegant aesthetics. Thanks to its advanced inverter technology, this unit is highly energy-efficient, enhancing your comfort while optimizing utility costs.</p>
-            
-            <h3>Key Features:</h3>
-            <ul>
-                <li><strong>Intelligent Control:</strong> Precise temperature management tailored to your needs.</li>
-                <li><strong>All-Season Performance:</strong> Stable cooling in the summer and efficient heating during colder months.</li>
-                <li><strong>Ultra-Quiet Operation:</strong> An ideal choice for bedrooms and living rooms alike.</li>
-                <li><strong>Guaranteed Quality:</strong> Offered with professional installation and full expert support.</li>
-            </ul>
-        </div> `,
+          <p>With its high capacity, the <strong>Syen Charm SOH24CH-E32DA1A</strong> model provides an excellent solution for climate control in large areas and open-plan spaces. The inverter system ensures efficient operation even under intensive use.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>High Performance:</strong> Effective cooling and heating even in larger spaces.</li>
+              <li><strong>Year-Round Comfort:</strong> Reliable operation even under more extreme weather conditions.</li>
+              <li><strong>Stable and Quiet Operation:</strong> Balanced long-term performance.</li>
+              <li><strong>Comprehensive Solution:</strong> Offered with professional installation and expert support.</li>
+          </ul>
+      </div>`,
     },
     price: "480.000 Ft",
     powerCooling: 2.7,

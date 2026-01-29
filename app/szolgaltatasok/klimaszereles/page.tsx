@@ -40,7 +40,7 @@ export default function ACInstallation() {
       { q: "Mennyi a fogyasztása egy klímának?", a: "A modern inverteres készülékek rendkívül takarékosak, havi pár ezer forintból üzemeltethetők." }
     ],
     area: "Szolgáltatásainkat elsősorban Pécsen és Budapesten, valamint a környező településeken nyújtjuk.",
-    cta: "Klímaszerelésre vagy hőszivattyú-telepítésre van szüksége Budapesten?"
+    cta: "Klímaszerelésre vagy hőszivattyú-telepítésre van szüksége?"
   } : {
     h1: "Residential Air Conditioning Installation",
     lead: "Fast and reliable AC installation for apartments and houses with transparent pricing and short deadlines.",

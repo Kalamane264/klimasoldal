@@ -22,10 +22,9 @@ export default function KlimaLista() {
               {language === "hu" ? 
                 <>
                   A multi klímák olyan klímarendszerek, amelyeknél egy kültéri
-                  egységhez több beltéri klíma csatlakozik. Ideális megoldást
-                  jelentenek, ha több szobát szeretnél hűteni vagy fűteni,
-                  miközben kevesebb kültéri egységet szeretnél elhelyezni az
-                  épületen.
+                  egységhez több beltéri egység csatlakozik. Ideális megoldást
+                  jelentenek, ha több szobát szeretne hűteni vagy fűteni kevesebb
+                  kültéri egység elhelyezésével.
                   <br />
                   <br />A multi klímás rendszerek jól alkalmazhatók lakásokban,
                   családi házakban és irodákban, a beltéri egységek pedig igény

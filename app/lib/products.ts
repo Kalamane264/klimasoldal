@@ -20,7 +20,7 @@ export const products: Product[] = [
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
-        { label: "Ajánlott helyiségméret", value: "20–30 m²" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "WiFi vezérlés", value: "Igen" },
@@ -57,7 +57,7 @@ export const products: Product[] = [
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
-        { label: "Recommended room size", value: "20–30 m²" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "WiFi control", value: "Yes" },
@@ -923,6 +923,101 @@ export const products: Product[] = [
     powerHeating: 8.6,
     pics: [
         { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
+    ]
+  },
+  {
+    id: "syen-multi-charm-2-7-kw-klima-belteri",
+    serial: "SMOH09CH-E32DA1B/I",
+    type: "ac-multi",
+    name: "Syen Charm 2,7 kW",
+    hu: {
+      fullName: "Syen Multi Charm inverter 2,7 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "A Syen Multi Charm 2,7 kW beltéri egység a multi klímás rendszerek részeként működik, és egyetlen kültéri egységhez csatlakozik. Kompakt, modern kialakítású, energiatakarékos működést biztosít, miközben a helyiségek hőmérséklete külön-külön szabályozható, így ideális lakások és kisebb irodák több helyiségének klimatizálására.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Zajszint (beltéri)", value: "21–40 dB(A)" },
+        { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen Multi Charm inverter 2,7 kW beltéri egység</strong> a multi klímás rendszerekhez tervezett, modern és kompakt megoldás. Egyetlen kültéri egységhez csatlakozik, így a helyiségek klimatizálása <strong>hatékonyan és energiatakarékosan</strong> történik.</p>
+          
+          <p>A beltéri egység csendes működésű, stílusos kialakítású, és lehetővé teszi, hogy a helyiségek hőmérséklete <strong>külön-külön szabályozható</strong> legyen. Ez ideálissá teszi lakások, családi házak vagy kisebb irodák több szobájának hűtésére és fűtésére.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Multi klímás kompatibilitás:</strong> Egy kültéri egységhez csatlakoztatható.</li>
+              <li><strong>Inverteres technológia:</strong> Energiahatékony, stabil teljesítmény hűtés és fűtés során.</li>
+              <li><strong>Csendes működés:</strong> Komfortos beltéri környezet hosszabb üzemidő mellett is.</li>
+              <li><strong>Kompakt és modern kialakítás:</strong> Esztétikus megoldás bármely helyiségbe.</li>
+              <li><strong>Külön-külön szabályozható:</strong> A helyiségek hőmérséklete igény szerint állítható.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen Multi Charm Inverter Indoor Unit 2.7 kW",
+      typeName: "AC indoor unit",
+      desc: "The Syen Multi Charm 2.7 kW indoor unit operates as part of a multi-split system, connecting to a single outdoor unit. It features a compact, modern design and ensures energy-efficient operation, while the temperature of each room can be controlled individually, making it an ideal choice for the climate control of several rooms in apartments and smaller offices.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Noise level (Indoor unit)", value: "21–40 dB(A)" },
+        { label: "Heating capacity", value: "2.8 kW" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen Multi Charm inverter 2.7 kW indoor unit</strong> is a modern and compact solution designed for multi-split systems. It connects to a single outdoor unit, ensuring that the climate control of your rooms is handled <strong>efficiently and with low energy consumption</strong>.</p>
+          
+          <p>The indoor unit features quiet operation and a stylish design, allowing the temperature of each room to be <strong>controlled individually</strong>. This makes it ideal for cooling and heating multiple rooms in apartments, detached houses, or smaller offices.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Multi-Split Compatibility:</strong> Designed to be connected to a single outdoor unit.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient, stable performance during both cooling and heating.</li>
+              <li><strong>Quiet Operation:</strong> Provides a comfortable indoor environment even during extended use.</li>
+              <li><strong>Compact and Modern Design:</strong> An aesthetic solution for any room.</li>
+              <li><strong>Individual Control:</strong> The temperature of each room can be adjusted according to your needs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "95.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 2.8,
+    pics: [
+        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
     ]
   },
 ];

@@ -25,6 +25,14 @@ export default function ProductList({ products }: Props) {
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
       { products.map((product) => {
         const specs = language == "hu"? product.hu.specs : product.en.specs;
+        let detailPageRoute = "";
+        if(product.type === "ac") {
+          detailPageRoute = "/klimak/" + product.id;
+        } else if(product.type === "hp") {
+          detailPageRoute = "/hoszivattyuk/" + product.id;
+        } else if(product.type === "ac-multi") {
+          detailPageRoute = "/multi-klimak/" + product.id;
+        }
 
         return <motion.div
           key={product.id}
@@ -59,11 +67,7 @@ export default function ProductList({ products }: Props) {
               </div>
             </CardContent>
             <CardFooter>
-              <Link href={
-                product.type === "ac"?
-                `/klimak/${product.id}`:
-                `/hoszivattyuk/${product.id}`
-                } className="w-full">
+              <Link href={ detailPageRoute } className="w-full">
                 <Button className="cursor-pointer w-full bg-primary hover:bg-primary/90 hover:scale-[1.02] transition-all duration-200">
                   {language === "hu" ? "Részletek" : "Details"}
                 </Button>

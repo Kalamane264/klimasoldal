@@ -12,7 +12,6 @@ import {
   CardTitle,
 } from "@/app/ui/card";
 import { Badge } from "@/app/ui/badge";
-import { Wind, Thermometer } from "lucide-react";
 import { Product } from "../lib/products";
 
 type Props = {
@@ -37,11 +36,6 @@ export default function ProductList({ products }: Props) {
               style={{ backgroundImage: `url('/pic/${product.pics[0].src}')` }}
               className="h-48 bg-slate-100 flex items-center justify-center text-slate-300 
                 product-card-picture">
-              {/* {product.type === "ac" ? (
-                <Wind className="w-16 h-16" />
-              ) : (
-                <Thermometer className="w-16 h-16" />
-              )} */}
             </div>
             <CardHeader>
               <div className="flex justify-between items-start mb-2">

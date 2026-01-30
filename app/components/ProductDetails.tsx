@@ -50,11 +50,20 @@ export default function ProductDetails({ product }: Props) {
     };
   }, []);
 
+  let backRoute = "";
+  if(product.type === "ac") {
+    backRoute = "/klimak";
+  } else if(product.type === "hp") {
+    backRoute = "/hoszivattyuk";
+  } else if(product.type === "ac-multi") {
+    backRoute = "/multi-klimak";
+  }
+
   return (
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
-          <Link href={product.type === "ac" ? "/klimak" : "/hoszivattyuk"}>
+          <Link href={backRoute}>
             <Button
               variant="ghost"
               className="cursor-pointer mb-8 flex items-center gap-2"

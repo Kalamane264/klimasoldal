@@ -1,6 +1,6 @@
 export const products: Product[] = [
   {
-    id: "syen-charm-2-7kw",
+    id: "syen-charm-2-7-kw-split-klima",
     serial: "SOH09CH-E32DA1B",
     type: "ac",
     name: "Syen Charm 2,7 kW",
@@ -92,7 +92,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-charm-3-2kw",
+    id: "syen-charm-3-2-kw-split-klima",
     serial: "SOH12CH-E32DA1D",
     type: "ac",
     name: "Syen Charm 3,2 kW",
@@ -184,7 +184,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-charm-4-6kw",
+    id: "syen-charm-4-6-kw-split-klima",
     serial: "SOH18CH-E32DA1A",
     type: "ac",
     name: "Syen Charm 4,6 kW",
@@ -276,7 +276,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-charm-6-2kw",
+    id: "syen-charm-6-2-kw-split-klima",
     serial: "SOH24CH-E32DA1A",
     type: "ac",
     name: "Syen Charm 6,2 kW",
@@ -368,7 +368,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-muse-next-2-7kw",
+    id: "syen-muse-next-2-7-kw-split-klima",
     serial: "SOH09MN-E32DA1A",
     type: "ac",
     name: "Syen Muse Next 2,7 kW",
@@ -466,7 +466,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-muse-next-3-5kw",
+    id: "syen-muse-next-3-5-kw-split-klima",
     serial: "SOH12MN-E32DA1D",
     type: "ac",
     name: "Syen Muse Next 3,5 kW",
@@ -564,7 +564,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-muse-next-5-3kw",
+    id: "syen-muse-next-5-3-kw-split-klima",
     serial: "SOH18MN-E32DA1D2",
     type: "ac",
     name: "Syen Muse Next 5,3 kW",
@@ -661,7 +661,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "syen-muse-next-7-1kw",
+    id: "syen-muse-next-7-1-kw-split-klima",
     serial: "SOH24MN-E32DA1A2",
     type: "ac",
     name: "Syen Muse Next 7,1 kW",
@@ -755,6 +755,174 @@ export const products: Product[] = [
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
+    ]
+  },
+  {
+    id: "syen-multi-inverter-5-3-kw-klima-kulteri",
+    serial: "SMH(18)E32DOO",
+    type: "ac-multi",
+    name: "Syen FM Multi inverter 5,3 kW",
+    hu: {
+      fullName: "Syen multi inverteres klíma kültéri egység 5,3 kw",
+      typeName: "Klíma kültéri egység",
+      desc: "A Syen FM Multi inverter 5,3 kW kültéri egység ideális választás multi klímás rendszerekhez, ahol egyetlen kültérivel több beltéri egység üzemeltetése a cél. Megbízható inverteres technológia, energiatakarékos működés és rugalmas kialakítás jellemzi, így lakások és kisebb irodák komfortos hűtésére és fűtésére is kiváló megoldás.",
+      specs: [
+        "Max 2 beltéri egység",
+        "-25°C-os fűtési működési tartomány",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "Intelligens leolvasztás"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen FM Multi inverter 5,3 kW</strong> kültéri egység ideális megoldást kínál olyan multi klímás rendszerekhez, ahol egyetlen kültéri egységgel több beltéri klíma üzemeltetése a cél. A korszerű inverteres technológia stabil, energiatakarékos működést biztosít egész évben.</p>
+          
+          <p>A készülék rugalmas rendszerkialakítást tesz lehetővé, így különböző teljesítményű és típusú beltéri egységek is csatlakoztathatók hozzá. Ez különösen előnyös lakások, családi házak vagy kisebb irodák esetében, ahol több helyiség klimatizálása szükséges, de a kültéri egységek száma korlátozott.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Multi klímás kialakítás:</strong> Egy kültéri egységhez több beltéri klíma csatlakoztatható.</li>
+              <li><strong>Inverteres technológia:</strong> Energiahatékony, egyenletes működés hűtés és fűtés során is.</li>
+              <li><strong>Helytakarékos megoldás:</strong> Kevesebb kültéri egység, rendezettebb homlokzat.</li>
+              <li><strong>Rugalmas felhasználás:</strong> Ideális lakásokba, családi házakba és kisebb üzleti terekbe.</li>
+              <li><strong>Megbízható működés:</strong> Stabil teljesítmény egész éves használatra tervezve.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen Multi Inverter Outdoor Unit 5.3 kW",
+      typeName: "AC outdoor unit",
+      desc: "The Syen FM Multi inverter 5.3 kW outdoor unit is an ideal choice for multi-split systems where the goal is to operate multiple indoor units with a single outdoor unit. It is characterized by reliable inverter technology, energy-efficient operation, and a flexible design, making it an excellent solution for the comfortable cooling and heating of apartments and smaller offices.",
+      specs: [
+        "Max 2 indoor units",
+        "-25°C-os fűtési működési tartomány",
+        "Crankcase heater",
+        "Drip tray heater",
+        "Intelligent Defrosting"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen FM Multi inverter 5.3 kW</strong> outdoor unit offers an ideal solution for multi-split systems where the goal is to operate multiple indoor units with a single outdoor unit. Modern inverter technology ensures stable, energy-efficient operation all year round.</p>
+          
+          <p>The device allows for flexible system design, enabling the connection of indoor units of various types and capacities. This is particularly advantageous for apartments, detached houses, or smaller offices where several rooms need climate control, but the number of outdoor units is limited.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Multi-split Design:</strong> Multiple indoor units can be connected to a single outdoor unit.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient, consistent performance during both cooling and heating.</li>
+              <li><strong>Space-saving Solution:</strong> Fewer outdoor units, resulting in a cleaner building facade.</li>
+              <li><strong>Flexible Application:</strong> Ideal for apartments, houses, and small business spaces.</li>
+              <li><strong>Reliable Operation:</strong> Stable performance designed for year-round use.</li>
+          </ul>
+      </div>`,
+    },
+    price: "450.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
+    ]
+  },
+  {
+    id: "syen-multi-inverter-7-1-kw-klima-kulteri",
+    serial: "SMH(24)E32DOO",
+    type: "ac-multi",
+    name: "Syen FM Multi inverter 7,1 kW",
+    hu: {
+      fullName: "Syen multi inverteres klíma kültéri egység 7,1 kw",
+      typeName: "Klíma kültéri egység",
+      desc: "A Syen FM Multi inverter 7,1 kW kültéri egység nagyobb teljesítményigényű multi klímás rendszerekhez készült, ahol egyetlen kültérivel több beltéri egység hatékony üzemeltetése a cél. Az inverteres technológia energiatakarékos, stabil működést biztosít, míg a rugalmas rendszerkialakítás ideálissá teszi nagyobb lakások, családi házak vagy irodai környezetek klimatizálására.",
+      specs: [
+        "Max 3 beltéri egység",
+        "-25°C-os fűtési működési tartomány",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "Intelligens leolvasztás"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési teljesítmény", value: "8,6 kW" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen FM Multi inverter 7,1 kW</strong> kültéri egység nagyobb teljesítményigényű multi klímás rendszerekhez készült, ahol egyetlen kültéri egységgel több beltéri klíma összehangolt működtetése a cél. A korszerű inverteres technológia energiatakarékos, egyenletes működést biztosít hűtés és fűtés során is.</p>
+          
+          <p>A magasabb teljesítmény lehetővé teszi nagyobb alapterületű lakások, családi házak vagy irodák több helyiségének klimatizálását, miközben a kültéri egységek száma minimális marad. Ez nemcsak esztétikusabb megoldást jelent, hanem helytakarékos és praktikus is.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Nagy teljesítményű multi rendszer:</strong> Több beltéri egység kiszolgálása egyetlen kültéri egységgel.</li>
+              <li><strong>Inverteres technológia:</strong> Energiahatékony, stabil működés egész éves használatra.</li>
+              <li><strong>Rugalmas rendszerkialakítás:</strong> Különböző típusú és teljesítményű beltéri egységekkel is kompatibilis.</li>
+              <li><strong>Helytakarékos megoldás:</strong> Kevesebb kültéri egység, rendezettebb épületkép.</li>
+              <li><strong>Ideális nagyobb terekhez:</strong> Lakások, családi házak és irodai környezetek klimatizálására.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen Multi Inverter Outdoor Unit 7.1 kW",
+      typeName: "AC outdoor unit",
+      desc: "The Syen FM Multi inverter 7.1 kW outdoor unit is designed for multi-split systems with higher performance requirements, where the goal is the efficient operation of multiple indoor units with a single outdoor unit. Inverter technology ensures energy-saving and stable operation, while the flexible system design makes it ideal for the climate control of larger apartments, detached houses, or office environments.",
+      specs: [
+        "Max 3 indoor units",
+        "-25°C-os fűtési működési tartomány",
+        "Crankcase heater",
+        "Drip tray heater",
+        "Intelligent Defrosting"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating capacity", value: "8.6 kW" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen FM Multi inverter 7.1 kW</strong> outdoor unit is designed for multi-split systems with higher performance requirements, where the goal is the coordinated operation of multiple indoor units with a single outdoor unit. Advanced inverter technology ensures energy-saving, consistent operation during both cooling and heating.</p>
+          
+          <p>The higher capacity allows for the climate control of several rooms in larger apartments, detached houses, or offices, while keeping the number of outdoor units to a minimum. This represents not only a more aesthetic solution but is also space-saving and practical.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>High-Performance Multi-Split System:</strong> Supports multiple indoor units with a single outdoor unit.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient, stable operation for year-round use.</li>
+              <li><strong>Flexible System Design:</strong> Compatible with various types and capacities of indoor units.</li>
+              <li><strong>Space-Saving Solution:</strong> Fewer outdoor units, resulting in a cleaner building appearance.</li>
+              <li><strong>Ideal for Larger Spaces:</strong> For the climate control of apartments, detached houses, and office environments.</li>
+          </ul>
+      </div>`,
+    },
+    price: "450.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 8.6,
+    pics: [
+        { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
     ]
   },
 ];

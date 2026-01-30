@@ -13,7 +13,7 @@ export default function HoszivattyuLista() {
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="mb-12">
-            <h1 className="text-4xl font-heading font-bold text-slate-900 mb-4">
+            <h1 className="text-4xl font-heading font-bold text-slate-900 mb-10">
               {language === "hu"
                 ? "Hőszivattyúk telepítéssel – választható rendszerek"
                 : "Heat pumps with installation – available models"}

@@ -78,7 +78,12 @@ export default function Navbar(){
             <DropdownMenuContent align="start" className="w-48">
               <DropdownMenuItem asChild>
                 <Link href="/klimak" className="cursor-pointer w-full">
-                  {language === 'hu' ? 'Klímák' : 'AC Units'}
+                  {language === 'hu' ? 'Klímák' : 'Split air conditioners'}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/multi-klimak" className="cursor-pointer w-full">
+                  {language === 'hu' ? 'Multi Klímák' : 'Multi-split air conditioners'}
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>

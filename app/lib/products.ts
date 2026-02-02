@@ -1441,7 +1441,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-kazettas-inverter-7-kw-klima-szett",
-    serial: "SKH50/A-T",
+    serial: "SKH71/A-T",
     type: "ac-casette",
     name: "Syen UM 7 kW",
     hu: {

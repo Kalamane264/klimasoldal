@@ -5,7 +5,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Charm 2,7 kW",
     hu: {
-      fullName: "Syen Charm SOH09CH-E32DA1B Inverteres Split klíma",
+      fullName: "Syen Charm inverter 2,7 kW klíma szett",
       typeName: "Klíma",
       desc: "Stílusos megjelenés és kiemelkedő energiahatékonyság. A Syen Charm inverteres split klíma tökéletes megoldást nyújt azoknak, akik megbízható hűtést és fűtést keresnek kedvező áron. Csendes működés, modern funkciók és professzionális telepítés egy csomagban.",
       specs: [
@@ -42,7 +42,7 @@ export const products: Product[] = [
         </div>`,
     },
     en: {
-      fullName: "Syen Charm SOH09CH-E32DA1B Inverter Split Air Conditioner",
+      fullName: "Syen Charm Inverter Air Conditioning Set 2.7 kW",
       typeName: "AC",
       desc: "Stylish design meets outstanding energy efficiency. The Syen Charm inverter split AC is the perfect solution for those seeking reliable cooling and heating at an affordable price. Quiet operation, modern features, and professional installation—all in one package.",
       specs: [
@@ -97,7 +97,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Charm 3,2 kW",
     hu: {
-      fullName: "Syen Charm SOH12CH-E32DA1D Inverteres Split klíma",
+      fullName: "Syen Charm inverter 3,2 kW klíma szett",
       typeName: "Klíma",
       desc: "Kiegyensúlyozott teljesítmény a mindennapokra. A Syen Charm 3,2 kW-os inverteres klíma ideális választás közepes méretű helyiségek hűtésére és fűtésére. Hatékony működés, alacsony zajszint és korszerű funkciók gondoskodnak a komfortos beltéri klímáról, mindezt kedvező ár mellett.",
       specs: [
@@ -134,7 +134,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Charm SOH12CH-E32DA1D Inverter Split Air Conditioner",
+      fullName: "Syen Charm Inverter Air Conditioning Set 3.2 kW",
       typeName: "AC",
       desc: "The Syen Charm 3.2 kW inverter air conditioner is the ideal choice for cooling and heating medium-sized rooms. Efficient operation, low noise levels, and modern features ensure a comfortable indoor climate—all at an affordable price.",
       specs: [
@@ -189,7 +189,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Charm 4,6 kW",
     hu: {
-      fullName: "Syen Charm SOH18CH-E32DA1A Inverteres Split klíma",
+      fullName: "Syen Charm inverter 4,6 kW klíma szett",
       typeName: "Klíma",
       desc: "Nagyobb terekhez tervezett, megbízható megoldás. A Syen Charm 4,6 kW-os klímaberendezés erőteljes teljesítményével kiválóan alkalmas tágasabb nappalik vagy irodák klimatizálására. Stabil hűtés és fűtés, modern vezérlés és csendes működés egy professzionálisan telepített rendszerben.",
       specs: [
@@ -226,7 +226,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Charm SOH18CH-E32DA1A Inverter Split Air Conditioner",
+      fullName: "Syen Charm inverter 4,6 kW klíma szett",
       typeName: "AC",
       desc: "Stylish design meets outstanding energy efficiency. The Syen Charm inverter split AC is the perfect solution for those seeking reliable cooling and heating at an affordable price. Quiet operation, modern features, and professional installation—all in one package.",
       specs: [
@@ -281,7 +281,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Charm 6,2 kW",
     hu: {
-      fullName: "Syen Charm SOH24CH-E32DA1A Inverteres Split klíma",
+      fullName: "Syen Charm inverter 6,2 kW klíma szett",
       typeName: "Klíma",
       desc: "Komoly teljesítmény kompromisszumok nélkül. A Syen Charm 6,2 kW-os inverteres split klíma nagy alapterületű helyiségekhez kínál hatékony és gazdaságos megoldást. Megbízható működés, fejlett funkciók és magas komfortszint jellemzi, legyen szó hűtésről vagy fűtésről egész évben.",
       specs: [
@@ -318,7 +318,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Charm SOH24CH-E32DA1A Inverter Split Air Conditioner",
+      fullName: "Syen Charm Inverter Air Conditioning Set 6.2 kW",
       typeName: "AC",
       desc: "Serious performance without compromises. The Syen Charm 6.2 kW inverter split air conditioner offers an efficient and economical solution for large-scale rooms. It is characterized by reliable operation, advanced features, and a high level of comfort, whether for cooling or heating all year round.",
       specs: [
@@ -373,7 +373,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Muse Next 2,7 kW",
     hu: {
-      fullName: "Syen Muse Next SOH09MN-E32DA1A Inverteres Split klíma",
+      fullName: "Syen Muse Next inverter 2,7 kW klíma szett",
       typeName: "Klíma",
       desc: "Emelt téli üzembiztonság és szélesebb működési tartomány. A Syen Muse Next 2,7 kW inverteres split klíma karterfűtéssel és csepptálca-fűtéssel kiegészítve kínál még nagyobb biztonságot a hideg hónapokban. A -25 °C-ig terjedő fűtési működési tartomány különösen jó választássá teszi azok számára, akik télen is maximális tartalékokra vágynak.",
       specs: [
@@ -415,7 +415,7 @@ export const products: Product[] = [
       `,
     },
     en: {
-      fullName: "Syen Muse Next SOH09MN-E32DA1A Inverter Split Air Conditioner",
+      fullName: "Syen Muse Next Inverter Air Conditioning Set 2.7 kW",
       typeName: "AC",
       desc: "Enhanced winter reliability and wider operating range. Equipped with a crankcase heater and a drip tray heater, the Syen Muse Next 2.7 kW inverter split air conditioner offers even greater security during the cold months. The heating operating range down to –25°C makes it an exceptionally good choice for those seeking maximum performance reserves in winter.",
       specs: [
@@ -471,7 +471,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Muse Next 3,5 kW",
     hu: {
-      fullName: "Syen Muse Next SOH12MN-E32DA1D Inverteres Split klíma",
+      fullName: "Syen Muse Next inverter 3,5 kW klíma szett",
       typeName: "Klíma",
       desc: "Emelt téli biztonság nagyobb helyiségekhez. A Syen Muse Next 3,5 kW inverteres split klíma karterfűtéssel és csepptálca-fűtéssel kiegészítve nyújt extra tartalékot a hideg hónapokban. A –25 °C-ig terjedő fűtési működési tartomány és a nagyobb teljesítmény ideálissá teszi tágasabb lakóterek egész éves klimatizálására.",
       specs: [
@@ -513,7 +513,7 @@ export const products: Product[] = [
       `,
     },
     en: {
-      fullName: "Syen Muse Next SOH12MN-E32DA1D Inverter Split Air Conditioner",
+      fullName: "Syen Muse Next Inverter Air Conditioning Set 3.5 kW",
       typeName: "AC",
       desc: "Enhanced winter security for larger rooms. The Syen Muse Next 3.5 kW inverter split air conditioner, equipped with a crankcase and drip tray heater, provides extra reserves during the cold months. Its heating operating range down to –25°C and higher capacity make it ideal for the year-round climate control of more spacious living areas.",
       specs: [
@@ -569,7 +569,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Muse Next 5,3 kW",
     hu: {
-      fullName: "Syen Muse Next SOH18MN-E32DA1D2 Inverteres Split klíma",
+      fullName: "Syen Muse Next inverter 5,3 kW klíma szett",
       typeName: "Klíma",
       desc: "Magabiztos teljesítmény nagyobb terekhez, extra téli tartalékkal. A Syen Muse Next 5,3 kW inverteres split klíma karterfűtéssel és csepptálca-fűtéssel kiegészítve nyújt fokozott üzembiztonságot a hideg hónapokban. A -25 °C-ig terjedő fűtési működési tartomány és a nagyobb teljesítmény ideálissá teszi nagyobb lakóterek és nyitott helyiségek egész éves klimatizálására.",
       specs: [
@@ -610,7 +610,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Muse Next SOH18MN-E32DA1D2 Inverter Split Air Conditioner",
+      fullName: "Syen Muse Next Inverter Air Conditioning Set 5.3 kW",
       typeName: "AC",
       desc: "Confident performance for larger spaces, with extra winter reserves. The Syen Muse Next 5.3 kW inverter split air conditioner, enhanced with a crankcase heater and a drip tray heater, provides increased operational safety during the cold months. Its heating operating range down to –25°C and higher capacity make it ideal for the year-round climate control of larger living areas and open-plan spaces.",
       specs: [
@@ -666,7 +666,7 @@ export const products: Product[] = [
     type: "ac",
     name: "Syen Muse Next 7,1 kW",
     hu: {
-      fullName: "Syen Muse Next SOH24MN-E32DA1A2 Inverteres Split klíma",
+      fullName: "Syen Muse Next inverter 7,1 kW klíma szett",
       typeName: "Klíma",
       desc: "Nagy teljesítmény, maximális téli tartalékokkal. A Syen Muse Next 7,1 kW inverteres split klíma karterfűtéssel és csepptálca-fűtéssel kiegészítve biztosít kiemelkedő üzembiztonságot a hideg hónapokban. A –25 °C-ig terjedő fűtési működési tartomány és a magas teljesítmény ideális választássá teszi nagy alapterületű, egybenyitott terek egész éves klimatizálására.",
       specs: [
@@ -707,7 +707,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Muse Next SOH24MN-E32DA1A2 Inverter Split Air Conditioner",
+      fullName: "Syen Muse Next Inverter Air Conditioning Set 7.1 kW",
       typeName: "AC",
       desc: "High performance with maximum winter reserves. The Syen Muse Next 7.1 kW inverter split air conditioner, enhanced with a crankcase heater and a drip tray heater, ensures outstanding operational safety during the cold months. Its heating operating range down to -25°C and high capacity make it the ideal choice for the year-round climate control of large-scale, open-plan spaces.",
       specs: [
@@ -763,7 +763,7 @@ export const products: Product[] = [
     type: "ac-multi",
     name: "Syen FM Multi inverter 5,3 kW",
     hu: {
-      fullName: "Syen multi inverteres klíma kültéri egység 5,3 kw",
+      fullName: "Syen FM Multi inverter 5,3 kW klíma kültéri",
       typeName: "Klíma kültéri egység",
       desc: "A Syen FM Multi inverter 5,3 kW kültéri egység ideális választás multi klímás rendszerekhez, ahol egyetlen kültérivel több beltéri egység üzemeltetése a cél. Megbízható inverteres technológia, energiatakarékos működés és rugalmas kialakítás jellemzi, így lakások és kisebb irodák komfortos hűtésére és fűtésére is kiváló megoldás.",
       specs: [
@@ -799,7 +799,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Multi Inverter Outdoor Unit 5.3 kW",
+      fullName: "Syen FM Multi Inverter 5.3 kW Outdoor Unit",
       typeName: "AC outdoor unit",
       desc: "The Syen FM Multi inverter 5.3 kW outdoor unit is an ideal choice for multi-split systems where the goal is to operate multiple indoor units with a single outdoor unit. It is characterized by reliable inverter technology, energy-efficient operation, and a flexible design, making it an excellent solution for the comfortable cooling and heating of apartments and smaller offices.",
       specs: [
@@ -847,7 +847,7 @@ export const products: Product[] = [
     type: "ac-multi",
     name: "Syen FM Multi inverter 7,1 kW",
     hu: {
-      fullName: "Syen multi inverteres klíma kültéri egység 7,1 kw",
+      fullName: "Syen FM Multi inverter 7,1 kW klíma kültéri",
       typeName: "Klíma kültéri egység",
       desc: "A Syen FM Multi inverter 7,1 kW kültéri egység nagyobb teljesítményigényű multi klímás rendszerekhez készült, ahol egyetlen kültérivel több beltéri egység hatékony üzemeltetése a cél. Az inverteres technológia energiatakarékos, stabil működést biztosít, míg a rugalmas rendszerkialakítás ideálissá teszi nagyobb lakások, családi házak vagy irodai környezetek klimatizálására.",
       specs: [
@@ -883,7 +883,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Multi Inverter Outdoor Unit 7.1 kW",
+      fullName: "Syen FM Multi Inverter 7.1 kW Outdoor Unit",
       typeName: "AC outdoor unit",
       desc: "The Syen FM Multi inverter 7.1 kW outdoor unit is designed for multi-split systems with higher performance requirements, where the goal is the efficient operation of multiple indoor units with a single outdoor unit. Inverter technology ensures energy-saving and stable operation, while the flexible system design makes it ideal for the climate control of larger apartments, detached houses, or office environments.",
       specs: [
@@ -970,7 +970,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Multi Charm Inverter Indoor Unit 2.7 kW",
+      fullName: "Syen Multi Charm Inverter 2.7 kW Indoor Unit",
       typeName: "AC indoor unit",
       desc: "The Syen Multi Charm 2.7 kW indoor unit operates as part of a multi-split system, connecting to a single outdoor unit. It features a compact, modern design and ensures energy-efficient operation, while the temperature of each room can be controlled individually, making it an ideal choice for the climate control of several rooms in apartments and smaller offices.",
       specs: [
@@ -1066,7 +1066,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Multi Charm Inverter Indoor Unit 3.2 kW",
+      fullName: "Syen Multi Charm Inverter 3.2 kW Indoor Unit",
       typeName: "AC indoor unit",
       desc: "The Syen Multi Charm 3.2 kW indoor unit is designed for multi-split systems where the climate control of several rooms is required using a single outdoor unit. Its higher capacity ensures comfortable cooling and heating for medium-sized rooms, while maintaining a modern design and energy-efficient operation.",
       specs: [
@@ -1163,8 +1163,105 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Syen Multi Charm Inverter Indoor Unit 3.2 kW",
+      fullName: "Syen Multi Charm Inverter 4.6 kW Indoor Unit",
       typeName: "AC indoor unit",
+      desc: "The Syen Multi Charm 4.6 kW indoor unit offers higher performance for multi-split systems where multiple rooms are connected to a single outdoor unit. It is an ideal choice for the climate control of more spacious rooms, while maintaining energy-efficient operation, quiet performance, and a modern appearance.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "4.6 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Noise level (Indoor unit)", value: "21–40 dB(A)" },
+        { label: "Heating capacity", value: "5.2 kW" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen Multi Charm inverter 4.6 kW indoor unit</strong> is a solution designed for higher performance requirements within multi-split systems. It connects to a single outdoor unit, allowing for the efficient cooling and heating of multiple rooms with a streamlined system configuration.</p>
+          
+          <p>The 4.6 kW capacity is ideal for rooms with larger floor areas, while advanced inverter technology ensures consistent temperatures and energy-efficient operation. Its clean, modern design fits well in both residential and business environments.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Multi-Split Compatibility:</strong> An indoor solution designed to be connected to a single outdoor unit.</li>
+              <li><strong>Higher Capacity:</strong> Ideal for the climate control of larger rooms.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient, stable performance during both cooling and heating.</li>
+              <li><strong>Quiet Operation:</strong> Provides a comfortable indoor environment even during prolonged use.</li>
+              <li><strong>Modern, Compact Design:</strong> An aesthetic appearance for various interiors.</li>
+              <li><strong>Individually Controllable:</strong> Personalized comfort at every point of the multi-split system.</li>
+          </ul>
+      </div>`,
+    },
+    price: "125.000 Ft",
+    powerCooling: 4.6,
+    powerHeating: 5.2,
+    pics: [
+        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
+    ]
+  },
+  {
+    id: "syen-um-kazettas-inverter-3-5-kw-klima-szett",
+    serial: "SKH35/A-T",
+    type: "ac-casette",
+    name: "Syen UM 3,5 kW",
+    hu: {
+      fullName: "Syen UM Kazettás inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Syen Multi Charm 4,6 kW beltéri egység nagyobb teljesítményt kínál multi klímás rendszerekhez, ahol egyetlen kültéri egységhez több helyiség csatlakozik. Ideális választás tágasabb szobák klimatizálására, miközben megmarad az energiatakarékos működés, a csendes üzem és a modern megjelenés.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "4,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Zajszint (beltéri)", value: "21–40 dB(A)" },
+        { label: "Fűtési teljesítmény", value: "5,2 kW" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen Multi Charm inverter 4,6 kW beltéri egység</strong> a multi klímás rendszerek nagyobb teljesítményigényű megoldása. Egyetlen kültéri egységhez csatlakoztatható, így több helyiség hűtése és fűtése valósítható meg hatékonyan és átlátható rendszerkialakítással.</p>
+          
+          <p>A 4,6 kW-os teljesítmény ideális nagyobb alapterületű helyiségek számára, miközben a korszerű inverteres technológia egyenletes hőmérsékletet és energiatakarékos működést biztosít. A letisztult, modern dizájn jól illeszkedik lakó- és üzleti környezetbe egyaránt.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Multi klímás kompatibilitás:</strong> Egy kültéri egységhez csatlakoztatható beltéri megoldás.</li>
+              <li><strong>Nagyobb teljesítmény:</strong> Ideális nagyobb helyiségek klimatizálására.</li>
+              <li><strong>Inverteres technológia:</strong> Energiahatékony, stabil működés hűtés és fűtés során.</li>
+              <li><strong>Csendes üzemelés:</strong> Komfortos beltéri környezet hosszabb használat mellett is.</li>
+              <li><strong>Modern, kompakt kialakítás:</strong> Esztétikus megjelenés különböző enteriőrökben.</li>
+              <li><strong>Külön helyiségenként szabályozható:</strong> Egyéni komfort a multi rendszer minden pontján.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen UM Inverter Cassette Air Conditioning Set 3.5 kW",
+      typeName: "AC set",
       desc: "The Syen Multi Charm 4.6 kW indoor unit offers higher performance for multi-split systems where multiple rooms are connected to a single outdoor unit. It is an ideal choice for the climate control of more spacious rooms, while maintaining energy-efficient operation, quiet performance, and a modern appearance.",
       specs: [
         "A++",

@@ -87,6 +87,11 @@ export default function Navbar(){
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
+                <Link href="/kazettas-klimak" className="cursor-pointer w-full">
+                  {language === 'hu' ? 'Kazettás Klímák' : 'Cassette Air Conditioners'}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
                 <Link href="/hoszivattyuk" className="cursor-pointer w-full">
                   {language === 'hu' ? 'Hőszivattyúk' : 'Heat Pumps'}
                 </Link>

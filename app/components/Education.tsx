@@ -2,10 +2,8 @@
 
 import { useLanguage } from "@/app/lib/i18n";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/app/ui/accordion";
-import { Badge } from "@/app/ui/badge";
 import { Card } from "@/app/ui/card";
-import { Info, CheckCircle2, AlertCircle, Thermometer, Snowflake, DollarSign, Zap, Home } from "lucide-react";
-import { motion } from "framer-motion";
+import { Info, AlertCircle, Thermometer, Snowflake, DollarSign, Zap, Home } from "lucide-react";
 
 export function Education() {
   const { t } = useLanguage();

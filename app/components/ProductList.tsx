@@ -32,6 +32,8 @@ export default function ProductList({ products }: Props) {
           detailPageRoute = "/hoszivattyuk/" + product.id;
         } else if(product.type === "ac-multi") {
           detailPageRoute = "/multi-klimak/" + product.id;
+        } else if(product.type === "ac-casette") {
+          detailPageRoute = "/kazettas-klimak/" + product.id;
         }
 
         return <motion.div
@@ -46,13 +48,15 @@ export default function ProductList({ products }: Props) {
                 product-card-picture">
             </div>
             <CardHeader>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex justify-between items-start mb-6">
                 <Badge variant="outline">
                   {language === "hu" ? product.hu.typeName : product.en.typeName}
                 </Badge>
                 <span className="font-bold text-primary">{product.price}</span>
               </div>
-              <CardTitle className="text-xl">{product.name}</CardTitle>
+              <CardTitle className="text-xl">
+                {language === "hu" ? product.hu.fullName : product.en.fullName}
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">

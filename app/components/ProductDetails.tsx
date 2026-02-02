@@ -57,6 +57,8 @@ export default function ProductDetails({ product }: Props) {
     backRoute = "/hoszivattyuk";
   } else if(product.type === "ac-multi") {
     backRoute = "/multi-klimak";
+  } else if(product.type === "ac-casette") {
+    backRoute = "/kazettas-klimak";
   }
 
   return (
@@ -165,7 +167,9 @@ export default function ProductDetails({ product }: Props) {
                     : product.en.typeName}
                 </span>
                 <h1 className="text-4xl font-heading font-bold text-slate-900 mt-2">
-                  {product.name}
+                  {language === "hu"
+                    ? product.hu.fullName
+                    : product.en.fullName}
                 </h1>
                 <div className="mt-4 text-3xl font-bold text-primary">
                   {product.price}

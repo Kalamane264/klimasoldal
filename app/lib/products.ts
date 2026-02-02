@@ -1544,7 +1544,7 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "660.000 Ft",
+    price: "750.000 Ft",
     powerCooling: 7.0,
     powerHeating: 8.0,
     pics: [

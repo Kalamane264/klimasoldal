@@ -1219,7 +1219,7 @@ export const products: Product[] = [
     name: "Syen UM 3,5 kW",
     hu: {
       fullName: "Syen UM Kazettás inverter 3,5 kW klíma szett",
-      typeName: "Klíma",
+      typeName: "Kazettás klíma",
       desc: "A Syen UM kazettás inverter 3,5 kW klíma szett ideális megoldás irodák, üzlethelyiségek és kisebb-nagyobb terek klimatizálására. Mennyezetbe süllyeszthető kialakítása diszkrét megjelenést biztosít, miközben az inverteres technológia energiatakarékos és egyenletes hűtést és fűtést tesz lehetővé.",
       specs: [
         "A++",
@@ -1250,7 +1250,7 @@ export const products: Product[] = [
         { label: "Automata üzem", value: "Igen" },
         { label: "Memória funkció", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Syen UM Kazettás inverter 3,5 kW klíma szett</strong> professzionális megoldást kínál olyan helyiségek klimatizálására, ahol fontos az egyenletes légelosztás és az esztétikus megjelenés. A mennyezetbe süllyesztett kazettás beltéri egység diszkréten illeszkedik a térbe, miközben hatékony hűtést és fűtést biztosít.</p>
@@ -1270,7 +1270,7 @@ export const products: Product[] = [
     },
     en: {
       fullName: "Syen UM Inverter Cassette Air Conditioning Set 3.5 kW",
-      typeName: "AC set",
+      typeName: "Cassette AC set",
       desc: "The Syen UM Inverter Cassette Air Conditioning Set 3.5 kW is an ideal solution for climate control in offices, retail spaces, and various-sized rooms. Its ceiling-recessed design ensures a discrete appearance, while the inverter technology enables energy-efficient and consistent cooling and heating throughout the year.",
       specs: [
         "A++",
@@ -1288,22 +1288,6 @@ export const products: Product[] = [
         "Superior quality motors"
       ],
       specsExtended: [
-        /*
-         { label: "Hűtési teljesítmény", value: "3,5 kW" },
-        { label: "Fűtési teljesítmény", value: "4,0 kW" },
-        { label: "Ajánlott helyiségméret", value: "29–55 m²" },
-        { label: "Hűtési energiaosztály", value: "A++" },
-        { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Fűtési működési tartomány", value: "-20°C" },
-        { label: "WiFi vezérlés", value: "Igen" },
-        { label: "Karterfűtés", value: "Igen" },
-        { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Öndiagnózis", value: "Igen" },
-        { label: "Automata üzem", value: "Igen" },
-        { label: "Memória funkció", value: "Igen" },
-        { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" },
-        */
         { label: "Cooling capacity", value: "3.5 kW" },
         { label: "Heating capacity", value: "4.0 kW" },
         { label: "Recommended room size", value: "29–55 m²" },
@@ -1317,7 +1301,7 @@ export const products: Product[] = [
         { label: "Auto Mode", value: "Igen" },
         { label: "Memória funkció", value: "Igen" },
         { label: "Memory Function", value: "Yes" },
-        { label: "Warranty", value: "3 years" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Syen UM Inverter Cassette 3.5 kW Air Conditioning Set</strong> offers a professional solution for climate control in spaces where uniform air distribution and an aesthetic appearance are paramount. The ceiling-recessed cassette indoor unit fits discreetly into any environment while providing efficient cooling and heating.</p>
@@ -1334,16 +1318,238 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "125.000 Ft",
+    price: "540.000 Ft",
     powerCooling: 3.5,
     powerHeating: 4.0,
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
+        { src: "syen-kazettas.jpg", width: 750, height: 548 },
+        { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
+    ]
+  },
+  {
+    id: "syen-um-kazettas-inverter-5-kw-klima-szett",
+    serial: "SKH50/A-T",
+    type: "ac-casette",
+    name: "Syen UM 5 kW",
+    hu: {
+      fullName: "Syen UM Kazettás inverter 5 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "A Syen UM kazettás inverter 5 kW klíma szett nagyobb teljesítményt kínál irodák, üzlethelyiségek és tágasabb terek klimatizálására. Mennyezetbe süllyeszthető kialakítása diszkrét megjelenést biztosít, miközben az inverteres technológia energiatakarékos és egyenletes hűtést és fűtést nyújt.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-20°C-os fűtési működési tartomány",
+        "Öndiagnózis",
+        "Automata üzem",
+        "Memória funkció",
+        "Kiemelkedő minőségű motorok"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,0 kW" },
+        { label: "Fűtési teljesítmény", value: "5,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "56–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-20°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Öndiagnózis", value: "Igen" },
+        { label: "Automata üzem", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen UM Kazettás inverter 5 kW klíma szett</strong> ideális választás olyan helyiségekbe, ahol nagyobb hűtési és fűtési teljesítményre van szükség, miközben fontos az esztétikus, rejtett megjelenés. A mennyezetbe építhető kazettás beltéri egység egyenletes légelosztást biztosít.</p>
+          
+          <p>A korszerű inverteres technológia lehetővé teszi az energiatakarékos és stabil működést egész évben. Az 5 kW-os teljesítmény különösen alkalmas nagyobb irodák, üzlethelyiségek, tárgyalók vagy egybenyitott terek komfortos klimatizálására.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Kazettás kialakítás:</strong> Mennyezetbe süllyeszthető beltéri egység diszkrét megjelenéssel.</li>
+              <li><strong>Egyenletes légelosztás:</strong> Több irányú levegőáramlás a magasabb komfortérzet érdekében.</li>
+              <li><strong>Inverteres technológia:</strong> Energiahatékony működés hűtés és fűtés során is.</li>
+              <li><strong>Nagyobb teljesítmény:</strong> Ideális nagyobb alapterületű helyiségekhez.</li>
+              <li><strong>Komplett klíma szett:</strong> Összehangolt beltéri és kültéri egységek a megbízható működésért.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen UM Inverter Cassette Air Conditioning Set 5 kW",
+      typeName: "Cassette AC set",
+      desc: "The Syen UM Inverter Cassette 5 kW Air Conditioning Set offers higher performance for climate control in offices, retail spaces, and more spacious areas. Its ceiling-recessed design ensures a discreet appearance, while the inverter technology provides energy-efficient and consistent cooling and heating.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater",
+        "-20°C Heating Operating Range",
+        "Self-Diagnosis",
+        "Auto Mode",
+        "Memory Function",
+        "Superior quality motors"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.0 kW" },
+        { label: "Heating capacity", value: "5.5 kW" },
+        { label: "Recommended room size", value: "56–75 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-20°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+        { label: "Self-Diagnosis", value: "Igen" },
+        { label: "Auto Mode", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "Memory Function", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen UM Inverter Cassette 5 kW Air Conditioning Set</strong> is an ideal choice for rooms requiring higher cooling and heating performance while maintaining an aesthetic, concealed appearance. The ceiling-mounted cassette indoor unit ensures uniform air distribution throughout the space.</p>
+          
+          <p>Modern inverter technology enables energy-efficient and stable operation all year round. The 5 kW capacity is particularly suitable for the comfortable climate control of larger offices, retail units, meeting rooms, or open-plan areas.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Cassette Design:</strong> Ceiling-recessed indoor unit with a discreet appearance.</li>
+              <li><strong>Uniform Air Distribution:</strong> Multi-directional airflow for enhanced comfort levels.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient operation for both cooling and heating modes.</li>
+              <li><strong>Higher Performance:</strong> Ideal for larger floor areas.</li>
+              <li><strong>Complete AC Set:</strong> Synchronized indoor and outdoor units for reliable operation.</li>
+          </ul>
+      </div>`,
+    },
+    price: "660.000 Ft",
+    powerCooling: 5.0,
+    powerHeating: 5.5,
+    pics: [
+        { src: "syen-kazettas.jpg", width: 750, height: 548 },
+        { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
+    ]
+  },
+  {
+    id: "syen-um-kazettas-inverter-7-kw-klima-szett",
+    serial: "SKH50/A-T",
+    type: "ac-casette",
+    name: "Syen UM 7 kW",
+    hu: {
+      fullName: "Syen UM Kazettás inverter 7 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "A Syen UM kazettás inverter 7,1 kW klíma szett nagy teljesítményű megoldást kínál nagyobb irodák, üzlethelyiségek és tágas belső terek klimatizálására. A mennyezetbe süllyeszthető kazettás kialakítás diszkrét megjelenést biztosít, miközben az inverteres technológia energiatakarékos és egyenletes hűtést és fűtést tesz lehetővé.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-20°C-os fűtési működési tartomány",
+        "Öndiagnózis",
+        "Automata üzem",
+        "Memória funkció",
+        "Kiemelkedő minőségű motorok"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,0 kW" },
+        { label: "Fűtési teljesítmény", value: "8,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-20°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Öndiagnózis", value: "Igen" },
+        { label: "Automata üzem", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen UM Kazettás inverter 7,1 kW klíma szett</strong> kimondottan nagyobb alapterületű helyiségek klimatizálására készült, ahol fontos az egyenletes légelosztás és a magas komfortszint. A mennyezetbe építhető kazettás beltéri egység diszkréten illeszkedik a térbe.</p>
+          
+          <p>A korszerű inverteres technológia stabil és energiatakarékos működést biztosít egész évben. A 7,1 kW-os teljesítmény ideális nagyobb irodák, üzlethelyiségek, tárgyalók, éttermek vagy egybenyitott terek hatékony hűtésére és fűtésére.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Kazettás kialakítás:</strong> Mennyezetbe süllyeszthető beltéri egység letisztult megjelenéssel.</li>
+              <li><strong>Egyenletes légelosztás:</strong> Több irányú levegőáramlás a teljes helyiségben.</li>
+              <li><strong>Inverteres technológia:</strong> Energiahatékony, folyamatos működés hűtés és fűtés során.</li>
+              <li><strong>Nagy teljesítmény:</strong> Kifejezetten nagyobb terek klimatizálására tervezve.</li>
+              <li><strong>Komplett klíma szett:</strong> Összehangolt beltéri és kültéri egységekkel a megbízható üzemért.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen UM Inverter Cassette Air Conditioning Set 7 kW",
+      typeName: "Cassette AC set",
+      desc: "The Syen UM Inverter Cassette 7.1 kW Air Conditioning Set provides a high-performance solution for climate control in larger offices, retail spaces, and spacious interiors. The ceiling-recessed cassette design ensures a discreet appearance, while the inverter technology enables energy-efficient and consistent cooling and heating.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater",
+        "-20°C Heating Operating Range",
+        "Self-Diagnosis",
+        "Auto Mode",
+        "Memory Function",
+        "Superior quality motors"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.0 kW" },
+        { label: "Heating capacity", value: "8.0 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-20°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+        { label: "Self-Diagnosis", value: "Igen" },
+        { label: "Auto Mode", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "Memory Function", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen UM Inverter Cassette 7.1 kW Air Conditioning Set</strong> is specifically designed for climate control in larger floor areas where uniform air distribution and high comfort levels are essential. The ceiling-mounted cassette indoor unit fits discreetly into any space.</p>
+          
+          <p>Modern inverter technology ensures stable and energy-efficient operation throughout the year. The 7.1 kW capacity is ideal for the efficient cooling and heating of larger offices, retail spaces, meeting rooms, restaurants, or open-plan areas.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Cassette Design:</strong> Ceiling-recessed indoor unit with a clean, professional look.</li>
+              <li><strong>Uniform Air Distribution:</strong> Multi-directional airflow throughout the entire room.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient, continuous operation for both cooling and heating.</li>
+              <li><strong>High Performance:</strong> Specifically engineered for climate control in large spaces.</li>
+              <li><strong>Complete AC Set:</strong> Synchronized indoor and outdoor units for reliable operation.</li>
+          </ul>
+      </div>`,
+    },
+    price: "660.000 Ft",
+    powerCooling: 7.0,
+    powerHeating: 8.0,
+    pics: [
+        { src: "syen-kazettas.jpg", width: 750, height: 548 },
+        { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
     ]
   },
 ];

@@ -122,45 +122,6 @@ export default function Navbar(){
                 </Button>
               }
             />
-
-            {/* <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
-              <DialogTrigger asChild>
-                <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white shadow-lg shadow-primary/20">
-                  {t.nav.getQuote}
-                </Button>
-              </DialogTrigger>
-              <DialogContent className="sm:max-w-[425px]">
-                <DialogHeader>
-                  <DialogTitle>{t.nav.getQuote}</DialogTitle>
-                  <DialogDescription>
-                    {language === 'hu' 
-                      ? "Töltse ki az alábbi űrlapot, és hamarosan felvesszük Önnel a kapcsolatot." 
-                      : "Fill out the form below and we will contact you shortly."}
-                  </DialogDescription>
-                </DialogHeader>
-                <div className="grid gap-4 py-4">
-                  <div className="grid gap-2">
-                    <Label htmlFor="name">{language === 'hu' ? "Név" : "Name"}</Label>
-                    <Input id="name" placeholder={language === 'hu' ? "Az Ön neve" : "Your name"} />
-                  </div>
-                  <div className="grid gap-2">
-                    <Label htmlFor="email">{language === 'hu' ? "Email cím" : "Email address"}</Label>
-                    <Input id="email" type="email" placeholder="email@example.com" />
-                  </div>
-                  <div className="grid gap-2">
-                    <Label htmlFor="phone">{language === 'hu' ? "Telefonszám" : "Phone number"}</Label>
-                    <Input id="phone" type="tel" placeholder="+36 30 123 4567" />
-                  </div>
-                  <div className="grid gap-2">
-                    <Label htmlFor="message">{language === 'hu' ? "Üzenet" : "Message"}</Label>
-                    <Textarea id="message" placeholder={language === 'hu' ? "Miben segíthetünk?" : "How can we help?"} />
-                  </div>
-                </div>
-                <Button type="submit" className="w-full bg-primary text-white" onClick={() => setIsContactOpen(false)}>
-                  {language === 'hu' ? "Küldés" : "Send Request"}
-                </Button>
-              </DialogContent>
-            </Dialog> */}
           </div>
         </div>
 

@@ -1661,6 +1661,224 @@ export const products: Product[] = [
         { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
     ]
   },
+  {
+    id: "syen-um-legcsatornas-inverter-5-kw-klima-szett",
+    serial: "SLH50/A-T",
+    type: "ac-ducted",
+    name: "Syen ducted UM 5 kW",
+    hu: {
+      fullName: "Syen UM Légcsatornás inverter 5 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Nagyobb terek vagy több helyiség egyidejű klimatizálására tervezett légcsatornás rendszer, amely diszkrét megjelenést és egyenletes légelosztást biztosít. A Syen UM 5 kW kiváló választás családi házak, irodák és kereskedelmi terek komfortos hűtésére és fűtésére.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-20°C-os fűtési működési tartomány",
+        "Öndiagnózis",
+        "Automata üzem",
+        "Memória funkció",
+        "Kiemelkedő minőségű motorok"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,0 kW" },
+        { label: "Fűtési teljesítmény", value: "5,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "56–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-20°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Öndiagnózis", value: "Igen" },
+        { label: "Automata üzem", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen UM légcsatornás inverter 5 kW</strong> modell nagyobb teljesítményével ideális választás több helyiség vagy nagyobb alapterületű terek klimatizálására. A rendszer a mennyezet fölé telepített beltéri egységből és a hozzá csatlakozó légcsatorna-hálózatból áll, amely diszkrét és esztétikus megoldást kínál.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Központi levegőelosztás:</strong> Több helyiség egyenletes hőmérséklet-szabályozása.</li>
+              <li><strong>Magas teljesítmény:</strong> Ideális nagyobb lakó- és üzleti terekhez.</li>
+              <li><strong>Energiahatékony inverter:</strong> Optimalizált fogyasztás és halk működés.</li>
+              <li><strong>Rugalmas telepítés:</strong> Légcsatornás kiépítéssel egyedi igényekhez igazítható.</li>
+              <li><strong>Esztétikus megjelenés:</strong> Csak a befúvó és elszívó rácsok láthatók.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen UM Inverter Ducted 5 kW Air Conditioning Set",
+      typeName: "Ducted AC set",
+      desc: "A ducted system designed for the simultaneous climate control of larger spaces or multiple rooms, providing a discreet appearance and uniform air distribution. The Syen UM 5 kW is an excellent choice for the comfortable cooling and heating of family homes, offices, and commercial spaces.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater",
+        "-20°C Heating Operating Range",
+        "Self-Diagnosis",
+        "Auto Mode",
+        "Memory Function",
+        "Superior quality motors"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.0 kW" },
+        { label: "Heating capacity", value: "5.5 kW" },
+        { label: "Recommended room size", value: "56–75 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-20°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+        { label: "Self-Diagnosis", value: "Yes" },
+        { label: "Auto Mode", value: "Yes" },
+        { label: "Memory Function", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>With its higher capacity, the <strong>Syen UM Inverter Ducted 5 kW</strong> model is an ideal choice for the climate control of multiple rooms or larger floor areas. The system consists of an indoor unit installed above the ceiling and a connected network of ducts, offering a discreet and aesthetic solution.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Central Air Distribution:</strong> Uniform temperature control for multiple rooms.</li>
+              <li><strong>High Performance:</strong> Ideal for larger residential and business spaces.</li>
+              <li><strong>Energy-Efficient Inverter:</strong> Optimized power consumption and quiet operation.</li>
+              <li><strong>Flexible Installation:</strong> Can be customized to unique requirements with ducted configuration.</li>
+              <li><strong>Aesthetic Appearance:</strong> Only the supply and return grilles are visible.</li>
+          </ul>
+      </div>`,
+    },
+    price: "630.000 Ft",
+    powerCooling: 5,
+    powerHeating: 5.5,
+    pics: [
+        { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
+        { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
+    ]
+  },
+  {
+    id: "syen-um-legcsatornas-inverter-7-kw-klima-szett",
+    serial: "SLH71/A-T",
+    type: "ac-ducted",
+    name: "Syen ducted UM 7 kW",
+    hu: {
+      fullName: "Syen UM Légcsatornás inverter 7 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Nagy teljesítményű, professzionális légcsatornás klímarendszer többzónás hűtésre és fűtésre. A Syen UM 7 kW ideális választás nagyobb családi házak, irodák vagy kereskedelmi ingatlanok diszkrét és hatékony klimatizálására.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-20°C-os fűtési működési tartomány",
+        "Öndiagnózis",
+        "Automata üzem",
+        "Memória funkció",
+        "Kiemelkedő minőségű motorok"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,0 kW" },
+        { label: "Fűtési teljesítmény", value: "8,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-20°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Öndiagnózis", value: "Igen" },
+        { label: "Automata üzem", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen UM légcsatornás inverter 7 kW</strong> készülék a nagyobb teljesítményt igénylő rendszerekhez készült. A mennyezet fölé telepített beltéri egység légcsatornákon keresztül biztosítja a levegő elosztását, így több helyiségben is egyenletes és huzatmentes komfort érhető el.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Nagy teljesítmény:</strong> Ideális nagy alapterületű ingatlanokhoz.</li>
+              <li><strong>Központi rendszer:</strong> Több helyiség egyidejű klimatizálása.</li>
+              <li><strong>Diszkrét telepítés:</strong> Álmennyezetben rejtett beltéri egység.</li>
+              <li><strong>Inverteres technológia:</strong> Energiatakarékos és csendes működés.</li>
+              <li><strong>Egyenletes komfort:</strong> Huzatmentes légelosztás minden befúvási ponton.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen UM Inverter Ducted 7 kW Air Conditioning Set",
+      typeName: "Ducted AC set",
+      desc: "A high-performance, professional ducted air conditioning system for multi-zone cooling and heating. The Syen UM 7 kW is an ideal choice for the discreet and efficient climate control of larger family homes, offices, or commercial properties.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater",
+        "-20°C Heating Operating Range",
+        "Self-Diagnosis",
+        "Auto Mode",
+        "Memory Function",
+        "Superior quality motors"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.0 kW" },
+        { label: "Heating capacity", value: "8.0 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-20°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+        { label: "Self-Diagnosis", value: "Yes" },
+        { label: "Auto Mode", value: "Yes" },
+        { label: "Memory Function", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen UM Inverter Ducted 7 kW</strong> unit is designed for systems requiring higher performance. The indoor unit, installed above the ceiling, provides air distribution through ducts, achieving consistent and draft-free comfort across multiple rooms.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>High Performance:</strong> Ideal for properties with large floor areas.</li>
+              <li><strong>Central System:</strong> Simultaneous climate control for multiple rooms.</li>
+              <li><strong>Discreet Installation:</strong> Indoor unit concealed within a suspended ceiling.</li>
+              <li><strong>Inverter Technology:</strong> Energy-efficient and quiet operation.</li>
+              <li><strong>Consistent Comfort:</strong> Draft-free air distribution at every supply point.</li>
+          </ul>
+      </div>`,
+    },
+    price: "630.000 Ft",
+    powerCooling: 7,
+    powerHeating: 8,
+    pics: [
+        { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
+        { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
+    ]
+  },
 ];
 
 export type Product = {

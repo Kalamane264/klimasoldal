@@ -1,21 +1,12 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Button } from "@/app/ui/button";
 import { useLanguage } from "@/app/lib/i18n";
 import { Phone, Mail, MapPin } from "lucide-react";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/app/ui/dialog";
-import { Input } from "@/app/ui/input";
-import { Label } from "@/app/ui/label";
-import { Textarea } from "@/app/ui/textarea";
-import { useState } from "react";
+import { Button } from "@/app/ui/button";
+
+import { ContactDialog } from "./ContactDialog";
 
 export function Footer() {
   const { t, language } = useLanguage();
@@ -31,7 +22,7 @@ export function Footer() {
               {t.contact.subtitle}
             </p>
             <div className="flex gap-4">
-              <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
+              {/* <Dialog open={isContactOpen} onOpenChange={setIsContactOpen}>
                 <DialogTrigger asChild>
                   <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white">
                     {t.nav.getQuote}
@@ -68,7 +59,16 @@ export function Footer() {
                     {language === 'hu' ? "Küldés" : "Send Request"}
                   </Button>
                 </DialogContent>
-              </Dialog>
+              </Dialog> */}
+              <ContactDialog 
+              open={isContactOpen} 
+              onOpenChange={setIsContactOpen}
+              trigger={
+                <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white">
+                  {t.nav.getQuote}
+                </Button>
+              }
+            />
             </div>
           </div>
 

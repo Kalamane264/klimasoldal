@@ -3,22 +3,11 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/app/ui/button";
 import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/app/ui/dialog";
-import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/app/ui/dropdown-menu";
-import { Input } from "@/app/ui/input";
-import { Label } from "@/app/ui/label";
-import { Textarea } from "@/app/ui/textarea";
 import { Menu, X, Globe, ChevronDown } from "lucide-react";
 
 import Link from "next/link";

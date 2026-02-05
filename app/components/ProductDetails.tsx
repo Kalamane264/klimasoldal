@@ -59,6 +59,8 @@ export default function ProductDetails({ product }: Props) {
     backRoute = "/multi-klimak";
   } else if(product.type === "ac-casette") {
     backRoute = "/kazettas-klimak";
+  } else if(product.type === "ac-ducted") {
+    backRoute = "/legcsatornas-klimak";
   }
 
   return (

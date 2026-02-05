@@ -34,6 +34,8 @@ export default function ProductList({ products }: Props) {
           detailPageRoute = "/multi-klimak/" + product.id;
         } else if(product.type === "ac-casette") {
           detailPageRoute = "/kazettas-klimak/" + product.id;
+        } else if(product.type === "ac-ducted") {
+          detailPageRoute = "/legcsatornas-klimak/" + product.id;
         }
 
         return <motion.div
@@ -42,11 +44,13 @@ export default function ProductList({ products }: Props) {
           transition={{ duration: 0.2 }}
         >
           <Card className="h-full border-border/50 overflow-hidden">
-            <div 
-              style={{ backgroundImage: `url('/pic/${product.pics[0].src}')` }}
-              className="h-48 bg-slate-100 flex items-center justify-center text-slate-300 
-                product-card-picture">
-            </div>
+            <Link href={ detailPageRoute }>
+              <div 
+                style={{ backgroundImage: `url('/pic/${product.pics[0].src}')` }}
+                className="h-48 bg-slate-100 flex items-center justify-center text-slate-300 
+                  product-card-picture">
+              </div>
+            </Link>
             <CardHeader>
               <div className="flex justify-between items-start mb-6">
                 <Badge variant="outline">

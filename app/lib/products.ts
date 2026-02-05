@@ -1297,10 +1297,10 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
         { label: "Drip tray heater", value: "Yes" },
-        { label: "Self-Diagnosis", value: "Igen" },
-        { label: "Auto Mode", value: "Igen" },
-        { label: "Memória funkció", value: "Igen" },
+        { label: "Self-Diagnosis", value: "Yes" },
+        { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1410,10 +1410,10 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
         { label: "Drip tray heater", value: "Yes" },
-        { label: "Self-Diagnosis", value: "Igen" },
-        { label: "Auto Mode", value: "Igen" },
-        { label: "Memória funkció", value: "Igen" },
+        { label: "Self-Diagnosis", value: "Yes" },
+        { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1523,10 +1523,10 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
         { label: "Drip tray heater", value: "Yes" },
-        { label: "Self-Diagnosis", value: "Igen" },
-        { label: "Auto Mode", value: "Igen" },
-        { label: "Memória funkció", value: "Igen" },
+        { label: "Self-Diagnosis", value: "Yes" },
+        { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1550,6 +1550,115 @@ export const products: Product[] = [
     pics: [
         { src: "syen-kazettas.jpg", width: 750, height: 548 },
         { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
+    ]
+  },
+  {
+    id: "syen-um-legcsatornas-inverter-3-5-kw-klima-szett",
+    serial: "SLH35/A-T",
+    type: "ac-ducted",
+    name: "Syen ducted UM 3,5 kW",
+    hu: {
+      fullName: "Syen UM Légcsatornás inverter 3,5 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Diszkrét, mennyezet fölé telepíthető légcsatornás klímarendszer, amely több helyiség egyenletes hűtését és fűtését biztosítja. A Syen UM 3,5 kW ideális választás kisebb irodákba, üzlethelyiségekbe vagy családi házak többzónás klimatizálásához, ahol fontos az esztétika és a rejtett kialakítás.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-20°C-os fűtési működési tartomány",
+        "Öndiagnózis",
+        "Automata üzem",
+        "Memória funkció",
+        "Kiemelkedő minőségű motorok"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "4,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–55 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-20°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Öndiagnózis", value: "Igen" },
+        { label: "Automata üzem", value: "Igen" },
+        { label: "Memória funkció", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Syen UM légcsatornás inverter 3,5 kW</strong> készülék ideális megoldás azok számára, akik rejtett, mégis nagy hatékonyságú klímarendszert keresnek. A mennyezet fölé telepített beltéri egység légcsatornákon keresztül juttatja el a kezelt levegőt a helyiségekbe, így biztosítva az egyenletes hőmérsékletet és a letisztult belső megjelenést.</p>
+          
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Rejtett kialakítás:</strong> A beltéri egység álmennyezetben vagy gépészeti térben helyezhető el.</li>
+              <li><strong>Többhelyiséges komfort:</strong> Egy rendszerrel több szoba klimatizálása is megoldható.</li>
+              <li><strong>Inverteres működés:</strong> Energiatakarékos és csendes üzemelés.</li>
+              <li><strong>Egyenletes légelosztás:</strong> Huzatmentes komfortérzet minden helyiségben.</li>
+              <li><strong>Egész éves használat:</strong> Hatékony hűtés nyáron, stabil fűtés átmeneti időszakban is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Syen UM Inverter Ducted 3.5 kW Air Conditioning Set",
+      typeName: "Ducted AC set",
+      desc: "A discreet, ducted air conditioning system installed above the ceiling, providing uniform cooling and heating for multiple rooms. The Syen UM 3.5 kW is an ideal choice for smaller offices, retail spaces, or multi-zone climate control in family homes where aesthetics and a concealed design are paramount.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater",
+        "-20°C Heating Operating Range",
+        "Self-Diagnosis",
+        "Auto Mode",
+        "Memory Function",
+        "Superior quality motors"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "4.0 kW" },
+        { label: "Recommended room size", value: "29–55 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-20°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+        { label: "Self-Diagnosis", value: "Yes" },
+        { label: "Auto Mode", value: "Yes" },
+        { label: "Memory Function", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Syen UM Inverter Ducted 3.5 kW</strong> unit is an ideal solution for those seeking a concealed yet highly efficient air conditioning system. The indoor unit, installed above the ceiling, delivers conditioned air to rooms through a network of ducts, ensuring a consistent temperature and a clean interior aesthetic.</p>
+          
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Concealed Design:</strong> The indoor unit can be installed within a suspended ceiling or a mechanical space.</li>
+              <li><strong>Multi-Room Comfort:</strong> Allows for the climate control of multiple rooms with a single system.</li>
+              <li><strong>Inverter Operation:</strong> Energy-efficient and quiet performance.</li>
+              <li><strong>Uniform Air Distribution:</strong> Draft-free comfort in every room.</li>
+              <li><strong>Year-Round Use:</strong> Efficient cooling in summer and stable heating even during transitional periods.</li>
+          </ul>
+      </div>`,
+    },
+    price: "550.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 4.0,
+    pics: [
+        { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
+        { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
     ]
   },
 ];

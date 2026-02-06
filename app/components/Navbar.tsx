@@ -153,6 +153,15 @@ export default function Navbar(){
                 <Link href="/klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {language === 'hu' ? '• Klímák' : '• AC Units'}
                 </Link>
+                <Link href="/multi-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Multi Klímák' : '• Multi-split air conditioners'}
+                </Link>
+                 <Link href="/kazettas-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Kazettás Klímák' : '• Cassette Air Conditioners'}
+                </Link>
+                <Link href="/legcsatornas-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Légcsatornás Klímák' : '• Ducted Air Conditioners'}
+                </Link>
                 <Link href="/hoszivattyuk" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {language === 'hu' ? '• Hőszivattyúk' : '• Heat Pumps'}
                 </Link>

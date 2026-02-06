@@ -1,6 +1,7 @@
 export const products: Product[] = [
   {
     id: "syen-charm-2-7-kw-split-klima",
+    brand: "Syen",
     serial: "SOH09CH-E32DA1B",
     type: "ac",
     name: "Syen Charm 2,7 kW",
@@ -93,6 +94,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-charm-3-2-kw-split-klima",
+    brand: "Syen",
     serial: "SOH12CH-E32DA1D",
     type: "ac",
     name: "Syen Charm 3,2 kW",
@@ -185,6 +187,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-charm-4-6-kw-split-klima",
+    brand: "Syen",
     serial: "SOH18CH-E32DA1A",
     type: "ac",
     name: "Syen Charm 4,6 kW",
@@ -277,6 +280,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-charm-6-2-kw-split-klima",
+    brand: "Syen",
     serial: "SOH24CH-E32DA1A",
     type: "ac",
     name: "Syen Charm 6,2 kW",
@@ -369,6 +373,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-muse-next-2-7-kw-split-klima",
+    brand: "Syen",
     serial: "SOH09MN-E32DA1A",
     type: "ac",
     name: "Syen Muse Next 2,7 kW",
@@ -467,6 +472,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-muse-next-3-5-kw-split-klima",
+    brand: "Syen",
     serial: "SOH12MN-E32DA1D",
     type: "ac",
     name: "Syen Muse Next 3,5 kW",
@@ -565,6 +571,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-muse-next-5-3-kw-split-klima",
+    brand: "Syen",
     serial: "SOH18MN-E32DA1D2",
     type: "ac",
     name: "Syen Muse Next 5,3 kW",
@@ -662,6 +669,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-muse-next-7-1-kw-split-klima",
+    brand: "Syen",
     serial: "SOH24MN-E32DA1A2",
     type: "ac",
     name: "Syen Muse Next 7,1 kW",
@@ -759,6 +767,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-multi-inverter-5-3-kw-klima-kulteri",
+    brand: "Syen",
     serial: "SMH(18)E32DOO",
     type: "ac-multi",
     name: "Syen FM Multi inverter 5,3 kW",
@@ -845,6 +854,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-multi-inverter-7-1-kw-klima-kulteri",
+    brand: "Syen",
     serial: "SMH(24)E32DOO",
     type: "ac-multi",
     name: "Syen FM Multi inverter 7,1 kW",
@@ -931,6 +941,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-multi-charm-2-7-kw-klima-belteri",
+    brand: "Syen",
     serial: "SMOH09CH-E32DA1B/I",
     type: "ac-multi",
     name: "Syen Charm 2,7 kW",
@@ -1024,6 +1035,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-multi-charm-3-2-kw-klima-belteri",
+    brand: "Syen",
     serial: "SMOH12CH-E32DA1D/I",
     type: "ac-multi",
     name: "Syen Charm 3,2 kW",
@@ -1119,6 +1131,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-multi-charm-4-6-kw-klima-belteri",
+    brand: "Syen",
     serial: "SMOH18CH-E32DA1A/I",
     type: "ac-multi",
     name: "Syen Charm 4,6 kW",
@@ -1214,6 +1227,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-kazettas-inverter-3-5-kw-klima-szett",
+    brand: "Syen",
     serial: "SKH35/A-T",
     type: "ac-casette",
     name: "Syen UM 3,5 kW",
@@ -1328,6 +1342,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-kazettas-inverter-5-kw-klima-szett",
+    brand: "Syen",
     serial: "SKH50/A-T",
     type: "ac-casette",
     name: "Syen UM 5 kW",
@@ -1441,6 +1456,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-kazettas-inverter-7-kw-klima-szett",
+    brand: "Syen",
     serial: "SKH71/A-T",
     type: "ac-casette",
     name: "Syen UM 7 kW",
@@ -1554,6 +1570,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-legcsatornas-inverter-3-5-kw-klima-szett",
+    brand: "Syen",
     serial: "SLH35/A-T",
     type: "ac-ducted",
     name: "Syen ducted UM 3,5 kW",
@@ -1663,6 +1680,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-legcsatornas-inverter-5-kw-klima-szett",
+    brand: "Syen",
     serial: "SLH50/A-T",
     type: "ac-ducted",
     name: "Syen ducted UM 5 kW",
@@ -1772,6 +1790,7 @@ export const products: Product[] = [
   },
   {
     id: "syen-um-legcsatornas-inverter-7-kw-klima-szett",
+    brand: "Syen",
     serial: "SLH71/A-T",
     type: "ac-ducted",
     name: "Syen ducted UM 7 kW",
@@ -1879,10 +1898,104 @@ export const products: Product[] = [
         { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
     ]
   },
+  {
+    id: "gree-pulse-inverter-2-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09AGA-K6DNA1A",
+    type: "ac",
+    name: "Gree Pulse 2,5 kW",
+    hu: {
+      fullName: "Gree Pulse inverter 2,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Pulse inverter 2,5 kW klíma szett ideális választás kisebb helyiségek hatékony hűtésére és fűtésére. Modern inverteres technológiája energiatakarékos működést, csendes üzemet és egyenletes komfortérzetet biztosít a mindennapokban. Wi-Fi vezérléssel, 3D légárammal és intelligens hőmérséklet-szabályozással gondoskodik az optimális klímáról otthonában vagy irodájában.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-15°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,5 kW" },
+        { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-15°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+            <p>A <strong>Syen Charm SOH09CH-E32DA1B</strong> modell a modern technológia és az elegáns esztétika ötvözete. Az inverteres technológiának köszönhetően a készülék rendkívül energiatakarékos, így nemcsak a komfortérzetet növeli, hanem a rezsiköltségeket is optimalizálja.</p>
+            
+            <h3>Főbb jellemzők:</h3>
+            <ul>
+                <li><strong>Intelligens vezérlés:</strong> Precíz hőmérséklet-szabályozás az Ön igényeire szabva.</li>
+                <li><strong>Egész éves használat:</strong> Stabil hűtési teljesítmény nyáron és hatékony fűtés a hűvösebb hónapokban.</li>
+                <li><strong>Halk működés:</strong> Ideális választás hálószobákba vagy nappalikba is.</li>
+                <li><strong>Garantált minőség:</strong> Professzionális telepítéssel és teljes körű szakmai támogatással kínáljuk.</li>
+            </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Syen Charm Inverter Air Conditioning Set 2.7 kW",
+      typeName: "AC",
+      desc: "Stylish design meets outstanding energy efficiency. The Syen Charm inverter split AC is the perfect solution for those seeking reliable cooling and heating at an affordable price. Quiet operation, modern features, and professional installation—all in one package.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-15°C Heating Operating Range",
+        "7-Speed Fan",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-15°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+            <p>The <strong>Syen Charm SOH09CH-E32DA1B</strong> model is a blend of modern technology and elegant aesthetics. Thanks to its advanced inverter technology, this unit is highly energy-efficient, enhancing your comfort while optimizing utility costs.</p>
+            
+            <h3>Key Features:</h3>
+            <ul>
+                <li><strong>Intelligent Control:</strong> Precise temperature management tailored to your needs.</li>
+                <li><strong>All-Season Performance:</strong> Stable cooling in the summer and efficient heating during colder months.</li>
+                <li><strong>Ultra-Quiet Operation:</strong> An ideal choice for bedrooms and living rooms alike.</li>
+                <li><strong>Guaranteed Quality:</strong> Offered with professional installation and full expert support.</li>
+            </ul>
+        </div> `,
+    },
+    price: "290.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 2.8,
+    pics: [
+        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
+        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
+    ]
+  },
 ];
 
 export type Product = {
   id: string;
+  brand: string;
   serial: string;
   type: string;
   name: string;

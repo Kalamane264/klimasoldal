@@ -1930,21 +1930,26 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-            <p>A <strong>Syen Charm SOH09CH-E32DA1B</strong> modell a modern technológia és az elegáns esztétika ötvözete. Az inverteres technológiának köszönhetően a készülék rendkívül energiatakarékos, így nemcsak a komfortérzetet növeli, hanem a rezsiköltségeket is optimalizálja.</p>
-            
-            <h3>Főbb jellemzők:</h3>
-            <ul>
-                <li><strong>Intelligens vezérlés:</strong> Precíz hőmérséklet-szabályozás az Ön igényeire szabva.</li>
-                <li><strong>Egész éves használat:</strong> Stabil hűtési teljesítmény nyáron és hatékony fűtés a hűvösebb hónapokban.</li>
-                <li><strong>Halk működés:</strong> Ideális választás hálószobákba vagy nappalikba is.</li>
-                <li><strong>Garantált minőség:</strong> Professzionális telepítéssel és teljes körű szakmai támogatással kínáljuk.</li>
-            </ul>
-        </div>`,
+          <p>A <strong>Gree Pulse inverter 2,5 kW klíma szett</strong> megbízható és energiatakarékos megoldást kínál kisebb helyiségek hűtésére és fűtésére. A korszerű inverteres technológia folyamatos teljesítményszabályozást biztosít, amely nemcsak a komfortérzetet növeli, hanem a villamosenergia-fogyasztást is optimalizálja.</p>
+          
+          <p>A modern kialakítású beltéri egység diszkréten illeszkedik bármilyen enteriőrbe, miközben csendes működésével ideális választás hálószobákba, nappalikba vagy irodákba is. A beépített Wi-Fi vezérlésnek köszönhetően a készülék okostelefonról is kényelmesen irányítható.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Inverteres technológia:</strong> Energiatakarékos és egyenletes teljesítményszabályozás.</li>
+              <li><strong>Wi-Fi vezérlés:</strong> Távoli irányítás mobilalkalmazáson keresztül.</li>
+              <li><strong>3D légáram:</strong> Egyenletes hőmérséklet-eloszlás a helyiség teljes területén.</li>
+              <li><strong>Cold Plasma szűrés:</strong> Hatékony levegőtisztítás a tisztább beltéri levegőért.</li>
+              <li><strong>I FEEL funkció:</strong> A távirányítóba épített hőmérő pontosabb komfortszabályozást tesz lehetővé.</li>
+              <li><strong>Csendes működés:</strong> Ideális választás pihenéshez vagy munkához.</li>
+              <li><strong>Fűtésrásegítés:</strong> Hatékony működés átmeneti időszakban is.</li>
+          </ul>
+      </div>`,
     },
     en: {
-      fullName: "Syen Charm Inverter Air Conditioning Set 2.7 kW",
+      fullName: "Gree Pulse Inverter 2.5 kW Air Conditioning Set",
       typeName: "AC",
-      desc: "Stylish design meets outstanding energy efficiency. The Syen Charm inverter split AC is the perfect solution for those seeking reliable cooling and heating at an affordable price. Quiet operation, modern features, and professional installation—all in one package.",
+      desc: "The Gree Pulse Inverter 2.5 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of smaller rooms. Its modern inverter technology ensures energy-saving performance, quiet operation, and consistent everyday comfort. With Wi-Fi control, 3D airflow, and intelligent temperature regulation, it provides the optimal climate for your home or office.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -1967,28 +1972,330 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
-            <p>The <strong>Syen Charm SOH09CH-E32DA1B</strong> model is a blend of modern technology and elegant aesthetics. Thanks to its advanced inverter technology, this unit is highly energy-efficient, enhancing your comfort while optimizing utility costs.</p>
-            
-            <h3>Key Features:</h3>
-            <ul>
-                <li><strong>Intelligent Control:</strong> Precise temperature management tailored to your needs.</li>
-                <li><strong>All-Season Performance:</strong> Stable cooling in the summer and efficient heating during colder months.</li>
-                <li><strong>Ultra-Quiet Operation:</strong> An ideal choice for bedrooms and living rooms alike.</li>
-                <li><strong>Guaranteed Quality:</strong> Offered with professional installation and full expert support.</li>
-            </ul>
-        </div> `,
+          <p>The <strong>Gree Pulse Inverter 2.5 kW Air Conditioning Set</strong> offers a reliable and energy-efficient solution for cooling and heating smaller rooms. Modern inverter technology ensures continuous power regulation, which not only enhances comfort but also optimizes electricity consumption.</p>
+          
+          <p>The modern design of the indoor unit fits discreetly into any interior, while its quiet operation makes it an ideal choice for bedrooms, living rooms, or offices. Thanks to the built-in Wi-Fi control, the device can be conveniently managed from a smartphone.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Inverter Technology:</strong> Energy-saving and consistent power regulation.</li>
+              <li><strong>Wi-Fi Control:</strong> Remote management via mobile application.</li>
+              <li><strong>3D Airflow:</strong> Uniform temperature distribution throughout the entire room.</li>
+              <li><strong>Cold Plasma Filtration:</strong> Effective air purification for cleaner indoor air.</li>
+              <li><strong>I FEEL Function:</strong> A temperature sensor built into the remote control enables more precise comfort management.</li>
+              <li><strong>Quiet Operation:</strong> Ideal choice for rest or work.</li>
+              <li><strong>Heating Support:</strong> Efficient operation even during transitional periods.</li>
+          </ul>
+      </div>`,
     },
-    price: "290.000 Ft",
+    price: "320.000 Ft",
     powerCooling: 2.7,
     powerHeating: 2.8,
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
+        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-pulse-inverter-3-2-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH12AGB-K6DNA1A",
+    type: "ac",
+    name: "Gree Pulse 3,2 kW",
+    hu: {
+      fullName: "Gree Pulse inverter 3,2 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Pulse inverter 3,2 kW klíma szett ideális választás közepes méretű helyiségek hatékony hűtésére és fűtésére. Inverteres technológiája energiatakarékos működést, gyors hőmérséklet-elérést és csendes üzemet biztosít. Wi-Fi vezérlésével, 3D légáram funkciójával és levegőtisztító szűrésével egész évben komfortos beltéri klímát teremt.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-15°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,2 kW" },
+        { label: "Fűtési teljesítmény", value: "3,4 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-15°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Pulse inverter 3,2 kW klíma szett</strong> megbízható és korszerű megoldást kínál lakások és kisebb irodák hűtésére-fűtésére. A fejlett inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely egyenletes hőmérsékletet és kedvező energiafogyasztást biztosít.</p>
+          
+          <p>A letisztult megjelenésű beltéri egység diszkréten illeszkedik a modern enteriőrökbe, miközben halk működésének köszönhetően ideális hálószobába vagy nappaliba is. A beépített Wi-Fi modul révén a készülék okostelefonról, távolról is vezérelhető.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Inverteres működés:</strong> Energiatakarékos, egyenletes teljesítményszabályozás.</li>
+              <li><strong>Wi-Fi vezérlés:</strong> Kényelmes irányítás mobilalkalmazással.</li>
+              <li><strong>3D légáram:</strong> Optimális levegőelosztás a teljes helyiségben.</li>
+              <li><strong>Cold Plasma szűrés:</strong> Hatékony levegőtisztítás és szagtalanítás.</li>
+              <li><strong>I FEEL funkció:</strong> Pontos hőmérséklet-szabályozás a távirányító érzékelője alapján.</li>
+              <li><strong>Csendes üzemmód:</strong> Zavartalan pihenés és munkavégzés.</li>
+              <li><strong>Fűtési funkció:</strong> Átmeneti időszakban is hatékony komfortmegoldás.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Pulse Inverter 3.2 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Pulse Inverter 3.2 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of medium-sized rooms. Its inverter technology ensures energy-saving operation, rapid temperature pull-down, and quiet performance. With Wi-Fi control, a 3D airflow function, and air purification filtering, it creates a comfortable indoor climate all year round.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-15°C Heating Operating Range",
+        "7-Speed Fan",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.2 kW" },
+        { label: "Heating capacity", value: "3.4 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-15°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Pulse Inverter 3.2 kW Air Conditioning Set</strong> offers a reliable and modern solution for the cooling and heating of apartments and smaller offices. Advanced inverter technology enables continuous power regulation, ensuring a consistent temperature and favorable energy consumption.</p>
+          
+          <p>The sleek indoor unit fits discreetly into modern interiors, while its quiet operation makes it an ideal choice for bedrooms or living rooms. With the built-in Wi-Fi module, the device can be controlled remotely via smartphone.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Inverter Operation:</strong> Energy-efficient, consistent power regulation.</li>
+              <li><strong>Wi-Fi Control:</strong> Convenient management via mobile application.</li>
+              <li><strong>3D Airflow:</strong> Optimal air distribution throughout the entire room.</li>
+              <li><strong>Cold Plasma Filtration:</strong> Effective air purification and deodorization.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature control based on the remote control's sensor.</li>
+              <li><strong>Quiet Mode:</strong> Undisturbed rest and work.</li>
+              <li><strong>Heating Function:</strong> An efficient comfort solution even during transitional periods.</li>
+          </ul>
+      </div>`,
+    },
+    price: "330.000 Ft",
+    powerCooling: 3.2,
+    powerHeating: 3.4,
+    pics: [
+        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-pulse-inverter-4-6-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18AGD-K6DNA1D",
+    type: "ac",
+    name: "Gree Pulse 4,6 kW",
+    hu: {
+      fullName: "Gree Pulse inverter 4,6 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Pulse inverter 4,6 kW klíma szett ideális választás nagyobb nappalik, irodák vagy üzlethelyiségek hatékony hűtésére és fűtésére. Az inverteres technológia energiatakarékos működést, gyors hőmérséklet-szabályozást és csendes üzemet biztosít. A Wi-Fi vezérlés, a 3D légáram és a fejlett szűrőrendszer egész évben kényelmes és tiszta beltéri levegőt garantál.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-15°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "4,6 kW" },
+        { label: "Fűtési teljesítmény", value: "5,2 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-15°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Pulse inverter 4,6 kW klíma szett</strong> megbízható megoldást kínál nagyobb alapterületű helyiségek hűtésére és fűtésére. A korszerű inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely stabil hőmérsékletet és kedvező energiafelhasználást biztosít.</p>
+          
+          <p>A modern megjelenésű beltéri egység diszkréten illeszkedik lakó- és üzleti környezetbe egyaránt. Halk működésének köszönhetően komfortos használatot nyújt nappaliban, irodában vagy tárgyalóban is. A beépített Wi-Fi modul segítségével a készülék okostelefonról, távolról is vezérelhető.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Inverteres működés:</strong> Energiatakarékos, egyenletes teljesítményszabályozás.</li>
+              <li><strong>Wi-Fi vezérlés:</strong> Távoli irányítás mobilalkalmazással.</li>
+              <li><strong>3D légáram:</strong> Egyenletes levegőelosztás a teljes helyiségben.</li>
+              <li><strong>Cold Plasma szűrés:</strong> Hatékony levegőtisztítás és szagtalanítás.</li>
+              <li><strong>I FEEL funkció:</strong> Pontos hőmérséklet-érzékelés a távirányítón keresztül.</li>
+              <li><strong>Csendes üzemmód:</strong> Alacsony zajszint a zavartalan komfortért.</li>
+              <li><strong>Fűtési funkció:</strong> Átmeneti időszakban is hatékony megoldás.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Pulse Inverter 4.6 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Pulse Inverter 4.6 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of larger living rooms, offices, or retail spaces. Its inverter technology ensures energy-saving operation, rapid temperature control, and quiet performance. Wi-Fi control, 3D airflow, and the advanced filtration system guarantee comfortable and clean indoor air all year round.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-15°C Heating Operating Range",
+        "7-Speed Fan",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "4.6 kW" },
+        { label: "Heating capacity", value: "5.2 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-15°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Pulse Inverter 4.6 kW Air Conditioning Set</strong> provides a reliable solution for the cooling and heating of larger floor areas. Modern inverter technology enables continuous power regulation, ensuring a stable temperature and favorable energy consumption.</p>
+          
+          <p>The modern design of the indoor unit fits discreetly into both residential and business environments. Thanks to its quiet operation, it offers comfortable use in living rooms, offices, or meeting rooms. With the built-in Wi-Fi module, the device can be controlled remotely via smartphone.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Inverter Operation:</strong> Energy-efficient, consistent power regulation.</li>
+              <li><strong>Wi-Fi Control:</strong> Remote management via mobile application.</li>
+              <li><strong>3D Airflow:</strong> Uniform air distribution throughout the entire room.</li>
+              <li><strong>Cold Plasma Filtration:</strong> Effective air purification and deodorization.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature sensing via the remote control.</li>
+              <li><strong>Quiet Mode:</strong> Low noise levels for undisturbed comfort.</li>
+              <li><strong>Heating Function:</strong> An efficient solution even during transitional periods.</li>
+          </ul>
+      </div>`,
+    },
+    price: "420.000 Ft",
+    powerCooling: 4.6,
+    powerHeating: 5.2,
+    pics: [
+        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-pulse-inverter-6-2-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18AGD-K6DNA1D",
+    type: "ac",
+    name: "Gree Pulse 4,6 kW",
+    hu: {
+      fullName: "Gree Pulse inverter 6,2 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Pulse inverter 6,2 kW klíma szett kiváló választás nagy alapterületű nappalik, irodák vagy üzlethelyiségek hatékony klimatizálására. Az inverteres technológia energiatakarékos működést és stabil hőmérsékletet biztosít, míg a Wi-Fi vezérlés, a 3D légáram és a fejlett szűrőrendszer egész évben kényelmes és egészséges beltéri klímát teremt.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-15°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "6,2 kW" },
+        { label: "Fűtési teljesítmény", value: "6,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-15°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Pulse inverter 6,2 kW klíma szett</strong> nagy teljesítményű megoldást kínál tágas helyiségek, nappalik, irodák vagy üzlethelyiségek hűtésére és fűtésére. A fejlett inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely energiatakarékos működést és egyenletes hőmérsékletet biztosít.</p>
+          
+          <p>A készülék modern kialakítású beltéri egysége esztétikusan illeszkedik a különböző enteriőrökbe, miközben halk működésével nem zavarja a mindennapi tevékenységeket. A beépített Wi-Fi vezérlés lehetővé teszi a távoli irányítást, így a kívánt hőmérséklet már érkezés előtt beállítható.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Inverteres technológia:</strong> Hatékony, energiatakarékos működés.</li>
+              <li><strong>Wi-Fi vezérlés:</strong> Okostelefonról is irányítható.</li>
+              <li><strong>3D légáram:</strong> Egyenletes hűtés és fűtés a teljes térben.</li>
+              <li><strong>Cold Plasma szűrőrendszer:</strong> Tisztább, egészségesebb levegő.</li>
+              <li><strong>I FEEL funkció:</strong> Precíz hőmérséklet-szabályozás.</li>
+              <li><strong>Csendes működés:</strong> Komfortos használat nagyobb terekben is.</li>
+              <li><strong>Fűtési üzemmód:</strong> Átmeneti időszakban önálló fűtésre is alkalmas.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Pulse Inverter 6.2 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Pulse Inverter 6.2 kW Air Conditioning Set is an excellent choice for the efficient climate control of large floor area living rooms, offices, or retail spaces. Inverter technology ensures energy-saving operation and a stable temperature, while Wi-Fi control, 3D airflow, and the advanced filtration system create a comfortable and healthy indoor climate all year round.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-15°C Heating Operating Range",
+        "7-Speed Fan",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "6.2 kW" },
+        { label: "Heating capacity", value: "6.5 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating Operating Range", value: "-15°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Pulse Inverter 6.2 kW Air Conditioning Set</strong> offers a high-performance solution for the cooling and heating of spacious rooms, living rooms, offices, or retail spaces. Advanced inverter technology enables continuous power regulation, ensuring energy-efficient operation and a consistent temperature.</p>
+          
+          <p>The unit's modern indoor design fits aesthetically into various interiors, while its quiet operation ensures it does not disturb daily activities. Built-in Wi-Fi control allows for remote management, so the desired temperature can be set even before you arrive.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Inverter Technology:</strong> Efficient, energy-saving operation.</li>
+              <li><strong>Wi-Fi Control:</strong> Can be managed via smartphone.</li>
+              <li><strong>3D Airflow:</strong> Uniform cooling and heating throughout the entire space.</li>
+              <li><strong>Cold Plasma Filtration:</strong> Cleaner, healthier air.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature regulation.</li>
+              <li><strong>Quiet Operation:</strong> Comfortable use even in larger spaces.</li>
+              <li><strong>Heating Mode:</strong> Suitable as a standalone heating solution during transitional periods.</li>
+          </ul>
+      </div>`,
+    },
+    price: "510.000 Ft",
+    powerCooling: 6.2,
+    powerHeating: 6.5,
+    pics: [
+        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
     ]
   },
 ];

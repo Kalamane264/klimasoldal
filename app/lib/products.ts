@@ -2298,6 +2298,222 @@ export const products: Product[] = [
         { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-comfort-pro-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09ACCXB-K6DNA1G",
+    type: "ac",
+    name: "Gree Comfort Pro 2,7 kW",
+    hu: {
+      fullName: "Gree Comfort Pro inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Comfort Pro inverter 2,7 kW klíma szett kiváló választás kisebb helyiségekbe, ahol a fűtés ugyanolyan fontos, mint a hűtés. A beépített karterfűtés és csepptálca fűtés garantálja a fagymentes, üzembiztos működést extrém hidegben is. Wi-Fi vezérléssel, Cold Plasma szűrővel és intelligens kényelmi funkciókkal biztosítja az optimális beltéri klímát az év minden napján.",
+      specs: [
+        "A+++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Comfort Pro inverter 2,7 kW</strong> klíma szett a gyártó egyik legsokoldalúbb modellje, amely hűtésre és fűtésre egyaránt optimalizált. A készülék kiemelkedő hatékonysággal működik, így ideális megoldást nyújt hálószobákba vagy kisebb nappalikba, ahol elvárás a csendes üzem és a precíz hőmérséklet-szabályozás.</p>
+          
+          <p>A Comfort Pro széria különlegessége a megnövelt fűtési tartomány és a téliesített kivitel. A gyári karterfűtés és csepptálca fűtés megvédi a kültéri egységet a jegesedéstől, így a készülék akár -25°C-os külső hőmérséklet mellett is stabil fűtést biztosít.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Téliesített kivitel:</strong> Beépített karter- és csepptálca fűtés a megbízható téli üzemért.</li>
+              <li><strong>Emelt szintű energiahatékonyság:</strong> Alacsony fogyasztás hűtés és fűtés során is.</li>
+              <li><strong>Intelligens Wi-Fi vezérlés:</strong> Távoli elérés és programozás okostelefonról.</li>
+              <li><strong>Fűtésre optimalizált:</strong> Megbízható teljesítmény extrém alacsony hőmérsékleten is.</li>
+              <li><strong>Cold Plasma szűrő:</strong> Semlegesíti a kórokozókat és a kellemetlen szagokat.</li>
+              <li><strong>I FEEL funkció:</strong> Hőmérséklet-mérés a távirányítónál a maximális komfortért.</li>
+              <li><strong>Csendes üzemmód:</strong> Nyugodt pihenést biztosít az éjszakai órákban.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 2.7 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Comfort Pro Inverter 2.7 kW Air Conditioning Set is an excellent choice for smaller rooms where heating is just as important as cooling. The integrated crankcase heater and base pan heater guarantee frost-free, reliable operation even in extreme cold. With Wi-Fi control, Cold Plasma filtration, and intelligent comfort features, it ensures an optimal indoor climate every day of the year.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-25°C Heating Operating Range",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Comfort Pro Inverter 2.7 kW</strong> air conditioning set is one of the manufacturer's most versatile models, optimized for both cooling and heating. The unit operates with outstanding efficiency, making it an ideal solution for bedrooms or smaller living rooms where quiet operation and precise temperature control are required.</p>
+          
+          <p>The standout feature of the Comfort Pro series is its extended heating range and winterized design. The factory-installed crankcase heater and base pan heater protect the outdoor unit from icing, ensuring stable heating performance even at outdoor temperatures as low as -25°C.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Winterized Design:</strong> Built-in crankcase and base pan heaters for reliable winter operation.</li>
+              <li><strong>Enhanced Energy Efficiency:</strong> Low power consumption during both cooling and heating.</li>
+              <li><strong>Intelligent Wi-Fi Control:</strong> Remote access and programming via smartphone.</li>
+              <li><strong>Optimized for Heating:</strong> Reliable performance even at extreme low temperatures.</li>
+              <li><strong>Cold Plasma Filter:</strong> Neutralizes pathogens and unpleasant odors.</li>
+              <li><strong>I FEEL Function:</strong> Temperature sensing at the remote control's location for maximum comfort.</li>
+              <li><strong>Quiet Mode:</strong> Ensures peaceful rest during nighttime hours.</li>
+          </ul>
+      </div>`,
+    },
+    price: "330.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.0,
+    pics: [
+        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-comfort-pro-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH12ACCXD-K6DNA1D",
+    type: "ac",
+    name: "Gree Comfort Pro 3,5 kW",
+    hu: {
+      fullName: "Gree Comfort Pro inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Comfort Pro inverter 3,5 kW klíma szett ideális megoldás közepes méretű helyiségek hatékony hűtésére és fűtésére. A beépített karterfűtésnek és csepptálca fűtésnek köszönhetően a rendszer extrém hidegben, akár -25°C-os külső hőmérséklet mellett is megbízható főfűtésként szolgálhat. Modern Wi-Fi vezérléssel, Cold Plasma légszűréssel és kiemelkedő energiahatékonysággal gondoskodik a tökéletes otthoni komfortról.",
+      specs: [
+        "A+++",
+        "Wi-Fi",
+        "cold plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+      ],
+      longDesc: `<div class="product-description">
+    <p>A <strong>Gree Comfort Pro inverter 3,5 kW</strong> klíma szett a modern lakások és irodák egyik legnépszerűbb választása. A készülék nem csupán hatékony hűtést kínál a nyári hőségben, hanem teljes értékű fűtési megoldást is nyújt a téli időszakban, köszönhetően a fejlett technológiai felszereltségének.</p>
+    
+    <p>A Comfort Pro modell gyárilag beépített karterfűtéssel és csepptálca fűtéssel rendelkezik, ami megakadályozza a kondenzvíz megfagyását és védi a kompresszort a hidegindítás okozta kopástól. Ez a téliesített kivitel teszi lehetővé a stabil működést akár -25°C-ig, miközben az A++ energiaosztály alacsony üzemeltetési költségeket garantál.</p>
+
+    <h3>Főbb jellemzők:</h3>
+    <ul>
+        <li><strong>Téliesített védelem:</strong> Beépített karterfűtés és csepptálca fűtés a biztonságos téli üzemért.</li>
+        <li><strong>Fűtés -25°C-ig:</strong> Megbízható fűtési teljesítmény extrém alacsony hőmérsékleten is.</li>
+        <li><strong>Wi-Fi modul:</strong> Távoli vezérlés és programozás bárhonnan okostelefon segítségével.</li>
+        <li><strong>Cold Plasma technológia:</strong> Hatékony levegőtisztítás, amely semlegesíti a baktériumokat és polleneket.</li>
+        <li><strong>I FEEL funkció:</strong> Intelligens hőmérséklet-szabályozás a távirányító környezetében.</li>
+        <li><strong>Csendes működés:</strong> Alacsony zajszint, amely nem zavarja a pihenést vagy a munkát.</li>
+        <li><strong>Huzatmentes légterelés:</strong> 3D légáram az egyenletes hőelosztás érdekében.</li>
+    </ul>
+</div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 3.5 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Comfort Pro Inverter 3.5 kW Air Conditioning Set is an ideal solution for the efficient cooling and heating of medium-sized rooms. Thanks to the integrated crankcase heater and base pan heater, the system can serve as a reliable primary heating source even in extreme cold, down to -25°C. With modern Wi-Fi control, Cold Plasma air filtration, and outstanding energy efficiency, it ensures perfect home comfort.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-25°C Heating Operating Range",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Drip tray heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Drip tray heater", value: "Yes" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Comfort Pro Inverter 3.5 kW</strong> air conditioning set is one of the most popular choices for modern homes and offices. The unit offers not only efficient cooling during the summer heat but also provides a full-scale heating solution for the winter season, thanks to its advanced technical features.</p>
+          
+          <p>The Comfort Pro model features a factory-installed crankcase heater and base pan heater, preventing condensate from freezing and protecting the compressor from wear caused by cold starts. This winterized design allows for stable operation down to -25°C, while the A++ energy class guarantees low operating costs.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Winterized Protection:</strong> Built-in crankcase and base pan heaters for secure winter operation.</li>
+              <li><strong>Heating down to -25°C:</strong> Reliable heating performance even at extreme low temperatures.</li>
+              <li><strong>Wi-Fi Module:</strong> Remote control and programming from anywhere via smartphone.</li>
+              <li><strong>Cold Plasma Technology:</strong> Effective air purification that neutralizes bacteria and pollens.</li>
+              <li><strong>I FEEL Function:</strong> Intelligent temperature regulation at the remote control's location.</li>
+              <li><strong>Quiet Operation:</strong> Low noise levels that do not disturb rest or work.</li>
+              <li><strong>Draft-Free Airflow:</strong> 3D airflow function for uniform heat distribution.</li>
+          </ul>
+      </div>`,
+    },
+    price: "350.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    pics: [
+        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

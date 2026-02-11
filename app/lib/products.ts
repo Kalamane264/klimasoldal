@@ -12,7 +12,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -64,7 +64,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -105,7 +105,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -157,7 +157,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -198,7 +198,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -250,7 +250,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -291,7 +291,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -343,7 +343,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -384,7 +384,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -422,7 +422,7 @@ export const products: Product[] = [
     en: {
       fullName: "Syen Muse Next Inverter Air Conditioning Set 2.7 kW",
       typeName: "AC",
-      desc: "Enhanced winter reliability and wider operating range. Equipped with a crankcase heater and a drip tray heater, the Syen Muse Next 2.7 kW inverter split air conditioner offers even greater security during the cold months. The heating operating range down to –25°C makes it an exceptionally good choice for those seeking maximum performance reserves in winter.",
+      desc: "Enhanced winter reliability and wider operating range. Equipped with a crankcase heater and a Base pan heater, the Syen Muse Next 2.7 kW inverter split air conditioner offers even greater security during the cold months. The heating operating range down to –25°C makes it an exceptionally good choice for those seeking maximum performance reserves in winter.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -433,7 +433,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater"
+        "Base pan heater"
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -443,17 +443,17 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-25°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Syen Muse Next SOH09MN-E32DA1A</strong> model combines reliable performance and enhanced winter operational safety with a modern, sleek appearance. Thanks to its inverter technology, it operates energy-efficiently while providing stable comfort all year round.</p>
           
           <h3>Key Features:</h3>
           <ul>
-              <li><strong>Enhanced Winter Readiness:</strong> Equipped with a crankcase heater and a drip tray heater for even greater security in cold weather conditions.</li>
+              <li><strong>Enhanced Winter Readiness:</strong> Equipped with a crankcase heater and a Base pan heater for even greater security in cold weather conditions.</li>
               <li><strong>Wide Operating Range:</strong> Efficient heating operation even at outdoor temperatures as low as -25°C.</li>
               <li><strong>Year-Round Comfort:</strong> Reliable cooling performance in summer and stable heating during transitional and winter periods.</li>
               <li><strong>Quiet and Refined Operation:</strong> An ideal choice for living spaces where quiet operation and aesthetic appearance are equally important.</li>
@@ -483,7 +483,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -521,7 +521,7 @@ export const products: Product[] = [
     en: {
       fullName: "Syen Muse Next Inverter Air Conditioning Set 3.5 kW",
       typeName: "AC",
-      desc: "Enhanced winter security for larger rooms. The Syen Muse Next 3.5 kW inverter split air conditioner, equipped with a crankcase and drip tray heater, provides extra reserves during the cold months. Its heating operating range down to –25°C and higher capacity make it ideal for the year-round climate control of more spacious living areas.",
+      desc: "Enhanced winter security for larger rooms. The Syen Muse Next 3.5 kW inverter split air conditioner, equipped with a crankcase and Base pan heater, provides extra reserves during the cold months. Its heating operating range down to –25°C and higher capacity make it ideal for the year-round climate control of more spacious living areas.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -532,7 +532,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater"
+        "Base pan heater"
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -542,17 +542,17 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-25°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>With its higher capacity and enhanced winter readiness, the <strong>Syen Muse Next SOH12MN-E32DA1D</strong> model is the ideal choice for climate control in spacious living and working areas. Its inverter technology ensures energy-efficient operation while providing stable and consistent comfort all year round.</p>
           
           <h3>Key Features:</h3>
           <ul>
-              <li><strong>Enhanced Winter Reliability:</strong> Equipped with a crankcase heater and a drip tray heater, providing extra protection in cold weather conditions.</li>
+              <li><strong>Enhanced Winter Reliability:</strong> Equipped with a crankcase heater and a Base pan heater, providing extra protection in cold weather conditions.</li>
               <li><strong>Wide Heating Operating Range:</strong> Reliable heating performance even at outdoor temperatures as low as –25°C.</li>
               <li><strong>Higher Capacity for Larger Spaces:</strong> An efficient solution for cooling and heating medium to large-sized rooms.</li>
               <li><strong>Quiet and Refined Operation:</strong> Ensures a pleasant indoor environment without the noise level disturbing daily activities.</li>
@@ -582,7 +582,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -619,7 +619,7 @@ export const products: Product[] = [
     en: {
       fullName: "Syen Muse Next Inverter Air Conditioning Set 5.3 kW",
       typeName: "AC",
-      desc: "Confident performance for larger spaces, with extra winter reserves. The Syen Muse Next 5.3 kW inverter split air conditioner, enhanced with a crankcase heater and a drip tray heater, provides increased operational safety during the cold months. Its heating operating range down to –25°C and higher capacity make it ideal for the year-round climate control of larger living areas and open-plan spaces.",
+      desc: "Confident performance for larger spaces, with extra winter reserves. The Syen Muse Next 5.3 kW inverter split air conditioner, enhanced with a crankcase heater and a Base pan heater, provides increased operational safety during the cold months. Its heating operating range down to –25°C and higher capacity make it ideal for the year-round climate control of larger living areas and open-plan spaces.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -630,7 +630,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater"
+        "Base pan heater"
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -640,17 +640,17 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-25°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>With its high capacity and enhanced winter readiness, the <strong>Syen Muse Next SOH18MN-E32DA1D2</strong> model is an excellent choice for climate control in larger living areas and open spaces. Its inverter technology ensures efficient and energy-saving operation while providing stable comfort all year round.</p>
           
           <h3>Key Features:</h3>
           <ul>
-              <li><strong>Increased Winter Operational Safety:</strong> Equipped with a crankcase heater and a drip tray heater, providing extra reserves in cold weather conditions.</li>
+              <li><strong>Increased Winter Operational Safety:</strong> Equipped with a crankcase heater and a Base pan heater, providing extra reserves in cold weather conditions.</li>
               <li><strong>Wide Heating Operating Range:</strong> Reliable heating performance even at outdoor temperatures as low as –25°C.</li>
               <li><strong>High Capacity for Large Spaces:</strong> An efficient solution for cooling and heating spacious living rooms, dining areas, or open-plan spaces.</li>
               <li><strong>Quiet, Balanced Operation:</strong> Ensures a comfortable indoor environment even during extended periods of operation.</li>
@@ -680,7 +680,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -717,7 +717,7 @@ export const products: Product[] = [
     en: {
       fullName: "Syen Muse Next Inverter Air Conditioning Set 7.1 kW",
       typeName: "AC",
-      desc: "High performance with maximum winter reserves. The Syen Muse Next 7.1 kW inverter split air conditioner, enhanced with a crankcase heater and a drip tray heater, ensures outstanding operational safety during the cold months. Its heating operating range down to -25°C and high capacity make it the ideal choice for the year-round climate control of large-scale, open-plan spaces.",
+      desc: "High performance with maximum winter reserves. The Syen Muse Next 7.1 kW inverter split air conditioner, enhanced with a crankcase heater and a Base pan heater, ensures outstanding operational safety during the cold months. Its heating operating range down to -25°C and high capacity make it the ideal choice for the year-round climate control of large-scale, open-plan spaces.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -728,7 +728,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater"
+        "Base pan heater"
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -738,17 +738,17 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-25°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Syen Muse Next SOH24MN-E32DA1A2</strong> model, with its outstanding performance and enhanced winter readiness, is designed for the climate control of large-scale, open-plan living and working spaces. Inverter technology ensures efficient and economical operation while providing stable and balanced comfort all year round.</p>
           
           <h3>Key Features:</h3>
           <ul>
-              <li><strong>Enhanced Winter Operational Safety:</strong> Equipped with a crankcase heater and a drip tray heater, providing extra protection during prolonged cold weather conditions.</li>
+              <li><strong>Enhanced Winter Operational Safety:</strong> Equipped with a crankcase heater and a Base pan heater, providing extra protection during prolonged cold weather conditions.</li>
               <li><strong>Wide Heating Operating Range:</strong> Reliable heating performance even at outdoor temperatures as low as –25°C.</li>
               <li><strong>Outstanding Performance for Large Spaces:</strong> An efficient solution for cooling and heating large living rooms, open spaces, and high-square-footage areas.</li>
               <li><strong>Stable and Quiet Operation:</strong> Ensures a high level of comfort even during continuous operation, without compromises.</li>
@@ -816,7 +816,7 @@ export const products: Product[] = [
         "Max 2 indoor units",
         "-25°C-os fűtési működési tartomány",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "Intelligent Defrosting"
       ],
       specsExtended: [
@@ -825,10 +825,10 @@ export const products: Product[] = [
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-25°C" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Syen FM Multi inverter 5.3 kW</strong> outdoor unit offers an ideal solution for multi-split systems where the goal is to operate multiple indoor units with a single outdoor unit. Modern inverter technology ensures stable, energy-efficient operation all year round.</p>
@@ -903,7 +903,7 @@ export const products: Product[] = [
         "Max 3 indoor units",
         "-25°C-os fűtési működési tartomány",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "Intelligent Defrosting"
       ],
       specsExtended: [
@@ -912,10 +912,10 @@ export const products: Product[] = [
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-25°C" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Syen FM Multi inverter 7.1 kW</strong> outdoor unit is designed for multi-split systems with higher performance requirements, where the goal is the coordinated operation of multiple indoor units with a single outdoor unit. Advanced inverter technology ensures energy-saving, consistent operation during both cooling and heating.</p>
@@ -952,7 +952,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -1003,7 +1003,7 @@ export const products: Product[] = [
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
@@ -1046,7 +1046,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -1098,7 +1098,7 @@ export const products: Product[] = [
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
@@ -1142,7 +1142,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -1194,7 +1194,7 @@ export const products: Product[] = [
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
@@ -1238,7 +1238,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "I-Feel",
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
@@ -1294,7 +1294,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "-20°C Heating Operating Range",
         "Self-Diagnosis",
         "Auto Mode",
@@ -1310,11 +1310,11 @@ export const products: Product[] = [
         { label: "Heating Operating Range", value: "-20°C" },
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
         { label: "Self-Diagnosis", value: "Yes" },
         { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1353,7 +1353,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "I-Feel",
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
@@ -1408,7 +1408,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "-20°C Heating Operating Range",
         "Self-Diagnosis",
         "Auto Mode",
@@ -1424,11 +1424,11 @@ export const products: Product[] = [
         { label: "Heating Operating Range", value: "-20°C" },
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
         { label: "Self-Diagnosis", value: "Yes" },
         { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1467,7 +1467,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "I-Feel",
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
@@ -1522,7 +1522,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "-20°C Heating Operating Range",
         "Self-Diagnosis",
         "Auto Mode",
@@ -1538,11 +1538,11 @@ export const products: Product[] = [
         { label: "Heating Operating Range", value: "-20°C" },
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
         { label: "Self-Diagnosis", value: "Yes" },
         { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1581,7 +1581,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "I-Feel",
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
@@ -1634,7 +1634,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "-20°C Heating Operating Range",
         "Self-Diagnosis",
         "Auto Mode",
@@ -1650,11 +1650,11 @@ export const products: Product[] = [
         { label: "Heating Operating Range", value: "-20°C" },
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
         { label: "Self-Diagnosis", value: "Yes" },
         { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1691,7 +1691,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "I-Feel",
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
@@ -1744,7 +1744,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "-20°C Heating Operating Range",
         "Self-Diagnosis",
         "Auto Mode",
@@ -1760,11 +1760,11 @@ export const products: Product[] = [
         { label: "Heating Operating Range", value: "-20°C" },
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
         { label: "Self-Diagnosis", value: "Yes" },
         { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1801,7 +1801,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "I-Feel",
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
@@ -1854,7 +1854,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater",
+        "Base pan heater",
         "-20°C Heating Operating Range",
         "Self-Diagnosis",
         "Auto Mode",
@@ -1870,11 +1870,11 @@ export const products: Product[] = [
         { label: "Heating Operating Range", value: "-20°C" },
         { label: "WiFi control", value: "Yes" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
         { label: "Self-Diagnosis", value: "Yes" },
         { label: "Auto Mode", value: "Yes" },
         { label: "Memory Function", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -1911,7 +1911,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -1968,7 +1968,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -2011,7 +2011,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -2068,7 +2068,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -2111,7 +2111,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -2168,7 +2168,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -2211,7 +2211,7 @@ export const products: Product[] = [
       specs: [
         "A++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -2268,7 +2268,7 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
@@ -2311,7 +2311,7 @@ export const products: Product[] = [
       specs: [
         "A+++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -2364,7 +2364,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater"
+        "Base pan heater"
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -2374,10 +2374,10 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A++" },
         { label: "Heating Operating Range", value: "-25°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Comfort Pro Inverter 2.7 kW</strong> air conditioning set is one of the manufacturer's most versatile models, optimized for both cooling and heating. The unit operates with outstanding efficiency, making it an ideal solution for bedrooms or smaller living rooms where quiet operation and precise temperature control are required.</p>
@@ -2396,7 +2396,7 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "330.000 Ft",
+    price: "300.000 Ft",
     powerCooling: 2.7,
     powerHeating: 3.0,
     pics: [
@@ -2419,7 +2419,7 @@ export const products: Product[] = [
       specs: [
         "A+++",
         "Wi-Fi",
-        "cold plasma ionizáló",
+        "Cold Plasma ionizáló",
         "3D légáram",
         "I-Feel",
         "8°C-os temperálás",
@@ -2472,7 +2472,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Drip tray heater"
+        "Base pan heater"
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -2482,10 +2482,10 @@ export const products: Product[] = [
         { label: "Energy class (Heating)", value: "A++" },
         { label: "Heating Operating Range", value: "-25°C" },
         { label: "WiFi control", value: "Yes" },
-        { label: "H-tariff compatible", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
         { label: "Crankcase heater", value: "Yes" },
-        { label: "Drip tray heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Comfort Pro Inverter 3.5 kW</strong> air conditioning set is one of the most popular choices for modern homes and offices. The unit offers not only efficient cooling during the summer heat but also provides a full-scale heating solution for the winter season, thanks to its advanced technical features.</p>
@@ -2504,9 +2504,345 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "350.000 Ft",
+    price: "320.000 Ft",
     powerCooling: 3.5,
     powerHeating: 3.8,
+    pics: [
+        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-comfort-pro-inverter-5-3-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18ACDXF-K6DNA1D",
+    type: "ac",
+    name: "Gree Comfort Pro 5,3 kW",
+    hu: {
+      fullName: "Gree Comfort Pro inverter 5,3 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Comfort Pro inverter 5,3 kW klíma szett nagy teljesítményű megoldást kínál tágas nappalik, irodák vagy üzlethelyiségek hűtésére és fűtésére. A beépített karterfűtés és csepptálca fűtés révén a készülék extrém hidegben, akár -25°C-on is stabil fűtési teljesítményt nyújt. Intelligens Wi-Fi vezérléssel, Cold Plasma szűrővel és 3D légárammal biztosítja a tiszta és egészséges levegőt nagy alapterületen is.",
+      specs: [
+        "A+++",
+        "Wi-Fi",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Comfort Pro inverter 5,3 kW</strong> klíma szett a tökéletes választás nagyobb alapterületű helyiségek klimatizálására, ahol a nagy teljesítmény megbízhatósággal párosul. Ez a modell kifejezetten alkalmas arra, hogy a téli szezonban főfűtésként funkcionáljon, biztosítva az otthon melegét a leghidegebb napokon is.</p>
+          
+          <p>A készülék professzionális téliesített védelemmel van ellátva: a gyári karterfűtés védi a kompresszort, míg a csepptálca fűtés megakadályozza a jégképződést a kültéri egységben. Ez a technológia teszi lehetővé a folyamatos és biztonságos működést akár -25°C-os külső hőmérséklet mellett is, kiváló energiahatékonyság fenntartása mellett.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Nagy teljesítményű fűtés:</strong> Üzembiztos működés akár -25°C-os fagyban is.</li>
+              <li><strong>Téliesített kivitel:</strong> Beépített karter- és csepptálca fűtés a maximális védelemért.</li>
+              <li><strong>Okos Wi-Fi vezérlés:</strong> Bárhonnan irányítható és programozható mobilapplikációval.</li>
+              <li><strong>3D légáram:</strong> Automatikus függőleges és vízszintes légterelés az egyenletes komfortért.</li>
+              <li><strong>Cold Plasma szűrés:</strong> Aktívan tisztítja a levegőt a vírusoktól és szagoktól.</li>
+              <li><strong>I FEEL funkció:</strong> Precíz hőmérséklet-szabályozás a távirányító környezetében.</li>
+              <li><strong>G-AI technológia:</strong> Mesterséges intelligencia alapú energiatakarékos algoritmus.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 5.3 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Comfort Pro Inverter 5.3 kW Air Conditioning Set offers a high-performance solution for cooling and heating spacious living rooms, offices, or commercial areas. With the integrated crankcase heater and base pan heater, the unit provides stable heating performance even in extreme cold, down to -25°C. Featuring intelligent Wi-Fi control, Cold Plasma filtration, and 3D airflow, it ensures clean and healthy air even across large floor areas.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-25°C Heating Operating Range",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Comfort Pro Inverter 5.3 kW</strong> air conditioning set is the perfect choice for climate control in larger spaces where high performance meets reliability. This model is specifically designed to function as a primary heating source during the winter season, ensuring home warmth even on the coldest days.</p>
+          
+          <p>The unit is equipped with professional winterized protection: the factory-installed crankcase heater protects the compressor, while the base pan heater prevents ice buildup in the outdoor unit. This technology enables continuous and safe operation at outdoor temperatures as low as -25°C, while maintaining excellent energy efficiency.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>High-Performance Heating:</strong> Reliable operation even in -25°C frost.</li>
+              <li><strong>Winterized Design:</strong> Built-in crankcase and base pan heaters for maximum protection.</li>
+              <li><strong>Smart Wi-Fi Control:</strong> Can be controlled and programmed from anywhere via mobile app.</li>
+              <li><strong>3D Airflow:</strong> Automatic vertical and horizontal louver movement for uniform comfort.</li>
+              <li><strong>Cold Plasma Filtration:</strong> Actively purifies the air from viruses and odors.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature regulation at the remote control's location.</li>
+              <li><strong>G-AI Technology:</strong> Artificial intelligence-based energy-saving algorithm.</li>
+          </ul>
+      </div>`,
+    },
+    price: "440.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-comfort-pro-inverter-7-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH24ACEXF-K6DNA1A",
+    type: "ac",
+    name: "Gree Comfort Pro 7,1 kW",
+    hu: {
+      fullName: "Gree Comfort Pro inverter 7,1 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Comfort Pro inverter 7,1 kW klíma szett a sorozat legnagyobb teljesítményű tagja, amely ideális választás tágas családi házak, irodák vagy üzlethelyiségek professzionális klimatizálására. A beépített karterfűtés és csepptálca fűtés garantálja a folyamatos és biztonságos fűtést akár -25°C-os extrém hidegben is. Wi-Fi vezérléssel, Cold Plasma szűrőrendszerrel és hatalmas légszállítással biztosítja a tökéletes komfortot és a tiszta levegőt nagy alapterületen.",
+      specs: [
+        "A+++",
+        "Wi-Fi",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Comfort Pro inverter 7,1 kW</strong> klíma szett egy professzionális, nagy teljesítményű berendezés, amelyet kifejezetten tágas terek hatékony hűtésére és fűtésére terveztek. Robusztus kialakítása és kimagasló légszállítása révén alkalmas nagyobb lakóingatlanok, irodák vagy kereskedelmi egységek teljes körű klimatizálására.</p>
+          
+          <p>A modell gyárilag téliesített: a beépített karterfűtés és csepptálca fűtés megvédi a rendszert a fagyveszélytől, így a készülék megbízható főfűtésként is megállja a helyét akár -25°C-os külső hőmérsékletig. Az intelligens inverteres vezérlés pedig gondoskodik róla, hogy a nagy teljesítmény ellenére az energiafelhasználás mindig optimális maradjon.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Maximális teljesítmény:</strong> Ideális nagy alapterületű helyiségek gyors hűtésére és fűtésére.</li>
+              <li><strong>Téliesített védelem:</strong> Karter- és csepptálca fűtés a fagymentes, üzembiztos téli működésért.</li>
+              <li><strong>Fűtés extrém hidegben:</strong> Stabil teljesítmény fenntartása akár -25°C-os környezetben is.</li>
+              <li><strong>Wi-Fi távvezérlés:</strong> Kényelmes irányítás és felügyelet okostelefonon keresztül bárhonnan.</li>
+              <li><strong>Cold Plasma szűrő:</strong> Nagy hatékonyságú levegőtisztítás a baktériumok és vírusok ellen.</li>
+              <li><strong>3D légáram:</strong> Széles körű levegőelosztás a holtterek nélküli komfort érdekében.</li>
+              <li><strong>I FEEL funkció:</strong> Precíz hőmérséklet-érzékelés a távirányító helyzeténél.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 7.1 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Comfort Pro Inverter 7.1 kW Air Conditioning Set is the highest-capacity member of the series, making it an ideal choice for the professional climate control of spacious family homes, offices, or commercial spaces. The integrated crankcase heater and base pan heater guarantee continuous and safe heating even in extreme cold, down to -25°C. With Wi-Fi control, a Cold Plasma filtration system, and high airflow, it ensures perfect comfort and clean air across large floor areas.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "-25°C Heating Operating Range",
+        "7-Speed Fan",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.8 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years, +2 years for the compressor" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Comfort Pro Inverter 7.1 kW</strong> air conditioning set is a professional, high-performance unit specifically designed for the efficient cooling and heating of spacious areas. Thanks to its robust design and outstanding airflow capacity, it is suitable for the comprehensive climate control of larger residential properties, offices, or commercial units.</p>
+          
+          <p>This model is factory-winterized: the built-in crankcase heater and base pan heater protect the system from frost, allowing it to function as a reliable primary heating source down to outdoor temperatures of -25°C. Meanwhile, the intelligent inverter control ensures that despite the high performance, energy consumption remains optimal at all times.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Maximum Performance:</strong> Ideal for rapid cooling and heating of large floor area rooms.</li>
+              <li><strong>Winterized Protection:</strong> Built-in crankcase and base pan heaters for frost-free, reliable winter operation.</li>
+              <li><strong>Heating in Extreme Cold:</strong> Maintains stable performance even in -25°C environments.</li>
+              <li><strong>Wi-Fi Remote Control:</strong> Convenient management and monitoring via smartphone from anywhere.</li>
+              <li><strong>Cold Plasma Filter:</strong> High-efficiency air purification against bacteria and viruses.</li>
+              <li><strong>3D Airflow:</strong> Wide-angle air distribution for comfort without dead zones.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature sensing at the remote control's location.</li>
+          </ul>
+      </div>`,
+    },
+    price: "540.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 7.8,
+    pics: [
+        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-cosmo-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09AWCXB-K6DNA4G",
+    type: "ac",
+    name: "Gree Cosmo 2,7 kW",
+    hu: {
+      fullName: "Gree Cosmo inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Cosmo inverter 2,7 kW klíma szett a legmodernebb technológiát ötvözi az elegáns, minimalista megjelenéssel. Kiváló választás kisebb szobákba vagy hálószobákba, ahol a csendes működés és a tiszta levegő alapkövetelmény. A beépített karterfűtés és csepptálca fűtés révén -25°C-ig üzembiztos fűtést nyújt, a beépített UV-szűrő pedig gondoskodik a kórokozómentes környezetről.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilizálás",
+        "Cold Plasma ionizáló",
+        "G-AI mesterséges intelligencia",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "UV-C sterilizálás", value: "Igen" },
+        { label: "G-AI mesterséges intelligencia", value: "Igen" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Légszűrés", value: "Cold Plasma + UV-C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Cosmo inverter 2,7 kW</strong> klíma szett a gyártó legújabb fejlesztése, amely a stílust és a hatékonyságot helyezi előtérbe. Ez a modell nem csupán egy esztétikus kiegészítője otthonának, hanem egy nagy teljesítményű hőszivattyús berendezés, amely az év minden napján garantálja az ideális hőmérsékletet.</p>
+          
+          <p>A Cosmo széria kifejezetten téliesített: a gyári karterfűtés és csepptálca fűtés megvédi a kültéri egységet a jegesedéstől, így akár -25°C-os külső hőmérséklet mellett is megbízhatóan fűt. A készülék különlegessége a fejlett légszűrő rendszer, amely a Cold Plasma technológia mellett UV-C fertőtlenítéssel is rendelkezik a maximális higiénia érdekében.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Téliesített kivitel:</strong> Beépített karter- és csepptálca fűtés a biztonságos fűtésért.</li>
+              <li><strong>UV-C sterilizálás:</strong> Aktív fertőtlenítés a baktériumok és vírusok ellen.</li>
+              <li><strong>G-AI technológia:</strong> Mesterséges intelligenciával támogatott energiatakarékos működés.</li>
+              <li><strong>Wi-Fi vezérlés:</strong> Távoli irányítás bárhonnan a Gree+ alkalmazással.</li>
+              <li><strong>Extra csendes üzem:</strong> Ideális választás hálószobákba vagy gyerekszobákba.</li>
+              <li><strong>I FEEL funkció:</strong> Komfortérzet-alapú hőmérséklet-szabályozás a távirányítóval.</li>
+              <li><strong>Fűtés -25°C-ig:</strong> Magas hatásfokú fűtési teljesítmény extrém hidegben is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 2.7 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Cosmo Inverter 2.7 kW Air Conditioning Set combines cutting-edge technology with an elegant, minimalist design. It is an excellent choice for smaller rooms or bedrooms where quiet operation and clean air are essential requirements. With integrated crankcase and base pan heaters, it provides reliable heating down to -25°C, while the built-in UV filter ensures a pathogen-free environment.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilization",
+        "Cold Plasma ionizer",
+        "G-AI artificial intelligence",
+        "3D airflow",
+        "I-Feel",
+        "8°C heating / Tempering",
+        "-25°C heating operating range",
+        "7-speed fan (Extra quiet)",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating operating range", value: "-25°C" },
+        { label: "UV-C sterilization", value: "Yes" },
+        { label: "G-AI artificial intelligence", value: "Yes" },
+        { label: "Wi-Fi control", value: "Yes (Gree+)" },
+        { label: "Air filtration", value: "Cold Plasma + UV-C" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Cosmo Inverter 2.7 kW</strong> air conditioning set is the manufacturer's latest development, focusing on style and efficiency. This model is not just an aesthetic addition to your home but a high-performance heat pump system that guarantees the ideal temperature every day of the year.</p>
+          
+          <p>The Cosmo series is specifically winterized: the factory-installed crankcase and base pan heaters protect the outdoor unit from icing, ensuring reliable heating even at outdoor temperatures as low as -25°C. A standout feature is the advanced air filtration system, which includes UV-C sterilization alongside Cold Plasma technology for maximum hygiene.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Winterized Design:</strong> Built-in crankcase and base pan heaters for secure heating performance.</li>
+              <li><strong>UV-C Sterilization:</strong> Active disinfection against bacteria and viruses.</li>
+              <li><strong>G-AI Technology:</strong> Energy-saving operation supported by artificial intelligence.</li>
+              <li><strong>Wi-Fi Control:</strong> Remote management from anywhere via the Gree+ app.</li>
+              <li><strong>Extra Quiet Operation:</strong> Ideal choice for bedrooms or children's rooms.</li>
+              <li><strong>I FEEL Function:</strong> Comfort-based temperature regulation via the remote control.</li>
+              <li><strong>Heating down to -25°C:</strong> High-efficiency heating performance even in extreme cold.</li>
+          </ul>
+      </div>`,
+    },
+    price: "330.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.0,
     pics: [
         { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
         { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },

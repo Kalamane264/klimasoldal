@@ -12,7 +12,7 @@ import {
 } from "@/app/ui/select";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/app/ui/card";
 import { useLanguage } from "@/app/lib/i18n";
-import { Filter, Tag, Maximize, Zap, RotateCcw } from "lucide-react";
+import { Filter, RotateCcw } from "lucide-react";
 import { Button } from "@/app/ui/button";
 import { useState } from "react";
 

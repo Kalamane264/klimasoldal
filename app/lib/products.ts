@@ -2844,10 +2844,495 @@ export const products: Product[] = [
     powerCooling: 2.7,
     powerHeating: 3.0,
     pics: [
-        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
-        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-cosmo-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH12AWCXD-K6DNA4D",
+    type: "ac",
+    name: "Gree Cosmo 3,5 kW",
+    hu: {
+      fullName: "Gree Cosmo inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Cosmo inverter 3,5 kW klíma szett a stílus és az intelligens technológia ötvözete közepes méretű helyiségekbe. A beépített UV-C sterilizálóval és G-AI technológiával felszerelt készülék nemcsak hűt, hanem aktívan tisztítja is a levegőt. A karter- és csepptálca fűtésnek köszönhetően -25°C-ig megbízható fűtést garantál, miközben rendkívül csendes működésével maximális komfortot biztosít.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilizálás",
+        "Cold Plasma ionizáló",
+        "G-AI mesterséges intelligencia",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "UV-C sterilizálás", value: "Igen" },
+        { label: "G-AI mesterséges intelligencia", value: "Igen" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Légszűrés", value: "Cold Plasma + UV-C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Cosmo inverter 3,5 kW</strong> klíma szett a modern otthonok ideális megoldása, ahol az esztétikum és a legújabb technológiai vívmányok találkoznak. A modell a G-AI technológiát alkalmazza, amely mesterséges intelligencia segítségével tanulja meg a felhasználói szokásokat, így optimalizálva a teljesítményt és az energiamegtakarítást.</p>
+          
+          <p>A biztonságos téli üzemről a gyárilag beépített karterfűtés és csepptálca fűtés gondoskodik, amely megvédi a rendszert a fagyveszélytől akár -25°C-os külső hőmérséklet mellett is. Az egészséges környezetet a beépített UV-C sterilizáló lámpa és a Cold Plasma ionizátor együttesen garantálja, hatékonyan semlegesítve a vírusokat és baktériumokat.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>UV-C Sterilizálás:</strong> Beépített ultraibolya fény a levegő aktív fertőtlenítéséhez.</li>
+              <li><strong>G-AI technológia:</strong> AI alapú öntanuló algoritmus a hatékonyabb működésért.</li>
+              <li><strong>Téliesített kültéri egység:</strong> Beépített karter- és csepptálca fűtés a fagymentes üzemért.</li>
+              <li><strong>Fűtés -25°C-ig:</strong> Megbízható fűtési teljesítmény extrém hidegben is.</li>
+              <li><strong>Extra csendes működés:</strong> Zavartalan pihenést biztosító alacsony zajszint.</li>
+              <li><strong>Gree+ Wi-Fi:</strong> Okostelefonos vezérlés bárhonnan, bármikor.</li>
+              <li><strong>I FEEL funkció:</strong> Precíz hőmérséklet-tartás a távirányító környezetében.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 3.5 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Cosmo Inverter 3.5 kW Air Conditioning Set is a blend of style and intelligent technology for medium-sized rooms. Equipped with UV-C sterilization and G-AI technology, this unit not only cools but actively purifies the air. Thanks to the crankcase and base pan heaters, it guarantees reliable heating down to -25°C, while providing maximum comfort with its ultra-quiet operation.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilization",
+        "Cold Plasma ionizer",
+        "G-AI artificial intelligence",
+        "3D airflow",
+        "I-Feel",
+        "8°C heating / Tempering",
+        "-25°C heating operating range",
+        "7-speed fan (Extra quiet)",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating operating range", value: "-25°C" },
+        { label: "UV-C sterilization", value: "Yes" },
+        { label: "G-AI artificial intelligence", value: "Yes" },
+        { label: "Wi-Fi control", value: "Yes (Gree+)" },
+        { label: "Air filtration", value: "Cold Plasma + UV-C" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Cosmo Inverter 3.5 kW</strong> air conditioning set is the ideal solution for modern homes where aesthetics and the latest technological advancements meet. This model utilizes G-AI technology, which uses artificial intelligence to learn user habits, thereby optimizing performance and energy savings.</p>
+          
+          <p>Secure winter operation is ensured by factory-installed crankcase and base pan heaters, protecting the system from frost hazards even at outdoor temperatures as low as -25°C. A healthy environment is guaranteed by the integrated UV-C sterilization lamp and Cold Plasma ionizer, effectively neutralizing viruses and bacteria.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>UV-C Sterilization:</strong> Built-in ultraviolet light for active air disinfection.</li>
+              <li><strong>G-AI Technology:</strong> AI-based self-learning algorithm for more efficient operation.</li>
+              <li><strong>Winterized Outdoor Unit:</strong> Built-in crankcase and base pan heaters for frost-free operation.</li>
+              <li><strong>Heating to -25°C:</strong> Reliable heating performance even in extreme cold.</li>
+              <li><strong>Extra Quiet Operation:</strong> Low noise levels ensuring undisturbed rest.</li>
+              <li><strong>Gree+ Wi-Fi:</strong> Smartphone control from anywhere, at any time.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature maintenance at the remote control's location.</li>
+          </ul>
+      </div>`,
+    },
+    price: "350.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    pics: [
+        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-cosmo-inverter-5-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18AWDXE-K6DNA4A",
+    type: "ac",
+    name: "Gree Cosmo 5,1 kW",
+    hu: {
+      fullName: "Gree Cosmo inverter 5,1 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Cosmo inverter 5,1 kW klíma szett nagy teljesítményű és intelligens megoldás tágasabb helyiségek hűtésére és fűtésére. A beépített UV-C sterilizáló és a G-AI technológia révén kiemelkedő higiéniát és energiatakarékos működést biztosít. A gyári karter- és csepptálca fűtés garantálja a fagymentes üzemet és a stabil fűtési teljesítményt akár -25°C-os extrém hidegben is.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilizálás",
+        "Cold Plasma ionizáló",
+        "G-AI mesterséges intelligencia",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,1 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "UV-C sterilizálás", value: "Igen" },
+        { label: "G-AI mesterséges intelligencia", value: "Igen" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Légszűrés", value: "Cold Plasma + UV-C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Cosmo inverter 5,1 kW</strong> klíma szett a tökéletes választás nagyobb alapterületű helyiségekbe, ahol a modern design és a nagy teljesítmény alapkövetelmény. A készülék lelke a G-AI mesterséges intelligencia, amely folyamatosan tanulja a helyiség hőtechnikai jellemzőit, így a lehető legkevesebb energiafelhasználással biztosítja a kívánt komfortot.</p>
+          
+          <p>A modell professzionális téliesített védelemmel rendelkezik: a beépített karterfűtés és csepptálca fűtés megvédi a kültéri egységet a jegesedéstől, lehetővé téve a hatékony fűtést akár -25°C-on is. A beltéri levegő tisztaságáért a Cold Plasma ionizátor és a beépített UV-C lámpa felel, amely aktívan semlegesíti a levegőben lévő kórokozókat.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>UV-C Sterilizálás:</strong> Beépített ultraibolya fény a vírusmentes, tiszta levegőért.</li>
+              <li><strong>G-AI technológia:</strong> Intelligens algoritmus az optimális energiahatékonyságért.</li>
+              <li><strong>Nagy teljesítményű fűtés:</strong> Üzembiztos működés extrém hidegben, akár -25°C-ig.</li>
+              <li><strong>Téliesített kültéri egység:</strong> Gyári karter- és csepptálca fűtés a megbízható téli üzemért.</li>
+              <li><strong>Smart Wi-Fi:</strong> Távoli vezérlés okostelefonról a Gree+ alkalmazáson keresztül.</li>
+              <li><strong>3D légáram:</strong> Egyenletes hőelosztás a nagyobb helyiségek minden pontján.</li>
+              <li><strong>I FEEL funkció:</strong> Pontos hőmérséklet-szabályozás a távirányító környezetében.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 5.1 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Cosmo Inverter 5.1 kW Air Conditioning Set is a high-performance, intelligent solution for cooling and heating larger spaces. Equipped with UV-C sterilization and G-AI technology, it ensures outstanding hygiene and energy-efficient operation. The factory-installed crankcase and base pan heaters guarantee frost-free operation and stable heating performance even in extreme cold down to -25°C.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilization",
+        "Cold Plasma ionizer",
+        "G-AI artificial intelligence",
+        "3D airflow",
+        "I-Feel",
+        "8°C heating / Tempering",
+        "-25°C heating operating range",
+        "7-speed fan (Extra quiet)",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.1 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating operating range", value: "-25°C" },
+        { label: "UV-C sterilization", value: "Yes" },
+        { label: "G-AI artificial intelligence", value: "Yes" },
+        { label: "Wi-Fi control", value: "Yes (Gree+)" },
+        { label: "Air filtration", value: "Cold Plasma + UV-C" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Cosmo Inverter 5.1 kW</strong> air conditioning set is the perfect choice for larger floor areas where modern design and high performance are essential. At its core is G-AI artificial intelligence, which continuously learns the thermal characteristics of the room, ensuring the desired comfort with minimum energy consumption.</p>
+          
+          <p>The model features professional winterized protection: built-in crankcase and base pan heaters protect the outdoor unit from icing, enabling efficient heating even at -25°C. Indoor air purity is ensured by the Cold Plasma ionizer and the integrated UV-C lamp, which actively neutralizes airborne pathogens.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>UV-C Sterilization:</strong> Integrated ultraviolet light for virus-free, clean air.</li>
+              <li><strong>G-AI Technology:</strong> Intelligent algorithm for optimal energy efficiency.</li>
+              <li><strong>High-Performance Heating:</strong> Reliable operation in extreme cold, down to -25°C.</li>
+              <li><strong>Winterized Outdoor Unit:</strong> Factory-installed crankcase and base pan heaters for secure winter use.</li>
+              <li><strong>Smart Wi-Fi:</strong> Remote control via smartphone through the Gree+ app.</li>
+              <li><strong>3D Airflow:</strong> Uniform heat distribution in every corner of larger rooms.</li>
+              <li><strong>I FEEL Function:</strong> Precise temperature regulation at the remote control's location.</li>
+          </ul>
+      </div>`,
+    },
+    price: "450.000 Ft",
+    powerCooling: 5.1,
+    powerHeating: 5.6,
+    pics: [
+        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-cosmo-inverter-7-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH24AWEXF-K6DNA4A",
+    type: "ac",
+    name: "Gree Cosmo 7,1 kW",
+    hu: {
+      fullName: "Gree Cosmo inverter 7,1 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Cosmo inverter 7,1 kW klíma szett a Cosmo család legnagyobb és legerősebb tagja, amely professzionális teljesítményt nyújt nagy alapterületű helyiségekben. A beépített UV-C sterilizáló és G-AI technológia garantálja a maximális higiéniát és az intelligens energiafelhasználást. A gyári karter- és csepptálca fűtéssel felszerelt készülék extrém körülmények között, akár -25°C-os fagyban is stabil fűtési megoldást kínál.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilizálás",
+        "Cold Plasma ionizáló",
+        "G-AI mesterséges intelligencia",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "UV-C sterilizálás", value: "Igen" },
+        { label: "G-AI mesterséges intelligencia", value: "Igen" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Légszűrés", value: "Cold Plasma + UV-C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Cosmo inverter 7,1 kW</strong> klíma szett a <strong>sorozat legnagyobb és legnagyobb teljesítményű modellje</strong>, amelyet kifejezetten tágas terek, nagy belmagasságú helyiségek és üzleti környezetek klimatizálására terveztek. A beépített G-AI technológia révén a készülék öntanuló módon optimalizálja a működését, így a tekintélyes teljesítmény ellenére is költséghatékony marad.</p>
+          
+          <p>A professzionális téliesített védelem – a karter- és csepptálca fűtés – alapfelszereltség, így ez a nagykapacitású berendezés akár -25°C-os külső hőmérséklet mellett is megbízható főfűtésként szolgálhat. A levegő tisztaságát a Cold Plasma ionizátor és az UV-C fertőtlenítő lámpa kettőse garantálja, amely még nagy légtérben is hatékonyan semlegesíti a kórokozókat.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>A család legnagyobb tagja:</strong> Maximális hűtési és fűtési kapacitás nagy terekhez.</li>
+              <li><strong>UV-C Sterilizálás:</strong> Aktív vírus- és baktériummentesítés a beltéri egységben.</li>
+              <li><strong>G-AI technológia:</strong> Mesterséges intelligencia az optimális energiahatékonyságért.</li>
+              <li><strong>Maximális fűtési teljesítmény:</strong> Stabil üzemelés akár -25°C-os extrém hidegben is.</li>
+              <li><strong>Téliesített kültéri egység:</strong> Beépített karter- és csepptálca fűtés a fagyvédelemért.</li>
+              <li><strong>Extra nagy légszállítás:</strong> Hatékony légáramoltatás a tágas helyiségek minden szegletébe.</li>
+              <li><strong>Gree+ Wi-Fi:</strong> Távoli elérés és intelligens vezérlés okostelefonon keresztül.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 7.1 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Cosmo Inverter 7.1 kW Air Conditioning Set is the largest and most powerful member of the Cosmo family, delivering professional performance for large floor areas. Its built-in UV-C sterilization and G-AI technology guarantee maximum hygiene and intelligent energy management. Equipped with factory-installed crankcase and base pan heaters, it provides a stable heating solution even in extreme conditions down to -25°C.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilization",
+        "Cold Plasma ionizer",
+        "G-AI artificial intelligence",
+        "3D airflow",
+        "I-Feel",
+        "8°C heating / Tempering",
+        "-25°C heating operating range",
+        "7-speed fan (Extra quiet)",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.8 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating operating range", value: "-25°C" },
+        { label: "UV-C sterilization", value: "Yes" },
+        { label: "G-AI artificial intelligence", value: "Yes" },
+        { label: "Wi-Fi control", value: "Yes (Gree+)" },
+        { label: "Air filtration", value: "Cold Plasma + UV-C" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Cosmo Inverter 7.1 kW</strong> air conditioning set is the <strong>largest and most powerful model in the series</strong>, specifically designed for the climate control of spacious areas, high-ceiling rooms, and commercial environments. Through built-in G-AI technology, the unit self-optimizes its operation, ensuring cost-effective use despite its impressive performance capacity.</p>
+          
+          <p>Professional winterized protection – including crankcase and base pan heaters – comes as standard, allowing this high-capacity unit to serve as a reliable primary heating source down to outdoor temperatures of -25°C. Air purity is guaranteed by the duo of the Cold Plasma ionizer and the UV-C sterilization lamp, which effectively neutralizes pathogens even in large-volume spaces.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>The largest member of the family:</strong> Maximum cooling and heating capacity for large spaces.</li>
+              <li><strong>UV-C Sterilization:</strong> Active virus and bacteria neutralization inside the indoor unit.</li>
+              <li><strong>G-AI Technology:</strong> Artificial intelligence for optimal energy efficiency.</li>
+              <li><strong>Maximum Heating Performance:</strong> Stable operation even in extreme -25°C cold.</li>
+              <li><strong>Winterized Outdoor Unit:</strong> Built-in crankcase and base pan heaters for frost protection.</li>
+              <li><strong>Extra High Airflow:</strong> Efficient air circulation to every corner of spacious rooms.</li>
+              <li><strong>Gree+ Wi-Fi:</strong> Remote access and smart control via smartphone.</li>
+          </ul>
+      </div>`,
+    },
+    price: "560.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 7.8,
+    pics: [
+        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-dark-pro-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09AWCXB-K6DNA4G",
+    type: "ac",
+    name: "Gree Dark Pro 2,7 kW",
+    hu: {
+      fullName: "Gree Dark Pro inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Gree Cosmo inverter 2,7 kW klíma szett a legmodernebb technológiát ötvözi az elegáns, minimalista megjelenéssel. Kiváló választás kisebb szobákba vagy hálószobákba, ahol a csendes működés és a tiszta levegő alapkövetelmény. A beépített karterfűtés és csepptálca fűtés révén -25°C-ig üzembiztos fűtést nyújt, a beépített UV-szűrő pedig gondoskodik a kórokozómentes környezetről.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilizálás",
+        "Cold Plasma ionizáló",
+        "G-AI mesterséges intelligencia",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "UV-C sterilizálás", value: "Igen" },
+        { label: "G-AI mesterséges intelligencia", value: "Igen" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Légszűrés", value: "Cold Plasma + UV-C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Cosmo inverter 2,7 kW</strong> klíma szett a gyártó legújabb fejlesztése, amely a stílust és a hatékonyságot helyezi előtérbe. Ez a modell nem csupán egy esztétikus kiegészítője otthonának, hanem egy nagy teljesítményű hőszivattyús berendezés, amely az év minden napján garantálja az ideális hőmérsékletet.</p>
+          
+          <p>A Cosmo széria kifejezetten téliesített: a gyári karterfűtés és csepptálca fűtés megvédi a kültéri egységet a jegesedéstől, így akár -25°C-os külső hőmérséklet mellett is megbízhatóan fűt. A készülék különlegessége a fejlett légszűrő rendszer, amely a Cold Plasma technológia mellett UV-C fertőtlenítéssel is rendelkezik a maximális higiénia érdekében.</p>
+
+          <h3>Főbb jellemzők:</h3>
+          <ul>
+              <li><strong>Téliesített kivitel:</strong> Beépített karter- és csepptálca fűtés a biztonságos fűtésért.</li>
+              <li><strong>UV-C sterilizálás:</strong> Aktív fertőtlenítés a baktériumok és vírusok ellen.</li>
+              <li><strong>G-AI technológia:</strong> Mesterséges intelligenciával támogatott energiatakarékos működés.</li>
+              <li><strong>Wi-Fi vezérlés:</strong> Távoli irányítás bárhonnan a Gree+ alkalmazással.</li>
+              <li><strong>Extra csendes üzem:</strong> Ideális választás hálószobákba vagy gyerekszobákba.</li>
+              <li><strong>I FEEL funkció:</strong> Komfortérzet-alapú hőmérséklet-szabályozás a távirányítóval.</li>
+              <li><strong>Fűtés -25°C-ig:</strong> Magas hatásfokú fűtési teljesítmény extrém hidegben is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Comfort Pro Inverter 2.7 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The Gree Cosmo Inverter 2.7 kW Air Conditioning Set combines cutting-edge technology with an elegant, minimalist design. It is an excellent choice for smaller rooms or bedrooms where quiet operation and clean air are essential requirements. With integrated crankcase and base pan heaters, it provides reliable heating down to -25°C, while the built-in UV filter ensures a pathogen-free environment.",
+      specs: [
+        "A+++",
+        "Wi-Fi (Gree+)",
+        "UV-C sterilization",
+        "Cold Plasma ionizer",
+        "G-AI artificial intelligence",
+        "3D airflow",
+        "I-Feel",
+        "8°C heating / Tempering",
+        "-25°C heating operating range",
+        "7-speed fan (Extra quiet)",
+        "Crankcase heater",
+        "Base pan heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A++" },
+        { label: "Energy class (Heating)", value: "A+" },
+        { label: "Heating operating range", value: "-25°C" },
+        { label: "UV-C sterilization", value: "Yes" },
+        { label: "G-AI artificial intelligence", value: "Yes" },
+        { label: "Wi-Fi control", value: "Yes (Gree+)" },
+        { label: "Air filtration", value: "Cold Plasma + UV-C" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase heater", value: "Yes" },
+        { label: "Base pan heater", value: "Yes" },
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Cosmo Inverter 2.7 kW</strong> air conditioning set is the manufacturer's latest development, focusing on style and efficiency. This model is not just an aesthetic addition to your home but a high-performance heat pump system that guarantees the ideal temperature every day of the year.</p>
+          
+          <p>The Cosmo series is specifically winterized: the factory-installed crankcase and base pan heaters protect the outdoor unit from icing, ensuring reliable heating even at outdoor temperatures as low as -25°C. A standout feature is the advanced air filtration system, which includes UV-C sterilization alongside Cold Plasma technology for maximum hygiene.</p>
+
+          <h3>Key Features:</h3>
+          <ul>
+              <li><strong>Winterized Design:</strong> Built-in crankcase and base pan heaters for secure heating performance.</li>
+              <li><strong>UV-C Sterilization:</strong> Active disinfection against bacteria and viruses.</li>
+              <li><strong>G-AI Technology:</strong> Energy-saving operation supported by artificial intelligence.</li>
+              <li><strong>Wi-Fi Control:</strong> Remote management from anywhere via the Gree+ app.</li>
+              <li><strong>Extra Quiet Operation:</strong> Ideal choice for bedrooms or children's rooms.</li>
+              <li><strong>I FEEL Function:</strong> Comfort-based temperature regulation via the remote control.</li>
+              <li><strong>Heating down to -25°C:</strong> High-efficiency heating performance even in extreme cold.</li>
+          </ul>
+      </div>`,
+    },
+    price: "330.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.0,
+    pics: [
+        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
     ]
   },
 ];

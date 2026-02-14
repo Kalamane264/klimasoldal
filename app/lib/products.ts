@@ -3918,7 +3918,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Smart One Inverter 2.7 kW Air Conditioning Set",
+      fullName: "Gree Airy Inverter 2.7 kW Air Conditioning Set",
       typeName: "AC",
       desc: "The pinnacle of technology and aesthetics. The Gree Airy 2.7 kW model provides ultimate comfort with smart humidity control, Gree-AI technology, and UV-C sterilization. With A+++ cooling and A++ heating energy classes, and a guaranteed operating range down to -25°C, it is a stylish, economical, and highly reliable solution for bedrooms or smaller living rooms.",
       specs: [
@@ -4033,7 +4033,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Smart One Inverter 3.5 kW Air Conditioning Set",
+      fullName: "Gree Airy Inverter 3.5 kW Air Conditioning Set",
       typeName: "AC",
       desc: "Premium technology and trendsetting design. The Gree Airy 3.5 kW model creates perfect comfort through artificial intelligence (Gree-AI) and smart humidity control. The UV-C sterilizer and Cold Plasma filter ensure clean air, while the A+++ cooling and A++ heating energy classes, along with the guaranteed operating range down to -25°C, provide the highest level of energy efficiency and reliability.",
       specs: [
@@ -4090,6 +4090,554 @@ export const products: Product[] = [
         { src: "ariy-05.jpg", width: 1000, height: 1000 },
         { src: "ariy-04.jpg", width: 1000, height: 1000 },
         { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-airy-inverter-5-3-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18AVDXE-K6DNA1A",
+    type: "ac",
+    name: "Gree Airy 5,3 kW",
+    hu: {
+      fullName: "Gree Airy inverter 5,3 kW klíma szett",
+      typeName: "Klíma",
+      desc: "Intelligens erő és elegancia nagy teljesítményre tervezve. A Gree Airy 5,3 kW-os modell a mesterséges intelligencia (Gree-AI) és a páratartalom-szabályozás segítségével optimalizálja a tágas terek komfortját. Az UV-C sterilizáló és a Cold Plasma szűrő folyamatosan tisztítja a levegőt, míg a -25°C-ig garantált üzemi tartomány és a professzionális téliesítő szett (különálló karter- és csepptálcafűtés) megbízható megoldást nyújt nagyobb helyiségek fűtésére is.",
+      specs: [
+        "A+++/A++",
+        "Mesterséges intelligencia (Gree-AI)",
+        "Páratartalomra történő szabályozás",
+        "UV-C szűrő",
+        "Wi-Fi (Gree+)",
+        "3D légáram",
+        "Cold Plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Extra csendes kialakítás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Airy 5,3 kW</strong> a prémium klimatizálás erejét hozza el tágas nappalijába vagy irodájába. Ez a modell a kifinomult texturált dizájnt ötvözi a nagy légtömegek precíz kezelésével, így még nagyobb alapterületen is képes fenntartani a tökéletes komfortérzetet.</p>
+          
+          <h3>A Smart Airy 5,3 kW kiemelt képességei:</h3>
+          <ul>
+              <li><strong>AI-vezérelt energiahatékonyság:</strong> A mesterséges intelligencia folyamatosan tanul a helyiség hőtechnikai adottságaiból, így a nagyobb tereket is az elérhető legkisebb fogyasztással tartja hűvösen vagy melegen.</li>
+              <li><strong>Aktív páratartalom-szabályozás:</strong> Az Airy egyedülálló módon képes a levegő páratartalmának intelligens kezelésére, így elkerülhető a fülledt vagy a túlszáraz levegő érzete.</li>
+              <li><strong>UV-C sterilizáló & Cold Plasma:</strong> A nagy légszállítás mellett is hatékony szűrőrendszer elpusztítja a vírusok és baktériumok 99%-át, folyamatosan friss és egészséges környezetet biztosítva.</li>
+              <li><strong>Fűtés -25°C-ig:</strong> A különálló karter- és csepptálcafűtésnek köszönhetően a készülék extrém hidegben is megállja a helyét, mint megbízható főfűtés.</li>
+              <li><strong>3D Légterelés:</strong> A motoros függőleges és vízszintes lamellák biztosítják, hogy a nagy teljesítményű légáram ne legyen zavaró, hanem egyenletesen terüljön el a szobában.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Airy Inverter 5.3 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "Intelligent power and elegance designed for high performance. The Gree Airy 5.3 kW model optimizes the comfort of spacious areas using artificial intelligence (Gree-AI) and humidity control. The UV-C sterilizer and Cold Plasma filter continuously purify the air, while the guaranteed operating range down to -25°C and the professional winter kit (independent crankcase and base pan heaters) provide a reliable solution for heating larger rooms.",
+      specs: [
+        "A+++/A++",
+        "Artificial Intelligence (Gree-AI)",
+        "Humidity Control",
+        "UV-C Filter",
+        "Wi-Fi (Gree+)",
+        "3D Airflow",
+        "Cold Plasma Ionizer",
+        "I-Feel",
+        "8°C Heating",
+        "Extra Quiet Design",
+        "-25°C Heating Operating Range",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Smart Control", value: "Gree-AI + Humidity Control" },
+        { label: "Air Purification", value: "UV-C Filter + Cold Plasma" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "Noise Level", value: "Extra quiet (from 19 dB)" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Airy 5.3 kW</strong> brings the power of premium air conditioning to your spacious living room or office. This model combines sophisticated textured design with precise handling of high air volumes, maintaining perfect comfort even across larger floor areas.</p>
+          
+          <h3>Key features of the Airy 5.3 kW:</h3>
+          <ul>
+              <li><strong>AI-Driven Energy Efficiency:</strong> Artificial intelligence continuously learns from the room's thermal characteristics, keeping larger spaces cool or warm with the lowest possible energy consumption.</li>
+              <li><strong>Active Humidity Control:</strong> The Airy uniquely manages air humidity levels intelligently, preventing the feeling of stuffy or overly dry air.</li>
+              <li><strong>UV-C Sterilization & Cold Plasma:</strong> The filtration system, effective even at high airflows, neutralizes 99% of viruses and bacteria, ensuring a consistently fresh and healthy environment.</li>
+              <li><strong>Heating down to -25°C:</strong> Thanks to the independent crankcase and base pan heaters, the unit excels as a reliable primary heating source even in extreme cold.</li>
+              <li><strong>3D Airflow:</strong> Motorized vertical and horizontal louvers ensure that the powerful airflow is never intrusive but distributes evenly throughout the room.</li>
+          </ul>
+      </div>`,
+    },
+    price: "540.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "ariy-02.jpg", width: 1000, height: 1000 },
+        { src: "ariy-03.jpg", width: 1000, height: 1000 },
+        { src: "ariy-05.jpg", width: 1000, height: 1000 },
+        { src: "ariy-04.jpg", width: 1000, height: 1000 },
+        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-airy-inverter-7-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH24AVEXF-K6DNA1A",
+    type: "ac",
+    name: "Gree Airy 7,1 kW",
+    hu: {
+      fullName: "Gree Airy inverter 7,1 kW klíma szett",
+      typeName: "Klíma",
+      desc: "Maximális teljesítmény és intelligens komfort a legnagyobb terekbe. A Gree Airy 7,1 kW-os modellje a sorozat csúcsteljesítményét ötvözi a mesterséges intelligenciával (Gree-AI) és a páratartalom-szabályozással. Az UV-C sterilizáló és a Cold Plasma szűrő garantálja a tiszta levegőt nagy légtömeg mellett is, míg a professzionális téliesítő szett révén -25°C-ban is magabiztos főfűtésként szolgál tágas otthonokban vagy irodákban.",
+      specs: [
+        "A+++/A++",
+        "Mesterséges intelligencia (Gree-AI)",
+        "Páratartalomra történő szabályozás",
+        "UV-C szűrő",
+        "Wi-Fi (Gree+)",
+        "3D légáram",
+        "Cold Plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Extra csendes kialakítás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Airy 7,1 kW</strong> a megoldás, ahol a kiemelkedő stílusnak hatalmas erővel kell párosulnia. Ezt a modellt kifejezetten tágas nappalikhoz, egybefüggő amerikai konyhás terekhez vagy irodákhoz tervezték, ahol a nagy légtömeg gyors hűtése és fűtése mellett elvárás az intelligens vezérlés és az elegáns megjelenés is.</p>
+          
+          <h3>A legnagyobb Airy modell kiemelt funkciói:</h3>
+          <ul>
+              <li><strong>Gree-AI Nagy Terekhez:</strong> A mesterséges intelligencia figyeli a helyiség hőtehetetlenségét, így a legnagyobb tereket is felesleges energiapazarlás nélkül, precízen tartja a kívánt hőfokon.</li>
+              <li><strong>Intelligens Párátlanítás:</strong> Egyedülálló módon nemcsak a hőmérsékletet, hanem a szoba páratartalmát is kezeli, így elkerülhető a nagy terekre jellemző fülledt érzet.</li>
+              <li><strong>UV-C Sterilizálás:</strong> A beépített UV-szűrő a nagy sebességgel áramló levegőt is fertőtleníti, elpusztítva a vírusok és baktériumok 99%-át.</li>
+              <li><strong>Profi Fűtés -25°C-ig:</strong> A különálló karter- és csepptálcafűtés, valamint a robusztus felépítés révén a készülék extrém hidegben is teljes értékű főfűtésként üzemel.</li>
+              <li><strong>3D Légterelés:</strong> A motorosan mozgatható lamellák gondoskodnak arról, hogy a nagy teljesítményű légáram egyenletesen oszoljon el, elkerülve a kellemetlen huzatot.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Airy Inverter 7.1 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "Maximum performance and intelligent comfort for the largest spaces. The Gree Airy 7.1 kW model combines peak series performance with artificial intelligence (Gree-AI) and humidity control. The UV-C sterilizer and Cold Plasma filter guarantee clean air even with high air volumes, while the professional winter kit ensures reliable primary heating down to -25°C in spacious homes or offices.",
+      specs: [
+        "A+++/A++",
+        "Artificial Intelligence (Gree-AI)",
+        "Humidity Control",
+        "UV-C Filter",
+        "Wi-Fi (Gree+)",
+        "3D Airflow",
+        "Cold Plasma Ionizer",
+        "I-Feel",
+        "8°C Heating",
+        "Extra Quiet Design",
+        "-25°C Heating Operating Range",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.8 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Smart Control", value: "Gree-AI + Humidity Control" },
+        { label: "Air Purification", value: "UV-C Filter + Cold Plasma" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "Noise Level", value: "Extra quiet (from 19 dB)" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Airy 7.1 kW</strong> is the solution where outstanding style must meet immense power. This model is specifically designed for spacious living rooms, open-plan areas, or offices where high-capacity cooling and heating are required alongside intelligent control and elegant design.</p>
+          
+          <h3>Key features of the largest Airy model:</h3>
+          <ul>
+              <li><strong>Gree-AI for Large Spaces:</strong> The artificial intelligence monitors the room's thermal inertia, maintaining the desired temperature precisely without unnecessary energy waste, even in the largest areas.</li>
+              <li><strong>Smart Humidity Control:</strong> Uniquely manages both temperature and humidity, preventing the stuffy feeling common in large indoor spaces.</li>
+              <li><strong>UV-C Sterilization:</strong> The built-in UV filter sanitizes even high-velocity airflow, neutralizing 99% of viruses and bacteria.</li>
+              <li><strong>Professional Heating down to -25°C:</strong> Featuring independent crankcase and base pan heaters, the unit serves as a full primary heating solution even in extreme cold.</li>
+              <li><strong>3D Airflow:</strong> Motorized louvers ensure that the high-capacity airflow is distributed evenly, avoiding uncomfortable direct drafts.</li>
+          </ul>
+      </div>`,
+    },
+    price: "590.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 7.8,
+    pics: [
+        { src: "ariy-02.jpg", width: 1000, height: 1000 },
+        { src: "ariy-03.jpg", width: 1000, height: 1000 },
+        { src: "ariy-05.jpg", width: 1000, height: 1000 },
+        { src: "ariy-04.jpg", width: 1000, height: 1000 },
+        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-amber-royal-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09YD-S6DBA1A",
+    type: "ac",
+    name: "Gree Amber Royal 2,7 kW",
+    hu: {
+      fullName: "Gree Amber Royal inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A fűtésre optimalizált klímák bajnoka. A Gree Amber Royal 2,7 kW-os modell a speciális kétfokozatú (Dual Stage) kompresszornak köszönhetően extrém hidegben, akár -30°C-os külső hőmérséklet mellett is megbízható főfűtést biztosít. A+++ energiaosztálya, beépített téliesítő szettje és Cold Plasma szűrője a legmagasabb műszaki színvonalat képviseli azok számára, akiknek a biztonságos téli üzem az elsődleges szempont.",
+      specs: [
+        "A+++/A+++",
+        "Dual Stage (Kétfokozatú) kompresszor",
+        "Fűtés -30°C-ig",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A+++" },
+        { label: "Kompresszor technológia", value: "Dual Stage (Kétfokozatú)" },
+        { label: "Fűtési működési tartomány", value: "-30°C" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Amber Royal 2,7 kW</strong> a mérnöki precizitás csúcsa, ha fűtésről van szó. Ezt a készüléket nem csupán kiegészítő fűtésre tervezték: a speciális technológiai megoldásai révén a legzordabb északi teleken is magabiztosan állja meg a helyét mint önálló fűtési rendszer.</p>
+          
+          <h3>Miért az Amber Royal a legjobb választás fűtésre?</h3>
+          <ul>
+              <li><strong>Dual Stage Kompresszor:</strong> A kétfokozatú kompresszor technológia lehetővé teszi, hogy a készülék még -30°C-ban is képes legyen hőt kinyerni a külső levegőből, miközben hatékonysága messze felette marad a hagyományos klímákénak.</li>
+              <li><strong>A+++ Energiahatékonyság:</strong> Mind hűtési, mind fűtési üzemmódban a legmagasabb takarékossági kategóriába tartozik, így az üzemeltetése rendkívül gazdaságos.</li>
+              <li><strong>Cold Plasma szűrő:</strong> Aktívan tisztítja a levegőt a baktériumoktól és vírusoktól, ami különösen fontos a zárt ablakok melletti téli időszakban.</li>
+              <li><strong>Beépített Téliesítés:</strong> A gyári karter- és csepptálcafűtés megakadályozza a jégképződést a kültéri egységben, garantálva a folyamatos, zavartalan működést.</li>
+              <li><strong>Intelligens vezérlés:</strong> A 3D légáram és az I-Feel funkció biztosítja, hogy a meleg levegő pontosan ott fejtse ki hatását, ahol Ön tartózkodik, elkerülve a hideg zónák kialakulását.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Amber Royal Inverter 2.7 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The champion of heating-optimized air conditioners. The Gree Amber Royal 2.7 kW model, thanks to its specialized Dual Stage compressor, provides reliable primary heating even in extreme cold, down to -30°C. Its A+++ energy class, built-in winter kit, and Cold Plasma filter represent the highest technical standards for those who prioritize secure winter operation.",
+      specs: [
+        "A+++/A+++",
+        "Dual Stage Compressor",
+        "Heating down to -30°C",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.5 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A+++" },
+        { label: "Compressor Technology", value: "Dual Stage" },
+        { label: "Heating Operating Range", value: "-30°C" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Amber Royal 2.7 kW</strong> is the pinnacle of engineering when it comes to heating. This unit is not just designed for supplemental heating: through its specialized technological solutions, it stands its ground as an independent heating system even during the harshest northern winters.</p>
+          
+          <h3>Why is Amber Royal the best choice for heating?</h3>
+          <ul>
+              <li><strong>Dual Stage Compressor:</strong> The two-stage compressor technology allows the unit to extract heat from the outdoor air even at -30°C, while its efficiency remains far superior to traditional air conditioners.</li>
+              <li><strong>A+++ Energy Efficiency:</strong> It belongs to the highest saving category in both cooling and heating modes, making its operation extremely economical.</li>
+              <li><strong>Cold Plasma Filter:</strong> Actively cleans the air of bacteria and viruses, which is especially important during the winter period when windows remain closed.</li>
+              <li><strong>Built-in Winterization:</strong> Factory-installed crankcase and base pan heaters prevent ice formation in the outdoor unit, guaranteeing continuous, trouble-free operation.</li>
+              <li><strong>Intelligent Control:</strong> 3D airflow and the I-Feel function ensure that warm air takes effect exactly where you are, avoiding the development of cold zones.</li>
+          </ul>
+      </div>`,
+    },
+    price: "460.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.5,
+    pics: [
+        { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-amber-royal-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH12YD-S6DBA1A",
+    type: "ac",
+    name: "Gree Amber Royal 3,5 kW",
+    hu: {
+      fullName: "Gree Amber Royal inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "Extrém fűtési teljesítmény és maximális hatékonyság. A Gree Amber Royal 3,5 kW-os modell a Dual Stage (kétfokozatú) kompresszor technológiájával készült, így akár -30°C-os külső hőmérséklet mellett is stabil főfűtést biztosít. A+++ hűtési és fűtési energiaosztálya garantálja az alacsony fenntartási költségeket, míg a Cold Plasma szűrő és a 3D légáram a tökéletes beltéri komfortról gondoskodik minden évszakban.",
+      specs: [
+        "A+++/A+++",
+        "Dual Stage (Kétfokozatú) kompresszor",
+        "Fűtés -30°C-ig",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "4,2 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A+++" },
+        { label: "Kompresszor technológia", value: "Dual Stage (Kétfokozatú)" },
+        { label: "Fűtési működési tartomány", value: "-30°C" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Amber Royal 3,5 kW</strong> a fűtésre optimalizált klímaberendezések etalonja. Kifejezetten a mérsékelt égöv szélsőségeire tervezték, ahol a megbízható fűtés nem opció, hanem alapkövetelmény. A Dual Stage technológiának köszönhetően ez a készülék akkor is magabiztosan fűt, amikor a hagyományos hőszivattyúk már veszítenek hatékonyságukból.</p>
+          
+          <h3>Miért válassza az Amber Royal 3,5 kW-os modellt?</h3>
+          <ul>
+              <li><strong>Dual Stage Kompresszor:</strong> A kétfokozatú sűrítés révén a készülék extrém alacsony, akár -30°C-os külső hőmérséklet mellett is képes magas hatásfokkal hőt szállítani a beltérbe.</li>
+              <li><strong>Maximális Energiahatékonyság:</strong> Az A+++/A+++ besorolás garantálja, hogy otthona melegen tartása ne jelentsen elviselhetetlen villanyszámlát.</li>
+              <li><strong>Egészséges Környezet:</strong> A beépített Cold Plasma ionizátor hatékonyan semlegesíti a levegőben terjedő kórokozókat, gombákat és kellemetlen szagokat.</li>
+              <li><strong>Tökéletes Légelosztás:</strong> A 3D légáram funkció vízszintesen és függőlegesen is mozgatja a lamellákat, így a meleg levegő egyenletesen tölti meg a helyiséget, megszüntetve a hideg zugokat.</li>
+              <li><strong>Téliesített Kialakítás:</strong> A gyári karter- és csepptálcafűtés gondoskodik róla, hogy a kültéri egység jegesedésmentes maradjon a legzordabb fagyok idején is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Amber Royal Inverter 3.5 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "Extreme heating performance and maximum efficiency. The Gree Amber Royal 3.5 kW model features Dual Stage compressor technology, providing stable primary heating even at outdoor temperatures as low as -30°C. Its A+++ energy class for both cooling and heating guarantees low operating costs, while the Cold Plasma filter and 3D airflow ensure perfect indoor comfort in every season.",
+      specs: [
+        "A+++/A+++",
+        "Dual Stage Compressor",
+        "Heating down to -30°C",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "4.2 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A+++" },
+        { label: "Compressor Technology", value: "Dual Stage" },
+        { label: "Heating Operating Range", value: "-30°C" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Amber Royal 3.5 kW</strong> is the gold standard for heating-optimized air conditioners. It is specifically designed for the extremes of temperate climates, where reliable heating is a fundamental requirement. Thanks to Dual Stage technology, this unit continues to heat confidently when traditional heat pumps begin to lose their efficiency.</p>
+          
+          <h3>Why choose the Amber Royal 3.5 kW model?</h3>
+          <ul>
+              <li><strong>Dual Stage Compressor:</strong> Through two-stage compression, the unit can deliver heat to the interior with high efficiency even at extreme outdoor temperatures as low as -30°C.</li>
+              <li><strong>Maximum Energy Efficiency:</strong> The A+++/A+++ rating guarantees that keeping your home warm won't result in unbearable electricity bills.</li>
+              <li><strong>Healthy Environment:</strong> The built-in Cold Plasma ionizer effectively neutralizes airborne pathogens, fungi, and unpleasant odors.</li>
+              <li><strong>Perfect Air Distribution:</strong> The 3D airflow function moves louvers both horizontally and vertically, filling the room evenly with warm air and eliminating cold spots.</li>
+              <li><strong>Winterized Design:</strong> Factory-installed crankcase and base pan heaters ensure the outdoor unit remains ice-free even during the harshest frosts.</li>
+          </ul>
+      </div>`,
+    },
+    price: "490.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 4.2,
+    pics: [
+        { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-amber-royal-inverter-5-3-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18YE-S6DBA1A",
+    type: "ac",
+    name: "Gree Amber Royal 5,3 kW",
+    hu: {
+      fullName: "Gree Amber Royal inverter 5,3 kW klíma szett",
+      typeName: "Klíma",
+      desc: "Ipari erő és prémium fűtési technológia tágas terekbe. A Gree Amber Royal 5,3 kW-os modell a speciális Dual Stage (kétfokozatú) kompresszorral és kiemelkedő fűtőteljesítménnyel rendelkezik, így akár -30°C-ban is stabil főfűtést biztosít nagyobb helyiségekben is. Az A++ hűtési és fűtési energiaosztály, a Cold Plasma szűrő, valamint a professzionális téliesítő szett garancia a kompromisszummentes téli-nyári komfortra.",
+      specs: [
+        "A+++/A+++",
+        "Dual Stage (Kétfokozatú) kompresszor",
+        "Fűtés -30°C-ig",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A+++" },
+        { label: "Kompresszor technológia", value: "Dual Stage (Kétfokozatú)" },
+        { label: "Fűtési működési tartomány", value: "-30°C" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Amber Royal 5,3 kW</strong> a tökéletes választás azoknak, akik egy nagyobb alapterületű otthont vagy irodát szeretnének teljes mértékben kiváltani gázfűtésről. Ez a készülék a nyers erőt és a speciális Dual Stage technológiát ötvözi, hogy a leghidegebb téli éjszakákon is stabil meleget biztosítson.</p>
+          
+          <h3>Az Amber Royal 5,3 kW főbb előnyei:</h3>
+          <ul>
+              <li><strong>Dual Stage Kompresszor:</strong> A kétfokozatú technológia révén a készülék extrém hatékony marad ott is, ahol a hagyományos klímák már leállnának: garantált fűtés akár -30°C-os külső hőmérséklet mellett.</li>
+              <li><strong>Nagy fűtési teljesítmény:</strong> Az 5,57 kW-os névleges fűtőkapacitás alkalmassá teszi a gépet tágas nappalik vagy egybefüggő amerikai konyhás terek önálló fűtésére.</li>
+              <li><strong>Téliesített kültéri egység:</strong> A gyári karterfűtés és csepptálcafűtés megvédi a rendszert a lefagyástól, biztosítva a folyamatos, üzembiztos működést a legnagyobb fagyokban is.</li>
+              <li><strong>Cold Plasma szűrő:</strong> Gondoskodik a levegő sterilitásáról, semlegesítve a baktériumokat és a polleneket, ami a fűtési szezonban elengedhetetlen a tiszta beltéri levegőhöz.</li>
+              <li><strong>Intelligens komfort:</strong> Az I-Feel funkció a távirányítóba épített érzékelő segítségével pontosan ott tartja a beállított hőmérsékletet, ahol Ön tartózkodik.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Amber Royal Inverter 5.3 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "Industrial power and premium heating technology for spacious areas. The Gree Amber Royal 5.3 kW model features a specialized Dual Stage compressor and outstanding heating capacity, providing stable primary heating even down to -30°C in larger rooms. The A++ energy class for both cooling and heating, Cold Plasma filter, and professional winter kit guarantee uncompromising comfort in both winter and summer.",
+      specs: [
+        "A+++/A+++",
+        "Dual Stage Compressor",
+        "Heating down to -30°C",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A+++" },
+        { label: "Compressor Technology", value: "Dual Stage" },
+        { label: "Heating Operating Range", value: "-30°C" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Amber Royal 5.3 kW</strong> is the perfect choice for those looking to fully replace gas heating in a larger home or office. This unit combines raw power with specialized Dual Stage technology to provide stable warmth even on the coldest winter nights.</p>
+          
+          <h3>Key advantages of the Amber Royal 5.3 kW:</h3>
+          <ul>
+              <li><strong>Dual Stage Compressor:</strong> Thanks to two-stage technology, the unit remains extremely efficient where traditional air conditioners would fail: guaranteed heating even at -30°C outdoor temperatures.</li>
+              <li><strong>High Heating Capacity:</strong> The 5.57 kW nominal heating capacity makes the unit suitable for autonomous heating of spacious living rooms or open-plan areas.</li>
+              <li><strong>Winterized Outdoor Unit:</strong> Factory-installed crankcase and base pan heaters protect the system from freezing, ensuring continuous, reliable operation during the harshest frosts.</li>
+              <li><strong>Cold Plasma Filter:</strong> Ensures air sterility by neutralizing bacteria and pollens, which is essential for clean indoor air during the heating season.</li>
+              <li><strong>Smart Comfort:</strong> The I-Feel function uses a sensor built into the remote to maintain the set temperature exactly where you are.</li>
+          </ul>
+      </div>`,
+    },
+    price: "550.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
+        { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
     ]
   },
 ];

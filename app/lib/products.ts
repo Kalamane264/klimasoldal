@@ -3419,7 +3419,7 @@ export const products: Product[] = [
     brand: "Gree",
     serial: "GWH09AOCXB-K6DNA2A",
     type: "ac",
-    name: "Gree Smart One Pro 2,7 kW",
+    name: "Gree Smart One 2,7 kW",
     hu: {
       fullName: "Gree Smart One inverter 2,7 kW klíma szett",
       typeName: "Klíma",
@@ -3531,7 +3531,7 @@ export const products: Product[] = [
     brand: "Gree",
     serial: "GWH12AOCXB-K6DNA2C",
     type: "ac",
-    name: "Gree Smart One Pro 3,5 kW",
+    name: "Gree Smart One 3,5 kW",
     hu: {
       fullName: "Gree Smart One inverter 3,5 kW klíma szett",
       typeName: "Klíma",
@@ -3643,7 +3643,7 @@ export const products: Product[] = [
     brand: "Gree",
     serial: "GWH18AODXE-K6DNA2A",
     type: "ac",
-    name: "Gree Smart One Pro 5,3 kW",
+    name: "Gree Smart One 5,3 kW",
     hu: {
       fullName: "Gree Smart One inverter 5,3 kW klíma szett",
       typeName: "Klíma",
@@ -3755,11 +3755,11 @@ export const products: Product[] = [
     brand: "Gree",
     serial: "GWH24AODXF-K6DNA2B",
     type: "ac",
-    name: "Gree Smart One Pro 6,5 kW",
+    name: "Gree Smart One 6,5 kW",
     hu: {
       fullName: "Gree Smart One inverter 6,5 kW klíma szett",
       typeName: "Klíma",
-      desc: "Intelligens erő nagy teljesítményre tervezve. A Gree Smart One (Smart R) 5,3 kW-os modell a mesterséges intelligencia (Gree-AI) segítségével optimalizálja a tágas terek hűtését és fűtését. Az UV-C sterilizáló és a Cold Plasma szűrő folyamatosan tisztítja a nagy légtömeget, míg a -25°C-ig garantált üzemi tartomány és a professzionális téliesítő szett (különálló karter- és csepptálcafűtés) megbízható főfűtést biztosít nagyobb helyiségekben is.",
+      desc: "Brutális erő és intelligens vezérlés a legnagyobb terekbe. A Gree Smart One 6,5 kW-os modellje a sorozat csúcsteljesítményét nyújtja: a mesterséges intelligencia (Gree-AI) segítségével még ekkora kapacitás mellett is kiemelkedően hatékony marad. Az UV-C sterilizáló és a Cold Plasma szűrő garantálja a tiszta levegőt, míg a professzionális téliesítő szett (különálló karter- és csepptálcafűtés) révén -25°C-ban is magabiztos főfűtésként szolgál.",
       specs: [
         "A+++",
         "Gree-AI (Mesterséges Intelligencia)",
@@ -3792,22 +3792,22 @@ export const products: Product[] = [
         { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
       ],
       longDesc: `<div class="product-description">
-          <p>A <strong>Gree Smart One (Smart R) 5,3 kW</strong> a tökéletes választás tágas nappalikhoz, egybefüggő amerikai konyhás terekhez vagy irodákhoz. Ez a készülék a nyers erőt ötvözi a legfinomabb intelligens vezérléssel, így nagy légtömeg mozgatása mellett is képes az energiatakarékos és csendes működésre.</p>
+          <p>A <strong>Gree Smart One (Smart R) 7,1 kW</strong> a megoldás, ahol nincs kompromisszum a teljesítmény terén. Ezt a készüléket kifejezetten nagy alapterületű helyiségekhez, bemutatótermekhez vagy tágas családi házakhoz tervezték, ahol a nagy légtömeg gyors és hatékony lehűtése vagy felfűtése a cél.</p>
           
-          <h3>Miért válassza a Smart One 5,3 kW-os modellt?</h3>
+          <h3>A legnagyobb Smart One modell előnyei:</h3>
           <ul>
-              <li><strong>Gree-AI nagy terekre:</strong> Az algoritmus megtanulja a helyiség hőtechnikai tulajdonságait, így a nagyobb tereket is hatékonyabban, felesleges energiapazarlás nélkül hűti vagy fűti.</li>
-              <li><strong>UV-C Sterilizálás:</strong> A nagy kapacitású ventilátor által mozgatott teljes légmennyiség áthalad az UV-C fényen, amely semlegesíti a kórokozók 99%-át, garantálva a tiszta környezetet.</li>
-              <li><strong>Robusztus fűtési teljesítmény:</strong> A -25°C-ig garantált fűtés és a gyárilag beépített karter-, illetve csepptálcafűtés gondoskodik róla, hogy a készülék a legzordabb téli napokon is magabiztosan üzemeljen.</li>
-              <li><strong>3D Légáram & Komfort:</strong> A vízszintes és függőleges irányba is motorosan mozgatható lamellák segítségével a légáram még a távolabbi sarkokba is eljut, elkerülve a kellemetlen huzatérzetet.</li>
-              <li><strong>Intelligens Wi-Fi:</strong> A Gree+ alkalmazáson keresztül távolról is ellenőrizheti az energiafogyasztást és előre lehűtheti vagy felfűtheti otthonát.</li>
+              <li><strong>Gree-AI hatékonyság:</strong> Még ekkora teljesítmény mellett is precíz maradhat: az algoritmus elemzi a helyiség hőtehetetlenségét, így elkerüli a felesleges energiafelvételt.</li>
+              <li><strong>UV-C sterilizálás nagy légszállítás mellett:</strong> A beépített UV-C lámpa a nagy sebességgel áramló levegőt is képes fertőtleníteni, semlegesítve a baktériumok és vírusok 99%-át.</li>
+              <li><strong>Extrém fűtési teljesítmény:</strong> A -25°C-ig garantált működés és a robusztus, téliesített kültéri egység (karter- és csepptálcafűtés) a legkeményebb fagyokban is üzembiztos marad.</li>
+              <li><strong>3D Légáram:</strong> A motoros lamellák gondoskodnak róla, hogy a nagy teljesítmény ne okozzon kellemetlen huzatot, hanem egyenletesen oszoljon el a térben.</li>
+              <li><strong>Intelligens Wi-Fi:</strong> Távolról is vezérelhető a Gree+ alkalmazással, így mire megérkezik a nagy alapterületű ingatlanba, már a kívánt hőmérséklet várja.</li>
           </ul>
       </div>`,
     },
     en: {
       fullName: "Gree Smart One Inverter 6.5 kW Air Conditioning Set",
       typeName: "AC",
-      desc: "Intelligent power designed for high performance. The Gree Smart One (Smart R) 5.3 kW model utilizes Artificial Intelligence (Gree-AI) to optimize the cooling and heating of spacious areas. The UV-C sterilizer and Cold Plasma filter continuously purify large air volumes, while the guaranteed operation down to -25°C and the professional winter kit (independent crankcase and base pan heaters) ensure reliable primary heating even in larger rooms.",
+      desc: "Brute force and intelligent control for the largest spaces. The Gree Smart One 6.5 kW model delivers the peak performance of the series: with Artificial Intelligence (Gree-AI), it remains remarkably efficient even at this capacity. UV-C sterilization and the Cold Plasma filter guarantee clean air, while the professional winter kit (independent crankcase and base pan heaters) provides reliable primary heating down to -25°C.",
       specs: [
         "A+++/A++",
         "Gree-AI (Artificial Intelligence)",
@@ -3840,15 +3840,15 @@ export const products: Product[] = [
         { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" }
       ],
       longDesc: `<div class="product-description">
-          <p>The <strong>Gree Smart One (Smart R) 5.3 kW</strong> is the perfect choice for spacious living rooms, open-plan areas, or offices. This unit combines raw power with the most refined intelligent control, enabling energy-efficient and quiet operation even when moving large volumes of air.</p>
+          <p>The <strong>Gree Smart One (Smart R) 7.1 kW</strong> is the no-compromise solution for maximum performance. This unit is specifically designed for large areas, showrooms, or spacious family homes where the goal is to cool or heat high air volumes quickly and efficiently.</p>
           
-          <h3>Why choose the Smart One 5.3 kW model?</h3>
+          <h3>Advantages of the largest Smart One model:</h3>
           <ul>
-              <li><strong>Gree-AI for Large Spaces:</strong> The algorithm learns the thermal characteristics of the room, cooling or heating larger areas more efficiently without unnecessary energy waste.</li>
-              <li><strong>UV-C Sterilization:</strong> The entire air volume moved by the high-capacity fan passes through UV-C light, neutralizing 99% of pathogens and guaranteeing a clean environment.</li>
-              <li><strong>Robust Heating Performance:</strong> Guaranteed heating down to -25°C and factory-installed crankcase and base pan heaters ensure the unit operates confidently even on the harshest winter days.</li>
-              <li><strong>3D Airflow & Comfort:</strong> Motorized vertical and horizontal louvers distribute air to the furthest corners of the room, preventing uncomfortable drafts.</li>
-              <li><strong>Smart Wi-Fi:</strong> Through the Gree+ app, you can remotely monitor energy consumption and pre-cool or pre-heat your home before you arrive.</li>
+              <li><strong>Gree-AI Efficiency:</strong> Even at high capacity, it remains precise: the algorithm analyzes the room's thermal inertia to avoid unnecessary energy consumption.</li>
+              <li><strong>UV-C Sterilization at High Airflow:</strong> The built-in UV-C lamp sanitizes high-velocity airflow, neutralizing 99% of bacteria and viruses.</li>
+              <li><strong>Extreme Heating Performance:</strong> Guaranteed operation down to -25°C and a robust, winterized outdoor unit (crankcase and base pan heaters) ensure reliability even in the harshest frosts.</li>
+              <li><strong>3D Airflow:</strong> Motorized louvers ensure that high performance doesn't cause uncomfortable drafts but distributes air evenly throughout the space.</li>
+              <li><strong>Smart Wi-Fi:</strong> Remotely controllable via the Gree+ app, ensuring the desired temperature awaits you even in large properties.</li>
           </ul>
       </div>`,
     },
@@ -3860,6 +3860,236 @@ export const products: Product[] = [
         { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
         { src: "smart-r-03.jpg", width: 1000, height: 1000 },
         { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-airy-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09AVCXB-K6DNA1B",
+    type: "ac",
+    name: "Gree Airy 2,7 kW",
+    hu: {
+      fullName: "Gree Airy inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A technológia és az esztétika csúcsa. A Gree Airy 2,7 kW-os modell az intelligens páratartalom-szabályozással, a Gree-AI technológiával és az UV-C sterilizálóval a legmagasabb komfortszintet hozza el. A+++ hűtési és A++ fűtési energiaosztálya, valamint -25°C-ig garantált üzemi tartománya révén egyszerre stílusos, takarékos és rendkívül megbízható megoldás hálószobákba vagy kisebb nappalikba.",
+      specs: [
+        "A+++/A++",
+        "Mesterséges intelligencia (Gree-AI)",
+        "Páratartalomra történő szabályozás",
+        "UV-C szűrő",
+        "Wi-Fi (Gree+)",
+        "3D légáram",
+        "Cold Plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Extra csendes kialakítás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Airy 2,7 kW</strong> a jövő légkondicionálója, amely az eleganciát és a legmagasabb szintű technológiai innovációt egyesíti. Ez a modell nem csupán a hőmérsékletet figyeli, hanem a környezet teljes komfortérzetét kezeli, beleértve a páratartalmat és a levegő sterilitását is.</p>
+          
+          <h3>Miért az Airy a Gree csúcsmodellje?</h3>
+          <ul>
+              <li><strong>Gree-AI & Páratartalom kontroll:</strong> A mesterséges intelligencia tanul az Ön szokásaiból, az intelligens párátlanítás pedig megakadályozza a túlzott szárazságot vagy a fülledt érzetet, így teremtve tökéletes klímát.</li>
+              <li><strong>UV-C & Cold Plasma védelem:</strong> A kettős szűrőrendszer az UV-fény erejével és az ionizációs technológiával semlegesíti a vírusokat, baktériumokat és polleneket.</li>
+              <li><strong>3D Légáram:</strong> A vízszintes és függőleges irányú motoros lamellák gondoskodnak a huzatmentes, egyenletes légeloszlásról a helyiség minden pontján.</li>
+              <li><strong>Extrém fűtési képesség:</strong> A -25°C-ig garantált működés, a karter- és a csepptálcafűtés révén a legzordabb téli körülmények között is biztonságos főfűtésként funkcionál.</li>
+              <li><strong>Extra csendes kialakítás:</strong> A 7 fokozatú ventilátor legalsó szintjein a készülék szinte hallhatatlan, így ideális választás hálószobákba is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Smart One Inverter 2.7 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The pinnacle of technology and aesthetics. The Gree Airy 2.7 kW model provides ultimate comfort with smart humidity control, Gree-AI technology, and UV-C sterilization. With A+++ cooling and A++ heating energy classes, and a guaranteed operating range down to -25°C, it is a stylish, economical, and highly reliable solution for bedrooms or smaller living rooms.",
+      specs: [
+        "A+++/A++",
+        "Artificial Intelligence (Gree-AI)",
+        "Humidity Control",
+        "UV-C Filter",
+        "Wi-Fi (Gree+)",
+        "3D Airflow",
+        "Cold Plasma Ionizer",
+        "I-Feel",
+        "8°C Heating",
+        "Extra Quiet Design",
+        "-25°C Heating Operating Range",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Smart Control", value: "Gree-AI + Humidity Control" },
+        { label: "Air Purification", value: "UV-C Filter + Cold Plasma" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "Noise Level", value: "Extra quiet (from 19 dB)" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Airy 2.7 kW</strong> is the air conditioner of the future, combining elegance with the highest level of technological innovation. This model doesn't just monitor temperature; it manages the overall comfort of the environment, including humidity and air sterility.</p>
+          
+          <h3>Why is Airy the flagship model of Gree?</h3>
+          <ul>
+              <li><strong>Gree-AI & Humidity Control:</strong> Artificial intelligence learns from your habits, while intelligent humidification prevents excessive dryness or stuffiness, creating the perfect climate.</li>
+              <li><strong>UV-C & Cold Plasma Protection:</strong> The dual filtration system uses the power of UV light and ionization technology to neutralize viruses, bacteria, and pollens.</li>
+              <li><strong>3D Airflow:</strong> Motorized vertical and horizontal louvers ensure draft-free, uniform air distribution throughout the room.</li>
+              <li><strong>Extreme Heating Capability:</strong> With guaranteed operation down to -25°C, along with crankcase and base pan heaters, it functions as a reliable primary heating source even in the harshest winter conditions.</li>
+              <li><strong>Extra Quiet Design:</strong> At its lowest fan speeds, the unit is nearly inaudible, making it an ideal choice for bedrooms.</li>
+          </ul>
+      </div>`,
+    },
+    price: "410.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.0,
+    pics: [
+        { src: "ariy-02.jpg", width: 1000, height: 1000 },
+        { src: "ariy-03.jpg", width: 1000, height: 1000 },
+        { src: "ariy-05.jpg", width: 1000, height: 1000 },
+        { src: "ariy-04.jpg", width: 1000, height: 1000 },
+        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-airy-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH12AVCXD-K6DNA1A",
+    type: "ac",
+    name: "Gree Airy 3,5 kW",
+    hu: {
+      fullName: "Gree Airy inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "Prémium technológia és stílusteremtő dizájn. A Gree Airy 3,5 kW-os modell a mesterséges intelligencia (Gree-AI) és az intelligens páratartalom-szabályozás révén teremt tökéletes komfortot. Az UV-C sterilizáló és a Cold Plasma szűrő gondoskodik a levegő tisztaságáról, míg az A+++ hűtési és A++ fűtési energiaosztály, valamint a -25°C-ig garantált üzemi tartomány a legmagasabb szintű energiatakarékosságot és megbízhatóságot nyújtja.",
+      specs: [
+        "A+++/A++",
+        "Mesterséges intelligencia (Gree-AI)",
+        "Páratartalomra történő szabályozás",
+        "UV-C szűrő",
+        "Wi-Fi (Gree+)",
+        "3D légáram",
+        "Cold Plasma ionizáló",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Extra csendes kialakítás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor",
+        "Karterfűtés",
+        "Csepptálca fűtés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Airy 3,5 kW</strong> a modern otthonok esztétikai és technológiai központja. Ez a modell a Gree legújabb innovációit ötvözi egy rendkívül elegáns, texturált előlappal rendelkező készülékházban, amely nemcsak hűti vagy fűti a teret, hanem aktívan alakítja a helyiség klímáját.</p>
+          
+          <h3>Az Airy sorozat kiemelkedő előnyei:</h3>
+          <ul>
+              <li><strong>Gree-AI & Páratartalom kontroll:</strong> A mesterséges intelligencia figyeli az Ön szokásait, az intelligens páratartalom-szabályozás pedig megelőzi a levegő túlzott kiszáradását, így minden helyzetben optimális komfortérzetet biztosít.</li>
+              <li><strong>UV-C & Cold Plasma védelem:</strong> A beépített UV-szűrő és az ionizátor technológia együttes erővel semlegesíti a vírusokat, baktériumokat és polleneket, garantálva a sterilis levegőt családja számára.</li>
+              <li><strong>Látványos 3D légáram:</strong> A motoros függőleges és vízszintes lamellák segítségével a légáram egyenletesen oszlik el a helyiségben, elkerülve a közvetlen és kellemetlen huzatérzetet.</li>
+              <li><strong>Minden évszakra tervezve:</strong> A -25°C-os fűtési tartomány, a karterfűtés és a csepptálcafűtés révén a készülék a leghidegebb magyarországi teleken is stabil főfűtésként funkcionál.</li>
+              <li><strong>Extra csendes működés:</strong> A 7 fokozatú ventilátorrendszernek köszönhetően a készülék szinte észrevehetetlenül halkan teszi a dolgát, zavartalan pihenést biztosítva.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Smart One Inverter 3.5 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "Premium technology and trendsetting design. The Gree Airy 3.5 kW model creates perfect comfort through artificial intelligence (Gree-AI) and smart humidity control. The UV-C sterilizer and Cold Plasma filter ensure clean air, while the A+++ cooling and A++ heating energy classes, along with the guaranteed operating range down to -25°C, provide the highest level of energy efficiency and reliability.",
+      specs: [
+        "A+++/A++",
+        "Artificial Intelligence (Gree-AI)",
+        "Humidity Control",
+        "UV-C Filter",
+        "Wi-Fi (Gree+)",
+        "3D Airflow",
+        "Cold Plasma Ionizer",
+        "I-Feel",
+        "8°C Heating",
+        "Extra Quiet Design",
+        "-25°C Heating Operating Range",
+        "7-speed fan",
+        "Crankcase Heater",
+        "Base Pan Heater"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Smart Control", value: "Gree-AI + Humidity Control" },
+        { label: "Air Purification", value: "UV-C Filter + Cold Plasma" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "Noise Level", value: "Extra quiet (from 19 dB)" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3 years +2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Airy 3.5 kW</strong> is the aesthetic and technological center of modern homes. This model combines Gree's latest innovations in a highly elegant casing with a textured front panel, which doesn't just cool or heat the space but actively shapes the overall room climate.</p>
+          
+          <h3>Key advantages of the Airy series:</h3>
+          <ul>
+              <li><strong>Gree-AI & Humidity Control:</strong> Artificial intelligence monitors your habits, while smart humidity control prevents the air from becoming too dry, ensuring optimal comfort in every situation.</li>
+              <li><strong>UV-C & Cold Plasma Protection:</strong> The built-in UV filter and ionizer technology work together to neutralize viruses, bacteria, and pollens, guaranteeing sterile air for your family.</li>
+              <li><strong>Effective 3D Airflow:</strong> Motorized vertical and horizontal louvers ensure even air distribution throughout the room, avoiding uncomfortable direct drafts.</li>
+              <li><strong>Designed for All Seasons:</strong> With a -25°C heating range, crankcase heater, and base pan heater, the unit functions as a stable primary heating source even during the harshest winters.</li>
+              <li><strong>Extra Quiet Operation:</strong> Thanks to the 7-speed fan system, the unit operates almost imperceptibly quietly, ensuring undisturbed relaxation.</li>
+          </ul>
+      </div>`,
+    },
+    price: "430.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    pics: [
+        { src: "ariy-02.jpg", width: 1000, height: 1000 },
+        { src: "ariy-03.jpg", width: 1000, height: 1000 },
+        { src: "ariy-05.jpg", width: 1000, height: 1000 },
+        { src: "ariy-04.jpg", width: 1000, height: 1000 },
+        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
     ]
   },
 ];

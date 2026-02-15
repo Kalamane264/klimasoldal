@@ -5246,6 +5246,210 @@ export const products: Product[] = [
         { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
     ]
   },
+  {
+    id: "gree-multi-inverter-hydromulti-10-6-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(36)NK6RO",
+    type: "ac-multi",
+    name: "Gree HydroMulti inverter 10,6 kW",
+    hu: {
+      fullName: "Gree HydroMulti 10,6 kW kültéri egység",
+      typeName: "Klíma kültéri egység",
+      desc: "Hibrid üzemű multi kültéri egység, amely a helyiségek hűtése és fűtése mellett használati meleg víz (HMV) előállítására is alkalmas. Professzionális megoldás, amely egyetlen rendszerben egyesíti a légkondicionálást és a vízmelegítést, maximális energiahatékonyságot biztosítva az egész háztartás számára.",
+      specs: [
+        "A++/A+",
+        "HMV (melegvíz) készítés támogatása",
+        "Max. 4 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "10,6 kW" },
+        { label: "Fűtési teljesítmény", value: "12 kW" },
+        { label: "HMV funkció", value: "Igen (opcionális hidroboxszal)" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 4 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "80 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 10,6 kW (GWHD(36)NK6RO)</strong> kültéri egység túllép a hagyományos légkondicionálók korlátain. Ez a speciális, hibrid technológiás modell a <strong>Multi+ (Multi Hybrid)</strong> sorozat tagja, amelynek egyedülálló képessége, hogy a lakás hűtése és fűtése mellett a használati meleg víz (HMV) előállítását is elvégzi. Egy opcionális vízoldali egység (hidrobox) csatlakoztatásával a rendszer képes a hűtés során keletkező hulladékhőt a víz melegítésére fordítani, ami rendkívül magas energiahatékonyságot és alacsonyabb rezsiköltséget eredményez.</p>
+          <p>A berendezés akár négy beltéri egység kiszolgálására alkalmas, így egy komplett családi ház hűtési-fűtési igényét és melegvíz-ellátását képes egyetlen központi egységből biztosítani. Ez a komplex megoldás nemcsak helytakarékos, hanem jelentősen egyszerűsíti az épületgépészeti rendszert is, miközben az R32-es hűtőközeg révén megfelel a legmodernebb környezetvédelmi elvárásoknak.</p>
+          
+          <h3>A Multi Hybrid rendszer legfőbb előnyei:</h3>
+          <ul>
+              <li><strong>3 az 1-ben funkció:</strong> Hűtés, fűtés és melegvíz-készítés egyetlen kültéri egységgel, kiváltva ezzel a különálló villanybojlereket vagy egyéb vízmelegítő rendszereket.</li>
+              <li><strong>Ingyen melegvíz hűtéskor:</strong> Nyári hűtési üzemmódban a rendszer a helyiségekből elvont hőt a használati víz melegítésére fordítja, így a HMV előállítása gyakorlatilag költségmentes.</li>
+              <li><strong>Négykörös rugalmasság:</strong> Akár négy különböző típusú beltéri egység (fali, kazettás, konzol) csatlakoztatható, biztosítva a helyiségenkénti egyedi szabályozást.</li>
+              <li><strong>Téliesített védelem:</strong> A karterfűtés és csepptálcafűtés alapfelszereltség, így -22°C-os külső hőmérsékletig garantált a stabil fűtés és a vízhálózat hőntartása.</li>
+              <li><strong>Nagy telepítési szabadság:</strong> Az összesen 80 méteres maximális csőhossz lehetővé teszi, hogy a beltéri egységeket és a HMV tartályt az épület távolabbi pontjain is kényelmesen elhelyezhesse.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree HydroMulti 10,6 kW outdoor unit",
+      typeName: "AC outdoor unit",
+      desc: "A hybrid multi outdoor unit capable of producing domestic hot water (DHW) in addition to cooling and heating rooms. A professional solution that integrates air conditioning and water heating into a single system, ensuring maximum energy efficiency for the entire household.",
+      specs: [
+        "A++/A+",
+        "DHW (Hot Water) production support",
+        "Connect up to 4 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "10.6 kW" },
+        { label: "Heating capacity", value: "12 kW" },
+        { label: "DHW function", value: "Yes (with optional hydrobox)" },
+        { label: "Max. indoor units", value: "4 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "80 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 10.6 kW (GWHD(36)NK6RO)</strong> outdoor unit goes beyond the limitations of traditional air conditioners. This specialized hybrid technology model is part of the <strong>Multi+ (Multi Hybrid)</strong> series, featuring the unique ability to produce domestic hot water (DHW) in addition to cooling and heating the home. By connecting an optional water-side unit (hydrobox), the system can utilize the waste heat generated during cooling to heat water, resulting in extremely high energy efficiency and lower utility bills.</p>
+          
+          <p>The unit can support up to four indoor units, providing a complete solution for the cooling, heating, and hot water needs of a family home from a single central unit. This complex solution is not only space-saving but also significantly simplifies the building's mechanical systems while meeting the latest environmental standards through the use of R32 refrigerant.</p>
+          
+          <h3>Key Benefits of the Multi Hybrid System:</h3>
+          <ul>
+              <li><strong>3-in-1 Functionality:</strong> Cooling, heating, and hot water production with one outdoor unit, replacing separate electric boilers or other water heating systems.</li>
+              <li><strong>Free Hot Water During Cooling:</strong> In summer cooling mode, the system directs the heat extracted from the rooms to heat the domestic water, making DHW production virtually cost-free.</li>
+              <li><strong>Four-circuit Flexibility:</strong> Up to four different types of indoor units (wall-mounted, cassette, console) can be connected, ensuring individual control for each room.</li>
+              <li><strong>Winterized Protection:</strong> Crankcase and base pan heaters are standard, guaranteeing stable heating and water temperature maintenance even at outdoor temperatures as low as -22°C.</li>
+              <li><strong>Installation Freedom:</strong> A maximum total piping length of 80 meters provides great flexibility in positioning indoor units and the DHW tank, even in larger buildings.</li>
+          </ul>
+      </div>`,
+    },
+    price: "840.000 Ft",
+    powerCooling: 10.6,
+    powerHeating: 12,
+    pics: [
+        { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-multi-inverter-hydromulti-12-1-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(36)NK6RO",
+    type: "ac-multi",
+    name: "Gree HydroMulti inverter 12,1 kW",
+    hu: {
+      fullName: "Gree HydroMulti 12,1 kW kültéri egység",
+      typeName: "Klíma kültéri egység",
+      desc: "A legnagyobb teljesítményű, ötkörös hibrid multi kültéri egység, amely a lakás hűtése és fűtése mellett a teljes család használati melegvíz-ellátását (HMV) is biztosítja. Professzionális központi egység, amely akár öt helyiség független klimatizálását és a vízmelegítést egyetlen rendszerben egyesíti.",
+      specs: [
+        "A++/A+",
+        "HMV (melegvíz) készítés támogatása",
+        "Max. 5 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "12,1 kW" },
+        { label: "Fűtési teljesítmény", value: "13 kW" },
+        { label: "HMV funkció", value: "Igen (opcionális hidroboxszal)" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 5 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "100 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 12,1 kW (GWHD(42)NK6RO)</strong> a Gree hibrid technológiájának csúcsmodellje, amely minden eddiginél nagyobb szabadságot ad az otthoni gépészet kialakításában. Ez a <strong>Multi+ (Multi Hybrid)</strong> kültéri egység nem csupán a helyiségek hűtéséért és fűtéséért felel, hanem akár <strong>öt független beltéri egység</strong> kiszolgálására is képes, miközben egy opcionális hidrobox segítségével a használati meleg víz (HMV) előállítását is elvégzi.</p>
+          <p>A rendszer technológiai bravúrja a fenntarthatóságban rejlik: nyári hűtés során a berendezés a beltérből elvont hőt a környezetbe való kibocsátás helyett a HMV tartály vizének melegítésére használja fel. Ez a "hővisszanyerő" folyamat azt jelenti, hogy a melegvíz-ellátás a kánikulában szinte teljesen ingyen áll rendelkezésre. A 12,1 kW-os kapacitás lehetővé teszi, hogy egy nagyobb családi ház minden helyiségében – a nappalitól a hálószobákig – egyedi, precíz komfortot alakítsunk ki.</p>
+          
+          <h3>A GWHD(42)NK6RO hibrid rendszer kiemelt előnyei:</h3>
+          <ul>
+              <li><strong>Ötkörös rugalmasság:</strong> Akár öt különböző beltéri egység csatlakoztatható, így a ház minden szeglete egyedi hőmérséklet-szabályozást kaphat.</li>
+              <li><strong>Integrált vízmelegítés:</strong> Kiváltja a hagyományos gázbojlert vagy elektromos vízmelegítőt, csökkentve az épület gépészeti helyigényét.</li>
+              <li><strong>Extrém téliesített védelem:</strong> A beépített karterfűtés és csepptálcafűtés révén a rendszer -22°C-os külső hőmérsékletig garantálja a zavartalan fűtést és a melegvíz-ellátást.</li>
+              <li><strong>Környezetbarát R32 technológia:</strong> Magasabb hőátadási hatékonyságot biztosít alacsonyabb környezeti terhelés mellett.</li>
+              <li><strong>Gazdaságos üzemeltetés:</strong> A kimagasló energiahatékonyság és a H-tarifa kompatibilitás együttesen garantálja az alacsony havi rezsiköltségeket egy ekkora teljesítményű rendszernél is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree HydroMulti 12,1 kW outdoor unit",
+      typeName: "AC outdoor unit",
+      desc: "The highest-capacity, five-circuit hybrid multi outdoor unit, providing domestic hot water (DHW) for the entire family in addition to cooling and heating the home. A professional central unit that integrates independent climate control for up to five rooms and water heating into a single system.",
+      specs: [
+        "A++/A+",
+        "DHW (Hot Water) production support",
+        "Connect up to 5 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "12.1 kW" },
+        { label: "Heating capacity", value: "13 kW" },
+        { label: "DHW function", value: "Yes (with optional hydrobox)" },
+        { label: "Max. indoor units", value: "5 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "80 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 12.1 kW (GWHD(42)NK6RO)</strong> is the flagship of Gree's hybrid technology, offering more freedom than ever in home mechanical design. This <strong>Multi+ (Multi Hybrid)</strong> outdoor unit is not only responsible for cooling and heating but is also capable of serving up to <strong>five independent indoor units</strong>, while simultaneously producing domestic hot water (DHW) via an optional hydrobox.</p>
+          
+          <p>The system's technological brilliance lies in its sustainability: during summer cooling, the unit uses the heat extracted from the interior to heat the DHW tank instead of releasing it into the environment. This heat recovery process means that hot water production is virtually free during the hottest months. The 12.1 kW capacity ensures precise, customized comfort in every room of a large family home, from the living room to all bedrooms.</p>
+          
+          <h3>Key Benefits of the GWHD(42)NK6RO Hybrid System:</h3>
+          <ul>
+              <li><strong>Five-circuit Flexibility:</strong> Connect up to five different indoor units, allowing every corner of the house to have individual temperature control.</li>
+              <li><strong>Integrated Water Heating:</strong> Replaces traditional gas boilers or electric water heaters, reducing the space required for mechanical systems.</li>
+              <li><strong>Extreme Winter Protection:</strong> With built-in crankcase and base pan heaters, the system guarantees uninterrupted heating and hot water supply down to -22°C.</li>
+              <li><strong>Eco-friendly R32 Technology:</strong> Provides higher heat transfer efficiency with a lower environmental impact.</li>
+              <li><strong>Economical Performance:</strong> Outstanding energy efficiency combined with H-tariff compatibility ensures low monthly utility bills even for a system of this capacity.</li>
+          </ul>
+      </div>`,
+    },
+    price: "960.000 Ft",
+    powerCooling: 12.1,
+    powerHeating: 13,
+    pics: [
+        { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
+    ]
+  },
 ];
 
 export type Product = {

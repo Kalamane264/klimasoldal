@@ -4640,6 +4640,612 @@ export const products: Product[] = [
         { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-multi-inverter-4-1-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(14)NK6OO",
+    type: "ac-multi",
+    name: "Gree FM Multi inverter 4,1 kW",
+    hu: {
+      fullName: "Gree multi inverter 4,1 kW kültéri egység R32",
+      typeName: "Klíma kültéri egység",
+      desc: "Kompakt, helytakarékos multi kültéri egység, amelyre két beltéri egység csatlakoztatható. Ideális megoldás kisebb lakások esztétikus klimatizálására, ahol egyetlen kültéri egységgel szeretnénk két külön helyiség hűtését és fűtését megoldani magas energiahatékonyság mellett.",
+      specs: [
+        "A++/A+",
+        "Max. 2 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Intelligens leolvasztás",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "4,1 kW" },
+        { label: "Fűtési teljesítmény", value: "4,4 kW" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 2 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "40 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 4,1 kW kültéri egység</strong> a modern épületgépészet egyik legpraktikusabb megoldása, amikor korlátozott hely áll rendelkezésre a kültéri egységek elhelyezésére. Ez a berendezés központi egységként funkcionál, amelyre akár két különböző típusú beltéri egység is csatlakoztatható, legyen szó fali, kazettás, konzol vagy légcsatornázható kivitelről. Ezzel a megoldással nemcsak az épület homlokzatának esztétikáját óvhatjuk meg, hanem jelentősen csökkenthetjük a telepítési és karbantartási költségeket is.</p>
+          
+          <p>A készülék a Gree legfejlettebb inverteres technológiáját alkalmazza, amely precízen illeszti a teljesítményt a beltéri egységek aktuális igényeihez. Ez rendkívül stabil hőmérséklet-tartást és kiemelkedő energiahatékonyságot eredményez, miközben az energiafogyasztást is alacsonyan tartja. Az R32-es hűtőközeg használata nemcsak környezetvédelmi szempontból előnyös, hanem jobb hőátadási tulajdonságai révén növeli a rendszer összteljesítményét is.</p>
+          
+          <h3>Főbb technológiai előnyök:</h3>
+          <ul>
+              <li><strong>Rugalmas rendszerkialakítás:</strong> Lehetőséget biztosít két külön helyiség teljesen független klimatizálására, így mindenki a saját igényei szerint állíthatja be a kívánt hőfokot.</li>
+              <li><strong>Helytakarékos és esztétikus:</strong> Két különálló split rendszer helyett mindössze egyetlen kompakt kültéri egységet kell elhelyezni, ami kevesebb zajjal és vibrációval jár az épület szerkezetén.</li>
+              <li><strong>Téliesített védelem:</strong> A beépített karterfűtés és csepptálcafűtés megakadályozza a kompresszor olajának lehűlését és a kondenzvíz megfagyását, így a készülék akár -22°C-os fagyban is megbízhatóan fűt.</li>
+              <li><strong>Hosszú élettartam:</strong> A minőségi alkatrészek és a speciális korróziógátló bevonattal ellátott hőcserélő ellenáll az időjárási viszontagságoknak, hosszú távú megoldást kínálva.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Magas hatásfoka révén a fűtési szezonban igénybe vehető hozzá a kedvezményes H-tarifa, jelentősen csökkentve az üzemeltetési költségeket.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree multi inverter 4.1 kW outdoor unit R32",
+      typeName: "AC outdoor unit",
+      desc: "A compact, space-saving multi outdoor unit supporting up to two indoor units. An ideal solution for the aesthetic climate control of smaller apartments, providing efficient cooling and heating for two separate rooms using just a single outdoor unit.",
+      specs: [
+        "A++/A+",
+        "Connect up to 2 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Intelligent defrosting",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "4.1 kW" },
+        { label: "Heating capacity", value: "4.4 kW" },
+        { label: "Max. indoor units", value: "2 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "40 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 4.1 kW outdoor unit</strong> is one of the most practical solutions in modern building climate control, especially when outdoor installation space is limited. This unit acts as a central hub, allowing the connection of up to two indoor units of different types, such as wall-mounted, cassette, console, or ducted models. This approach not only preserves the aesthetic appeal of the building's facade but also significantly reduces installation and long-term maintenance costs.</p>
+          
+          <p>Utilizing Gree's most advanced inverter technology, the unit precisely adjusts its output to match the current demand of the indoor units. This results in extremely stable temperature maintenance and outstanding energy efficiency, keeping electricity consumption to a minimum. The use of R32 refrigerant is not only beneficial for the environment but also enhances the overall system performance through its superior heat transfer properties.</p>
+          
+          <h3>Key Technological Benefits:</h3>
+          <ul>
+              <li><strong>Flexible System Configuration:</strong> Provides the opportunity to independently control the climate in two separate rooms, allowing users to set their preferred temperatures according to individual needs.</li>
+              <li><strong>Space-saving Aesthetics:</strong> Instead of installing two separate split systems, only one compact outdoor unit is required, resulting in less noise and vibration on the property.</li>
+              <li><strong>Reliability in Extreme Cold:</strong> Equipped with a factory-installed crankcase heater and base pan heater, the unit remains fully operational in heating mode even at outdoor temperatures as low as -22°C.</li>
+              <li><strong>Long Service Life:</strong> High-quality components and a corrosion-resistant coating on the heat exchanger protect the unit against harsh weather conditions, offering a long-term reliable solution.</li>
+              <li><strong>Quiet Operation:</strong> Designed with noise reduction in mind, the precision-balanced fan and high-performance compressor ensure a peaceful environment for the residents and the surrounding neighborhood.</li>
+          </ul>
+      </div>`,
+    },
+    price: "410.000 Ft",
+    powerCooling: 4.1,
+    powerHeating: 4.4,
+    pics: [
+        { src: "gree-kulteri-01.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-multi-inverter-5-3-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(18)NK6OO",
+    type: "ac-multi",
+    name: "Gree FM Multi inverter 5,3 kW",
+    hu: {
+      fullName: "Gree multi inverter 5,3 kW kültéri egység R32",
+      typeName: "Klíma kültéri egység",
+      desc: "Nagy teljesítményű, kétkörös multi kültéri egység, amelyre két beltéri egység csatlakoztatható. Megbízható megoldás közepes alapterületű otthonokba, ahol egyetlen kültéri egységgel szeretnénk két külön helyiség hatékony és stabil hűtését-fűtését megoldani.",
+      specs: [
+        "A++/A+",
+        "Max. 2 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Intelligens leolvasztás",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,65 kW" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 2 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "40 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 5,3 kW kültéri egység (GWHD(18)NK6OO)</strong> a hatékonyság és a megbízhatóság jegyében született. Ezt a modellt kifejezetten olyan ingatlanokhoz tervezték, ahol két helyiség egyidejű klimatizálása a cél, de a helyszíni adottságok vagy az esztétikai szempontok csak egyetlen kültéri egység telepítését teszik lehetővé. Az 5,3 kW-os hűtési teljesítmény magabiztos tartalékot nyújt a legforróbb nyári napokon is, biztosítva a gyors és egyenletes hűtést mindkét csatlakoztatott helyiségben.</p>
+          
+          <p>A berendezés kiemelkedő előnye a sokoldalúság: a kültéri egységhez tetszés szerint kombinálhatók a fali, kazettás, konzol vagy légcsatornázható beltéri egységek, így minden szobához a funkciójának leginkább megfelelő megoldást választhatja. A modern inverteres szabályozás folyamatosan illeszti a kompresszor teljesítményét az aktuális igényekhez, ami nemcsak stabil hőmérséklet-tartást, hanem rendkívül gazdaságos üzemeltetést is eredményez.</p>
+          
+          <h3>Főbb technológiai előnyök:</h3>
+          <ul>
+              <li><strong>Rugalmas zónakezelés:</strong> Lehetővé teszi két különálló helyiség teljesen független hűtését és fűtését, így minden felhasználó a saját kényelméhez igazíthatja a hőmérsékletet.</li>
+              <li><strong>Komplett téliesített felszereltség:</strong> A gyárilag beépített karterfűtés és csepptálcafűtés alapfelszereltség, amely garantálja, hogy a rendszer fűtési üzemmódban akár -22°C-os extrém hidegben is üzembiztos és hatékony maradjon.</li>
+              <li><strong>Környezetbarát R32 technológia:</strong> Az alkalmazott R32-es hűtőközeg jelentősen alacsonyabb környezeti terhelést jelent, miközben jobb hőátadási tulajdonságaival növeli a teljes rendszer hatásfokát.</li>
+              <li><strong>Halk és rezgésmentes üzem:</strong> A Gree precíziós kompresszor-szigetelése és a speciális ventilátor-kialakítás minimálisra csökkenti a zajterhelést, zavartalan pihenést biztosítva a lakók és a szomszédok számára.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Kiváló szezonális hatékonysági mutatóinak köszönhetően a fűtési szezonban igénybe vehető hozzá a kedvezményes H-tarifa, ami drasztikusan csökkenti a rezsiköltségeket.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree multi inverter 5.3 kW outdoor unit R32",
+      typeName: "AC outdoor unit",
+      desc: "A high-capacity, dual-circuit multi outdoor unit supporting up to two indoor units. A reliable solution for medium-sized homes, providing efficient and stable cooling and heating for two separate rooms using a single outdoor unit.",
+      specs: [
+        "A++/A+",
+        "Connect up to 2 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Intelligent defrosting",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.65 kW" },
+        { label: "Max. indoor units", value: "2 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "40 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 5.3 kW outdoor unit (GWHD(18)NK6OO)</strong> is engineered for maximum efficiency and reliability. This model is specifically designed for properties where cooling and heating two rooms simultaneously is required, but site conditions or aesthetic preferences allow for the installation of only a single outdoor unit. With a 5.3 kW cooling capacity, it provides a solid power reserve even on the hottest summer days, ensuring fast and consistent climate control in both connected spaces.</p>
+          
+          <p>The primary advantage of this system is its versatility: wall-mounted, cassette, console, or ducted indoor units can be mixed and matched to suit the specific needs of each room. The advanced inverter control continuously adjusts the compressor output to meet current demands, resulting in extremely stable temperature maintenance and highly economical operation.</p>
+          
+          <h3>Key Technological Benefits:</h3>
+          <ul>
+              <li><strong>Flexible Zone Control:</strong> Allows for completely independent cooling and heating in two separate rooms, enabling users to adjust the temperature to their personal comfort levels.</li>
+              <li><strong>Complete Winterized Protection:</strong> Featuring a factory-installed crankcase heater and base pan heater as standard, the system remains fully operational and efficient in heating mode even at extreme outdoor temperatures as low as -22°C.</li>
+              <li><strong>Eco-friendly R32 Technology:</strong> The R32 refrigerant used has a significantly lower environmental impact while enhancing the overall system efficiency through superior heat transfer properties.</li>
+              <li><strong>Quiet and Vibration-free Operation:</strong> Gree’s precision compressor insulation and specialized fan design minimize noise levels, ensuring a peaceful environment for both residents and neighbors.</li>
+              <li><strong>Energy Efficiency:</strong> Thanks to its high seasonal efficiency ratings, the unit is eligible for discounted heating tariffs (H-tariff) during the winter season, significantly reducing overall utility costs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "450.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.65,
+    pics: [
+        { src: "gree-kulteri-01.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-multi-inverter-7-1-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(24)NK6OO",
+    type: "ac-multi",
+    name: "Gree FM Multi inverter 7,1 kW",
+    hu: {
+      fullName: "Gree multi inverter 7,1 kW kültéri egység R32",
+      typeName: "Klíma kültéri egység",
+      desc: "Sokoldalú multi kültéri egység, amelyre akár három beltéri egység is csatlakoztatható. Ideális megoldás többszobás lakások vagy kisebb családi házak központi klimatizálására, ahol a cél az esztétikus megjelenés és a helyiségenkénti egyedi szabályozhatóság.",
+      specs: [
+        "A++/A+",
+        "Max. 3 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Intelligens leolvasztás",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "8,6 kW" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 3 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "60 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 7,1 kW kültéri egység</strong> a prémium kategóriás lakásklimatizálás egyik alapköve. Ez a nagy teljesítményű berendezés lehetővé teszi, hogy egyetlen központi egységre akár három különálló beltéri egységet csatlakoztasson, így tökéletes választás háromszobás lakások, kisebb családi házak vagy többszobás irodák hűtésére és fűtésére. A 7,1 kW-os hűtési kapacitás bőséges energiát biztosít ahhoz, hogy a lakás minden pontján egyszerre élvezhessük a tökéletes komfortot.</p>
+          
+          <p>A rendszer egyik legnagyobb előnye a teljes szabadság a beltéri egységek kiválasztásánál: a fali, kazettás, légcsatornázható vagy konzol típusok szabadon kombinálhatók az egyes helyiségek igényei szerint. A Gree fejlett inverter technológiája folyamatosan figyeli a beltéri egységek igényeit, és hajszálpontosan szabályozza a teljesítményt, ami rendkívül stabil hőmérsékletet és halk, vibrációmentes működést eredményez.</p>
+          
+          <h3>Főbb technológiai előnyök:</h3>
+          <ul>
+              <li><strong>Három helyiség egyidejű kezelése:</strong> Lehetővé teszi három független zóna kialakítását, ahol mindenki saját igényei szerint állíthatja be a kívánt hőfokot, miközben a homlokzaton csak egyetlen gép látható.</li>
+              <li><strong>Professzionális téliesített védelem:</strong> A beépített karterfűtés és csepptálcafűtés alapfelszereltség, melynek köszönhetően a készülék fűtési üzemmódban akár -22°C-os extrém fagyok idején is üzembiztos és kimagaslóan hatékony marad.</li>
+              <li><strong>Kiterjesztett csövezési távolság:</strong> A megnövelt, összesen 60 méteres csőhossz lehetővé teszi a beltéri egységek rugalmas elhelyezését még bonyolultabb épületadottságok esetén is.</li>
+              <li><strong>Energiatakarékos R32 technológia:</strong> A környezetbarát hűtőközeg nemcsak a károsanyag-kibocsátást mérsékli, hanem növeli a rendszer hőátadási hatékonyságát is, csökkentve az üzemeltetési költségeket.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Kiváló szezonális hatékonysági mutatói miatt a fűtési szezonban alkalmas a kedvezményes H-tarifa igénybevételére, így a gázfűtés valódi, környezetbarát alternatívája lehet.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree multi inverter 7.1 kW outdoor unit R32",
+      typeName: "AC outdoor unit",
+      desc: "A versatile multi outdoor unit supporting up to three indoor units. An ideal solution for the central climate control of multi-room apartments or small family houses, focusing on aesthetic appearance and individual temperature control for each room.",
+      specs: [
+        "A++/A+",
+        "Connect up to 3 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Intelligent defrosting",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "8.6 kW" },
+        { label: "Max. indoor units", value: "3 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "60 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 7.1 kW outdoor unit</strong> is a cornerstone of premium residential climate control. This high-performance unit allows you to connect up to three separate indoor units to a single central hub, making it the perfect choice for cooling and heating three-room apartments, small family houses, or multi-room offices. The 7.1 kW cooling capacity provides ample energy to ensure perfect comfort throughout the entire property simultaneously.</p>
+          
+          <p>A major benefit of the system is the complete freedom in selecting indoor units: wall-mounted, cassette, ducted, or console models can be mixed and matched to suit the specific requirements of each room. Gree's advanced inverter technology continuously monitors the demands of the indoor units and adjusts the output with pinpoint accuracy, resulting in extremely stable temperatures and quiet, vibration-free operation.</p>
+          
+          <h3>Key Technological Benefits:</h3>
+          <ul>
+              <li><strong>Simultaneous Control of Three Rooms:</strong> Enables the creation of three independent zones, allowing users to set their preferred temperatures while keeping the building's exterior uncluttered with only one outdoor machine.</li>
+              <li><strong>Professional Winterized Protection:</strong> Featuring factory-installed crankcase and base pan heaters as standard, the unit remains fully operational and highly efficient in heating mode even during extreme frosts down to -22°C.</li>
+              <li><strong>Extended Piping Distance:</strong> The increased total pipe length of 60 meters allows for flexible placement of indoor units, even in buildings with more complex layouts.</li>
+              <li><strong>Energy-efficient R32 Technology:</strong> The eco-friendly refrigerant not only minimizes environmental impact but also enhances the heat transfer efficiency of the system, lowering operating costs.</li>
+              <li><strong>Economical Operation:</strong> Due to its excellent seasonal efficiency ratings, the unit is eligible for discounted heating tariffs (H-tariff) during the winter season, making it a true, eco-friendly alternative to gas heating.</li>
+          </ul>
+      </div>`,
+    },
+    price: "570.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 8.6,
+    pics: [
+        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-multi-inverter-8-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(28)NK6OO",
+    type: "ac-multi",
+    name: "Gree FM Multi inverter 8 kW",
+    hu: {
+      fullName: "Gree multi inverter 8 kW kültéri egység R32",
+      typeName: "Klíma kültéri egység",
+      desc: "Nagy teljesítményű multi kültéri egység, amely akár négy helyiség egyidejű hűtését és fűtését teszi lehetővé. Ideális választás nagyobb lakásokhoz vagy családi házakhoz, ahol az esztétikus megjelenés mellett elvárás a helyiségenkénti precíz és független szabályozhatóság.",
+      specs: [
+        "A++/A+",
+        "Max. 4 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Intelligens leolvasztás",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "8,0 kW" },
+        { label: "Fűtési teljesítmény", value: "9,5 kW" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 4 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "70 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 8,0 kW kültéri egység</strong> a professzionális otthoni klimatizálás egyik leghatékonyabb eszköze. Ez a robusztus berendezés központi egységként szolgálva akár négy különálló beltéri egységet is képes kiszolgálni, így alkalmassá válik komplett lakások, többszintes családi házak vagy irodák teljes körű hűtésére és fűtésére. A 8,0 kW-os teljesítmény garantálja, hogy még extrém hőségben is stabil és egyenletes maradjon a hőmérséklet minden érintett helyiségben.</p>
+          
+          <p>A rendszer kiemelkedő rugalmasságot kínál: a beltéri egységek típusai (fali, kazettás, konzol vagy légcsatornázható) szabadon variálhatók a helyiségek funkciója és az esztétikai igények szerint. A Gree fejlett inverteres technológiája precízen szabályozza a kompresszor fordulatszámát, így a készülék csak annyi energiát használ fel, amennyi a pillanatnyi komfort fenntartásához szükséges, biztosítva ezzel a csendes üzemmódot és az alacsony villanyszámlát.</p>
+          
+          <h3>Főbb technológiai előnyök:</h3>
+          <ul>
+              <li><strong>Négy helyiség független szabályozása:</strong> A rendszer lehetővé teszi négy különálló zóna kialakítását, ahol a felhasználók egymástól függetlenül állíthatják be a kívánt hőfokot, miközben a homlokzaton csak egyetlen kültéri egység kap helyet.</li>
+              <li><strong>Garantált fűtés extrém hidegben:</strong> A gyárilag beépített karterfűtés és csepptálcafűtés alapfelszereltség, így a készülék fűtési üzemmódban akár -22°C-os külső hőmérséklet mellett is biztonságosan és magas hatásfokkal üzemel.</li>
+              <li><strong>Kiterjesztett telepítési lehetőségek:</strong> Az összesen 80 méteres maximális csőhossz nagy szabadságot ad a beltéri egységek elhelyezésében, még bonyolultabb épületszerkezetek esetén is.</li>
+              <li><strong>Környezettudatos hűtőközeg:</strong> Az R32-es hűtőközeg alkalmazása nemcsak a környezeti terhelést csökkenti, hanem növeli a rendszer energiahatékonyságát és hőátadási képességét is.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Kiváló szezonális hatékonysági mutatóinak köszönhetően a készülék fűtési szezonban alkalmas a kedvezményes H-tarifa igénybevételére, ami jelentős megtakarítást jelent az üzemeltetési költségekben.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree multi inverter 8 kW outdoor unit R32",
+      typeName: "AC outdoor unit",
+      desc: "A high-capacity multi outdoor unit that enables the simultaneous cooling and heating of up to four rooms. An ideal choice for larger apartments or family houses where aesthetic appearance is paired with the need for precise and independent temperature control for each room.",
+      specs: [
+        "A++/A+",
+        "Connect up to 4 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Intelligent defrosting",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "8.0 kW" },
+        { label: "Heating capacity", value: "9.5 kW" },
+        { label: "Max. indoor units", value: "4 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "70 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 8.0 kW outdoor unit</strong> is one of the most efficient tools for professional residential climate control. Serving as a robust central hub, this unit can power up to four separate indoor units, making it suitable for the comprehensive cooling and heating of entire apartments, multi-story family homes, or offices. The 8.0 kW capacity ensures that even during extreme heat, the temperature remains stable and consistent across all connected rooms.</p>
+          
+          <p>The system offers outstanding flexibility: indoor unit types (wall-mounted, cassette, console, or ducted) can be mixed and matched freely according to the function of each room and aesthetic requirements. Gree's advanced inverter technology precisely regulates the compressor speed, so the unit only uses as much energy as necessary to maintain current comfort levels, ensuring quiet operation and low electricity bills.</p>
+          
+          <h3>Key Technological Benefits:</h3>
+          <ul>
+              <li><strong>Independent Control of Four Rooms:</strong> The system allows for the creation of four separate zones, where users can independently set their preferred temperatures while maintaining a clean building facade with only one outdoor unit.</li>
+              <li><strong>Guaranteed Heating in Extreme Cold:</strong> Equipped with factory-installed crankcase and base pan heaters as standard, the unit operates safely and with high efficiency in heating mode even at outdoor temperatures as low as -22°C.</li>
+              <li><strong>Extended Installation Possibilities:</strong> A maximum total pipe length of 80 meters provides great freedom in placing indoor units, even within more complex building structures.</li>
+              <li><strong>Eco-conscious Refrigerant:</strong> The use of R32 refrigerant not only reduces environmental impact but also enhances the system's energy efficiency and heat transfer capabilities.</li>
+              <li><strong>Economical Operation:</strong> Due to its excellent seasonal efficiency ratings, the unit is eligible for discounted heating tariffs (H-tariff) during the winter season, resulting in significant savings on operating costs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "620.000 Ft",
+    powerCooling: 8.0,
+    powerHeating: 9.5,
+    pics: [
+        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-multi-inverter-10-6-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(36)NK6OO",
+    type: "ac-multi",
+    name: "Gree FM Multi inverter 10,6 kW",
+    hu: {
+      fullName: "Gree multi inverter 10,6 kW kültéri egység R32",
+      typeName: "Klíma kültéri egység",
+      desc: "Ipari teljesítményű, négykörös multi kültéri egység, amely akár négy helyiség egyidejű hűtését és fűtését teszi lehetővé. Tökéletes megoldás nagy alapterületű családi házakhoz és irodákhoz, ahol egyetlen központi egységgel kell biztosítani a maximális komfortot és a helyiségenkénti egyedi szabályozhatóságot.",
+      specs: [
+        "A++/A+",
+        "Max. 4 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Intelligens leolvasztás",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "10,6 kW" },
+        { label: "Fűtési teljesítmény", value: "12 kW" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 4 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "80 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 10,6 kW kültéri egység</strong> (GWHD(36)NK6OO) a nagy teljesítményű multi split rendszerek egyik legstabilabb tagja. Ezt a készüléket kifejezetten olyan tágas ingatlanokhoz tervezték, ahol akár négy különálló helyiség (például egy nagy nappali és három hálószoba) független klimatizálása a feladat egyetlen, nagy hatásfokú kültéri egységgel. A dupla ventilátoros felépítés garantálja az optimális hőcserét és a csendes működést még teljes terhelés mellett is.</p>
+          
+          <p>A rendszer kiemelkedő előnye a konfigurálhatóság: a négy csatlakozási pontra tetszőlegesen választhat fali, kazettás, konzol vagy légcsatornázható beltéri egységeket a helyiségek egyedi adottságaihoz mérten. Az intelligens inverteres vezérlés folyamatosan hangolja a teljesítményt az éppen aktív beltérik igényeihez, így biztosítva a maximális energiamegtakarítást és az állandó, ingadozásmentes hőmérsékletet.</p>
+          
+          <h3>Főbb technológiai előnyök:</h3>
+          <ul>
+              <li><strong>Négy független komfortzóna:</strong> Lehetővé teszi négy különböző helyiség egyedi hűtését és fűtését, miközben az épület homlokzatán csak egyetlen esztétikus egység kap helyet.</li>
+              <li><strong>Kiváló fűtési teljesítmény:</strong> A 12 kW-os fűtési kapacitás és a gyári téliesítő szett (karter- és csepptálcafűtés) révén a rendszer akár -22°C-os fagyban is megbízható főfűtésként üzemel.</li>
+              <li><strong>Robusztus dupla ventilátoros technológia:</strong> A nagyobb hőcserélő felület és a két ventilátor hatékonyabb hűtést és fűtést tesz lehetővé alacsonyabb zajszint mellett.</li>
+              <li><strong>Környezetbarát R32 hűtőközeg:</strong> Az alacsony globális felmelegedési potenciállal rendelkező hűtőközeg növeli a rendszer szezonális hatékonyságát és csökkenti az ökológiai lábnyomot.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Magas hatásfoka miatt fűtési szezonban alkalmas a kedvezményes H-tarifa igénybevételére, jelentősen mérsékelve a nagy teljesítményű rendszer rezsiköltségeit.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree multi inverter 10.6 kW outdoor unit R32",
+      typeName: "AC outdoor unit",
+      desc: "An industrial-capacity, four-circuit multi outdoor unit that enables the simultaneous cooling and heating of up to four rooms. A perfect solution for large-scale family homes and offices, providing maximum comfort and independent temperature control for each room through a single central unit.",
+      specs: [
+        "A++/A+",
+        "Connect up to 4 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Intelligent defrosting",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "10.6 kW" },
+        { label: "Heating capacity", value: "12 kW" },
+        { label: "Max. indoor units", value: "4 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "80 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 10.6 kW outdoor unit</strong> (GWHD(36)NK6OO) is a highly reliable component for large-scale multi-split systems. This unit is specifically designed for spacious properties where the independent climate control of up to four separate rooms (e.g., a large living room and three bedrooms) is required using a single, high-efficiency outdoor unit. The dual-fan design guarantees optimal heat exchange and quiet operation even under full load.</p>
+          
+          <p>A key advantage of the system is its configurability: you can freely choose from wall-mounted, cassette, console, or ducted indoor units for each of the four connection points based on the specific needs of each room. The intelligent inverter control continuously tunes the output to match the demand of the active indoor units, ensuring maximum energy savings and a stable, fluctuation-free temperature.</p>
+          
+          <h3>Key Technological Benefits:</h3>
+          <ul>
+              <li><strong>Four Independent Comfort Zones:</strong> Enables individual cooling and heating for four different rooms while maintaining the building's aesthetic integrity with only one outdoor unit.</li>
+              <li><strong>Superior Heating Capacity:</strong> With its 12 kW heating capacity and factory-installed winter kit (crankcase and base pan heaters), the system serves as a reliable primary heating source even in frosts down to -22°C.</li>
+              <li><strong>Robust Dual-fan Technology:</strong> The larger heat exchanger surface and dual fans allow for more efficient cooling and heating with lower noise levels.</li>
+              <li><strong>Eco-friendly R32 Refrigerant:</strong> The refrigerant, with its low global warming potential, enhances the system's seasonal efficiency and reduces the environmental footprint.</li>
+              <li><strong>Economical Operation:</strong> Due to its high efficiency, the unit is eligible for discounted heating tariffs (H-tariff) during the winter season, significantly lowering the operating costs of this powerful system.</li>
+          </ul>
+      </div>`,
+    },
+    price: "770.000 Ft",
+    powerCooling: 10.6,
+    powerHeating: 12,
+    pics: [
+        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
+    ]
+  },
+  {
+    id: "gree-multi-inverter-12-1-kw-kulteri-egyseg",
+    brand: "Gree",
+    serial: "GWHD(42)NK6OO",
+    type: "ac-multi",
+    name: "Gree FM Multi inverter 12,1 kW",
+    hu: {
+      fullName: "Gree multi inverter 12,1 kW kültéri egység R32",
+      typeName: "Klíma kültéri egység",
+      desc: "Kimagasló teljesítményű, ötkörös multi kültéri egység nagy alapterületű ingatlanokhoz. Lehetővé teszi akár öt különálló helyiség egyidejű és független hűtését-fűtését egyetlen központi egységgel, biztosítva a maximális energiatakarékosságot és a modern, esztétikus megjelenést.",
+      specs: [
+        "A++/A+",
+        "Max. 5 beltéri egység csatlakoztatható",
+        "R32 környezetbarát hűtőközeg",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+        "-22°C-os fűtési tartomány",
+        "Intelligens leolvasztás",
+        "Inverteres technológia"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "12,1 kW" },
+        { label: "Fűtési teljesítmény", value: "13 kW" },
+        { label: "Csatlakoztatható beltérik száma", value: "Max. 5 db" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Hűtőközeg típusa", value: "R32" },
+        { label: "Működési tartomány (Hűtés)", value: "-15°C – +43°C" },
+        { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
+        { label: "Max. össz csőhossz", value: "100 m" },
+        { label: "Max. szintkülönbség", value: "15 m" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree Multi Inverter 12,1 kW kültéri egység</strong> (GWHD(42)NK6OO) a lakossági és kisüzemi multi-split rendszerek csúcskategóriáját képviseli. Ezt a berendezést kifejezetten olyan komplex feladatokra tervezték, ahol egyetlen kültéri egységgel kell megoldani akár öt különböző helyiség – például egy nappali, három hálószoba és egy dolgozószoba – teljes körű klimatizálását. A 12,1 kW-os hűtési erőforrás és a dupla ventilátoros technológia biztosítja, hogy a rendszer még a legforróbb nyári napokon is stabilan és hatékonyan üzemeljen.</p>
+          
+          <p>A rendszer rugalmassága kiemelkedő, hiszen a fali, kazettás, légcsatornázható vagy konzol típusú beltéri egységek tetszőlegesen kombinálhatók az öt csatlakozási ponton. A Gree fejlett inverteres szabályozása precízen adagolja a teljesítményt az éppen üzemelő beltéri egységek aktuális igényei szerint, így elkerülhető a felesleges energiapazarlás, miközben minden zónában hajszálpontosan tartható a kívánt hőmérséklet.</p>
+          
+          <h3>Főbb technológiai előnyök:</h3>
+          <ul>
+              <li><strong>Öt független komfortzóna kiszolgálása:</strong> Egyetlen központi egységgel biztosíthatja az egész ház hűtését és fűtését, megőrizve az épület esztétikai egységét és csökkentve a kültéri zajterhelést.</li>
+              <li><strong>Nagy teljesítményű fűtés extrém hidegben:</strong> A 13 kW-os fűtési kapacitás a gyári téliesítő szettel (karter- és csepptálcafűtés) kiegészülve garantálja a megbízható működést akár -22°C-os fagyok idején is.</li>
+              <li><strong>Optimalizált dupla ventilátoros kivitel:</strong> A nagyméretű hőcserélő felület és a két precíziós ventilátor csendesebb üzemet és magasabb hatásfokot tesz lehetővé még intenzív használat mellett is.</li>
+              <li><strong>Környezetbarát R32 hűtőközeg:</strong> Az alkalmazott R32 technológia nemcsak az ökológiai lábnyomot csökkenti, hanem jobb hőátadási tulajdonságai révén növeli a rendszer szezonális hatékonyságát is.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Kiváló hatásfokának köszönhetően a készülék fűtési szezonban alkalmas a kedvezményes H-tarifa igénybevételére, ami jelentős megtakarítást jelent egy ekkora teljesítményű rendszer üzemeltetésekor.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree multi inverter 12.1 kW outdoor unit R32",
+      typeName: "AC outdoor unit",
+      desc: "A high-performance, five-circuit multi outdoor unit for large-scale properties. It enables the simultaneous and independent cooling and heating of up to five separate rooms with a single central unit, ensuring maximum energy efficiency and a modern, aesthetic appearance.",
+      specs: [
+        "A++/A+",
+        "Connect up to 5 indoor units",
+        "R32 Eco-friendly refrigerant",
+        "Crankcase Heater",
+        "Base Pan Heater",
+        "-22°C Heating range",
+        "Intelligent defrosting",
+        "Inverter Technology"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "12.1 kW" },
+        { label: "Heating capacity", value: "13 kW" },
+        { label: "Max. indoor units", value: "5 units" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Refrigerant type", value: "R32" },
+        { label: "Operating range (Cooling)", value: "-15°C – +43°C" },
+        { label: "Operating range (Heating)", value: "-22°C – +24°C" },
+        { label: "Max. total pipe length", value: "100 m" },
+        { label: "Max. height difference", value: "15 m" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Multi Inverter 12.1 kW outdoor unit</strong> (GWHD(42)NK6OO) represents the top tier of residential and light commercial multi-split systems. This unit is specifically designed for complex tasks where a single outdoor unit must provide comprehensive climate control for up to five different rooms – such as a living room, three bedrooms, and a study. The 12.1 kW cooling capacity and dual-fan technology ensure the system remains stable and efficient even on the hottest summer days.</p>
+          
+          <p>The system's flexibility is outstanding, as wall-mounted, cassette, ducted, or console indoor units can be freely combined across the five connection points. Gree's advanced inverter control precisely delivers power based on the real-time demands of the active indoor units, avoiding unnecessary energy waste while maintaining pinpoint temperature accuracy in every zone.</p>
+          
+          <h3>Key Technological Benefits:</h3>
+          <ul>
+              <li><strong>Service for Five Independent Comfort Zones:</strong> Provides cooling and heating for the entire house with a single central unit, preserving the building's aesthetic integrity and reducing outdoor noise levels.</li>
+              <li><strong>High-performance Heating in Extreme Cold:</strong> The 13 kW heating capacity, combined with the factory-installed winter kit (crankcase and base pan heaters), guarantees reliable operation even during frosts as low as -22°C.</li>
+              <li><strong>Optimized Dual-fan Design:</strong> The large heat exchanger surface and two precision fans allow for quieter operation and higher efficiency, even under intense usage.</li>
+              <li><strong>Eco-friendly R32 Refrigerant:</strong> The R32 technology used not only reduces the environmental footprint but also enhances the system's seasonal efficiency through superior heat transfer properties.</li>
+              <li><strong>Economical Operation:</strong> Due to its high efficiency, the unit is eligible for discounted heating tariffs (H-tariff) during the winter season, resulting in significant savings when operating a system of this capacity.</li>
+          </ul>
+      </div>`,
+    },
+    price: "900.000 Ft",
+    powerCooling: 12.1,
+    powerHeating: 13,
+    pics: [
+        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
+    ]
+  },
 ];
 
 export type Product = {

@@ -5351,7 +5351,7 @@ export const products: Product[] = [
   {
     id: "gree-multi-inverter-hydromulti-12-1-kw-kulteri-egyseg",
     brand: "Gree",
-    serial: "GWHD(36)NK6RO",
+    serial: "GWHD(42)NK6RO",
     type: "ac-multi",
     name: "Gree HydroMulti inverter 12,1 kW",
     hu: {

@@ -5843,6 +5843,315 @@ export const products: Product[] = [
         { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-fm-legcsatornas-inverter-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GFH(18)CB-K6DNA1B/I",
+    type: "ac-multi",
+    name: "Gree ducted FM 5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Légcsatornás inverter 5 kW klíma beltéri egység",
+      typeName: "Légcsatornás klíma beltéri",
+      desc: "Nagy teljesítményű, álmennyezetbe rejthető légcsatornás klíma 5,0 kW-os kapacitással. Ideális választás nagyobb helyiségekbe, ahol a cél a professzionális hűtési és fűtési erő ötvözése a teljes vizuális diszkrécióval és a huzatmentes, egyenletes légelosztással.",
+      specs: [
+        "Láthatatlan beépítés",
+        "Nagy teljesítmény",
+        "Huzatmentes légelosztás",
+        "Beépített szivattyú",
+        "Csendes üzemmód"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,0 kW" },
+        { label: "Fűtési teljesítmény", value: "5,5 kW" },
+        { label: "Beépítési magasság", value: "200 mm" },
+        { label: "Zajszint", value: "Alacsony" },
+        { label: "Vízszivattyú", value: "Beépített" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match légcsatornás beltéri egység (5,0 kW)</strong> a láthatatlan klimatizálás erejét hozza el a nagyobb helyiségekbe. Kifejezetten olyan tágas nappalikhoz vagy irodákhoz ajánljuk, ahol az esztétika nem ismer kompromisszumot: a berendezés az álmennyezet felett rejtve marad, így csak a gondosan elhelyezett szellőzőrácsok utalnak a jelenlétére. Ez a megoldás lehetővé teszi a belső tér teljes kihasználását falra szerelt egységek nélkül.</p>
+      <p>A mindössze <strong>20 cm-es beépítési magasság</strong> biztosítja, hogy a készülék még korlátozott belmagasságú álmennyezetek esetén is elhelyezhető legyen. Az 5,0 kW-os hűtési teljesítmény masszív alapot ad a nagyobb terek gyors és hatékony lehűtésére vagy felfűtésére. Mivel a légcsatornás rendszer rugalmasan alakítható, a levegő kifúvási pontjai úgy pozicionálhatók, hogy a légáramlás teljesen huzatmentes és egyenletes legyen a szoba minden szegletében.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Maximális diszkréció:</strong> Teljesen belesimul az épület gépészetébe, megőrizve a szoba tiszta vonalait.</li>
+      <li><strong>Helytakarékos kivitel:</strong> Az ultra-vékony kialakítás minimális helyet foglal el az álmennyezet felett.</li>
+      <li><strong>Személyre szabott légáram:</strong> A légcsatornák elrendezésével elkerülhető a közvetlen, kellemetlen légáramlat.</li>
+      <li><strong>Integrált kondenzvíz-szivattyú:</strong> Biztonságosan és automatikusan távolítja el a keletkező nedvességet.</li>
+      <li><strong>Halk működés:</strong> A rejtett elhelyezésnek köszönhetően a zajszint minimális marad a lakótérben.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Ducted Inverter 5 kW Indoor Unit",
+      typeName: "Ducted AC indoor unit",
+      desc: "A high-performance, ceiling-concealed ducted air conditioner with a 5.0 kW capacity. It is the perfect choice for larger rooms, combining professional cooling and heating power with complete visual discretion and draft-free, even air distribution.",
+      specs: [
+        "Invisible installation",
+        "High performance",
+        "Draft-free distribution",
+        "Built-in pump",
+        "Quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.0 kW" },
+        { label: "Heating capacity", value: "5.5 kW" },
+        { label: "Installation height", value: "200 mm" },
+        { label: "Noise level", value: "Low" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Free Match Ducted Indoor Unit (5.0 kW)</strong> brings the power of invisible climate control to larger spaces. It is highly recommended for spacious living rooms or offices where aesthetics are non-negotiable: the unit remains hidden above the ceiling, with only carefully placed ventilation grilles hinting at its presence. This solution allows for full use of the interior space without the need for wall-mounted units.</p>
+      <p>With an <strong>installation height of only 20 cm</strong>, the unit can be integrated even into ceilings with limited vertical space. The 5.0 kW cooling capacity provides a robust foundation for quickly and efficiently cooling or heating larger areas. As the ducted system is highly flexible, the air outlet points can be positioned to ensure completely draft-free and even airflow in every corner of the room.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Maximum Discretion:</strong> Blends perfectly into the building's mechanical system, preserving clean architectural lines.</li>
+      <li><strong>Space-saving Design:</strong> The ultra-slim profile takes up minimal space above the suspended ceiling.</li>
+      <li><strong>Customized Airflow:</strong> Duct layout prevents uncomfortable direct airflow onto occupants.</li>
+      <li><strong>Integrated Condensate Pump:</strong> Safely and automatically removes moisture generated during operation.</li>
+      <li><strong>Quiet Operation:</strong> Thanks to the concealed installation, noise levels remain minimal within the living area.</li>
+      </ul>
+      </div>`,
+    },
+    price: "260.000 Ft",
+    powerCooling: 5,
+    powerHeating: 5.5,
+    pics: [
+        { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-parapet-inverter-2-6-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GTH(09)CA-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree parapet 2,6 kW beltéri",
+    hu: {
+      fullName: "Gree FM Parapet inverter 2,6 kW klíma beltéri egység",
+      typeName: "Parapet klíma beltéri",
+      desc: "Sokoldalúan telepíthető, 2,6 kW-os parapet beltéri egység, amely padlóra állítva vagy mennyezetre függesztve is esztétikus megoldást nyújt. Ideális választás olyan helyiségekbe, ahol az oldalfali elhelyezés nem megoldható, de a hatékony légáramlás és a modern megjelenés elengedhetetlen.",
+      specs: [
+        "Padlóra vagy mennyezetre",
+        "Kétirányú légbefúvás",
+        "Kompakt, lapos ház",
+        "Intelligens leolvasztás",
+        "Alacsony zajszint"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,6 kW" },
+        { label: "Fűtési teljesítmény", value: "2,7 kW" },
+        { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
+        { label: "Zajszint", value: "Csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match parapet beltéri egység (2,6 kW)</strong> a rugalmasság bajnoka a klímatechnikában. Különleges kialakításának köszönhetően Ön dönti el, hogyan illeszkedik legjobban a szobához: a padlóra helyezve úgy simul a falhoz, mint egy modern radiátor, a mennyezetre szerelve pedig diszkréten, a látótér felett biztosítja a hűvös levegőt. Ez a 2,6 kW-os típus kiválóan alkalmas hálószobákba, tetőtéri helyiségekbe vagy kisebb irodákba.</p>
+
+      <p>A berendezés egyik legnagyobb előnye az <strong>egyenletes légelosztás</strong>. Fűtés üzemmódban a padló közeli elhelyezés különösen komfortos, hiszen a meleg levegőt alulról fújja be, ami természetesebb hőérzetet ad. A készülék burkolata letisztult és elegáns, így nem csak hasznos, de dísze is lehet a helyiségnek. A modern szűrőrendszer pedig gondoskodik róla, hogy a befújt levegő tiszta és pormentes legyen.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Kettős beépíthetőség:</strong> Szabadon választható padlóra állított vagy mennyezeti szerelési mód.</li>
+      <li><strong>Extra lapos kivitel:</strong> Nem foglal sok helyet, így kisebb helyiségekben is kényelmesen elfér.</li>
+      <li><strong>Széles légterelés:</strong> A lamellák mozgatásával a levegő a szoba minden pontját eléri.</li>
+      <li><strong>Turbó üzemmód:</strong> Segítségével rendkívül gyorsan elérhető a kívánt célhőmérséklet.</li>
+      <li><strong>Éjszakai mód:</strong> Alacsony zajszint mellett biztosítja a pihentető alváshoz szükséges klímát.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Floor/Ceiling Inverter 2.6 kW Indoor Unit",
+      typeName: "Ducted AC indoor unit",
+      desc: "A versatile 2.6 kW floor/ceiling indoor unit that offers an aesthetic solution whether standing on the floor or suspended from the ceiling. An ideal choice for rooms where wall-mounted installation is not possible, but efficient airflow and modern design are essential.",
+      specs: [
+        "Floor or ceiling mount",
+        "Two-way airflow",
+        "Compact, slim body",
+        "Intelligent defrosting",
+        "Low noise level"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.6 kW" },
+        { label: "Heating capacity", value: "2.7 kW" },
+        { label: "Placement", value: "Floor or ceiling" },
+        { label: "Noise level", value: "Quiet" },
+        { label: "Control", value: "IR Remote (included)" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Free Match Floor/Ceiling Indoor Unit (2.6 kW)</strong> is the ultimate champion of flexibility in climate control. Thanks to its unique design, you decide how it best fits your room: placed on the floor, it sits against the wall like a modern radiator, or mounted on the ceiling, it discreetly provides cool air from above the field of vision. This 2.6 kW model is excellent for bedrooms, attic rooms, or small offices.</p>
+      <p>One of the unit's greatest advantages is its <strong>even air distribution</strong>. In heating mode, floor-level placement is particularly comfortable as it blows warm air from below, providing a more natural heat sensation. The unit's casing is sleek and elegant, making it not just functional but also a stylish addition to the room. The advanced filter system ensures that the delivered air is clean and dust-free.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Dual Installation:</strong> Freely choose between floor-standing or ceiling-mounted installation.</li>
+      <li><strong>Extra Slim Design:</strong> Takes up minimal space, fitting comfortably even in smaller rooms.</li>
+      <li><strong>Wide Airflow:</strong> Adjustable louvers ensure that conditioned air reaches every corner of the room.</li>
+      <li><strong>Turbo Mode:</strong> Quickly achieves the desired target temperature for immediate comfort.</li>
+      <li><strong>Sleep Mode:</strong> Maintains the perfect climate for restful sleep with significantly reduced noise levels.</li>
+      </ul>
+      </div>`,
+    },
+    price: "260.000 Ft",
+    powerCooling: 2.6,
+    powerHeating: 2.7,
+    pics: [
+        { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-parapet-inverter-3-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GTH(12)CA-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree parapet FM 3,5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Parapet inverter 3,5 kW klíma beltéri egység",
+      typeName: "Parapet klíma beltéri",
+      desc: "Sokoldalú, 3,5 kW-os parapet beltéri egység, amely padlóra állítva vagy mennyezetre függesztve is professzionális komfortot nyújt. Kiváló választás olyan terekbe, ahol az oldalfal foglalt, de nagy teljesítményű, egyenletes légelosztású és esztétikus klímamegoldásra van szükség.",
+      specs: [
+        "Padlóra vagy mennyezetre",
+        "Kétirányú légbefúvás",
+        "Kompakt, lapos ház",
+        "Intelligens leolvasztás",
+        "Alacsony zajszint"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "4 kW" },
+        { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
+        { label: "Zajszint", value: "Csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match parapet beltéri egység (3,5 kW)</strong> a rugalmasság és a teljesítmény ötvözete. Különleges kialakításának köszönhetően Ön dönti el, hogyan illeszkedik legjobban a szobához: a padlóra helyezve úgy simul a falhoz, mint egy modern radiátor, a mennyezetre szerelve pedig diszkréten, a látótér felett biztosítja a hűvös levegőt. Ez a 3,5 kW-os típus kiválóan alkalmas nappalikba, tetőtéri helyiségekbe vagy közepes méretű irodákba.</p>
+      <p>A berendezés egyik legnagyobb előnye az <strong>egyenletes légelosztás</strong>. Fűtés üzemmódban a padló közeli elhelyezés különösen komfortos, hiszen a meleg levegőt alulról fújja be, ami természetesebb hőérzetet ad. A készülék burkolata letisztult és elegáns, így nem csak hasznos, de dísze is lehet a helyiségnek. A modern szűrőrendszer pedig gondoskodik róla, hogy a befújt levegő tiszta és pormentes legyen.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Kettős beépíthetőség:</strong> Szabadon választható padlóra állított vagy mennyezeti szerelési mód.</li>
+      <li><strong>Extra lapos kivitel:</strong> Elegáns és vékony ház, amely minimális helyet foglal el a térből.</li>
+      <li><strong>Széles légterelés:</strong> Automatikus lamellamozgatás a szoba minden pontjának eléréséhez.</li>
+      <li><strong>Turbó üzemmód:</strong> Maximális teljesítmény az azonnali hűtési vagy fűtési igényekhez.</li>
+      <li><strong>Éjszakai mód:</strong> Optimalizált ventilátor sebesség a csendes és pihentető alváshoz.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Floor/Ceiling Inverter 3.5 kW Indoor Unit",
+      typeName: "Ducted AC indoor unit",
+      desc: "A versatile 3.5 kW floor/ceiling indoor unit providing professional comfort whether floor-standing or ceiling-suspended. An excellent choice for spaces with limited wall availability that require high-performance, even air distribution, and an aesthetic design.",
+      specs: [
+        "Floor or ceiling mount",
+        "Two-way airflow",
+        "Compact, slim body",
+        "Intelligent defrosting",
+        "Low noise level"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "4 kW" },
+        { label: "Placement", value: "Floor or ceiling" },
+        { label: "Noise level", value: "Quiet" },
+        { label: "Control", value: "IR Remote (included)" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Free Match Floor/Ceiling Indoor Unit (3.5 kW)</strong> combines flexibility with reliable performance. Thanks to its unique design, you decide how it best fits your room: placed on the floor, it sits against the wall like a modern radiator, or mounted on the ceiling, it discreetly provides conditioned air from above. This 3.5 kW model is an ideal choice for living rooms, attic spaces, or medium-sized offices.</p>
+      <p>One of the unit's greatest advantages is its <strong>even air distribution</strong>. In heating mode, floor-level placement is particularly comfortable as it blows warm air from below, providing a more natural and pleasant heat sensation. The unit's casing is sleek and elegant, ensuring it blends seamlessly into any interior. The advanced filter system ensures that the delivered air remains clean and healthy.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Dual Installation:</strong> Freely choose between floor-standing or ceiling-mounted installation.</li>
+      <li><strong>Extra Slim Design:</strong> An elegant, thin profile that takes up minimal space in the room.</li>
+      <li><strong>Wide Airflow:</strong> Automatic louver movement ensures that air reaches every corner of the space.</li>
+      <li><strong>Turbo Mode:</strong> Delivers maximum output for immediate cooling or heating results.</li>
+      <li><strong>Sleep Mode:</strong> Optimized fan speed provides the perfect climate for undisturbed rest.</li>
+      </ul>
+      </div>`,
+    },
+    price: "230.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 4,
+    pics: [
+        { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-parapet-inverter-4-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GTH(18)CA-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree parapet FM 4,5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Parapet inverter 4,5 kW klíma beltéri egység",
+      typeName: "Parapet klíma beltéri",
+      desc: "Nagy teljesítményű, 4,5 kW-os parapet beltéri egység, amely rugalmasan, padlóra állítva vagy mennyezetre függesztve is telepíthető. Tökéletes megoldás tágasabb terekbe, ahol az oldalfali elhelyezés korlátozott, de elvárás a nagy fűtési és hűtési erő, valamint az elegáns megjelenés.",
+      specs: [
+        "Padlóra vagy mennyezetre",
+        "Kétirányú légbefúvás",
+        "Kompakt, lapos ház",
+        "Intelligens leolvasztás",
+        "Alacsony zajszint"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "4,5 kW" },
+        { label: "Fűtési teljesítmény", value: "5 kW" },
+        { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
+        { label: "Zajszint", value: "Csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Free Match parapet beltéri egység (4,5 kW)</strong> a sokoldalúság és a nyers erő kombinációja. Egyedi felépítése lehetővé teszi, hogy Ön döntse el a telepítés módját: a padlóra állítva úgy funkcionál, mint egy modern, elegáns radiátor, a mennyezet alá függesztve pedig hatékonyan, a látótérből kikerülve hűti vagy fűti a helyiséget. Ez a 4,5 kW-os modell kiváló választás tágas nappalikba, bemutatótermekbe vagy nagyobb irodákba.</p>
+        <p>A készülék egyik legfontosabb előnye a <strong>precíz és egyenletes légelosztás</strong>. Fűtési üzemmódban, padlóra szerelve a meleg levegőt alulról indítja el, ami rendkívül kellemes és természetes hőérzetet biztosít a szobában. A letisztult, vékony burkolatnak köszönhetően a berendezés minimális helyet foglal el a térből, miközben a beépített porszűrő rendszer folyamatosan gondoskodik a befújt levegő tisztaságáról.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Rugalmas beépítés:</strong> Szabadon választható padlóra állított vagy mennyezeti rögzítési mód.</li>
+        <li><strong>Extra lapos kivitel:</strong> Elegáns és keskeny kialakítás, amely stílusosan illeszkedik bármilyen környezetbe.</li>
+        <li><strong>Széles légterelés:</strong> Az automata lamellák gondoskodnak arról, hogy a légáram a helyiség minden pontját elérje.</li>
+        <li><strong>Nagy teljesítmény:</strong> 4,5 kW-os hűtési kapacitás a gyors és hatékony hőmérséklet-szabályozásért.</li>
+        <li><strong>Csendes üzemmód:</strong> A fejlett ventilátor-technológiának köszönhetően a készülék halkan és észrevétlenül dolgozik.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Floor/Ceiling Inverter 4.5 kW Indoor Unit",
+      typeName: "Ducted AC indoor unit",
+      desc: "A high-performance 4.5 kW floor/ceiling indoor unit that offers flexible installation, either floor-standing or ceiling-suspended. A perfect solution for larger spaces with limited wall space, requiring strong heating and cooling capacity paired with an elegant design.",
+      specs: [
+        "Floor or ceiling mount",
+        "Two-way airflow",
+        "Compact, slim body",
+        "Intelligent defrosting",
+        "Low noise level"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "4.5 kW" },
+        { label: "Heating capacity", value: "5 kW" },
+        { label: "Placement", value: "Floor or ceiling" },
+        { label: "Noise level", value: "Quiet" },
+        { label: "Control", value: "IR Remote (included)" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Free Match Floor/Ceiling Indoor Unit (4.5 kW)</strong> is a combination of versatility and raw power. Its unique design allows you to decide the method of installation: placed on the floor, it functions like a modern, elegant radiator, while suspended from the ceiling, it efficiently cools or heats the room while remaining out of the line of sight. This 4.5 kW model is an excellent choice for spacious living rooms, showrooms, or larger offices.</p>
+        <p>One of the unit's most significant advantages is its <strong>precise and even air distribution</strong>. In heating mode, when floor-mounted, it releases warm air from below, providing an extremely pleasant and natural heat sensation throughout the room. Thanks to its sleek, slim casing, the device takes up minimal space, while the built-in dust filter system continuously ensures the cleanliness of the delivered air.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Flexible Installation:</strong> Freely choose between floor-standing or ceiling-mounted installation.</li>
+        <li><strong>Extra Slim Design:</strong> An elegant and narrow profile that fits stylishly into any environment.</li>
+        <li><strong>Wide Airflow:</strong> Automatic louvers ensure that the air current reaches every corner of the room.</li>
+        <li><strong>High Performance:</strong> 4.5 kW cooling capacity for fast and efficient temperature control.</li>
+        <li><strong>Quiet Operation:</strong> Thanks to advanced fan technology, the unit works quietly and discreetly.</li>
+        </ul>
+        </div>`,
+    },
+    price: "270.000 Ft",
+    powerCooling: 4.5,
+    powerHeating: 5,
+    pics: [
+        { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

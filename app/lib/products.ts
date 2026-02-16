@@ -5450,6 +5450,399 @@ export const products: Product[] = [
         { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
     ]
   },
+  {
+    id: "gree-fm-kazettas-inverter-3-5-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GKH(12)EB-K6DNA5A/I",
+    type: "ac-multi",
+    name: "Gree FM Kazettás 3,5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Kazettás inverter 3,5 kW klíma beltéri egység",
+      typeName: "Kazettás klíma beltéri",
+      desc: "Elegáns, álmennyezetbe süllyeszthető kazettás klíma, 650x650 mm-es modern dekorpanellel. A 360°-os körkörös befúvásnak köszönhetően a helyiség minden pontján egyenletes hőmérsékletet biztosít, miközben észrevétlenül simul a plafon síkjába.",
+      specs: [
+        "Álmennyezeti beépítés",
+        "360°-os légbefúvás",
+        "Huzatmentes komfort",
+        "Beépített vízszivattyú",
+        "Csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "4,0 kW" },
+        { label: "Látható panel mérete", value: "650 x 650 mm" },
+        { label: "Beépítési méret", value: "570 x 570 mm (álmennyezet fölé)" },
+        { label: "Légterelés", value: "4 irányú, körkörös" },
+        { label: "Zajszint", value: "Kiemelkedően halk" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match légcsatornás beltéri egység (3,5 kW)</strong> a modern minimalizmus jegyében született. Ideális választás azoknak, akik nem szeretnének látványos klímaberendezéseket a falon, mégis elvárják a professzionális hűtési és fűtési teljesítményt. A készülék az álmennyezet felett rejtve marad, a levegőt pedig diszkrét rácsokon keresztül juttatja a helyiségbe, így a lakás belső tere elegáns és tágas marad.</p>
+
+      <p>A készülék mindössze <strong>20 cm-es magassága</strong> lehetővé teszi a telepítést olyan helyeken is, ahol kevés hely áll rendelkezésre az álmennyezet felett. A 3,5 kW-os teljesítmény tökéletesen elegendő egy közepes méretű nappali vagy egy nagyobb hálószoba klimatizálására. A légcsatornázható rendszer nagy előnye, hogy a levegő kifúvásának helye szabadon tervezhető, így elkerülhető a közvetlen huzat, biztosítva a maximális komfortérzetet.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Esztétikus és láthatatlan:</strong> Megőrzi a belső tér egységét, nincs látható beltéri egység az oldalfalon.</li>
+      <li><strong>Helytakarékos kialakítás:</strong> Ultra-vékony háza miatt minimális álmennyezeti süllyesztést igényel.</li>
+      <li><strong>Testre szabható légáram:</strong> A szellőzőrácsok bárhová elhelyezhetők a tökéletes légelosztásért.</li>
+      <li><strong>Beépített vízszivattyú:</strong> Automatikusan elvezeti a keletkező kondenzvizet, növelve az üzembiztonságát.</li>
+      <li><strong>Halk üzemmód:</strong> A rejtett beépítésnek köszönhetően a működési zaj jelentős része a plafon felett marad.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Cassette Inverter 3.5 kW Indoor Unit",
+      typeName: "Cassette AC indoor unit",
+      desc: "An elegant, ceiling-recessed cassette air conditioner with a modern 650x650 mm decorative panel. Thanks to its 360° circular airflow, it ensures even temperature throughout the room while blending seamlessly into the ceiling.",
+      specs: [
+        "Ceiling integration",
+        "360° airflow",
+        "Draft-free comfort",
+        "Built-in water pump",
+        "Quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "4.0 kW" },
+        { label: "Visible panel size", value: "650 x 650 mm" },
+        { label: "Installation size", value: "570 x 570 mm (above ceiling)" },
+        { label: "Air distribution", value: "4-way, circular" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Free Match Ducted Indoor Unit (3.5 kW)</strong> was created in the spirit of modern minimalism. It is the ideal choice for those who prefer not to have visible air conditioning units on their walls but still demand professional cooling and heating performance. The unit remains hidden above the suspended ceiling, delivering air through discreet grilles, ensuring the interior remains elegant and spacious.</p>
+      <p>With a <strong>height of only 20 cm</strong>, the unit can be installed even in locations with limited ceiling clearance. The 3.5 kW capacity is perfectly suited for climate-controlling medium-sized living rooms or larger bedrooms. A major advantage of the ducted system is the flexibility in placing air outlets, ensuring a draft-free environment by avoiding direct air flow onto the occupants.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Aesthetic and Invisible:</strong> Preserves the integrity of the interior design with no visible wall-mounted units.</li>
+      <li><strong>Space-saving Design:</strong> The ultra-slim chassis requires minimal ceiling depth for installation.</li>
+      <li><strong>Customizable Airflow:</strong> Ventilation grilles can be placed anywhere for perfectly distributed air.</li>
+      <li><strong>Built-in Condensate Pump:</strong> Automatically removes moisture, enhancing system reliability.</li>
+      <li><strong>Quiet Operation:</strong> Thanks to the concealed installation, most operational noise stays above the ceiling.</li>
+      </ul>
+      </div>`,
+    },
+    price: "220.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 4.0,
+    pics: [
+        { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-kazettas-inverter-5-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GKH(18)EB-K6DNA5A/I",
+    type: "ac-multi",
+    name: "Gree FM Kazettás 5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Kazettás inverter 5 kW klíma beltéri egység",
+      typeName: "Kazettás klíma beltéri",
+      desc: "Nagy teljesítményű, 5,0 kW-os kazettás klíma, amely észrevétlenül simul az álmennyezetbe. 650x650 mm-es modern dekorpanelje és a 360°-os körkörös befúvás garantálja a tökéletes komfortot és az egyenletes hőmérsékletet a nagyobb helyiségekben is.",
+      specs: [
+        "Álmennyezeti beépítés",
+        "360°-os légbefúvás",
+        "Huzatmentes komfort",
+        "Beépített vízszivattyú",
+        "Csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5 kW" },
+        { label: "Fűtési teljesítmény", value: "5,5 kW" },
+        { label: "Látható panel mérete", value: "650 x 650 mm" },
+        { label: "Beépítési méret", value: "570 x 570 mm (álmennyezet fölé)" },
+        { label: "Légterelés", value: "4 irányú, körkörös" },
+        { label: "Zajszint", value: "Kiemelkedően halk" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match kazettás klíma (5,0 kW)</strong> ideális megoldás a tágasabb helyiségek diszkrét klimatizálására. A berendezés szinte teljes egésze az álmennyezet síkja felett helyezkedik el, így csak az esztétikus, <strong>650x650 mm-es fehér dekorpanel</strong> látható belőle. Ez a kialakítás lehetővé teszi, hogy a nagy teljesítmény ellenére se kelljen lemondania a belső tér letisztult stílusáról.</p>
+      <p>Az 5,0 kW-os hűtési teljesítményre képes modell legfontosabb jellemzője a <strong>360 fokos, körkörös légbefúvás</strong>. Ez a technológia biztosítja, hogy a nagy mennyiségű kezelt levegő ne egy pontra irányulva okozzon huzatot, hanem minden irányba egyenletesen eloszolva töltse meg a szobát. A beépített cseppvízszivattyú automatikusan gondoskodik a pára és a kondenzvíz eltávolításáról, ami nagyban leegyszerűsíti a telepítést.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Nagyobb terekhez optimalizálva:</strong> Megbízható ereje révén hatékonyan kezeli a tágasabb alapterületű helyiségeket is.</li>
+      <li><strong>650x650 mm-es modern panel:</strong> Elegáns megjelenést kölcsönöz a plafonnak, észrevétlenül takarva a technikai részeket.</li>
+      <li><strong>Csendes és hatékony:</strong> Az éjszakai üzemmód segítségével pihenés közben is zavartalanul, halk működés mellett dolgozik.</li>
+      <li><strong>Turbó funkció:</strong> Azonnali hűtési vagy fűtési igény esetén a készülék pillanatok alatt maximális fokozatra kapcsol.</li>
+      <li><strong>Friss levegő előkészítés:</strong> A készülékházon található csatlakozási ponton keresztül külső levegő bevezetése is megoldható.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Cassette Inverter 5 kW Indoor Unit",
+      typeName: "Cassette AC indoor unit",
+      desc: "A high-performance 5.0 kW cassette air conditioner designed for ceiling integration. Its modern 650x650 mm decorative panel and 360° circular airflow guarantee perfect comfort and even temperature, even in larger spaces.",
+      specs: [
+        "Ceiling integration",
+        "360° airflow",
+        "Draft-free comfort",
+        "Built-in water pump",
+        "Quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5 kW" },
+        { label: "Heating capacity", value: "5.5 kW" },
+        { label: "Visible panel size", value: "650 x 650 mm" },
+        { label: "Installation size", value: "570 x 570 mm (above ceiling)" },
+        { label: "Air distribution", value: "4-way, circular" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Free Match Cassette Indoor Unit (5.0 kW)</strong> is the ideal solution for discreetly controlling the climate in larger spaces. Almost the entire unit is located above the ceiling line, leaving only the aesthetic <strong>650x650 mm white decorative panel</strong> visible. This design allows you to maintain a clean interior style while enjoying high cooling and heating performance.</p>
+          <p>The key feature of this 5.0 kW cooling capacity model is its <strong>360-degree circular airflow</strong>. This technology ensures that the high volume of conditioned air is distributed evenly in all directions, preventing uncomfortable drafts. The integrated drain pump automatically handles condensate water removal, simplifying installation and increasing safety.</p>
+          <h3>Key Comfort Features:</h3>
+          <ul>
+              <li><strong>Optimized for Larger Areas:</strong> Its 5.0 kW power efficiently manages rooms with more spacious floor plans.</li>
+              <li><strong>Modern 650x650 mm Panel:</strong> Provides an elegant finish to the ceiling while hiding the technical components.</li>
+              <li><strong>Quiet and Efficient:</strong> Sleep mode allows it to work unnoticed even while you rest, with significantly reduced noise levels.</li>
+              <li><strong>Turbo Function:</strong> Provides immediate comfort by switching to maximum output for rapid temperature adjustment.</li>
+              <li><strong>Fresh Air Connection:</strong> The unit includes a dedicated point for connecting a fresh air intake for improved air quality.</li>
+          </ul>
+      </div>`,
+    },
+    price: "240.000 Ft",
+    powerCooling: 5,
+    powerHeating: 5.5,
+    pics: [
+        { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-kazettas-inverter-7-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GKH(24)EC-K6DNA6A/I",
+    type: "ac-multi",
+    name: "Gree FM Kazettás 7 kW beltéri",
+    hu: {
+      fullName: "Gree FM Kazettás inverter 7 kW klíma beltéri egység",
+      typeName: "Kazettás klíma beltéri",
+      desc: "Extra nagy teljesítményű, 7,1 kW-os kazettás klíma nagy alapterületű helyiségekhez. A 950x950 mm-es modern dekorpanel és a 360°-os légbefúvás garantálja a professzionális megjelenést és az egyenletes hőmérsékletet még a legtávolabbi sarkokban is.",
+      specs: [
+        "Álmennyezeti beépítés",
+        "360°-os légbefúvás",
+        "Huzatmentes komfort",
+        "Beépített vízszivattyú",
+        "Csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7 kW" },
+        { label: "Fűtési teljesítmény", value: "8 kW" },
+        { label: "Látható panel mérete", value: "950 x 950 mm" },
+        { label: "Beépítési méret", value: "840 x 840 mm" },
+        { label: "Légterelés", value: "4 irányú, körkörös" },
+        { label: "Zajszint", value: "Csendes működés" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Free Match kazettás klíma (7,1 kW)</strong> a multi rendszerek belső egységeinek legerősebb tagja, amelyet kifejezetten nagy alapterületű helyiségek klimatizálására terveztek. Mivel szinte a teljes készülék az álmennyezet felett helyezkedik el, esztétikus megoldást nyújt ott is, ahol a nagy teljesítmény ellenére fontos a letisztult belső építészeti megjelenés. A látható, modern <strong>950x950 mm-es fehér dekorpanel</strong> professzionális megjelenést kölcsönöz bármilyen térnek.</p>
+        <p>A 7,1 kW-os hűtési erőhöz <strong>360 fokos, körkörös légbefúvás</strong> társul, amely segít elkerülni a kellemetlen huzatot. A gép a levegőt minden irányba egyenletesen teríti szét, így még egy nagyobb terem közepén elhelyezve is képes a legtávolabbi pontokon is tartani a beállított hőfokot. A beépített cseppvízszivattyú megbízhatóan távolítja el a keletkező kondenzvizet, így a telepítés biztonságos és rugalmas.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Maximális teljesítmény:</strong> Kiemelkedő, 7,1 kW-os kapacitás nagy nappalikhoz vagy üzleti terekhez.</li>
+        <li><strong>Professzionális megjelenés:</strong> A nagyméretű, 950 mm-es panel elegánsan simul a mennyezet síkjába.</li>
+        <li><strong>Csendes üzem:</strong> A méretéhez képest rendkívül halkan dolgozik, nem zavarja a napi tevékenységet.</li>
+        <li><strong>Turbó üzemmód:</strong> Pillanatok alatt lehűti vagy felfűti a helyiséget, amikor a legnagyobb szükség van rá.</li>
+        <li><strong>Friss levegő betáplálás:</strong> A készülék kialakítása lehetővé teszi külső friss levegő bevezetését is a jobb légminőség érdekében.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Cassette Inverter 7 kW Indoor Unit",
+      typeName: "Cassette AC indoor unit",
+      desc: "Extra high-performance 7.1 kW cassette air conditioner for large floor areas. The 950x950 mm modern decorative panel and 360° airflow guarantee a professional look and consistent temperature even in the furthest corners.",
+      specs: [
+        "Ceiling integration",
+        "360° airflow",
+        "Draft-free comfort",
+        "Built-in water pump",
+        "Quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7 kW" },
+        { label: "Heating capacity", value: "8 kW" },
+        { label: "Visible panel size", value: "950 x 950 mm" },
+        { label: "Installation size", value: "840 x 840 mm" },
+        { label: "Air distribution", value: "4-way, circular" },
+        { label: "Noise level", value: "Quiet operation" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree Free Match Cassette Indoor Unit (7.1 kW)</strong> is the most powerful member of the multi-split indoor lineup, specifically designed for climate-controlling large areas. As nearly the entire unit is hidden above the ceiling, it provides an aesthetic solution where high performance must be paired with clean architectural design. The visible, modern <strong>950x950 mm white decorative panel</strong> lends a professional finish to any space.</p>
+          <p>The 7.1 kW cooling capacity is coupled with <strong>360-degree circular airflow</strong>, which helps eliminate uncomfortable drafts. The unit distributes air evenly in all directions, ensuring the set temperature is maintained even in the furthest corners when placed in the center of a large room. The integrated drain pump reliably removes condensation, making installation safe and flexible.</p>
+          <h3>Key Comfort Features:</h3>
+          <ul>
+              <li><strong>Maximum Performance:</strong> Outstanding 7.1 kW capacity for large living rooms or commercial spaces.</li>
+              <li><strong>Professional Appearance:</strong> The large 950 mm panel fits elegantly into the ceiling line.</li>
+              <li><strong>Quiet Operation:</strong> Operates remarkably quietly for its size, without disrupting daily activities.</li>
+              <li><strong>Turbo Mode:</strong> Quickly cools or heats the room when comfort is needed most.</li>
+              <li><strong>Fresh Air Intake:</strong> The unit's design allows for the connection of a fresh air supply for improved indoor air quality.</li>
+          </ul>
+      </div>`,
+    },
+    price: "290.000 Ft",
+    powerCooling: 7,
+    powerHeating: 8,
+    pics: [
+        { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-legcsatornas-inverter-2-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GFH(09)CA-K6DNA1B/I",
+    type: "ac-multi",
+    name: "Gree ducted FM 2,5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Légcsatornás inverter 2,5 kW klíma beltéri egység",
+      typeName: "Légcsatornás klíma beltéri",
+      desc: "Ultra-diszkrét, álmennyezetbe rejthető légcsatornás beltéri egység 2,65 kW-os hűtési teljesítménnyel. Teljesen láthatatlan megoldás, amelynél csak a befúvórácsok látszanak, így tökéletesen megőrzi a helyiség belső építészeti stílusát.",
+      specs: [
+        "Álmennyezeti beépítés",
+        "Láthatatlan kivitel",
+        "Ultra-lapos ház",
+        "Huzatmentes befúvás",
+        "Csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,65 kW" },
+        { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Beépítési magasság", value: "200 mm" },
+        { label: "Zajszint", value: "Nagyon halk" },
+        { label: "Vezérlés", value: "Fali vezetékes vagy infra távvezérlő" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match légcsatornás beltéri egység (2,65 kW)</strong> a legkifinomultabb megoldás azok számára, akik úgy szeretnék élvezni a tökéletes hőmérsékletet, hogy közben a klímaberendezés teljesen láthatatlan marad. Ezt az egységet az álmennyezet fölé vagy egy külön gépészeti helyiségbe építik be, a kezelt levegő pedig észrevétlen szellőzőrácsokon keresztül érkezik a szobába. Mivel nincs látható beltéri egység a falon, semmi sem töri meg a lakás belső dizájnját.</p>
+      <p>A mindössze <strong>20 cm-es magasságának</strong> köszönhetően a készülék rendkívül helytakarékos, így szűkebb álmennyezeti terekbe is könnyedén telepíthető. A 2,65 kW-os hűtési teljesítmény kifejezetten hálószobák vagy kisebb dolgozószobák klimatizálására lett optimalizálva, ahol a halk működés elsődleges szempont. A légcsatornázható kivitel nagy előnye, hogy a befúvás helye szabadon megválasztható, így elkerülhető, hogy a hideg levegő közvetlenül az ágyra vagy az íróasztalra irányuljon.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Láthatatlan technológia:</strong> Nincs falra szerelt doboz, csak diszkrét rácsok a mennyezeten vagy az oldalfal tetején.</li>
+      <li><strong>Ultra-vékony kialakítás:</strong> Akár minimális álmennyezeti süllyesztés mellett is beépíthető.</li>
+      <li><strong>Személyre szabható komfort:</strong> A légcsatornák elrendezésével pontosan oda vezethető a levegő, ahol a legkellemesebb.</li>
+      <li><strong>Extrém csendes üzemmód:</strong> Mivel a gép a plafon felett rejtőzik, a működési zaj minimális, zavartalan pihenést biztosítva.</li>
+      <li><strong>Beépített öndiagnosztika:</strong> A rendszer folyamatosan ellenőrzi önmagát, és bármilyen észlelt hibát azonnal jelez a vezérlőn.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Ducted Inverter 2.5 kW Indoor Unit",
+      typeName: "Ducted AC indoor unit",
+      desc: "An ultra-discreet, ceiling-concealed ducted indoor unit with 2.65 kW cooling capacity. A completely invisible solution where only the grilles are visible, perfectly preserving the interior architectural style of the room.",
+      specs: [
+        "Invisible installation",
+        "Ultra-slim design",
+        "Draft-free distribution",
+        "Built-in pump",
+        "Quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.65 kW" },
+        { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Installation height", value: "200 mm" },
+        { label: "Noise level", value: "Very quiet" },
+        { label: "Control", value: "Wired wall or IR remote" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Free Match Ducted Indoor Unit (2.65 kW)</strong> is the most sophisticated solution for those who want to enjoy the perfect temperature while the air conditioning remains completely invisible. This unit is installed above the suspended ceiling or in a separate utility space, with conditioned air delivered to the room through discreet ventilation grilles. Since there is no visible indoor unit on the wall, nothing disrupts the home's interior design.</p>
+      <p>Thanks to its <strong>slim 20 cm height</strong>, the device is extremely space-saving, allowing for easy installation even in tight ceiling voids. The 2.65 kW capacity is specifically optimized for bedrooms or small studies where quiet operation is a primary concern. A major advantage of the ducted design is that the air outlet position can be freely chosen, preventing cold air from blowing directly onto the bed or desk.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Invisible Technology:</strong> No wall-mounted units, only discreet grilles on the ceiling or high on the side wall.</li>
+      <li><strong>Ultra-slim Design:</strong> Can be installed even with minimal ceiling clearance.</li>
+      <li><strong>Customized Comfort:</strong> Air can be routed precisely where it feels best through flexible ducting.</li>
+      <li><strong>Extremely Quiet Operation:</strong> Since the unit is concealed above the ceiling, operating noise is minimal, ensuring undisturbed rest.</li>
+      <li><strong>Built-in Self-diagnosis:</strong> The system continuously monitors its performance and immediately signals any detected issues on the controller.</li>
+      </ul>
+      </div>`,
+    },
+    price: "210.000 Ft",
+    powerCooling: 2.65,
+    powerHeating: 2.8,
+    pics: [
+        { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-legcsatornas-inverter-3-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GFH(12)CA-K6DNA1B/I",
+    type: "ac-multi",
+    name: "Gree ducted FM 3,5 kW beltéri",
+    hu: {
+      fullName: "Gree FM Légcsatornás inverter 3,5 kW klíma beltéri egység",
+      typeName: "Légcsatornás klíma beltéri",
+      desc: "Prémium esztétikai megoldás, amelynél a klímaberendezés észrevétlenül az álmennyezetbe rejtve marad. A 3,5 kW-os teljesítmény ideális közepes méretű helyiségekhez, ahol a belsőépítészeti stílus megőrzése mellett a tökéletes, huzatmentes komfort és a csendes működés a fő szempont.",
+      specs: [
+        "Láthatatlan beépítés",
+        "Ultra-lapos kialakítás",
+        "Huzatmentes légelosztás",
+        "Beépített szivattyú",
+        "Csendes üzemmód"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,9 kW" },
+        { label: "Beépítési magasság", value: "200 mm" },
+        { label: "Zajszint", value: "Alacsony" },
+        { label: "Vízszivattyú", value: "Beépített" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree Free Match légcsatornás beltéri egység (3,5 kW)</strong> a modern minimalizmus jegyében született. Ideális választás azoknak, akik nem szeretnének látványos klímaberendezéseket a falon, mégis elvárják a professzionális hűtési és fűtési teljesítményt. A készülék az álmennyezet felett rejtve marad, a levegőt pedig diszkrét rácsokon keresztül juttatja a helyiségbe, így a lakás belső tere elegáns és tágas marad.</p>
+
+      <p>A készülék mindössze <strong>20 cm-es magassága</strong> lehetővé teszi a telepítést olyan helyeken is, ahol kevés hely áll rendelkezésre az álmennyezet felett. A 3,5 kW-os teljesítmény tökéletesen elegendő egy közepes méretű nappali vagy egy nagyobb hálószoba klimatizálására. A légcsatornázható rendszer nagy előnye, hogy a levegő kifúvásának helye szabadon tervezhető, így elkerülhető a közvetlen huzat, biztosítva a maximális komfortérzetet.</p>
+      <h3>Főbb kényelmi funkciók:</h3>
+      <ul>
+      <li><strong>Esztétikus és láthatatlan:</strong> Megőrzi a belső tér egységét, nincs látható beltéri egység az oldalfalon.</li>
+      <li><strong>Helytakarékos kialakítás:</strong> Ultra-vékony háza miatt minimális álmennyezeti süllyesztést igényel.</li>
+      <li><strong>Testre szabható légáram:</strong> A szellőzőrácsok bárhová elhelyezhetők a tökéletes légelosztásért.</li>
+      <li><strong>Beépített vízszivattyú:</strong> Automatikusan elvezeti a keletkező kondenzvizet, növelve az üzembiztonságát.</li>
+      <li><strong>Halk üzemmód:</strong> A rejtett beépítésnek köszönhetően a működési zaj jelentős része a plafon felett marad.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Ducted Inverter 2.5 kW Indoor Unit",
+      typeName: "Ducted AC indoor unit",
+      desc: "A premium aesthetic solution where the air conditioning unit remains discreetly hidden within the ceiling. Its 3.5 kW capacity is ideal for medium-sized rooms, prioritizing interior design integrity alongside perfect, draft-free comfort and quiet operation.",
+      specs: [
+        "Invisible installation",
+        "Ultra-slim design",
+        "Draft-free distribution",
+        "Built-in pump",
+        "Quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.9 kW" },
+        { label: "Installation height", value: "200 mm" },
+        { label: "Noise level", value: "Low" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Free Match Ducted Indoor Unit (3.5 kW)</strong> was created in the spirit of modern minimalism. It is the ideal choice for those who prefer not to have visible air conditioning units on their walls but still demand professional cooling and heating performance. The unit remains hidden above the suspended ceiling, delivering air through discreet grilles, ensuring the interior remains elegant and spacious.</p>
+      <p>With a <strong>height of only 20 cm</strong>, the unit can be installed even in locations with limited ceiling clearance. The 3.5 kW capacity is perfectly suited for climate-controlling medium-sized living rooms or larger bedrooms. A major advantage of the ducted system is the flexibility in placing air outlets, ensuring a draft-free environment by avoiding direct air flow onto the occupants.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Aesthetic and Invisible:</strong> Preserves the integrity of the interior design with no visible wall-mounted units.</li>
+      <li><strong>Space-saving Design:</strong> The ultra-slim chassis requires minimal ceiling depth for installation.</li>
+      <li><strong>Customizable Airflow:</strong> Ventilation grilles can be placed anywhere for perfectly distributed air.</li>
+      <li><strong>Built-in Condensate Pump:</strong> Automatically removes moisture, enhancing system reliability.</li>
+      <li><strong>Quiet Operation:</strong> Thanks to the concealed installation, most operational noise stays above the ceiling.</li>
+      </ul>
+      </div>`,
+    },
+    price: "230.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.9,
+    pics: [
+        { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

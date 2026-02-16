@@ -5805,7 +5805,7 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Free Match Ducted Inverter 2.5 kW Indoor Unit",
+      fullName: "Gree Free Match Ducted Inverter 3.5 kW Indoor Unit",
       typeName: "Ducted AC indoor unit",
       desc: "A premium aesthetic solution where the air conditioning unit remains discreetly hidden within the ceiling. Its 3.5 kW capacity is ideal for medium-sized rooms, prioritizing interior design integrity alongside perfect, draft-free comfort and quiet operation.",
       specs: [

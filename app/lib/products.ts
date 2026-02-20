@@ -5461,6 +5461,7 @@ export const products: Product[] = [
       typeName: "Kazettás klíma beltéri",
       desc: "Elegáns, álmennyezetbe süllyeszthető kazettás klíma, 650x650 mm-es modern dekorpanellel. A 360°-os körkörös befúvásnak köszönhetően a helyiség minden pontján egyenletes hőmérsékletet biztosít, miközben észrevétlenül simul a plafon síkjába.",
       specs: [
+        "Wi-Fi",
         "Álmennyezeti beépítés",
         "360°-os légbefúvás",
         "Huzatmentes komfort",
@@ -5495,6 +5496,7 @@ export const products: Product[] = [
       typeName: "Cassette AC indoor unit",
       desc: "An elegant, ceiling-recessed cassette air conditioner with a modern 650x650 mm decorative panel. Thanks to its 360° circular airflow, it ensures even temperature throughout the room while blending seamlessly into the ceiling.",
       specs: [
+        "Wi-Fi",
         "Ceiling integration",
         "360° airflow",
         "Draft-free comfort",
@@ -5541,6 +5543,7 @@ export const products: Product[] = [
       typeName: "Kazettás klíma beltéri",
       desc: "Nagy teljesítményű, 5,0 kW-os kazettás klíma, amely észrevétlenül simul az álmennyezetbe. 650x650 mm-es modern dekorpanelje és a 360°-os körkörös befúvás garantálja a tökéletes komfortot és az egyenletes hőmérsékletet a nagyobb helyiségekben is.",
       specs: [
+        "Wi-Fi",
         "Álmennyezeti beépítés",
         "360°-os légbefúvás",
         "Huzatmentes komfort",
@@ -5574,6 +5577,7 @@ export const products: Product[] = [
       typeName: "Cassette AC indoor unit",
       desc: "A high-performance 5.0 kW cassette air conditioner designed for ceiling integration. Its modern 650x650 mm decorative panel and 360° circular airflow guarantee perfect comfort and even temperature, even in larger spaces.",
       specs: [
+        "Wi-Fi",
         "Ceiling integration",
         "360° airflow",
         "Draft-free comfort",
@@ -5620,6 +5624,7 @@ export const products: Product[] = [
       typeName: "Kazettás klíma beltéri",
       desc: "Extra nagy teljesítményű, 7,1 kW-os kazettás klíma nagy alapterületű helyiségekhez. A 950x950 mm-es modern dekorpanel és a 360°-os légbefúvás garantálja a professzionális megjelenést és az egyenletes hőmérsékletet még a legtávolabbi sarkokban is.",
       specs: [
+        "Wi-Fi",
         "Álmennyezeti beépítés",
         "360°-os légbefúvás",
         "Huzatmentes komfort",
@@ -5653,6 +5658,7 @@ export const products: Product[] = [
       typeName: "Cassette AC indoor unit",
       desc: "Extra high-performance 7.1 kW cassette air conditioner for large floor areas. The 950x950 mm modern decorative panel and 360° airflow guarantee a professional look and consistent temperature even in the furthest corners.",
       specs: [
+        "Wi-Fi",
         "Ceiling integration",
         "360° airflow",
         "Draft-free comfort",
@@ -5699,6 +5705,7 @@ export const products: Product[] = [
       typeName: "Légcsatornás klíma beltéri",
       desc: "Ultra-diszkrét, álmennyezetbe rejthető légcsatornás beltéri egység 2,65 kW-os hűtési teljesítménnyel. Teljesen láthatatlan megoldás, amelynél csak a befúvórácsok látszanak, így tökéletesen megőrzi a helyiség belső építészeti stílusát.",
       specs: [
+        "Wi-Fi",
         "Álmennyezeti beépítés",
         "Láthatatlan kivitel",
         "Ultra-lapos ház",
@@ -5731,6 +5738,7 @@ export const products: Product[] = [
       typeName: "Ducted AC indoor unit",
       desc: "An ultra-discreet, ceiling-concealed ducted indoor unit with 2.65 kW cooling capacity. A completely invisible solution where only the grilles are visible, perfectly preserving the interior architectural style of the room.",
       specs: [
+        "Wi-Fi",
         "Invisible installation",
         "Ultra-slim design",
         "Draft-free distribution",
@@ -5776,6 +5784,7 @@ export const products: Product[] = [
       typeName: "Légcsatornás klíma beltéri",
       desc: "Prémium esztétikai megoldás, amelynél a klímaberendezés észrevétlenül az álmennyezetbe rejtve marad. A 3,5 kW-os teljesítmény ideális közepes méretű helyiségekhez, ahol a belsőépítészeti stílus megőrzése mellett a tökéletes, huzatmentes komfort és a csendes működés a fő szempont.",
       specs: [
+        "Wi-Fi",
         "Láthatatlan beépítés",
         "Ultra-lapos kialakítás",
         "Huzatmentes légelosztás",
@@ -5809,6 +5818,7 @@ export const products: Product[] = [
       typeName: "Ducted AC indoor unit",
       desc: "A premium aesthetic solution where the air conditioning unit remains discreetly hidden within the ceiling. Its 3.5 kW capacity is ideal for medium-sized rooms, prioritizing interior design integrity alongside perfect, draft-free comfort and quiet operation.",
       specs: [
+        "Wi-Fi",
         "Invisible installation",
         "Ultra-slim design",
         "Draft-free distribution",
@@ -5854,6 +5864,7 @@ export const products: Product[] = [
       typeName: "Légcsatornás klíma beltéri",
       desc: "Nagy teljesítményű, álmennyezetbe rejthető légcsatornás klíma 5,0 kW-os kapacitással. Ideális választás nagyobb helyiségekbe, ahol a cél a professzionális hűtési és fűtési erő ötvözése a teljes vizuális diszkrécióval és a huzatmentes, egyenletes légelosztással.",
       specs: [
+        "Wi-Fi",
         "Láthatatlan beépítés",
         "Nagy teljesítmény",
         "Huzatmentes légelosztás",
@@ -5886,6 +5897,7 @@ export const products: Product[] = [
       typeName: "Ducted AC indoor unit",
       desc: "A high-performance, ceiling-concealed ducted air conditioner with a 5.0 kW capacity. It is the perfect choice for larger rooms, combining professional cooling and heating power with complete visual discretion and draft-free, even air distribution.",
       specs: [
+        "Wi-Fi",
         "Invisible installation",
         "High performance",
         "Draft-free distribution",
@@ -5931,6 +5943,7 @@ export const products: Product[] = [
       typeName: "Parapet klíma beltéri",
       desc: "Sokoldalúan telepíthető, 2,6 kW-os parapet beltéri egység, amely padlóra állítva vagy mennyezetre függesztve is esztétikus megoldást nyújt. Ideális választás olyan helyiségekbe, ahol az oldalfali elhelyezés nem megoldható, de a hatékony légáramlás és a modern megjelenés elengedhetetlen.",
       specs: [
+        "Wi-Fi",
         "Padlóra vagy mennyezetre",
         "Kétirányú légbefúvás",
         "Kompakt, lapos ház",
@@ -5961,9 +5974,10 @@ export const products: Product[] = [
     },
     en: {
       fullName: "Gree Free Match Floor/Ceiling Inverter 2.6 kW Indoor Unit",
-      typeName: "Ducted AC indoor unit",
+      typeName: "Floor/Ceiling AC indoor unit",
       desc: "A versatile 2.6 kW floor/ceiling indoor unit that offers an aesthetic solution whether standing on the floor or suspended from the ceiling. An ideal choice for rooms where wall-mounted installation is not possible, but efficient airflow and modern design are essential.",
       specs: [
+        "Wi-Fi",
         "Floor or ceiling mount",
         "Two-way airflow",
         "Compact, slim body",
@@ -6009,6 +6023,7 @@ export const products: Product[] = [
       typeName: "Parapet klíma beltéri",
       desc: "Sokoldalú, 3,5 kW-os parapet beltéri egység, amely padlóra állítva vagy mennyezetre függesztve is professzionális komfortot nyújt. Kiváló választás olyan terekbe, ahol az oldalfal foglalt, de nagy teljesítményű, egyenletes légelosztású és esztétikus klímamegoldásra van szükség.",
       specs: [
+        "Wi-Fi",
         "Padlóra vagy mennyezetre",
         "Kétirányú légbefúvás",
         "Kompakt, lapos ház",
@@ -6038,9 +6053,10 @@ export const products: Product[] = [
     },
     en: {
       fullName: "Gree Free Match Floor/Ceiling Inverter 3.5 kW Indoor Unit",
-      typeName: "Ducted AC indoor unit",
+      typeName: "Floor/Ceiling AC indoor unit",
       desc: "A versatile 3.5 kW floor/ceiling indoor unit providing professional comfort whether floor-standing or ceiling-suspended. An excellent choice for spaces with limited wall availability that require high-performance, even air distribution, and an aesthetic design.",
       specs: [
+        "Wi-Fi",
         "Floor or ceiling mount",
         "Two-way airflow",
         "Compact, slim body",
@@ -6086,6 +6102,7 @@ export const products: Product[] = [
       typeName: "Parapet klíma beltéri",
       desc: "Nagy teljesítményű, 4,5 kW-os parapet beltéri egység, amely rugalmasan, padlóra állítva vagy mennyezetre függesztve is telepíthető. Tökéletes megoldás tágasabb terekbe, ahol az oldalfali elhelyezés korlátozott, de elvárás a nagy fűtési és hűtési erő, valamint az elegáns megjelenés.",
       specs: [
+        "Wi-Fi",
         "Padlóra vagy mennyezetre",
         "Kétirányú légbefúvás",
         "Kompakt, lapos ház",
@@ -6115,9 +6132,10 @@ export const products: Product[] = [
     },
     en: {
       fullName: "Gree Free Match Floor/Ceiling Inverter 4.5 kW Indoor Unit",
-      typeName: "Ducted AC indoor unit",
+      typeName: "Floor/Ceiling AC indoor unit",
       desc: "A high-performance 4.5 kW floor/ceiling indoor unit that offers flexible installation, either floor-standing or ceiling-suspended. A perfect solution for larger spaces with limited wall space, requiring strong heating and cooling capacity paired with an elegant design.",
       specs: [
+        "Wi-Fi",
         "Floor or ceiling mount",
         "Two-way airflow",
         "Compact, slim body",
@@ -6150,6 +6168,1162 @@ export const products: Product[] = [
     powerHeating: 5,
     pics: [
         { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-konzol-inverter-2-7-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GEH09AA-K6DNA1E/I",
+    type: "ac-multi",
+    name: "Gree konzol 2,7 kW beltéri",
+    hu: {
+      fullName: "Gree FM konzol inverter 2,7 kW klíma beltéri egység",
+      typeName: "Konzol klíma beltéri",
+      desc: "Esztétikus, padlóra állítható konzol klíma 2,7 kW-os teljesítménnyel, amely kialakításának köszönhetően tökéletesen illeszkedik az ablakok alá vagy radiátorok helyére. Kiemelkedő fűtési komfortot nyújt az alsó és felső légkifúvásnak köszönhetően, így ideális választás hálószobákba és gyerekszobákba.",
+      specs: [
+        "Wi-Fi",
+        "Padlóra állítható kivitel",
+        "Kettős (alsó-felső) kifúvás",
+        "Fűtésre optimalizált",
+        "Kompakt radiátor-méret",
+        "Halk éjszakai üzemmód"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Console beltéri egység (2,7 kW)</strong> a tökéletes választás, ha a fali klímák elhelyezése nem megoldható, vagy ha a fűtési komfort az elsődleges szempont. Ez a berendezés úgy helyezhető el a padlón, mint egy hagyományos radiátor, így diszkréten simul a belső térbe, akár az ablakok alá is telepíthető. A 2,7 kW-os teljesítmény kiválóan alkalmas kisebb és közepes méretű szobák energiahatékony hűtésére és fűtésére.</p>
+        <p>A konzol típus legnagyobb előnye a <strong>kettős légkifúvási rendszer</strong>. Fűtés üzemmódban a készülék képes a levegőt egyszerre felfelé és lefelé, a padló irányába is fújni. Ezáltal a meleg levegő alulról indulva egyenletesen tölti meg a szobát, elkerülve a padlószint hűvös maradását. A modern, letisztult előlap mögött többlépcsős szűrőrendszer dolgozik, amely folyamatosan tisztítja a helyiség levegőjét a portól és egyéb szennyeződésektől.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Radiátor-szerű elhelyezés:</strong> Kompakt mérete miatt helytakarékos és esztétikus megoldás az oldalfal alján.</li>
+        <li><strong>Intelligens légterelés:</strong> Fűtésnél az alsó kifúvás melegíti a padlót, hűtésnél a felső kifúvás kerüli el a közvetlen huzatot.</li>
+        <li><strong>Extra csendes működés:</strong> A beltéri egység ventilátora szinte hallhatatlanul dolgozik alacsony fokozaton.</li>
+        <li><strong>7 sebességes ventilátor:</strong> Precízen beállítható légáram az egyéni igényeknek megfelelően.</li>
+        <li><strong>I Feel funkció:</strong> A távvezérlőbe épített hőmérő segítségével a gép pontosan ott tartja a kívánt fokot, ahol Ön tartózkodik.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Console Inverter 2.7 kW Indoor Unit",
+      typeName: "Console AC indoor unit",
+      desc: "An aesthetic floor-standing console air conditioner with 2.7 kW capacity, designed to fit perfectly under windows or in place of radiators. It provides outstanding heating comfort through its dual (top and bottom) airflow, making it an ideal choice for bedrooms and children's rooms.",
+      specs: [
+        "Wi-Fi",
+        "Floor-standing design",
+        "Dual (top-bottom) discharge",
+        "Heating optimized",
+        "Compact radiator size",
+        "Quiet night mode"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Air distribution", value: "Two-way (for heating)" },
+        { label: "Noise level", value: "Extremely quiet" },
+        { label: "Control", value: "IR Remote" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Console Indoor Unit (2.7 kW)</strong> is the perfect choice when wall-mounted installation is not feasible or when heating comfort is a top priority. This unit can be placed on the floor much like a traditional radiator, blending discreetly into the interior and fitting perfectly under windows. The 2.7 kW capacity is ideal for energy-efficient cooling and heating of small to medium-sized rooms.</p>
+        <p>The standout feature of the console type is the <strong>dual air discharge system</strong>. In heating mode, the unit can blow air both upwards and downwards toward the floor simultaneously. This allows the warm air to rise from the bottom, filling the room evenly and preventing cold spots near the floor. Behind the modern, sleek front panel, a multi-stage filtration system works to continuously clean the air of dust and other pollutants.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Radiator-style Placement:</strong> Its compact size makes it a space-saving and aesthetic solution for lower wall mounting.</li>
+        <li><strong>Intelligent Airflow:</strong> Bottom discharge warms the floor during heating, while top discharge avoids direct drafts during cooling.</li>
+        <li><strong>Extra Quiet Operation:</strong> The indoor fan works almost silently at low speeds, ensuring a peaceful environment.</li>
+        <li><strong>7-speed Fan:</strong> Precisely adjustable airflow to match your personal comfort preferences.</li>
+        <li><strong>I Feel Function:</strong> With the sensor built into the remote, the unit maintains the exact temperature where you are located.</li>
+        </ul>
+        </div>`,
+    },
+    price: "220.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 2.8,
+    pics: [
+        { src: "konzol-1.jpg", width: 1000, height: 1000 },
+        { src: "konzol-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-konzol-inverter-3-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GEH12AA-K6DNA1E/I",
+    type: "ac-multi",
+    name: "Gree konzol 3,5 kW beltéri",
+    hu: {
+      fullName: "Gree FM konzol inverter 3,5 kW klíma beltéri egység",
+      typeName: "Konzol klíma beltéri",
+      desc: "Stílusos, padlóra állítható konzol klíma 3,5 kW-os teljesítménnyel, amely a radiátorokhoz hasonlóan az ablak alá vagy az oldalfal alsó részére telepíthető. Egyedülálló fűtési kényelmet biztosít a kettős légkifúvásnak köszönhetően, precíz légterelése pedig huzatmentes hűtést garantál a mindennapokban.",
+      specs: [
+        "Wi-Fi",
+        "Padlóra állítható kivitel",
+        "Kettős (alsó-felső) kifúvás",
+        "Fűtésre optimalizált",
+        "Kompakt radiátor-méret",
+        "Halk éjszakai üzemmód"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Console beltéri egység (3,5 kW)</strong> ötvözi a modern technológiát a klasszikus elhelyezhetőséggel. Kiváló alternatívája az oldalfali klímáknak, különösen olyan helyiségekben, ahol a mennyezet közeli szerelés nem esztétikus vagy nem kivitelezhető. A 3,5 kW-os hűtési teljesítmény elegendő erőt biztosít egy tágasabb nappali vagy egy nagyobb dolgozószoba hatékony klimatizálásához.</p>
+        <p>A készülék fűtési üzemmódban mutatja meg valódi erejét: a <strong>kettős légkifúvás</strong> révén a meleg levegőt nem csak felfelé, hanem a padló mentén is képes áramoltatni. Ez megszünteti a lábfej fázását és gyorsabb, egyenletesebb hőérzetet biztosít a szobában. A kifinomult lamellarendszer hűtés közben is precízen irányítja a légáramot, így elkerülhető a közvetlen, kellemetlen huzatérzet.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Kompakt kialakítás:</strong> Esztétikusan illeszkedik az ablakok alá, helyet takarítva meg az oldalfalon.</li>
+        <li><strong>Speciális légterelés:</strong> Fűtésnél az alsó kifúvás extra komfortot ad, hűtésnél a felső kifúvás a plafon felé irányítja a levegőt.</li>
+        <li><strong>Intelligens leolvasztás:</strong> Megvédi az egységet a jegesedéstől, javítva a fűtés hatékonyságát hideg időben.</li>
+        <li><strong>7 ventilátor fokozat:</strong> A lágy fuvallattól az extra intenzív hűtésig minden igényt kielégít.</li>
+        <li><strong>Plazmaszűrő technológia:</strong> Hatékonyan tisztítja a levegőt, semlegesítve a kellemetlen szagokat és polleneket.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Console Inverter 3.5 kW Indoor Unit",
+      typeName: "Console AC indoor unit",
+      desc: "A stylish 3.5 kW floor-standing console air conditioner designed for installation under windows or on the lower wall, similar to a radiator. It offers unique heating comfort through its dual airflow system and ensures draft-free cooling with precise air direction control.",
+      specs: [
+        "Wi-Fi",
+        "Floor-standing design",
+        "Dual (top-bottom) discharge",
+        "Heating optimized",
+        "Compact radiator size",
+        "Quiet night mode"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Air distribution", value: "Two-way (for heating)" },
+        { label: "Noise level", value: "Extremely quiet" },
+        { label: "Control", value: "IR Remote" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Console Indoor Unit (3.5 kW)</strong> combines modern technology with classic placement options. It is an excellent alternative to wall-mounted units, especially in rooms where high-wall installation is not aesthetically pleasing or feasible. The 3.5 kW cooling capacity provides sufficient power to efficiently climate-control a spacious living room or a larger office.</p>
+        <p>The unit truly shines in heating mode: through <strong>dual air discharge</strong>, it can circulate warm air not only upwards but also along the floor. This eliminates cold feet and ensures a faster, more even heat distribution throughout the room. The sophisticated louver system precisely directs airflow even during cooling, effectively preventing any unpleasant direct drafts.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Compact Design:</strong> Fits aesthetically under windows, saving valuable wall space.</li>
+        <li><strong>Specialized Airflow:</strong> Bottom discharge provides extra comfort during heating, while top discharge directs air toward the ceiling during cooling.</li>
+        <li><strong>Intelligent Defrosting:</strong> Protects the unit from frosting, improving heating efficiency in cold weather.</li>
+        <li><strong>7 Fan Speeds:</strong> Satisfies every need from a gentle breeze to extra intensive cooling.</li>
+        <li><strong>Cold Plasma Filter:</strong> Effectively purifies the air, neutralizing unpleasant odors and allergens.</li>
+        </ul>
+        </div>`,
+    },
+    price: "250.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    pics: [
+        { src: "konzol-1.jpg", width: 1000, height: 1000 },
+        { src: "konzol-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-konzol-inverter-5-2-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GEH18AA-K6DNA1E/I",
+    type: "ac-multi",
+    name: "Gree konzol 5,2 kW beltéri",
+    hu: {
+      fullName: "Gree FM konzol inverter 5,2 kW klíma beltéri egység",
+      typeName: "Konzol klíma beltéri",
+      desc: "Nagy teljesítményű, padlóra állítható konzol klíma 5,2 kW-os kapacitással, amely ideális választás tágas nappalik vagy irodák klimatizálására. A radiátor-szerű kialakítás kettős légkifúvással párosul, így fűtés üzemmódban kiemelkedő hőérzetet, hűtésnél pedig egyenletes, huzatmentes hűtést biztosít.",
+      specs: [
+        "Wi-Fi",
+        "Padlóra állítható kivitel",
+        "Kettős (alsó-felső) kifúvás",
+        "Fűtésre optimalizált",
+        "Kompakt radiátor-méret",
+        "Halk éjszakai üzemmód"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,2 kW" },
+        { label: "Fűtési teljesítmény", value: "5,3 kW" },
+        { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Console beltéri egység (5,2 kW)</strong> a sorozat legnagyobb teljesítményű tagja, amely a masszív hűtési és fűtési erőt ötvözi a konzol készülékek minden előnyével. Kifejezetten olyan nagy belmagasságú vagy tágas terekbe ajánljuk, ahol az oldalfali klímák elhelyezése akadályokba ütközik. Radiátor-szerű megjelenése révén diszkréten simul a fal alsó részéhez, akár ablakok alá is telepíthető.</p>
+        <p>A készülék fűtési képességei ebben a teljesítménykategóriában válnak igazán látványossá: a <strong>kettős légkifúvás</strong> segítségével a meleg levegő egy részét közvetlenül a padló mentén indítja el, így a nagyméretű helyiségekben is gyorsan megszűnik a padlószint hűvössége. Hűtéskor a felső lamellák a plafon felé irányítják a hideg levegőt, biztosítva a szoba egyenletes, huzatmentes áthűlését.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Nagyobb terekhez optimalizálva:</strong> 5,2 kW-os teljesítménye révén megbízhatóan kezeli a tágasabb nappalikat vagy irodákat is.</li>
+        <li><strong>Intelligens légelosztás:</strong> Fűtésnél az alsó-felső kifúvás a tökéletes hőérzetért, hűtésnél a felső kifúvás a komfortért felel.</li>
+        <li><strong>Kompakt mélység:</strong> A nagy teljesítmény ellenére a készülék háza keskeny marad, így nem foglal sok helyet a térből.</li>
+        <li><strong>7 sebességes ventilátor:</strong> Széles skálán állítható légáramlás az egészen halktól az extra intenzív üzemmódig.</li>
+        <li><strong>Cold Plasma szűrő:</strong> Aktívan tisztítja a levegőt a vírusoktól és baktériumoktól, javítva a helyiség levegőminőségét.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Console Inverter 5.2 kW Indoor Unit",
+      typeName: "Console AC indoor unit",
+      desc: "A high-performance 5.2 kW floor-standing console air conditioner, ideal for climate control in spacious living rooms or offices. Its radiator-like design is paired with dual air discharge, providing outstanding thermal comfort in heating mode and even, draft-free cooling.",
+      specs: [
+        "Wi-Fi",
+        "Floor-standing design",
+        "Dual (top-bottom) discharge",
+        "Heating optimized",
+        "Compact radiator size",
+        "Quiet night mode"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.2 kW" },
+        { label: "Heating capacity", value: "5.3 kW" },
+        { label: "Air distribution", value: "Two-way (for heating)" },
+        { label: "Noise level", value: "Extremely quiet" },
+        { label: "Control", value: "IR Remote" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Console Indoor Unit (5.2 kW)</strong> is the most powerful member of the series, combining robust cooling and heating capacity with all the advantages of console-style units. It is specifically recommended for large spaces or rooms with high ceilings where wall-mounted installation is not feasible. With its radiator-like appearance, it blends discreetly into the lower part of the wall and can even be installed under windows.</p>
+        <p>The heating capabilities of this unit are particularly impressive in this power category: through <strong>dual air discharge</strong>, it directs a portion of the warm air directly along the floor, quickly eliminating cold spots even in expansive rooms. During cooling, the upper louvers direct cold air toward the ceiling, ensuring even, draft-free cooling of the entire space.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Optimized for Larger Spaces:</strong> Its 5.2 kW capacity reliably handles spacious living rooms or open-plan offices.</li>
+        <li><strong>Intelligent Air Distribution:</strong> Dual discharge for perfect thermal comfort during heating, and top discharge for comfort during cooling.</li>
+        <li><strong>Slim Design:</strong> Despite its high performance, the unit maintains a slim profile, taking up minimal floor space.</li>
+        <li><strong>7-speed Fan:</strong> Offers a wide range of airflow settings, from near-silent operation to extra intensive performance.</li>
+        <li><strong>Cold Plasma Filter:</strong> Actively purifies the air from viruses and bacteria, significantly improving indoor air quality.</li>
+        </ul>
+        </div>`,
+    },
+    price: "290.000 Ft",
+    powerCooling: 5.2,
+    powerHeating: 5.3,
+    pics: [
+        { src: "konzol-1.jpg", width: 1000, height: 1000 },
+        { src: "konzol-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-pulse-inverter-2-2-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GWH07AGA-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree FM Pulse 2,2 kW",
+    hu: {
+      fullName: "Gree FM Pulse inverter 2,2 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Kompakt és elegáns 2,2 kW-os oldalfali beltéri egység, amely ideális választás hálószobák és kisebb helyiségek klimatizálására. A Pulse sorozat tagjaként modern megjelenést, csendes működést és precíz hőmérséklet-szabályozást kínál, miközben diszkréten illeszkedik a belső térbe.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,2 kW" },
+        { label: "Fűtési teljesítmény", value: "2,4 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Extra csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Pulse oldalfali beltéri egység (2,2 kW)</strong> a tökéletes egyensúlyt képviseli a funkcionalitás és a modern esztétika között. Kifejezetten kisebb alapterületű helyiségekbe tervezték, ahol fontos a helytakarékos kialakítás és a megbízható teljesítmény. Mattfehér burkolata és minimalista vonalvezetése révén észrevétlenül válik a szoba részévé, legyen szó modern vagy klasszikus berendezésről.</p>
+        <p>A készülék kiemelkedő komfortot biztosít a fejlett vezérlésnek köszönhetően: a rendszer pontosan ott tartja a kívánt hőmérsékletet, ahol Ön tartózkodik, nem pedig a beltéri egység magasságában. A 2,2 kW-os kapacitás energiatakarékos működést tesz lehetővé, miközben a professzionális szűrőrendszer gondoskodik a helyiség levegőjének frissességéről és tisztaságáról.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Kompakt méret:</strong> Ideális választás hálószobákba vagy kisebb dolgozószobákba, ahol minden centiméter számít.</li>
+        <li><strong>Fejlett szűrőtechnológia:</strong> Aktívan semlegesíti a baktériumokat és a kellemetlen szagokat, egészségesebb környezetet teremtve.</li>
+        <li><strong>Intelligens leolvasztás:</strong> Optimalizálja a fűtési ciklusokat, növelve a készülék hatékonyságát hideg időben.</li>
+        <li><strong>Temperálási funkció:</strong> Ideális megoldás nyaralók vagy ritkábban használt helyiségek fagymentesítésére a téli időszakban.</li>
+        <li><strong>Automata tisztítás:</strong> Megakadályozza a penész és a gombák megtelepedését a beltéri egység hőcserélőjén.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Pulse Inverter 2.2 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A compact and elegant 2.2 kW wall-mounted indoor unit, ideal for cooling and heating bedrooms or smaller offices. As part of the Pulse series, it offers a modern design, quiet operation, and precise temperature control while blending seamlessly into any interior.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.2 kW" },
+        { label: "Heating capacity", value: "2.4 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (2.2 kW)</strong> represents the perfect balance between functionality and modern aesthetics. Specifically designed for smaller rooms, it focuses on space-saving design and reliable performance. With its matte white finish and minimalist lines, it blends effortlessly into any room, whether the interior is modern or classical.</p>
+      <p>The unit provides outstanding comfort thanks to its advanced control system: it maintains the desired temperature exactly where you are located, rather than at the ceiling level where the unit is installed. The 2.2 kW capacity ensures energy-efficient operation, while the professional filtration system keeps the room air fresh and clean.</p>
+      <h3>Key Comfort Features:</h3>
+      <ul>
+      <li><strong>Compact Size:</strong> An ideal choice for bedrooms or small offices where maximizing space is essential.</li>
+      <li><strong>Advanced Filtration:</strong> Actively neutralizes bacteria and unpleasant odors, creating a healthier environment.</li>
+      <li><strong>Intelligent Defrosting:</strong> Optimizes heating cycles, increasing the unit's efficiency during cold weather.</li>
+      <li><strong>Freeze Protection:</strong> A perfect function for frost protection in holiday homes or less frequently used rooms.</li>
+      <li><strong>Self-Cleaning:</strong> Prevents the growth of mold and fungi on the indoor heat exchanger.</li>
+      </ul>
+      </div>`,
+    },
+    price: "100.000 Ft",
+    powerCooling: 2.2,
+    powerHeating: 2.4,
+    pics: [
+        { src: "pulse-01.jpg", width: 1000, height: 1000 },
+        { src: "pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-pulse-inverter-2-5-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GWH09AGA-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree FM Pulse 2,5 kW",
+    hu: {
+      fullName: "Gree FM Pulse inverter 2,5 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Elegáns és hatékony 2,5 kW-os oldalfali beltéri egység, amely ideális választás hálószobák és átlagos méretű szobák klimatizálására. A Pulse sorozat tagjaként letisztult megjelenést, extra csendes működést és kiemelkedő kényelmi funkciókat kínál a modern otthonok számára.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,5 kW" },
+        { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Extra csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Pulse oldalfali beltéri egység (2,5 kW)</strong> a modern lakások alapvető kényelmi berendezése. A Pulse sorozatra jellemző mattfehér kivitel és kompakt felépítés lehetővé teszi, hogy a készülék szinte bármilyen belső építészeti stílushoz jól illeszkedjen. A 2,5 kW-os teljesítmény optimális választás a legtöbb lakószobába, ahol fontos a gyors hűtés és a hatékony fűtés.</p>
+        <p>A készülék egyik legkedveltebb tulajdonsága a <strong>3D légáram</strong>, amely a lamellák vízszintes és függőleges mozgatásával biztosítja, hogy a levegő a szoba minden sarkába egyenletesen eljusson, elkerülve a kellemetlen, hideg légáramlatokat. A beépített <strong>Cold Plasma</strong> szűrő pedig aktívan óvja családja egészségét azáltal, hogy semlegesíti a levegőben terjedő kórokozók jelentős részét.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Intelligens hőmérséklet-szabályozás:</strong> Az I-Feel funkció a távirányító környezetében méri a hőt, így biztosítva a tökéletes komfortot ott, ahol Ön tartózkodik.</li>
+        <li><strong>7 fokozatú ventilátor:</strong> A szinte hallhatatlan ultra-low fokozattól a turbó üzemmódig minden helyzetre kínál megoldást.</li>
+        <li><strong>8°C-os temperálás:</strong> Megóvja otthonát a fagykároktól a téli időszakban, miközben minimális energiát fogyaszt.</li>
+        <li><strong>Automata öntisztítás:</strong> A kikapcsolás utáni ventilátor-szárítás megakadályozza a hőcserélő gombásodását.</li>
+        <li><strong>LED kijelző:</strong> Diszkrét, a burkolaton átvilágító kijelző, amely igény szerint éjszakára kikapcsolható.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Pulse Inverter 2.5 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "An elegant and efficient 2.5 kW wall-mounted indoor unit, perfect for cooling and heating bedrooms and average-sized rooms. As part of the Pulse series, it offers a sleek design, extra quiet operation, and outstanding comfort features for modern homes.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.5 kW" },
+        { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (2.5 kW)</strong> is an essential comfort appliance for modern apartments. The characteristic matte white finish and compact build of the Pulse series allow the unit to blend seamlessly into almost any interior architectural style. The 2.5 kW capacity is an optimal choice for most residential rooms, providing fast cooling and efficient heating.</p>
+        <p>One of the unit's most popular features is the <strong>3D Airflow</strong>, which uses both horizontal and vertical louver movements to ensure air reaches every corner of the room evenly, avoiding unpleasant cold drafts. The integrated <strong>Cold Plasma</strong> filter actively protects your family's health by neutralizing a significant portion of airborne pathogens.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Intelligent Temperature Control:</strong> The I-Feel function measures the temperature at the remote's location, ensuring perfect comfort right where you are.</li>
+        <li><strong>7-speed Fan:</strong> Offers solutions for every situation, from the near-silent ultra-low setting to the turbo mode.</li>
+        <li><strong>8°C Heating:</strong> Protects your home from frost damage during winter while consuming minimal energy.</li>
+        <li><strong>Auto Self-Cleaning:</strong> Fan drying after power-off prevents the growth of fungi on the heat exchanger.</li>
+        <li><strong>LED Display:</strong> A discreet, translucent display on the panel that can be turned off for an undisturbed night's sleep.</li>
+        </ul>
+        </div>`,
+    },
+    price: "110.000 Ft",
+    powerCooling: 2.5,
+    powerHeating: 2.8,
+    pics: [
+        { src: "pulse-01.jpg", width: 1000, height: 1000 },
+        { src: "pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-pulse-inverter-3-2-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GWH12AGB-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree FM Pulse 3,2 kW",
+    hu: {
+      fullName: "Gree FM Pulse inverter 3,2 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Sokoldalú és megbízható 3,2 kW-os oldalfali beltéri egység, amely ideális választás nappalik és közepes méretű helyiségek hűtésére és fűtésére. A Pulse széria tagjaként mattfehér felülettel, 7 fokozatú ventilátorral és kiváló energiahatékonysággal gondoskodik a mindennapi komfortról.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,2 kW" },
+        { label: "Fűtési teljesítmény", value: "3,4 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Extra csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Pulse oldalfali beltéri egység (3,2 kW)</strong> a megbízhatóság és a modern dizájn ötvözete, amely kiválóan alkalmas nappalik vagy nagyobb hálószobák klimatizálására. A mattfehér előlap és a kompakt kialakítás diszkréten illeszkedik a belső térbe, miközben a készülék halk működése zavartalan pihenést biztosít. A 3,2 kW-os teljesítmény garantálja a gyors hűtést a legforróbb nyári napokon is.</p>
+
+        <p>A berendezés egyik legnagyobb előnye a <strong>3D légáram</strong> technológia, amely a függőleges és vízszintes lamellák mozgatásával a szoba minden pontjára eljuttatja a friss levegőt. A <strong>7 fokozatú ventilátor</strong> segítségével a légáramlás intenzitása precízen, az egyéni igényekhez igazítva állítható be, a <strong>Cold Plasma</strong> szűrő pedig folyamatosan tisztítja a levegőt, semlegesítve a polleneket és egyéb szennyeződéseket.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>I-Feel funkció:</strong> A távirányítóba épített érzékelőnek köszönhetően a készülék pontosan ott tartja a hőmérsékletet, ahol Ön tartózkodik.</li>
+        <li><strong>Intelligens légterelés:</strong> Megakadályozza a közvetlen huzatérzetet, növelve a tartózkodási komfortot.</li>
+        <li><strong>8°C-os temperálás:</strong> Megbízható fagymentesítést biztosít nyaralókban vagy ritkábban használt ingatlanokban.</li>
+        <li><strong>Öntisztító funkció:</strong> Kikapcsolás után kiszárítja a hőcserélőt, megelőzve a penész kialakulását.</li>
+        <li><strong>Éjszakai üzemmód:</strong> Automatikusan szabályozott hőmérsékleti görbe az optimális és pihentető alváshoz.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Pulse Inverter 3.2 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A versatile and reliable 3.2 kW wall-mounted indoor unit, ideal for cooling and heating living rooms and medium-sized spaces. As part of the Pulse series, it ensures everyday comfort with its matte white finish, 7-speed fan, and excellent energy efficiency.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.2 kW" },
+        { label: "Heating capacity", value: "3.4 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (3.2 kW)</strong> is a blend of reliability and modern design, perfectly suited for climate control in living rooms or larger bedrooms. Its matte white front panel and compact build blend discreetly into any interior, while its quiet operation ensures undisturbed rest. The 3.2 kW capacity guarantees rapid cooling even on the hottest summer days.</p>
+        <p>One of the unit's greatest advantages is the <strong>3D Airflow</strong> technology, which distributes fresh air to every corner of the room through vertical and horizontal louver movements. With the <strong>7-speed fan</strong>, the intensity of the airflow can be precisely adjusted to match individual needs, while the <strong>Cold Plasma</strong> filter continuously purifies the air, neutralizing pollen and other impurities.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>I-Feel Function:</strong> Thanks to the sensor built into the remote, the unit maintains the temperature exactly where you are located.</li>
+        <li><strong>Intelligent Airflow:</strong> Prevents direct drafts, significantly increasing the comfort of the space.</li>
+        <li><strong>8°C Heating:</strong> Provides reliable frost protection for holiday homes or less frequently used properties.</li>
+        <li><strong>Self-Cleaning:</strong> Dries the heat exchanger after power-off to prevent mold growth.</li>
+        <li><strong>Sleep Mode:</strong> Automatically adjusts the temperature curve for an optimal and restful night's sleep.</li>
+        </ul>
+        </div>`,
+    },
+    price: "120.000 Ft",
+    powerCooling: 3.2,
+    powerHeating: 3.4,
+    pics: [
+        { src: "pulse-01.jpg", width: 1000, height: 1000 },
+        { src: "pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-pulse-inverter-4-6-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GWH18AGD-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree FM Pulse 4,6 kW",
+    hu: {
+      fullName: "Gree FM Pulse inverter 4,6 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Nagy teljesítményű, 4,6 kW-os oldalfali beltéri egység, amely bőséges hűtési és fűtési kapacitást kínál tágas nappalikhoz és nagyobb helyiségekhez. A Pulse széria elegáns megjelenésével, 7 fokozatú ventilátorával és professzionális légtisztító rendszerével biztosít prémium komfortot nagyobb terekben is.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "4,6 kW" },
+        { label: "Fűtési teljesítmény", value: "5,2 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Extra csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Pulse oldalfali beltéri egység (4,6 kW)</strong> a sorozat azon tagja, amelynél a stílus és a nyers erő találkozik. Ez a készülék ideális választás 40-55 m² közötti helyiségekbe, ahol a nagy légtömeg mozgatása alapfeltétel a gyors és egyenletes hőmérséklet-szabályozáshoz. A Pulse sorozatra jellemző mattfehér borítás diszkrét eleganciát kölcsönöz a beltéri egységnek, így az nagyobb mérete ellenére sem válik tolakodóvá a belső térben.</p>
+
+        <p>A <strong>3D légáram</strong> funkció ebben a teljesítménykategóriában kiemelten fontos: a függőleges és vízszintes irányba is mozgatható lamellák gondoskodnak arról, hogy a nagy teljesítményű légáramlás ne közvetlenül a bent tartózkodókra irányuljon, hanem egyenletesen terüljön el a térben. A <strong>7 fokozatú ventilátor</strong> segítségével a működés finomhangolható, a <strong>Cold Plasma</strong> ionizátor pedig folyamatosan gondoskodik a levegő frissességéről és fertőtlenítéséről.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Nagy teljesítményű fűtés:</strong> 5,2 kW-os fűtési kapacitás a gyors felfűtésért és a stabil hőmérsékletért a leghidegebb napokon is.</li>
+        <li><strong>I-Feel technológia:</strong> A távvezérlőbe épített szenzor pontos visszacsatolást ad a gépnek a felhasználó környezetében mért hőmérsékletről.</li>
+        <li><strong>Intelligens Wi-Fi:</strong> Bárhonnan irányítható rendszer, amely lehetővé teszi a paraméterek távoli beállítását.</li>
+        <li><strong>8°C temperálás:</strong> Megbízható fagyvédelem nyaralókba vagy távollét idejére, alacsony energiafelhasználás mellett.</li>
+        <li><strong>Öntisztító rendszer:</strong> A hőcserélő automatikus kiszárítása megakadályozza a kellemetlen szagok és a penész kialakulását.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Pulse Inverter 4.6 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A high-performance 4.6 kW wall-mounted indoor unit offering ample cooling and heating capacity for spacious living rooms and larger areas. Part of the Pulse series, it provides premium comfort in larger spaces with its elegant design, 7-speed fan, and professional air purification system.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "4.6 kW" },
+        { label: "Heating capacity", value: "5.2 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (4.6 kW)</strong> is where style meets raw power in the series. This unit is the ideal choice for spaces between 40-55 m², where moving a large volume of air is essential for fast and even temperature control. The characteristic matte white finish of the Pulse series provides a discreet elegance, ensuring that despite its higher capacity, the indoor unit does not become intrusive in the interior space.</p>
+        <p>The <strong>3D Airflow</strong> function is particularly vital in this performance category: the louvers, which can move both vertically and horizontally, ensure that the high-power airflow is not directed directly at occupants but is distributed evenly throughout the space. With the <strong>7-speed fan</strong>, operation can be finely tuned, while the <strong>Cold Plasma</strong> ionizer continuously ensures air freshness and disinfection.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>High-Performance Heating:</strong> 5.2 kW heating capacity for rapid warm-up and stable temperatures even on the coldest days.</li>
+        <li><strong>I-Feel Technology:</strong> The sensor built into the remote provides precise feedback to the unit about the temperature measured around the user.</li>
+        <li><strong>Intelligent Wi-Fi:</strong> A remotely controllable system that allows you to set parameters from anywhere.</li>
+        <li><strong>8°C Heating:</strong> Reliable frost protection for holiday homes or during long absences with low energy consumption.</li>
+        <li><strong>Self-Cleaning System:</strong> Automatic drying of the heat exchanger prevents unpleasant odors and mold growth.</li>
+        </ul>
+        </div>`,
+    },
+    price: "130.000 Ft",
+    powerCooling: 4.6,
+    powerHeating: 5.2,
+    pics: [
+        { src: "pulse-01.jpg", width: 1000, height: 1000 },
+        { src: "pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-pulse-inverter-6-2-kw-klima-belteri-egyseg",
+    brand: "Gree",
+    serial: "GWH24AGD-K6DNA1A/I",
+    type: "ac-multi",
+    name: "Gree FM Pulse 6,2 kW",
+    hu: {
+      fullName: "Gree FM Pulse inverter 6,2 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Extrém teljesítményű, 6,2 kW-os oldalfali beltéri egység, amelyet kifejezetten nagy alapterületű helyiségek és tágas közösségi terek hatékony hűtésére és fűtésére terveztek. A Pulse széria csúcsmodellje kiemelkedő légtömegárammal, 3D légtereléssel és intelligens Wi-Fi vezérléssel biztosít teljes körű komfortot.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "6,2 kW" },
+        { label: "Fűtési teljesítmény", value: "6,5 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Extra csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Pulse oldalfali beltéri egység (6,2 kW)</strong> a sorozat legnagyobb és legerősebb tagja, amely kompromisszumok nélküli teljesítményt nyújt a legméretesebb terekben is. Ideális választás nagy belmagasságú helyiségekbe, tágas amerikai konyhás nappalikba vagy irodákba, ahol a gyors és hatékony légcsere elengedhetetlen. A készülék 6,2 kW-os hűtési kapacitása garantálja a kellemes hőmérsékletet még a legextrémebb hőhullámok idején is.</p>
+        <p>A hatalmas teljesítményhez precíz irányítás társul: a <strong>3D légáram</strong> technológia gondoskodik róla, hogy a nagy mennyiségű kezelt levegő ne egy pontba zúduljon, hanem vízszintesen és függőlegesen is egyenletesen terüljön szét. A beépített <strong>Cold Plasma</strong> ionizátor folyamatosan szűri a levegőt, ami különösen fontos a nagyobb forgalmú helyiségekben a por, a pollenek és a kórokozók semlegesítése érdekében.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Maximális kapacitás:</strong> Kifejezetten nagy, akár 60-75 m²-es terek hatékony klimatizálására tervezve.</li>
+        <li><strong>7 sebességes ventilátor:</strong> A széles skálán állítható ventilátorsebesség lehetővé teszi a csendesebb háttérüzemet és a turbó hűtést is.</li>
+        <li><strong>I-Feel funkció:</strong> A távirányítóba épített szenzor segítségével a gép ott tartja a kívánt hőfokot, ahol Ön tartózkodik.</li>
+        <li><strong>Intelligens fagyvédelem:</strong> A 8°C-os temperálás megvédi az épületet és a vizesblokkokat a fagykároktól távollét esetén is.</li>
+        <li><strong>Automata öntisztítás:</strong> A hőcserélő kiszárításával megelőzi a penész és a baktériumok megtelepedését a készülék belsejében.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Pulse Inverter 6.2 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "An extreme-performance 6.2 kW wall-mounted indoor unit, specifically designed for the efficient cooling and heating of large areas and spacious communal areas. As the flagship of the Pulse series, it provides comprehensive comfort with high airflow, 3D air distribution, and intelligent Wi-Fi control.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "6.2 kW" },
+        { label: "Heating capacity", value: "6.5 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Extra quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (6.2 kW)</strong> is the largest and most powerful member of the series, delivering uncompromising performance even in the most expansive spaces. It is an ideal choice for rooms with high ceilings, spacious open-plan living areas, or offices where fast and efficient air exchange is essential. Its 6.2 kW cooling capacity guarantees a pleasant temperature even during the most extreme heatwaves.</p>
+        <p>Massive power is paired with precise control: the <strong>3D Airflow</strong> technology ensures that the large volume of treated air is not dumped in a single spot but is distributed evenly both horizontally and vertically. The integrated <strong>Cold Plasma</strong> ionizer continuously filters the air, which is particularly important in high-traffic rooms to neutralize dust, pollen, and pathogens.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Maximum Capacity:</strong> Specifically designed for the efficient climate control of large spaces up to 60-75 m².</li>
+        <li><strong>7-speed Fan:</strong> The wide range of adjustable fan speeds allows for both quieter background operation and turbo cooling.</li>
+        <li><strong>I-Feel Function:</strong> With the sensor built into the remote, the unit maintains the desired temperature exactly where you are located.</li>
+        <li><strong>Intelligent Freeze Protection:</strong> The 8°C heating function protects the building and plumbing from frost damage during long absences.</li>
+        <li><strong>Auto Self-Cleaning:</strong> By drying the heat exchanger, it prevents the growth of mold and bacteria inside the unit.</li>
+        </ul>
+        </div>`,
+    },
+    price: "150.000 Ft",
+    powerCooling: 6.2,
+    powerHeating: 6.5,
+    pics: [
+        { src: "pulse-01.jpg", width: 1000, height: 1000 },
+        { src: "pulse-02.jpg", width: 1000, height: 1000 },
+        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-comfort-pro-inverter-2-7-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GWH09ACCXB-K6DNA1G/I",
+    type: "ac-multi",
+    name: "Gree FM Comfort Pro 2,7 kW",
+    hu: {
+      fullName: "Gree FM Comfort Pro inverter 2,7 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Prémium kialakítású, 2,7 kW-os oldalfali beltéri egység a továbbfejlesztett Comfort Pro sorozatból. Kiemelkedő energiahatékonysága, rendkívül csendes működése és selyemfényű megjelenése tökéletessé teszi modern otthonok és hálószobák igényes klimatizálására.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Comfort Pro oldalfali beltéri egység (2,7 kW)</strong> a Gree egyik legkeresettebb közép-felső kategóriás modellje, amely az eleganciát ötvözi a professzionális tudással. A készülék selyemfényű, mattfehér borítása és diszkrét LED kijelzője bármilyen modern belső térbe tökéletesen illeszkedik. A 2,7 kW-os teljesítmény ideális választás hálószobákba vagy kisebb nappalikba, ahol a csendes működés alapfeltétel.</p>
+        <p>A Comfort Pro széria egyik legfontosabb jellemzője a <strong>3D légáram</strong>, amely a lamellák vízszintes és függőleges mozgatásával huzatmentes, egyenletes hőmérsékletet teremt a szobában. Az egészséges környezetről a beépített <strong>Cold Plasma</strong> szűrő gondoskodik, amely semlegesíti a levegőben lévő baktériumok és vírusok jelentős részét, így allergiások számára is kitűnő választás.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>I-Feel technológia:</strong> A távirányítóba épített hőmérőnek köszönhetően a készülék az Ön közvetlen környezetében tartja a kívánt hőfokot.</li>
+        <li><strong>Extra csendes üzemmód:</strong> Optimalizált ventilátorlapátok a zavartalan pihenésért és a nyugodt éjszakai alvásért.</li>
+        <li><strong>7 fokozatú ventilátor:</strong> Precízen szabályozható légáramlás az egészen lágy szellőtől a turbó fokozatig.</li>
+        <li><strong>8°C-os temperálás:</strong> Ideális nyaralók vagy tartósan üresen álló helyiségek fagymentesítésére.</li>
+        <li><strong>Automata tisztítás:</strong> A készülék kikapcsolás után kiszárítja a hőcserélőt, megakadályozva a penész kialakulását.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Comfort Pro Inverter 2.7 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A premium 2.7 kW wall-mounted indoor unit from the enhanced Comfort Pro series. Its outstanding energy efficiency, ultra-quiet operation, and silk-finish design make it perfect for the sophisticated climate control of modern homes and bedrooms.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Ultra-quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Comfort Pro Wall-Mounted Indoor Unit (2.7 kW)</strong> is one of Gree's most popular upper-mid-range models, combining elegance with professional capabilities. The unit's silk-finish matte white cover and discreet LED display fit perfectly into any modern interior. The 2.7 kW capacity is an ideal choice for bedrooms or smaller living rooms where quiet operation is a fundamental requirement.</p>
+        <p>A key feature of the Comfort Pro series is the <strong>3D Airflow</strong>, which creates a draft-free, uniform temperature throughout the room using vertical and horizontal louver movements. A healthy environment is ensured by the built-in <strong>Cold Plasma</strong> filter, which neutralizes a significant portion of airborne bacteria and viruses, making it an excellent choice for allergy sufferers.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>I-Feel Technology:</strong> Thanks to the sensor built into the remote, the unit maintains the desired temperature in your immediate vicinity.</li>
+        <li><strong>Ultra-Quiet Mode:</strong> Optimized fan blades for undisturbed relaxation and a peaceful night's sleep.</li>
+        <li><strong>7-speed Fan:</strong> Precisely adjustable airflow ranging from a gentle breeze to turbo speed.</li>
+        <li><strong>8°C Heating:</strong> Ideal for frost protection in holiday homes or properties left unoccupied for long periods.</li>
+        <li><strong>Auto Self-Cleaning:</strong> The unit dries the heat exchanger after switching off, preventing mold growth.</li>
+        </ul>
+        </div>`,
+    },
+    price: "110.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.0,
+    pics: [
+        { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
+        { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
+        { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-comfort-pro-inverter-3-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GWH12ACCXD-K6DNA1D/I",
+    type: "ac-multi",
+    name: "Gree FM Comfort Pro 3,5 kW",
+    hu: {
+      fullName: "Gree FM Comfort Pro inverter 3,5 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Sokoldalú és elegáns 3,5 kW-os oldalfali beltéri egység a Comfort Pro szériából, amely a modern dizájnt professzionális technológiával ötvözi. Kimagasló energiahatékonyság, precíz 3D légterelés és extra csendes működés jellemzi, így ideális megoldás nappalik és nagyobb szobák igényes klimatizálására.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Comfort Pro oldalfali beltéri egység (3,5 kW)</strong> a kategória egyik legkifinomultabb modellje, amely minden részletében a felhasználói élmény fokozására törekszik. A selyemfényű matt burkolat nemcsak elegáns, de kevésbé gyűjti az ujjlenyomatokat és a port, így hosszú távon is megőrzi esztétikus megjelenését. A 3,5 kW-os kapacitás magabiztosan kezeli a közepes méretű helyiségeket, legyen szó tikkasztó hőségről vagy hűvös átmeneti időszakokról.</p>
+        <p>A készülék lelke a <strong>3D légáram</strong> rendszer, amely vízszintes és függőleges irányú automatikus légtereléssel juttatja el a kezelt levegőt a szoba legtávolabbi pontjaira is, minimalizálva a közvetlen huzatérzetet. Az egészséges beltéri levegőről a <strong>Cold Plasma</strong> generátor gondoskodik, amely aktívan semlegesíti a pollent, a port és a baktériumokat, tiszta és friss környezetet biztosítva otthonában.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Precíziós I-Feel:</strong> A rendszer a távirányító környezetében méri a hőmérsékletet, így ott lesz a legkellemesebb az idő, ahol Ön éppen tartózkodik.</li>
+        <li><strong>7 sebességes ventilátor:</strong> Rendkívül széles tartományban állítható légáramlás, az alig érezhető szellőtől a maximális teljesítményig.</li>
+        <li><strong>Intelligens Wi-Fi:</strong> A beépített Wi-Fi modul segítségével okostelefonról is teljes körűen vezérelheti klímáját, bárhol is járjon.</li>
+        <li><strong>8°C-os temperálás:</strong> Ideális funkció ritkábban használt ingatlanok vagy garázsok költséghatékony fagymentesítésére.</li>
+        <li><strong>Automata öntisztítás:</strong> A készülék kikapcsolás után kiszárítja a beltéri egység belső részeit, megakadályozva a penészgombák elszaporodását.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Comfort Pro Inverter 3.5 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A versatile and elegant 3.5 kW wall-mounted indoor unit from the Comfort Pro series, combining modern design with professional technology. Featuring high energy efficiency, precise 3D airflow, and ultra-quiet operation, it is the ideal solution for the sophisticated climate control of living rooms and larger areas.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Ultra-quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Comfort Pro Wall-Mounted Indoor Unit (3.5 kW)</strong> is one of the most sophisticated models in its category, designed to enhance user experience in every detail. The silk-finish matte cover is not only elegant but also more resistant to fingerprints and dust, maintaining its aesthetic appeal over time. The 3.5 kW capacity confidently handles medium-sized rooms, whether during scorching summer heat or chilly transitional periods.</p>
+        <p>At the heart of the unit is the <strong>3D Airflow</strong> system, which utilizes automatic horizontal and vertical air distribution to deliver treated air to the farthest corners of the room while minimizing direct drafts. Healthy indoor air is ensured by the <strong>Cold Plasma</strong> generator, which actively neutralizes pollen, dust, and bacteria, providing a clean and fresh environment for your home.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Precision I-Feel:</strong> The system measures the temperature around the remote control, ensuring the highest comfort level exactly where you are.</li>
+        <li><strong>7-speed Fan:</strong> Offers a wide range of airflow adjustments, from a barely perceptible breeze to maximum performance.</li>
+        <li><strong>Intelligent Wi-Fi:</strong> The built-in Wi-Fi module allows for full control via smartphone, no matter where you are.</li>
+        <li><strong>8°C Heating:</strong> An ideal function for the cost-effective frost protection of holiday homes or garages.</li>
+        <li><strong>Auto Self-Cleaning:</strong> The unit dries its internal components after switching off, effectively preventing the growth of mold and fungi.</li>
+        </ul>
+        </div>`,
+    },
+    price: "120.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    pics: [
+        { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
+        { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
+        { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-comfort-pro-inverter-5-3-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GWH18ACDXF-K6DNA1A/Im",
+    type: "ac-multi",
+    name: "Gree FM Comfort Pro 5,3 kW",
+    hu: {
+      fullName: "Gree FM Comfort Pro inverter 5,3 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Nagy teljesítményű és elegáns 5,3 kW-os oldalfali beltéri egység a Comfort Pro szériából, amely tágas nappalik és nagyobb helyiségek hatékony klimatizálására készült. A selyemfényű dizájn, a precíz 3D légterelés és a kiemelkedő energiahatékonyság révén prémium kényelmet biztosít nagyobb terekben is.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Comfort Pro oldalfali beltéri egység (5,3 kW)</strong> a sorozat "erőgépe", amelyet kifejezetten a nagyobb alapterületű helyiségek igényes hűtésére és fűtésére terveztek. A modern, selyemfényű matt fehér burkolat diszkréten simul a falra, így a készülék nagyobb mérete ellenére is esztétikus marad. Az 5,3 kW-os kapacitás ideális választás amerikai konyhás nappalikba vagy tágas irodákba, ahol a gyors és egyenletes hőmérséklet-szabályozás kulcsfontosságú.</p>
+        <p>A Comfort Pro technológia lényege a <strong>3D légáram</strong>, amely ebben a méretben válik igazán hatékonnyá: az automatikus függőleges és vízszintes lamellamozgatás gondoskodik róla, hogy a nagy teljesítményű légáram ne okozzon kellemetlen huzatérzetet, hanem egyenletesen terüljön el a térben. A <strong>Cold Plasma</strong> generátor folyamatosan gondoskodik a levegő tisztaságáról, semlegesítve a port és a polleneket, ami különösen fontos a nagyobb forgalmú helyiségekben.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>I-Feel technológia:</strong> A rendszer a távirányító környezetében méri a hőt, így biztosítva a tökéletes komfortot ott, ahol Ön tartózkodik.</li>
+        <li><strong>7 sebességes ventilátor:</strong> Precízen hangolható légáramlás, amely lehetővé teszi a csendes éjszakai üzemet és a villámgyors hűtést is.</li>
+        <li><strong>8°C-os temperálás:</strong> Megbízható fagyvédelmet biztosít ingatlanának a téli időszakban, alacsony energiafelhasználás mellett.</li>
+        <li><strong>Intelligens Wi-Fi vezérlés:</strong> Bárhonnan irányíthatja klímáját okostelefonja segítségével a Gree+ alkalmazáson keresztül.</li>
+        <li><strong>Automata öntisztítás:</strong> Megakadályozza a beltéri egység belső részeinek elgombásodását a hőcserélő kiszárításával.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Comfort Pro Inverter 3.5 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A high-performance and elegant 5.3 kW wall-mounted indoor unit from the Comfort Pro series, designed for the efficient climate control of spacious living rooms and larger areas. It provides premium comfort in larger spaces with its silk-finish design, precise 3D airflow, and outstanding energy efficiency.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Ultra-quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Comfort Pro Wall-Mounted Indoor Unit (5.3 kW)</strong> is the powerhouse of the series, specifically designed for the sophisticated cooling and heating of larger rooms. Its modern, silk-finish matte white cover blends discreetly onto the wall, ensuring the unit remains aesthetic despite its higher capacity. The 5.3 kW capacity is an ideal choice for open-plan living rooms or spacious offices where fast and even temperature control is key.</p>
+        <p>At the core of Comfort Pro technology is the <strong>3D Airflow</strong>, which becomes exceptionally effective at this size: automatic vertical and horizontal louver movement ensures that the high-power airflow does not cause unpleasant drafts but is distributed evenly throughout the space. The <strong>Cold Plasma</strong> generator continuously ensures air purity by neutralizing dust and pollen, which is particularly important in high-traffic areas.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>I-Feel Technology:</strong> The system measures the temperature around the remote control, ensuring perfect comfort right where you are.</li>
+        <li><strong>7-speed Fan:</strong> Precisely tunable airflow, allowing for both quiet night-time operation and lightning-fast cooling.</li>
+        <li><strong>8°C Heating:</strong> Provides reliable frost protection for your property during the winter months with low energy consumption.</li>
+        <li><strong>Intelligent Wi-Fi Control:</strong> Control your air conditioner from anywhere via your smartphone using the Gree+ app.</li>
+        <li><strong>Auto Self-Cleaning:</strong> Prevents fungal growth inside the indoor unit by drying the heat exchanger after use.</li>
+        </ul>
+        </div>`,
+    },
+    price: "140.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
+        { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
+        { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-dark-pro-inverter-2-7-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GWH09ACCXB-K6DNA1G/I-dark",
+    type: "ac-multi",
+    name: "Gree FM Dark Pro 2,7 kW",
+    hu: {
+      fullName: "Gree FM Dark Pro inverter 2,7 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Exkluzív sötétszürke megjelenésű, 2,7 kW-os oldalfali beltéri egység a Dark Pro sorozatból. A Comfort Pro technológiájára épülő, de antracit felülettel rendelkező készülék tökéletes választás modern belső terekbe, ahol a stílus és a prémium funkciók találkoznak.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Dark Pro oldalfali beltéri egység (2,7 kW)</strong> a népszerű Comfort Pro széria dizájn-orientált változata. A készülék különlegessége a mélyszürke, selyemfényű burkolat, amely diszkrét eleganciát kölcsönöz a helyiségnek, és kiválóan illeszkedik a sötétebb tónusú bútorokhoz vagy betonhatású falfelületekhez. A 2,7 kW-os teljesítmény precíz és halk működéssel párosul, ideálissá téve a készüléket hálószobai elhelyezésre.</p>
+        <p>A technológiai tartalom nem ismer kompromisszumot: a <strong>3D légáram</strong> funkció gondoskodik a huzatmentes hűtésről és fűtésről, míg a beépített <strong>Cold Plasma</strong> szűrő folyamatosan tisztítja a levegőt a kórokozóktól. A sötét előlapon diszkréten átvilágító LED kijelző modern megjelenést biztosít, de az éjszakai nyugalom érdekében bármikor kikapcsolható.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Exkluzív Dark Design:</strong> Modern antracit felület, amely kiemeli a belső tér stílusát.</li>
+        <li><strong>I-Feel technológia:</strong> A távirányítóba épített érzékelő biztosítja, hogy a kívánt hőmérséklet ott legyen a legpontosabb, ahol Ön tartózkodik.</li>
+        <li><strong>7 fokozatú ventilátor:</strong> A szinte észrevehetetlen légmozgástól az intenzív hűtésig minden igényt kielégít.</li>
+        <li><strong>8°C-os temperálás:</strong> Ideális fagymentesítő funkció nyaralókba vagy távollét idejére.</li>
+        <li><strong>Automata tisztítás:</strong> A hőcserélő kiszárításával megelőzi a kellemetlen szagok és a penész kialakulását a beltéri egységben.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Dark Pro Inverter 2.7 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "An exclusive dark grey 2.7 kW wall-mounted indoor unit from the Dark Pro series. Built on Comfort Pro technology but featuring a graphite finish, this unit is the perfect choice for modern interiors where style meets premium functionality.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Ultra-quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Dark Pro Wall-Mounted Indoor Unit (2.7 kW)</strong> is the design-oriented version of the popular Comfort Pro series. The unit's standout feature is its deep grey, silk-finish housing, which lends a discreet elegance to the room and perfectly complements darker furniture or concrete-effect wall surfaces. The 2.7 kW capacity is paired with precise and quiet operation, making it ideal for bedroom installation.</p>
+        <p>The technological content remains uncompromising: the <strong>3D Airflow</strong> function ensures draft-free cooling and heating, while the built-in <strong>Cold Plasma</strong> filter continuously purifies the air from pathogens. The LED display, which shines discreetly through the dark front panel, provides a modern look but can be turned off at any time for an undisturbed night's sleep.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Exclusive Dark Design:</strong> A modern anthracite finish that enhances the style of any interior.</li>
+        <li><strong>I-Feel Technology:</strong> The sensor built into the remote ensures that the desired temperature is most accurate right where you are.</li>
+        <li><strong>7-speed Fan:</strong> Meets every need, from nearly imperceptible air movement to intensive cooling.</li>
+        <li><strong>8°C Heating:</strong> An ideal frost protection function for holiday homes or during long absences.</li>
+        <li><strong>Self-Cleaning:</strong> Prevents unpleasant odors and mold growth inside the indoor unit by drying the heat exchanger.</li>
+        </ul>
+        </div>`,
+    },
+    price: "120.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 3.0,
+    pics: [
+        { src: "dark-pro-01.png", width: 1000, height: 1000 },
+        { src: "dark-pro-02.png", width: 1000, height: 1000 },
+        { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-dark-pro-inverter-3-5-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GWH12ACCXD-K6DNA1D/I-dark",
+    type: "ac-multi",
+    name: "Gree FM Dark Pro 3,5 kW",
+    hu: {
+      fullName: "Gree FM Dark Pro inverter 3,5 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Exkluzív sötétszürke megjelenésű, 3,5 kW-os oldalfali beltéri egység a Dark Pro sorozatból. A Comfort Pro professzionális technológiáját ötvözi az egyedi grafit felülettel, így ideális megoldás modern nappalik és irodák stílusos, mégis hatékony klimatizálására.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Dark Pro oldalfali beltéri egység (3,5 kW)</strong> azok számára készült, akik nem akarnak kompromisszumot kötni a teljesítmény és a látvány között. A készülék különleges, sötétszürke selyemfényű burkolata modern és elegáns karaktert kölcsönöz a helyiségnek, tökéletesen illeszkedve a kortárs lakberendezési trendekhez. A 3,5 kW-os hűtési kapacitás bőséges tartalékot nyújt egy átlagos méretű nappali kényelmes klimatizálásához.</p>
+
+        <p>A technológia fókuszában a maximális komfort áll: a <strong>3D légáram</strong> vízszintes és függőleges irányú automatikus légtereléssel juttatja el a friss levegőt a szoba minden pontjára, elkerülve a kellemetlen huzatot. A beépített <strong>Cold Plasma</strong> generátor folyamatosan gondoskodik a levegő tisztaságáról, semlegesítve a port és a baktériumokat, míg a sötét előlap mögött rejtőző LED kijelző diszkréten tájékoztat az aktuális üzemmódról.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Prémium Dark kivitel:</strong> Egyedi antracit színvilág, amely prémium megjelenést biztosít.</li>
+        <li><strong>I-Feel funkció:</strong> A távirányítóba épített szenzor segítségével a gép ott tartja a kívánt hőmérsékletet, ahol Ön éppen tartózkodik.</li>
+        <li><strong>7 sebességes ventilátor:</strong> Rendkívül finoman szabályozható légáramlás az egészen halk éjszakai módtól a turbó fokozatig.</li>
+        <li><strong>8°C-os temperálás:</strong> Gazdaságos megoldás ingatlanok fagymentesítésére a téli időszakban.</li>
+        <li><strong>Automata öntisztítás:</strong> Megakadályozza a penész kialakulását a beltéri egység belsejében a hőcserélő kiszárításával.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Dark Pro Inverter 3.5 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "An exclusive dark grey 3.5 kW wall-mounted indoor unit from the Dark Pro series. It combines the professional technology of the Comfort Pro line with a unique graphite finish, making it the ideal solution for the stylish yet efficient climate control of modern living rooms and offices.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Ultra-quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Dark Pro Wall-Mounted Indoor Unit (3.5 kW)</strong> is designed for those who refuse to compromise between performance and aesthetics. The unit's special dark grey silk-finish housing lends a modern and elegant character to the room, perfectly aligning with contemporary interior design trends. The 3.5 kW cooling capacity provides ample power for the comfortable climate control of an average-sized living room.</p>
+        <p>The focus of the technology is maximum comfort: the <strong>3D Airflow</strong> system utilizes automatic horizontal and vertical air distribution to deliver fresh air to every corner of the room, avoiding unpleasant drafts. The integrated <strong>Cold Plasma</strong> generator continuously ensures air purity by neutralizing dust and bacteria, while the LED display hidden behind the dark front panel discreetly informs you of the current settings.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Premium Dark Design:</strong> A unique anthracite color scheme that provides a premium look.</li>
+        <li><strong>I-Feel Function:</strong> Using the sensor built into the remote, the unit maintains the desired temperature exactly where you are.</li>
+        <li><strong>7-speed Fan:</strong> Extremely fine airflow adjustment, from silent night mode to turbo speed.</li>
+        <li><strong>8°C Heating:</strong> An economical solution for the frost protection of properties during winter.</li>
+        <li><strong>Self-Cleaning:</strong> Prevents the growth of mold inside the indoor unit by drying the heat exchanger after use.</li>
+        </ul>
+        </div>`,
+    },
+    price: "140.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    pics: [
+        { src: "dark-pro-01.png", width: 1000, height: 1000 },
+        { src: "dark-pro-02.png", width: 1000, height: 1000 },
+        { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-fm-dark-pro-inverter-5-3-kw-klima-belteri",
+    brand: "Gree",
+    serial: "GWH18ACDXF-K6DNA1D/I-dark",
+    type: "ac-multi",
+    name: "Gree FM Dark Pro 5,3 kW",
+    hu: {
+      fullName: "Gree FM Dark Pro inverter 5,3 kW klíma beltéri",
+      typeName: "Klíma beltéri egység",
+      desc: "Nagy teljesítményű, 5,3 kW-os oldalfali beltéri egység exkluzív sötétszürke kivitelben. A Dark Pro széria csúcsmodellje a Comfort Pro technológiai erejét ötvözi az elegáns grafit megjelenéssel, így nagyobb terek és nappalik stílusos, professzionális klimatizálására készült.",
+      specs: [
+        "Wi-Fi",
+        "3D légáram",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "7 fokozatú ventilátor"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Energiaosztály hűtés", value: "A++" },
+        { label: "Energiaosztály fűtés", value: "A+" },
+        { label: "Zajszint", value: "Rendkívül csendes" },
+        { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Dark Pro oldalfali beltéri egység (5,3 kW)</strong> a dizájn és a nyers erő tökéletes szimbiózisa. Ezt a modellt kifejezetten olyan tágas, modern életterekbe tervezték (40–55 m²), ahol a beltéri egységnek nemcsak funkcionális gépnek, hanem hangsúlyos lakberendezési elemnek is kell lennie. A mélyszürke, selyemfényű borítás prémium érzetet kelt, miközben az 5,3 kW-os teljesítmény magabiztosan kezeli a nagyobb légtereket is.</p>
+        <p>A nagy teljesítmény mellé kifinomult irányítás társul: a <strong>3D légáram</strong> rendszer az automatikus függőleges és vízszintes lamellamozgatással gondoskodik róla, hogy a nagy mennyiségű kezelt levegő egyenletesen terüljön szét, elkerülve a kellemetlen huzatot. Az egészséges környezetért a beépített <strong>Cold Plasma</strong> generátor felel, amely aktívan semlegesíti a levegőben lévő szennyeződéseket, a sötét előlap mögött rejtőző LED kijelző pedig elegáns módon tájékoztat a gép állapotáról.</p>
+        <h3>Főbb kényelmi funkciók:</h3>
+        <ul>
+        <li><strong>Exkluzív Dark Kivitel:</strong> Elegáns antracit megjelenés, amely tökéletesen illeszkedik a modern belső építészeti trendekhez.</li>
+        <li><strong>Precíziós I-Feel:</strong> A távirányítóba épített szenzor segítségével a gép pontosan ott tartja a hőmérsékletet, ahol Ön tartózkodik.</li>
+        <li><strong>7 sebességes ventilátor:</strong> Rendkívül széles tartományban állítható légáramlás az extra csendes üzemmódtól a turbó fokozatig.</li>
+        <li><strong>Intelligens Wi-Fi:</strong> Távoli vezérlés okostelefonon keresztül, hogy mire hazaér, a tökéletes hőmérséklet várja.</li>
+        <li><strong>8°C-os temperálás:</strong> Ideális funkció nyaralók vagy tartósan üresen álló helyiségek energiatakarékos fagymentesítésére.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Free Match Dark Pro Inverter 5.3 kW Indoor Unit",
+      typeName: "AC indoor unit",
+      desc: "A high-performance 5.3 kW wall-mounted indoor unit in an exclusive dark grey finish. The flagship of the Dark Pro series combines the technological power of the Comfort Pro line with an elegant graphite look, designed for the stylish and professional climate control of larger spaces and living rooms.",
+      specs: [
+        "Wi-Fi",
+        "3D Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "7-speed fan"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Noise level", value: "Ultra-quiet" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Dark Pro Wall-Mounted Indoor Unit (5.3 kW)</strong> is the perfect symbiosis of design and raw power. This model is specifically designed for spacious, modern living areas (40–55 m²) where the indoor unit must be a significant interior design element as well as a functional appliance. The deep grey, silk-finish housing provides a premium feel, while the 5.3 kW capacity confidently manages larger air volumes.</p>
+        <p>High performance is paired with sophisticated control: the <strong>3D Airflow</strong> system, through automatic vertical and horizontal louver movements, ensures that the large volume of treated air is distributed evenly, preventing unpleasant drafts. The built-in <strong>Cold Plasma</strong> generator is responsible for a healthy environment by actively neutralizing airborne impurities, while the LED display hidden behind the dark front panel provides an elegant way to monitor the unit's status.</p>
+        <h3>Key Comfort Features:</h3>
+        <ul>
+        <li><strong>Exclusive Dark Design:</strong> Elegant anthracite appearance that perfectly matches modern interior design trends.</li>
+        <li><strong>Precision I-Feel:</strong> Using the sensor built into the remote control, the unit maintains the temperature exactly where you are located.</li>
+        <li><strong>7-speed Fan:</strong> Offers an extremely wide range of airflow adjustments, from extra quiet operation to turbo mode.</li>
+        <li><strong>Intelligent Wi-Fi:</strong> Remote control via smartphone, ensuring the perfect temperature awaits you when you arrive home.</li>
+        <li><strong>8°C Heating:</strong> An ideal function for the energy-efficient frost protection of holiday homes or properties left empty for long periods.</li>
+        </ul>
+        </div>`,
+    },
+    price: "160.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "dark-pro-01.png", width: 1000, height: 1000 },
+        { src: "dark-pro-02.png", width: 1000, height: 1000 },
+        { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
     ]
   },
 ];

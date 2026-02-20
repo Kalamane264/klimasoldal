@@ -7951,7 +7951,7 @@ export const products: Product[] = [
     type: "ac-ducted",
     name: "Gree UM 5,3 kW",
     hu: {
-      fullName: "Gree UM5 Légcsatornás inverter 5,3 kW klíma szett",
+      fullName: "Gree UM6 Légcsatornás inverter 5,3 kW klíma szett",
       typeName: "Légcsatornás klíma",
       desc: "Láthatatlanul beépíthető, 5,3 kW-os légcsatornázható klíma szett az UM6 professzionális sorozatból. A nagy teljesítményhez modern technológia társul: beépített ModBus csatlakozó, Wi-Fi-s fali vezetékes távvezérlő és precíz páratartalom-szabályozás teszi ideálissá igényes irodai vagy lakossági környezetbe.",
       specs: [
@@ -7996,7 +7996,7 @@ export const products: Product[] = [
         </div>`,
     },
     en: {
-      fullName: "Gree UM5 Ducted Inverter 5.3 kW Air Conditioner Set",
+      fullName: "Gree UM6 Ducted Inverter 5.3 kW Air Conditioner Set",
       typeName: "Ducted AC set",
       desc: "An invisibly integrable 5.3 kW ducted air conditioner set from the professional UM6 series. High performance is paired with modern technology: a built-in ModBus connector, a Wi-Fi wired wall controller, and precise humidity control make it ideal for demanding office or residential environments.",
       specs: [
@@ -8042,6 +8042,418 @@ export const products: Product[] = [
     price: "680.000 Ft",
     powerCooling: 5.3,
     powerHeating: 5.6,
+    pics: [
+        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um5-legcsatornas-inverter-7-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD71PHS1/A-S",
+    type: "ac-ducted",
+    name: "Gree UM 7,1 kW",
+    hu: {
+      fullName: "Gree UM6 Légcsatornás inverter 7,1 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Láthatatlanul beépíthető, 7,1 kW-os légcsatornázható klíma szett az UM6 professzionális sorozatból. Nagyobb alapterületű helyiségekhez tervezve; beépített ModBus csatlakozóval, Wi-Fi-s fali vezetékes távvezérlővel és precíz páratartalom-szabályozással a prémium komfort érdekében.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Láthatatlan beépítés",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "8,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "55–80 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Statikus nyomás", value: "Állítható (ESP)" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+      <p>A <strong>Gree UM6 Légcsatornás inverter 7,1 kW klíma szett</strong> a professzionális légkondicionálás diszkrét erejét képviseli. A 7,1 kW-os hűtési teljesítmény képessé teszi nagyobb egybefüggő terek, irodák vagy üzlethelyiségek hatékony hűtésére és fűtésére, miközben az egység teljesen rejtve marad az álmennyezet felett. Csak a stílusos befúvórácsok láthatóak, így a belsőépítészeti koncepció sértetlen marad.</p>
+
+      <p>A rendszer kiemelkedő rugalmasságot kínál: a szett része a <strong>Wi-Fi funkcióval ellátott fali vezetékes távirányító</strong> és az <strong>infra távvezérlő</strong> is. A <strong>beépített ModBus csatlakozó</strong> révén a készülék azonnal illeszthető központi épületfelügyeleti rendszerekbe (BMS), a precíziós <strong>páratartalom-szabályozás</strong> pedig gondoskodik a beltéri levegő ideális minőségéről minden évszakban.</p>
+
+      <h3>Kiemelt professzionális funkciók:</h3>
+      <ul>
+      <li><strong>Láthatatlan integráció:</strong> Rejtett elhelyezés, amely ideális minimalista irodákba vagy elegáns üzleti terekbe.</li>
+      <li><strong>Állítható statikus nyomás (ESP):</strong> Biztosítja a stabil légmennyiséget a légcsatorna-hálózat hosszától és kialakításától függetlenül.</li>
+      <li><strong>Páratartalom-szabályozás:</strong> Aktív kontroll a levegő nedvességtartalma felett a fokozott komfortérzetért.</li>
+      <li><strong>Beépített cseppvízszivattyú:</strong> Akár 1000 mm emelési magassággal segíti a kondenzvíz elvezetését, jelentős szabadságot adva a telepítéshez.</li>
+      <li><strong>ModBus és Csoportvezérlés:</strong> Professzionális kommunikációs interfész épületautomatizálási feladatokhoz.</li>
+      </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Ducted Inverter 7.1 kW Air Conditioner Set",
+      typeName: "Ducted AC set",
+      desc: "An invisibly integrable 7.1 kW ducted air conditioner set from the professional UM6 series. Designed for larger spaces, it features a built-in ModBus connector, a Wi-Fi wired wall controller, and precise humidity control for premium comfort.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Invisible installation",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "8.0 kW" },
+        { label: "Recommended room size", value: "55–80 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Static pressure", value: "Adjustable (ESP)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Ducted Inverter 7.1 kW Air Conditioner Set</strong> represents the discreet power of professional air conditioning. Its 7.1 kW cooling capacity makes it capable of efficiently cooling and heating larger open spaces, offices, or retail environments, all while the unit remains completely hidden above the suspended ceiling. Only the stylish supply grilles are visible, leaving the interior design concept intact.</p>
+
+        <p>The system offers outstanding flexibility: the set includes both a <strong>Wi-Fi-enabled wired wall controller</strong> and an <strong>IR remote control</strong>. Thanks to the <strong>built-in ModBus connector</strong>, the unit can be immediately integrated into Building Management Systems (BMS), while the precision <strong>humidity control</strong> ensures ideal indoor air quality in every season.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Invisible Integration:</strong> Concealed installation, ideal for minimalist offices or elegant commercial spaces.</li>
+        <li><strong>Adjustable Static Pressure (ESP):</strong> Ensures stable airflow regardless of the length and design of the ducting network.</li>
+        <li><strong>Humidity Control:</strong> Active control over air moisture levels for enhanced comfort.</li>
+        <li><strong>Integrated Drain Pump:</strong> Facilitates condensate removal with up to 1000 mm lift height, providing significant installation flexibility.</li>
+        <li><strong>ModBus and Group Control:</strong> Professional communication interface for building automation tasks.</li>
+        </ul>
+        </div>`,
+    },
+    price: "790.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 8,
+    pics: [
+        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um5-legcsatornas-inverter-10-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD100PHS1/A-S",
+    type: "ac-ducted",
+    name: "Gree UM 10,5 kW",
+    hu: {
+      fullName: "Gree UM6 Légcsatornás inverter 10,5 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Extra nagy teljesítményű, 10,5 kW-os légcsatornázható klíma szett az UM6 professzionális sorozatból. Teljesen rejtett beépíthetőség jellemzi; beépített ModBus csatlakozóval, Wi-Fi-s fali vezetékes távvezérlővel és precíz páratartalom-szabályozással a legmagasabb ipari elvárásokhoz.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Láthatatlan beépítés",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "10,5 kW" },
+        { label: "Fűtési teljesítmény", value: "11,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "85–120 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Statikus nyomás", value: "Állítható (ESP)" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Légcsatornás inverter 10,5 kW klíma szett</strong> az ipari teljesítmény és a letisztult esztétika csúcsát képviseli. A 10,5 kW-os hűtési kapacitás lehetővé teszi, hogy nagy kiterjedésű, egybefüggő tereket vagy akár több különálló helyiséget klimatizáljunk egyetlen, álmennyezet felett elhelyezett központi egységgel. A láthatatlan beépítés révén az enteriőr megőrzi eleganciáját, miközben a professzionális légtechnikai hálózat és az <strong>állítható statikus nyomás (ESP)</strong> garantálja a tökéletes légeloszlást.</p>
+
+        <p>A szett minden olyan funkciót tartalmaz, amely a modern épületüzemeltetéshez elengedhetetlen: a <strong>Wi-Fi-s fali vezetékes egység</strong> mellet a <strong>beépített ModBus csatlakozó</strong> közvetlen integrációt tesz lehetővé az épületfelügyeleti rendszerekbe (BMS). A továbbfejlesztett <strong>páratartalom-szabályozás</strong> pedig biztosítja, hogy a levegő minősége és nedvességtartalma mindig az optimális szinten maradjon.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Nagyüzemi teljesítmény:</strong> Megbízható hűtés és fűtés nagyméretű irodák, eladóterek és közösségi helyiségek számára.</li>
+        <li><strong>Precíz ESP szabályozás:</strong> A ventilátor teljesítménye a légcsatorna-rendszer egyedi ellenállásához igazítható a stabil légáramlás érdekében.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Intelligens kontroll a beltéri páraszint felett, megakadályozva a levegő túlzott kiszáradását vagy fülledtségét.</li>
+        <li><strong>Beépített cseppvízszivattyú:</strong> Rugalmas telepítési lehetőségek az emelt szintű kondenzvíz-elvezetésnek köszönhetően.</li>
+        <li><strong>Épületautomatizálási kész:</strong> ModBus és csoportvezérlési opciók a komplex rendszerek összehangolt irányításához.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Ducted Inverter 10.5 kW Air Conditioner Set",
+      typeName: "Ducted AC set",
+      desc: "Ultra-high performance 10.5 kW ducted air conditioner set from the professional UM6 series. Featuring fully concealed installation, a built-in ModBus connector, a Wi-Fi wired wall controller, and precise humidity control to meet the highest industrial standards.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Invisible installation",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "10.5 kW" },
+        { label: "Heating capacity", value: "11.5 kW" },
+        { label: "Recommended room size", value: "85–120 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Static pressure", value: "Adjustable (ESP)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Ducted Inverter 10.5 kW Air Conditioner Set</strong> represents the pinnacle of industrial performance and clean aesthetics. Its 10.5 kW cooling capacity allows for the climate control of large open areas or even multiple separate rooms using a single central unit hidden above the suspended ceiling. With invisible installation, the interior maintains its elegance, while the professional air duct network and <strong>adjustable static pressure (ESP)</strong> guarantee perfect air distribution.</p>
+
+        <p>The set includes all the essential features for modern building management: alongside the <strong>Wi-Fi wired wall controller</strong>, the <strong>built-in ModBus connector</strong> enables direct integration into Building Management Systems (BMS). Furthermore, advanced <strong>humidity control</strong> ensures that air quality and moisture levels always remain at an optimal level.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Industrial Capacity:</strong> Reliable cooling and heating for large offices, retail spaces, and communal areas.</li>
+        <li><strong>Precise ESP Control:</strong> Fan performance can be tailored to the unique resistance of the ductwork system to ensure stable airflow.</li>
+        <li><strong>Humidity Control:</strong> Intelligent management of indoor moisture levels, preventing the air from becoming too dry or humid.</li>
+        <li><strong>Integrated Drain Pump:</strong> Offers flexible installation options thanks to high-level condensate removal.</li>
+        <li><strong>BMS Ready:</strong> ModBus and group control options for the coordinated management of complex systems.</li>
+        </ul>
+        </div>`,
+    },
+    price: "1.020.000 Ft",
+    powerCooling: 10.5,
+    powerHeating: 11.5,
+    pics: [
+        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um5-legcsatornas-inverter-12-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD125PHS1/A-S",
+    type: "ac-ducted",
+    name: "Gree UM 12,1 kW",
+    hu: {
+      fullName: "Gree UM6 Légcsatornás inverter 12,1 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Ipari kapacitású, 12,1 kW-os légcsatornázható klíma szett az UM6 professzionális sorozatból. Láthatatlan beépíthetőség, kiemelkedő statikus nyomás és teljes körű épületfelügyeleti integráció (ModBus) jellemzi, fali Wi-Fi vezérlővel és precíz páratartalom-szabályozással kiegészítve.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Láthatatlan beépítés",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "12,1 kW" },
+        { label: "Fűtési teljesítmény", value: "13,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "100–140 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Statikus nyomás", value: "Állítható (ESP)" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Légcsatornás inverter 12,1 kW klíma szett</strong> a professzionális légtechnikai megoldások csúcsát képviseli. Ezt a rendszert kifejezetten nagy kiterjedésű terek, irodaházak vagy üzletek klimatizálására tervezték, ahol a 12,1 kW-os hűtési teljesítmény és a rejtett beépítés alapvető elvárás. A készülék <strong>állítható statikus nyomása (ESP)</strong> lehetővé teszi, hogy a levegőt bonyolultabb és hosszabb légcsatorna-hálózatokon keresztül is egyenletesen juttassa el a kívánt pontokba.</p>
+
+        <p>A szett tartalmazza a <strong>Wi-Fi funkcióval ellátott fali vezetékes egységet</strong>, amely precíz kezelhetőséget biztosít. A modern üzemeltetési igényeknek megfelelően a <strong>beépített ModBus csatlakozó</strong> közvetlen integrációt tesz lehetővé az épületfelügyeleti rendszerekbe (BMS). A <strong>páratartalom-szabályozás</strong> pedig gondoskodik arról, hogy a nagy légmennyiség mozgatása mellett a levegő minősége és nedvességtartalma is folyamatosan az ideális szinten maradjon.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Ipari méretű teljesítmény:</strong> Magas hatásfokú hűtés és fűtés nagyméretű, összetett belső terek számára.</li>
+        <li><strong>Rugalmas légtechnika:</strong> Az állítható ESP révén a ventilátor képes legyőzni a kiterjedt csatornarendszerek ellenállását.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Precíz kontrol a beltéri páraszint felett, ami elengedhetetlen a professzionális munkakörnyezethez.</li>
+        <li><strong>Beépített cseppvízszivattyú:</strong> Akár 1000 mm emelési magassággal segíti a kondenzvíz elvezetését nagy belmagasságú terekben is.</li>
+        <li><strong>Csoportvezérlés és ModBus:</strong> Teljes körű irányítás és távfelügyeleti lehetőség ipari környezetben.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Ducted Inverter 12.1 kW Air Conditioner Set",
+      typeName: "Ducted AC set",
+      desc: "Industrial-capacity 12.1 kW ducted air conditioner set from the professional UM6 series. Featuring invisible installation, outstanding static pressure, and full BMS integration (ModBus), complete with a Wi-Fi wall controller and precise humidity control.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Invisible installation",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "12.5 kW" },
+        { label: "Heating capacity", value: "13.5 kW" },
+        { label: "Recommended room size", value: "100–140 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Static pressure", value: "Adjustable (ESP)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Ducted Inverter 12.1 kW Air Conditioner Set</strong> represents the pinnacle of professional air handling solutions. This system is specifically designed for the climate control of large spaces, office buildings, or retail units where 12.1 kW cooling capacity and concealed installation are primary requirements. The unit's <strong>adjustable static pressure (ESP)</strong> allows for the uniform distribution of air through complex and extensive ductwork networks.</p>
+
+        <p>The set includes a <strong>Wi-Fi-enabled wired wall controller</strong>, providing precise management. In line with modern facility management needs, the <strong>built-in ModBus connector</strong> enables direct integration into Building Management Systems (BMS). Furthermore, <strong>humidity control</strong> ensures that while moving large volumes of air, the quality and moisture content remain at an ideal level throughout the space.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Industrial-Scale Performance:</strong> High-efficiency cooling and heating for large, complex interior spaces.</li>
+        <li><strong>Flexible Air Handling:</strong> Adjustable ESP allows the fan to overcome the resistance of extensive ducting systems.</li>
+        <li><strong>Humidity Control:</strong> Precise control over indoor humidity levels, essential for professional working environments.</li>
+        <li><strong>Integrated Drain Pump:</strong> Facilitates condensate removal with up to 1000 mm lift height, even in high-ceilinged areas.</li>
+        <li><strong>Group Control and ModBus:</strong> Full management and remote monitoring capabilities in industrial environments.</li>
+        </ul>
+        </div>`,
+    },
+    price: "1.280.000 Ft",
+    powerCooling: 12.1,
+    powerHeating: 13.5,
+    pics: [
+        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um5-legcsatornas-inverter-16-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD160PHS1/A-S",
+    type: "ac-ducted",
+    name: "Gree UM 16 kW",
+    hu: {
+      fullName: "Gree UM6 Légcsatornás inverter 16 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Maximális teljesítményű, 16,0 kW-os légcsatornázható klíma szett az UM6 professzionális sorozatból. Ipari méretű terek láthatatlan klimatizálására tervezve; beépített ModBus csatlakozóval, Wi-Fi-s fali vezetékes távvezérlővel és precíz páratartalom-szabályozással a legmagasabb szintű épületgépészeti igényekhez.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Láthatatlan beépítés",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "16,0 kW" },
+        { label: "Fűtési teljesítmény", value: "17,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "140–185 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Statikus nyomás", value: "Állítható (ESP)" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Légcsatornás inverter 16,0 kW klíma szett</strong> a sorozat legnagyobb és legerősebb tagja, amelyet az extrém hűtési és fűtési igényekre terveztek. Ez az ipari nagyágyú képes akár 180 négyzetméteres egybefüggő terek, vagy kiterjedt csatornarendszeren keresztül több nagyobb helyiség egyidejű, láthatatlan klimatizálására. A készülék <strong>állítható statikus nyomása (ESP)</strong> biztosítja, hogy a hatalmas légmennyiség a leghosszabb csatornaszakaszok végén is a tervezett intenzitással érkezzen meg.</p>
+
+        <p>A professzionális üzemeltetést a <strong>beépített ModBus csatlakozó</strong> garantálja, amellyel a berendezés közvetlenül illeszthető az épület központi felügyeleti rendszerébe (BMS). A szett része a <strong>Wi-Fi funkcióval ellátott fali vezetékes egység</strong>, amely lehetővé teszi a precíz beállításokat és a távoli elérést is. A beépített <strong>páratartalom-szabályozás</strong> pedig kulcsfontosságú ilyen nagy légteljesítmény mellett, hogy a beltéri komfort minden körülmények között kifogástalan maradjon.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Csúcsteljesítmény:</strong> 16 kW hűtési kapacitás a legnagyobb kereskedelmi és ipari terek megbízható hőmérséklet-szabályozásához.</li>
+        <li><strong>Nagy statikus nyomás:</strong> A ventilátor képes legyőzni a kiterjedt, elágazó légtechnikai rendszerek ellenállását.</li>
+        <li><strong>Intelligens páratartalom-kezelés:</strong> Aktív kontroll a levegő nedvességtartalma felett a tökéletes komfortérzetért.</li>
+        <li><strong>Integrált cseppvízszivattyú:</strong> Biztonságos kondenzvíz-elvezetés nagy emelési magassággal, rugalmasabbá téve a telepítést.</li>
+        <li><strong>BMS-kompatibilitás:</strong> Közvetlen ModBus kommunikáció az intelligens épületvezérlési rendszerekkel.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Ducted Inverter 16 kW Air Conditioner Set",
+      typeName: "Ducted AC set",
+      desc: "Maximum-performance 16.0 kW ducted air conditioner set from the professional UM6 series. Designed for the invisible climate control of industrial-scale spaces, featuring a built-in ModBus connector, a Wi-Fi wired wall controller, and precise humidity control for the highest building engineering standards.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Invisible installation",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "16.0 kW" },
+        { label: "Heating capacity", value: "17.0 kW" },
+        { label: "Recommended room size", value: "140–185 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Static pressure", value: "Adjustable (ESP)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Ducted Inverter 16.0 kW Air Conditioner Set</strong> is the largest and most powerful member of the series, designed for extreme cooling and heating requirements. This industrial powerhouse is capable of invisibly climate-controlling open areas of up to 180 square meters, or multiple large rooms simultaneously via an extensive ductwork system. The unit's <strong>adjustable static pressure (ESP)</strong> ensures that large volumes of air reach their destination with the intended intensity, even at the end of long duct runs.</p>
+
+        <p>Professional operation is guaranteed by the <strong>built-in ModBus connector</strong>, which allows the equipment to be directly integrated into the building's central management system (BMS). The set includes a <strong>Wi-Fi-enabled wired wall controller</strong>, providing precise adjustments and remote access. Built-in <strong>humidity control</strong> is crucial at such high airflow rates to ensure indoor comfort remains flawless under all conditions.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Peak Performance:</strong> 16 kW cooling capacity for the reliable temperature control of the largest commercial and industrial spaces.</li>
+        <li><strong>High Static Pressure:</strong> The fan is capable of overcoming the resistance of extensive, branched air duct systems.</li>
+        <li><strong>Intelligent Humidity Management:</strong> Active control over air moisture levels for a perfect sense of comfort.</li>
+        <li><strong>Integrated Drain Pump:</strong> Safe condensate removal with a high lift height, making installation more flexible.</li>
+        <li><strong>BMS Ready:</strong> Direct ModBus communication with smart building management systems.</li>
+        </ul>
+        </div>`,
+    },
+    price: "1.790.000 Ft",
+    powerCooling: 16,
+    powerHeating: 17,
     pics: [
         { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },

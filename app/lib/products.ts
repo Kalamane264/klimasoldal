@@ -7326,6 +7326,521 @@ export const products: Product[] = [
         { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-um6-kazettas-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD35T1/A-S",
+    type: "ac-casette",
+    name: "Gree UM6 3,5 kW",
+    hu: {
+      fullName: "Gree UM6 Kazettás inverter 3,5 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "Professzionális 3,5 kW-os kazettás klíma szett (UM sorozat), amely diszkrét álmennyezeti elhelyezést és 360°-os légeloszlást kínál. A csomag tartalmazza az infra és a Wi-Fi-s fali vezetékes távirányítót is, így tökéletes választás irodákba és modern üzlethelyiségekbe, ahol a ModBus csatlakozás és a páratartalom-szabályozás is elvárás.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360°-os légbefúvás",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "4,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "25–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Kazettás inverter 3,5 kW klíma szett</strong> a professzionális légkondicionálás magasiskoláját képviseli, ahol a diszkrét megjelenés technológiai sokoldalúsággal párosul. Az álmennyezetbe simuló egység <strong>360°-os légbefúvása</strong> garantálja, hogy a helyiségben ne alakuljanak ki hideg vagy meleg zónák, így maximális komfortot biztosít irodákban, üzletekben vagy akár igényes lakóingatlanokban is.</p>
+        <p>A szett egyedülálló módon tartalmazza mind az <strong>infra távirányítót</strong>, mind a <strong>Wi-Fi funkcióval ellátott fali vezetékes vezérlőt</strong>, így a helyszíni és a távoli elérés is biztosított. A modern épületgépészeti igényeknek megfelelően a készülék <strong>beépített ModBus csatlakozóval</strong> rendelkezik, amely lehetővé teszi az okosotthon- vagy épületfelügyeleti rendszerekbe (BMS) történő közvetlen integrációt.</p>
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Páratartalom szabályozás:</strong> A készülék nemcsak a hőmérsékletet, hanem a levegő nedvességtartalmát is képes optimalizálni a tökéletes komfortérzet érdekében.</li>
+        <li><strong>Csoportvezérlés:</strong> Több egység egyidejű irányítása, ami ideális nagyobb irodák vagy eladóterek egységes klimatizálására.</li>
+        <li><strong>Cold Plasma szűrő:</strong> Aktív légtisztító technológia, amely semlegesíti a baktériumokat és a kellemetlen szagokat.</li>
+        <li><strong>Beépített cseppvízszivattyú:</strong> Akár 1000 mm emelési magassággal, ami nagy szabadságot ad a telepítés során.</li>
+        <li><strong>I-Feel és 8°C temperálás:</strong> Intelligens hőmérséklet-követés és fagymentesítő funkció a biztonságos üzemeltetéshez.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Cassette Inverter 3.5 kW Air Conditioner Set",
+      typeName: "Cassette AC set",
+      desc: "Professional 3.5 kW cassette air conditioner set (UM series) offering discreet ceiling installation and 360° air distribution. The package includes both IR and Wi-Fi wired wall controllers, making it the perfect choice for offices and modern retail spaces requiring ModBus connectivity and humidity control.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360° Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "4.0 kW" },
+        { label: "Recommended room size", value: "25–45 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Cassette Inverter 3.5 kW Air Conditioner Set</strong> represents the pinnacle of professional air conditioning, combining a discreet appearance with technological versatility. The unit, which blends seamlessly into suspended ceilings, features <strong>360° airflow</strong>, ensuring that no cold or hot spots develop in the room, thus providing maximum comfort for offices, retail stores, or high-end residential properties.</p>
+
+        <p>The set uniquely includes both an <strong>IR remote controller</strong> and a <strong>Wi-Fi-enabled wired wall controller</strong>, ensuring both local and remote access. Meeting modern building engineering requirements, the unit features a <strong>built-in ModBus connector</strong>, allowing direct integration into smart home or Building Management Systems (BMS).</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Humidity Control:</strong> The unit can optimize not only the temperature but also the humidity of the air for a perfect sense of comfort.</li>
+        <li><strong>Group Control:</strong> Simultaneous management of multiple units, ideal for the uniform climate control of larger offices or retail floors.</li>
+        <li><strong>Cold Plasma Filter:</strong> Active air purification technology that neutralizes bacteria and unpleasant odors.</li>
+        <li><strong>Built-in Drain Pump:</strong> With up to 1000 mm lift height, providing great flexibility during installation.</li>
+        <li><strong>I-Feel and 8°C Heating:</strong> Intelligent temperature tracking and frost protection for safe and efficient operation.</li>
+        </ul>
+        </div>`,
+    },
+    price: "600.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 4.0,
+    pics: [
+        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um6-kazettas-inverter-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD50T1/A1-S",
+    type: "ac-casette",
+    name: "Gree UM6 5 kW",
+    hu: {
+      fullName: "Gree UM6 Kazettás inverter 5 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "Professzionális 5,1 kW-os kazettás klíma szett az UM6 sorozatból, amely álmennyezetbe építve nyújt 360°-os légeloszlást és stabil teljesítményt. Kettős vezérléssel (fali és infra), beépített ModBus csatlakozóval és precíz páratartalom-szabályozással felszerelt rendszer, amely ideális választás közepes méretű irodákba és üzletekbe.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360°-os légbefúvás",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,1 kW" },
+        { label: "Fűtési teljesítmény", value: "5,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Kazettás inverter 5,1 kW klíma szett</strong> az üzleti szféra elvárásaihoz igazított professzionális megoldás. Az álmennyezeti kialakítás lehetővé teszi, hogy a készülék diszkréten a háttérbe húzódjon, miközben az 5,1 kW-os teljesítmény magabiztosan biztosítja a kívánt hőmérsékletet tágasabb helyiségekben is. A <strong>360°-os légbefúvási technológia</strong> megakadályozza a kellemetlen huzat kialakulását, mivel a levegőt minden irányban egyenletesen teríti szét.</p>
+
+        <p>Ez a szett tartalmazza a <strong>Wi-Fi funkcióval ellátott fali vezetékes egységet</strong> és az <strong>infra távirányítót</strong> is, így a kezelhetőség maximálisan rugalmas. A <strong>beépített ModBus csatlakozó</strong> révén a klímarendszer könnyedén illeszthető központi épületfelügyeleti rendszerekbe, a továbbfejlesztett <strong>páratartalom-szabályozás</strong> pedig segít az optimális munkakörnyezet kialakításában.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Helytakarékos és diszkrét:</strong> Az álmennyezetbe épített egység csak a stílusos dekorpanelt hagyja láthatóvá.</li>
+        <li><strong>Intelligens páratartalom-szabályozás:</strong> A levegő nedvességtartalmának precíz kezelése a fokozott komfortérzetért.</li>
+        <li><strong>BMS integráció:</strong> A beépített ModBus interfész közvetlen kommunikációt tesz lehetővé intelligens épületfelügyeleti rendszerekkel.</li>
+        <li><strong>Cold Plasma szűrő:</strong> Aktív légtisztítás, amely semlegesíti a baktériumokat és a kellemetlen szagokat.</li>
+        <li><strong>Beépített cseppvízszivattyú:</strong> Akár 1000 mm emelési magassággal segíti a kondenzvíz elvezetését.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Cassette Inverter 5 kW Air Conditioner Set",
+      typeName: "Cassette AC set",
+      desc: "Professional 5.1 kW cassette air conditioner set from the UM6 series, providing 360° air distribution and stable performance via ceiling integration. Equipped with dual controls (wall and IR), built-in ModBus, and precise humidity control, it is the ideal choice for medium-sized offices and retail spaces.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360° Airflow",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.1 kW" },
+        { label: "Heating capacity", value: "5.8 kW" },
+        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Cassette Inverter 5.1 kW Air Conditioner Set</strong> is a professional solution tailored to the requirements of the business sector. Its ceiling-mounted design allows the unit to blend discreetly into the background, while its 5.1 kW capacity confidently maintains the desired temperature even in more spacious rooms. The <strong>360° airflow technology</strong> prevents unpleasant drafts by distributing air evenly in all directions.</p>
+
+        <p>This set includes both a <strong>Wi-Fi-enabled wired wall controller</strong> and an <strong>IR remote control</strong>, providing maximum flexibility in management. Thanks to the <strong>built-in ModBus connector</strong>, the system can be easily integrated into central Building Management Systems (BMS), while the advanced <strong>humidity control</strong> helps create an optimal working environment.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Discreet Appearance:</strong> Only the stylish panel is visible from the ceiling, saving valuable floor and wall space.</li>
+        <li><strong>Intelligent Humidity Control:</strong> Precise management of air moisture levels for enhanced comfort.</li>
+        <li><strong>BMS Integration:</strong> The built-in ModBus interface allows direct communication with smart systems.</li>
+        <li><strong>Cold Plasma Filter:</strong> Ensures air purity by neutralizing bacteria and odors.</li>
+        <li><strong>Integrated Drain Pump:</strong> Facilitates condensate removal with up to 1000 mm lift height.</li>
+        </ul>
+        </div>`,
+    },
+    price: "700.000 Ft",
+    powerCooling: 5.1,
+    powerHeating: 5.8,
+    pics: [
+        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um6-kazettas-inverter-7-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD71T1/A-S",
+    type: "ac-casette",
+    name: "Gree UM6 7,1 kW",
+    hu: {
+      fullName: "Gree UM6 Kazettás inverter 7,1 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "Nagy teljesítményű, 7,1 kW-os kazettás klíma szett az UM6 sorozatból, professzionális funkciókkal és 360°-os légeloszlással. A beépített ModBus csatlakozó, a páratartalom-szabályozás és a karbantartást segítő leengedhető szűrő alkalmassá teszi a legmagasabb igényű üzleti környezetben való felhasználásra.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360°-os légbefúvás",
+        "Leengedhető szűrő",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "55–80 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Karbantartás", value: "Motoros leengedhető szűrő" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Kazettás inverter 7,1 kW klíma szett</strong> a professzionális felhasználók számára kínál kompromisszummentes megoldást. A 7,1 kW-os hűtési teljesítmény már nagyobb alapterületű helyiségek klimatizálására is alkalmas, miközben az egység <strong>360°-os légbefúvása</strong> biztosítja az egyenletes és huzatmentes hőmérsékletet. A készülék egyik legkiemelkedőbb újdonsága a <strong>motorosan leengedhető szűrő</strong>, amely lehetővé teszi a szűrők tisztítását létra használata nélkül is, ami különösen előnyös nagy belmagasságú terekben.</p>
+
+        <p>A szett tartalmazza a <strong>Wi-Fi funkcióval ellátott fali vezetékes távirányítót</strong> és az <strong>infra távvezérlőt</strong> is. Az épületfelügyeleti rendszerekbe (BMS) történő egyszerű integrációt a <strong>beépített ModBus csatlakozó</strong> biztosítja, a precíz <strong>páratartalom-szabályozás</strong> pedig gondoskodik a levegő optimális nedvességtartalmáról, legyen szó hűtésről vagy fűtésről.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Leengedhető szűrőrács:</strong> Kényelmes és biztonságos karbantartás, a szűrő egyszerűen leengedhető a vezérlő segítségével.</li>
+        <li><strong>Intelligens páratartalom-szabályozás:</strong> Precíz kontrol a beltéri páraszint felett az ideális komfortért.</li>
+        <li><strong>ModBus-kompatibilitás:</strong> Beépített interfész az intelligens épületvezérlési rendszerekhez való közvetlen csatlakozáshoz.</li>
+        <li><strong>Csoportvezérlési lehetőség:</strong> Akár több egység összehangolt működtetése egyetlen központi vezérlőről.</li>
+        <li><strong>Cold Plasma és I-Feel:</strong> Aktív légtisztítás és felhasználó-központú hőmérséklet-szabályozás.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Cassette Inverter 7.1 kW Air Conditioner Set",
+      typeName: "Cassette AC set",
+      desc: "High-performance 7.1 kW cassette air conditioner set from the UM6 series with professional features and 360° air distribution. The built-in ModBus connector, humidity control, and the motor-elevated filter for easy maintenance make it suitable for the most demanding commercial environments.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360° Airflow",
+        "Motor-elevated Filter",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.8 kW" },
+        { label: "Recommended room size", value: "55–80 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Maintenance", value: "Motor-elevated filter (liftable)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Cassette Inverter 7.1 kW Air Conditioner Set</strong> offers an uncompromising solution for professional users. The 7.1 kW cooling capacity is suitable for climate control in larger areas, while the unit’s <strong>360° airflow</strong> ensures uniform and draft-free temperatures. One of the most outstanding features of this model is the <strong>motor-elevated filter</strong>, which allows for filter cleaning without the use of a ladder—particularly beneficial in spaces with high ceilings.</p>
+
+        <p>The set includes both a <strong>Wi-Fi-enabled wired wall controller</strong> and an <strong>IR remote controller</strong>. Seamless integration into Building Management Systems (BMS) is guaranteed by the <strong>built-in ModBus connector</strong>, while precise <strong>humidity control</strong> ensures the optimal moisture level of the air, whether in cooling or heating mode.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Motor-Elevated Filter Grid:</strong> Convenient and safe maintenance; the filter can be lowered simply via the controller.</li>
+        <li><strong>Intelligent Humidity Control:</strong> Precise control over indoor humidity levels for ideal comfort.</li>
+        <li><strong>ModBus Compatibility:</strong> Built-in interface for direct connection to smart building management systems.</li>
+        <li><strong>Group Control Capability:</strong> Coordinated operation of multiple units from a single central controller.</li>
+        <li><strong>Cold Plasma and I-Feel:</strong> Active air purification and user-centric temperature monitoring.</li>
+        </ul>
+        </div>`,
+    },
+    price: "800.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 7.8,
+    pics: [
+        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um6-kazettas-inverter-10-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD100T1/A-S",
+    type: "ac-casette",
+    name: "Gree UM6 10,5 kW",
+    hu: {
+      fullName: "Gree UM6 Kazettás inverter 10,5 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "Extra nagy teljesítményű, 10,5 kW-os kazettás klíma szett az UM6 sorozatból, professzionális 360°-os légelosztással és BMS-integrációval. A motorosan leengedhető szűrő, a beépített ModBus csatlakozó és a precíz páratartalom-szabályozás révén a legmagasabb szintű igényeket is kielégíti nagy alapterületű helyiségekben.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360°-os légbefúvás",
+        "Leengedhető szűrő",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "10,5 kW" },
+        { label: "Fűtési teljesítmény", value: "11,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "85–120 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Karbantartás", value: "Motoros leengedhető szűrő" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Kazettás inverter 10,5 kW klíma szett</strong> az ipari és nagyteljesítményű kereskedelmi alkalmazások csúcsmodellje. A 10,5 kW-os hűtési kapacitás képessé teszi a készüléket arra, hogy akár 100 négyzetméter feletti egybefüggő tereket is hatékonyan klimatizáljon. A <strong>360°-os légbefúvás</strong> ebben a méretben alapvető fontosságú, hiszen a nagy mennyiségű levegőt így lehet huzatmentesen és egyenletesen eloszlatni a helyiségben.</p>
+
+        <p>A karbantartás sosem volt ilyen egyszerű: a <strong>motorosan leengedhető szűrőrács</strong> segítségével a takarítás létrázás nélkül, biztonságosan elvégezhető, ami a nagy belmagasságú csarnokoknál hatalmas előny. A szett részét képező <strong>Wi-Fi-s fali vezetékes egység</strong> és a <strong>ModBus csatlakozási lehetőség</strong> révén a rendszer teljes körűen integrálható a legmodernebb épületfelügyeleti rendszerekbe.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Extrém teljesítmény:</strong> Megbízható hűtés és fűtés nagyméretű üzlethelyiségekbe, irodákba és közösségi terekbe.</li>
+        <li><strong>Motoros szűrőmozgatás:</strong> Gombnyomásra leengedhető szűrőrács a kényelmes és balesetmentes tisztításhoz.</li>
+        <li><strong>Precíziós páratartalom-szabályozás:</strong> Az optimális beltéri páraszint fenntartása a dolgozók és vendégek kényelme érdekében.</li>
+        <li><strong>BMS és ModBus:</strong> Közvetlen kommunikáció intelligens épületvezérléssel, ami elengedhetetlen a modern üzemeltetéshez.</li>
+        <li><strong>Cold Plasma és I-Feel:</strong> Aktív baktérium-mentesítés és precíz hőmérséklet-követés a felhasználó környezetében.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Cassette Inverter 10.5 kW Air Conditioner Set",
+      typeName: "Cassette AC set",
+      desc: "Ultra-high performance 10.5 kW cassette air conditioner set from the UM6 series, featuring professional 360° air distribution and BMS integration. With its motor-elevated filter, built-in ModBus connector, and precise humidity control, it meets the highest demands for large-scale areas.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360° Airflow",
+        "Motor-elevated Filter",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "10.5 kW" },
+        { label: "Heating capacity", value: "11.5 kW" },
+        { label: "Recommended room size", value: "85–120 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Maintenance", value: "Motor-elevated filter (liftable)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Cassette Inverter 10.5 kW Air Conditioner Set</strong> is a flagship model for industrial and high-capacity commercial applications. Its 10.5 kW cooling capacity enables the unit to efficiently climate-control open spaces exceeding 100 square meters. At this capacity, <strong>360° airflow</strong> is essential, as it allows for the even and draft-free distribution of large air volumes throughout the room.</p>
+
+        <p>Maintenance has never been easier: with the <strong>motor-elevated filter grid</strong>, cleaning can be performed safely and without the need for a ladder—a massive advantage for high-ceilinged halls. The included <strong>Wi-Fi wired wall controller</strong> and <strong>ModBus connectivity</strong> ensure the system can be fully integrated into state-of-the-art Building Management Systems (BMS).</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Extreme Performance:</strong> Reliable cooling and heating for large retail spaces, offices, and communal areas.</li>
+        <li><strong>Motorized Filter Lifting:</strong> A filter grid that can be lowered at the touch of a button for convenient and safe cleaning.</li>
+        <li><strong>Precision Humidity Control:</strong> Maintaining optimal indoor humidity levels for the comfort of employees and guests.</li>
+        <li><strong>BMS and ModBus:</strong> Direct communication with smart building controls, essential for modern facility management.</li>
+        <li><strong>Cold Plasma and I-Feel:</strong> Active bacteria neutralization and precise temperature tracking around the user.</li>
+        </ul>
+        </div>`,
+    },
+    price: "1.000.000 Ft",
+    powerCooling: 10.5,
+    powerHeating: 11.5,
+    pics: [
+        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um6-kazettas-inverter-12-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD125T1/A-S",
+    type: "ac-casette",
+    name: "Gree UM6 12,1 kW",
+    hu: {
+      fullName: "Gree UM6 Kazettás inverter 12,1 kW klíma szett",
+      typeName: "Kazettás klíma",
+      desc: "Ipari teljesítményű, 12,1 kW-os kazettás klíma szett az UM6 sorozatból, 360°-os légbefúvással és teljes körű épületfelügyeleti integrációval. A motorosan leengedhető szűrő, a beépített ModBus csatlakozó és a Wi-Fi-s fali vezérlő teszi alkalmassá a legmodernebb nagyterű létesítmények üzemeltetésére.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360°-os légbefúvás",
+        "Leengedhető szűrő",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "12,1 kW" },
+        { label: "Fűtési teljesítmény", value: "13,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "100–140 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Karbantartás", value: "Motoros leengedhető szűrő" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Kazettás inverter 12,1 kW klíma szett</strong> a professzionális légkondicionálás csúcskategóriáját képviseli, ahol a kimagasló nyers erő és az intelligens vezérlés találkozik. A 12,1 kW-os hűtési teljesítmény stabil és hatékony üzemet biztosít nagyméretű, egybefüggő terekben, miközben a <strong>360°-os légbefúvási technológia</strong> gondoskodik a levegő egyenletes elosztásáról, minimalizálva a közvetlen huzatérzetet.</p>
+
+        <p>A rendszer kiemelt figyelmet fordít az üzemeltetés kényelmére és biztonságára. A <strong>motorosan leengedhető szűrőrács</strong> lehetővé teszi, hogy a karbantartóknak ne kelljen magas létrákra mászniuk a tisztításhoz; a szűrő gombnyomásra elérhető magasságba ereszkedik. A szett részét képező <strong>Wi-Fi-s fali vezetékes egység</strong> és a <strong>beépített ModBus interfész</strong> révén a készülék zökkenőmentesen illeszthető bármely modern épületfelügyeleti rendszerbe (BMS).</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Ipari kapacitás:</strong> Megbízható klimatizálás nagyméretű irodaházak, üzlethelyiségek és csarnokok számára.</li>
+        <li><strong>Motoros karbantartás:</strong> Biztonságosan leengedhető szűrő, amely megkönnyíti a rendszeres tisztítást.</li>
+        <li><strong>Precíz páratartalom-szabályozás:</strong> Az optimális beltéri klíma érdekében a hőmérséklet mellett a páratartalom is vezérelhető.</li>
+        <li><strong>Okos integráció:</strong> ModBus és Csoportvezérlési funkciók a komplex rendszerek összehangolt működtetéséhez.</li>
+        <li><strong>Egészséges levegő:</strong> Cold Plasma ionizáló technológia a baktériumok és vírusok semlegesítésére.</li>
+        </ul>
+        </div>`,
+            },
+    en: {
+      fullName: "Gree UM6 Cassette Inverter 10.5 kW Air Conditioner Set",
+      typeName: "Cassette AC set",
+      desc: "Industrial-grade 12.1 kW cassette air conditioner set from the UM6 series, featuring 360° airflow and full BMS integration. Its motor-elevated filter, built-in ModBus connector, and Wi-Fi wired controller make it suitable for operating the most modern large-scale facilities.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "360° Airflow",
+        "Motor-elevated Filter",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "12.1 kW" },
+        { label: "Heating capacity", value: "13.5 kW" },
+        { label: "Recommended room size", value: "100–140 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Maintenance", value: "Motor-elevated filter (liftable)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Cassette Inverter 12.1 kW Air Conditioner Set</strong> represents the pinnacle of professional air conditioning, where exceptional raw power meets intelligent control. The 12.1 kW cooling capacity provides stable and efficient operation in large open spaces, while the <strong>360° airflow technology</strong> ensures even air distribution, minimizing direct drafts.</p>
+
+        <p>The system places a strong emphasis on operational convenience and safety. The <strong>motor-elevated filter grid</strong> allows maintenance staff to perform cleaning without climbing high ladders; the filter lowers to an accessible height at the touch of a button. The included <strong>Wi-Fi wired wall controller</strong> and <strong>built-in ModBus interface</strong> ensure the unit integrates seamlessly into any modern Building Management System (BMS).</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Industrial Capacity:</strong> Reliable climate control for large office buildings, retail spaces, and halls.</li>
+        <li><strong>Motorized Maintenance:</strong> Safely lowerable filter that facilitates regular cleaning tasks.</li>
+        <li><strong>Precise Humidity Control:</strong> Controls humidity alongside temperature for the optimal indoor climate.</li>
+        <li><strong>Smart Integration:</strong> ModBus and Group Control functions for the coordinated operation of complex systems.</li>
+        <li><strong>Healthy Air:</strong> Cold Plasma ionizer technology for neutralizing bacteria and viruses.</li>
+        </ul>
+        </div>`,
+    },
+    price: "1.200.000 Ft",
+    powerCooling: 12.1,
+    powerHeating: 13.5,
+    pics: [
+        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

@@ -7841,6 +7841,212 @@ export const products: Product[] = [
         { src: "kulteri-2.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-um5-legcsatornas-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD35PS/A-T",
+    type: "ac-ducted",
+    name: "Gree UM 3,5 kW",
+    hu: {
+      fullName: "Gree UM5 Légcsatornás inverter 3,5 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Láthatatlanul beépíthető, 3,5 kW-os légcsatornázható klíma szett az UM5 sorozatból. A kiemelkedő energiahatékonyság, a beépített ModBus csatlakozó és a Wi-Fi-s fali vezetékes távirányító teszi tökéletessé olyan helyszíneken, ahol a diszkrét megjelenés professzionális tudással kell, hogy párosuljon.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Láthatatlan beépítés",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "4,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "25–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Statikus nyomás", value: "Állítható (ESP)" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM5 Légcsatornás inverter 3,5 kW klíma szett</strong> a legdiszkrétebb megoldást kínálja a modern épületek klimatizálására. Mivel a beltéri egység teljesen elrejthető az álmennyezet feletti térben, a belső térben csak a légbefúvó és elszívó rácsok maradnak láthatóak, így semmilyen falra szerelt egység nem bontja meg a helyiség esztétikai egységét.</p>
+
+        <p>A szett részét képezi a <strong>Wi-Fi funkcióval ellátott fali vezetékes távirányító</strong> és az <strong>infra távvezérlő</strong> is, biztosítva a rugalmas kezelhetőséget. A professzionális felhasználást segíti a <strong>beépített ModBus csatlakozó</strong>, amely lehetővé teszi az épületfelügyeleti rendszerekbe (BMS) való integrációt, valamint a <strong>páratartalom-szabályozás</strong>, amely segít az ideális beltéri klíma fenntartásában.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Láthatatlan integráció:</strong> Tökéletes választás minimalista enteriőrökbe vagy műemléki környezetbe, ahol a falra szerelt beltéri egység nem megengedett.</li>
+        <li><strong>Állítható statikus nyomás (ESP):</strong> Lehetővé teszi a légcsatorna rendszer ellenállásához való precíz finomhangolást, garantálva az optimális légáramot.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Precíz kontroll a beltéri páraszint felett a maximális komfort érdekében.</li>
+        <li><strong>Beépített cseppvízszivattyú:</strong> Biztonságos és rugalmas kondenzvíz-elvezetést tesz lehetővé akár távolabbi pontokra is.</li>
+        <li><strong>ModBus és Csoportvezérlés:</strong> Teljes körű irányíthatóság és felügyelet nagy rendszerek részeként is.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM5 Ducted Inverter 3.5 kW Air Conditioner Set",
+      typeName: "Ducted AC set",
+      desc: "An invisibly integrable 3.5 kW ducted air conditioner set from the UM5 series. Outstanding energy efficiency, a built-in ModBus connector, and a Wi-Fi wired wall controller make it perfect for locations where a discreet appearance must be paired with professional capabilities.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Invisible installation",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "4.0 kW" },
+        { label: "Recommended room size", value: "25–45 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Static pressure", value: "Adjustable (ESP)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM5 Ducted Inverter 3.5 kW Air Conditioner Set</strong> offers the most discreet solution for modern building climate control. Since the indoor unit can be completely hidden within the ceiling void, only the air supply and return grilles remain visible in the interior, ensuring no wall-mounted units disrupt the room's aesthetic integrity.</p>
+
+        <p>The set includes both a <strong>Wi-Fi-enabled wired wall controller</strong> and an <strong>IR remote controller</strong>, providing flexible management. Professional use is supported by the <strong>built-in ModBus connector</strong>, allowing for seamless integration into Building Management Systems (BMS), as well as <strong>humidity control</strong>, which helps maintain the ideal indoor environment.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Invisible Integration:</strong> The perfect choice for minimalist interiors or heritage environments where wall-mounted units are not permitted.</li>
+        <li><strong>Adjustable Static Pressure (ESP):</strong> Allows for precise fine-tuning to match the resistance of the ducting system, guaranteeing optimal airflow.</li>
+        <li><strong>Humidity Control:</strong> Precise management of indoor moisture levels for maximum comfort.</li>
+        <li><strong>Built-in Drain Pump:</strong> Enables safe and flexible condensate removal, even to distant drainage points.</li>
+        <li><strong>ModBus and Group Control:</strong> Full controllability and monitoring as part of larger, complex systems.</li>
+        </ul>
+        </div>`,
+    },
+    price: "640.000 Ft",
+    powerCooling: 3.5,
+    powerHeating: 4.0,
+    pics: [
+        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um5-legcsatornas-inverter-5-3-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD50PS1/A-S",
+    type: "ac-ducted",
+    name: "Gree UM 5,3 kW",
+    hu: {
+      fullName: "Gree UM5 Légcsatornás inverter 5,3 kW klíma szett",
+      typeName: "Légcsatornás klíma",
+      desc: "Láthatatlanul beépíthető, 5,3 kW-os légcsatornázható klíma szett az UM6 professzionális sorozatból. A nagy teljesítményhez modern technológia társul: beépített ModBus csatlakozó, Wi-Fi-s fali vezetékes távvezérlő és precíz páratartalom-szabályozás teszi ideálissá igényes irodai vagy lakossági környezetbe.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Láthatatlan beépítés",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Statikus nyomás", value: "Állítható (ESP)" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Beépített" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Légcsatornás inverter 5,3 kW klíma szett</strong> a diszkréció és a hatékonyság tökéletes egyensúlyát nyújtja közepes alapterületű helyiségek számára. Az álmennyezetbe rejthető kialakításnak köszönhetően a beltéri egység teljesen láthatatlan marad, így a legigényesebb belsőépítészeti megoldásokhoz is kiválóan illeszkedik. Az 5,3 kW-os hűtési teljesítmény magabiztosan szolgálja ki a tágasabb tereket is, miközben a levegő elosztása légcsatornákon keresztül, huzatmentesen történik.</p>
+
+        <p>A szett alapfelszereltségéhez tartozik a <strong>Wi-Fi funkcióval ellátott fali vezetékes egység</strong> és az <strong>infra távirányító</strong>, amelyek teljes körű kontrollt biztosítanak a berendezés felett. A <strong>beépített ModBus csatlakozó</strong> révén a készülék könnyedén integrálható épületfelügyeleti rendszerekbe (BMS), a <strong>páratartalom-szabályozás</strong> funkció pedig lehetővé teszi a beltéri levegő nedvességtartalmának precíz optimalizálását.</p>
+
+        <h3>Kiemelt professzionális funkciók:</h3>
+        <ul>
+        <li><strong>Láthatatlan komfort:</strong> Esztétikus megoldás, ahol csak a légbefúvó rácsok látszanak, a gépészeti egység rejtve marad.</li>
+        <li><strong>Állítható statikus nyomás (ESP):</strong> Rugalmasan illeszthető a különböző hosszúságú és ellenállású légcsatorna-rendszerekhez.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Segít fenntartani az egészséges és kellemes környezetet a páraszint precíz kezelésével.</li>
+        <li><strong>Beépített cseppvízszivattyú:</strong> Akár 1000 mm emelési magassággal segíti a kondenzvíz elvezetését, megkönnyítve a telepítést.</li>
+        <li><strong>ModBus és Csoportvezérlés:</strong> Professzionális kommunikációs interfész az intelligens épületvezérléshez.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM5 Ducted Inverter 5.3 kW Air Conditioner Set",
+      typeName: "Ducted AC set",
+      desc: "An invisibly integrable 5.3 kW ducted air conditioner set from the professional UM6 series. High performance is paired with modern technology: a built-in ModBus connector, a Wi-Fi wired wall controller, and precise humidity control make it ideal for demanding office or residential environments.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Invisible installation",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Static pressure", value: "Adjustable (ESP)" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Built-in" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Ducted Inverter 5.3 kW Air Conditioner Set</strong> provides the perfect balance of discretion and efficiency for medium-sized spaces. Thanks to its concealable ceiling design, the indoor unit remains completely invisible, making it an excellent match for the most demanding interior designs. The 5.3 kW cooling capacity confidently serves larger areas, while air distribution occurs via ductwork, ensuring a draft-free environment.</p>
+
+        <p>The set includes as standard a <strong>Wi-Fi-enabled wired wall controller</strong> and an <strong>IR remote control</strong>, providing total command over the equipment. With its <strong>built-in ModBus connector</strong>, the unit can be easily integrated into Building Management Systems (BMS), while the <strong>humidity control</strong> function allows for precise optimization of indoor moisture levels.</p>
+
+        <h3>Key Professional Features:</h3>
+        <ul>
+        <li><strong>Invisible Comfort:</strong> An aesthetic solution where only the air grilles are visible, while the mechanical unit remains hidden.</li>
+        <li><strong>Adjustable Static Pressure (ESP):</strong> Flexibly adapts to ducting systems of varying lengths and resistances.</li>
+        <li><strong>Humidity Control:</strong> Helps maintain a healthy and pleasant environment through precise moisture management.</li>
+        <li><strong>Integrated Drain Pump:</strong> Facilitates condensate removal with up to 1000 mm lift height, simplifying installation.</li>
+        <li><strong>ModBus and Group Control:</strong> Professional communication interface for smart building management.</li>
+        </ul>
+        </div>`,
+    },
+    price: "680.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

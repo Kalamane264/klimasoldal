@@ -8043,7 +8043,7 @@ export const products: Product[] = [
     powerCooling: 5.3,
     powerHeating: 5.6,
     pics: [
-        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "um6-legcsatornas-001.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
     ]
   },
@@ -8146,7 +8146,7 @@ export const products: Product[] = [
     powerCooling: 7.1,
     powerHeating: 8,
     pics: [
-        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "um6-legcsatornas-002.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
     ]
   },
@@ -8249,7 +8249,7 @@ export const products: Product[] = [
     powerCooling: 10.5,
     powerHeating: 11.5,
     pics: [
-        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
     ]
   },
@@ -8352,7 +8352,7 @@ export const products: Product[] = [
     powerCooling: 12.1,
     powerHeating: 13.5,
     pics: [
-        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
     ]
   },
@@ -8455,7 +8455,7 @@ export const products: Product[] = [
     powerCooling: 16,
     powerHeating: 17,
     pics: [
-        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+        { src: "gree-um6-legcsatornas-004.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
     ]
   },

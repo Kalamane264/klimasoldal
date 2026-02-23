@@ -8571,7 +8571,7 @@ export const products: Product[] = [
     hu: {
       fullName: "Gree UM6 Parapet inverter 7,1 kW klíma szett",
       typeName: "Parapet klíma",
-      desc: "Rendkívül rugalmasan telepíthető, 5,3 kW-os parapet klíma szett az UM6 sorozatból. Függőlegesen a padló felett vagy vízszintesen a mennyezet alá is szerelhető, így bármilyen helyiség adottságaihoz alkalmazkodik. Beépített Wi-Fi-vel és ModBus csatlakozóval felszerelt professzionális megoldás.",
+      desc: "Nagy teljesítményű, 7,1 kW-os parapet klíma szett az UM6 professzionális sorozatból. Dupla telepítési móddal: padló felett oldalfalra vagy mennyezet alá is rögzíthető. Beépített Wi-Fi-vel, ModBus csatlakozóval és precíz páratartalom-szabályozással nagy alapterületű helyiségekhez.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -8586,7 +8586,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
         { label: "Fűtési teljesítmény", value: "7,7 kW" },
-        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Ajánlott helyiségméret", value: "55–80 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8599,24 +8599,24 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év" }
       ],
       longDesc: `<div class="product-description">
-        <p>A <strong>Gree UM6 Parapet inverter 5,3 kW klíma szett</strong> a legsokoldalúbb megoldást kínálja a modern klimatizálásban. Különleges, "Floor-Ceiling" kialakítása lehetővé teszi, hogy az egységet akár a padló felett az oldalfalra szereljük – mint egy radiátort –, akár vízszintesen a mennyezet alá rögzítsük. Ez a rugalmasság teszi nélkülözhetetlenné olyan helyiségekben, ahol a hagyományos oldalfali klímák elhelyezése nem megoldható.</p>
+        <p>A <strong>Gree UM6 Parapet inverter 7,1 kW klíma szett</strong> a professzionális megoldást kínálja olyan tágasabb helyiségekbe, ahol a nagy teljesítmény mellett az elhelyezés rugalmassága is kulcsfontosságú. Az UM6 sorozatra jellemző kettős telepíthetőség révén az egység elegáns módon elhelyezhető padló közeli magasságban az oldalfalon, vagy helytakarékos módon, vízszintesen a mennyezet alá rögzítve.</p>
 
-        <p>Az 5,3 kW hűtési teljesítmény és az 5,6 kW fűtési kapacitás magabiztosan szolgálja ki a közepes méretű irodákat vagy nappalikat. A professzionális funkciók sorát a <strong>beépített ModBus csatlakozó</strong> és a <strong>páratartalom-szabályozás</strong> teszi teljessé. A szett alapfelszereltségéhez tartozik a <strong>Wi-Fi funkcióval ellátott fali vezetékes távvezérlő</strong> és egy kényelmes infra távirányító is, így a kezelhetőség minden igényt kielégít.</p>
+        <p>A 7,1 kW hűtési és a 7,7 kW fűtési teljesítmény ideálissá teszi nagyobb nappalik, irodai terek vagy üzlethelyiségek klimatizálására. A rendszer okos funkciókkal van felvértezve: a <strong>beépített ModBus csatlakozó</strong> lehetővé teszi az épületfelügyeleti integrációt, míg a <strong>páratartalom-szabályozás</strong> garantálja az optimális beltéri levegőminőséget. A szett részét képező <strong>Wi-Fi-s fali vezetékes egység</strong> és az infra távirányító teljes kontrollt biztosít a felhasználó számára.</p>
 
         <h3>Kiemelt előnyök:</h3>
         <ul>
-        <li><strong>Kettős szerelhetőség:</strong> Rugalmasan választható padló közeli vagy mennyezeti elhelyezés a helyiség adottságaitól függően.</li>
-        <li><strong>Intelligens légterelés:</strong> Függőleges és vízszintes irányban is precízen vezérelhető légáram a huzatmentes komfortért.</li>
-        <li><strong>Páratartalom-szabályozás:</strong> Precíz kontroll a beltéri levegő nedvességtartalma felett az egészségesebb környezetért.</li>
-        <li><strong>BMS-kompatibilitás:</strong> Közvetlen ModBus kapcsolat az intelligens épületfelügyeleti rendszerekhez.</li>
-        <li><strong>Gree+ Wi-Fi:</strong> Távoli elérés és programozhatóság bárhonnan, okostelefonon keresztül.</li>
+        <li><strong>Univerzális elhelyezés:</strong> Padló közeli vagy mennyezeti szerelhetőség a belső tér adottságaihoz igazodva.</li>
+        <li><strong>Hatékony légáramlás:</strong> A nagyteljesítményű ventilátor és az állítható lamellák biztosítják a levegő egyenletes eloszlását a nagyobb terekben is.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Aktív kontroll a beltéri páraszint felett a fokozott komfortérzetért.</li>
+        <li><strong>Gree+ okosvezérlés:</strong> Távoli elérés Wi-Fi-n keresztül, bárhol is tartózkodjon.</li>
+        <li><strong>BMS integráció:</strong> Gyárilag előkészített ModBus csatlakozási lehetőség professzionális rendszerekhez.</li>
         </ul>
         </div>`,
     },
     en: {
-      fullName: "Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set",
+      fullName: "Gree UM6 Floor-Ceiling Inverter 7.1 kW Air Conditioner Set",
       typeName: "Floor-Ceiling AC set",
-      desc: "Highly flexible 5.3 kW floor-ceiling (parapet) air conditioner set from the UM6 series. It can be installed vertically above the floor or horizontally under the ceiling, adapting to any room layout. A professional solution equipped with built-in Wi-Fi and a ModBus connector.",
+      desc: "High-performance 7.1 kW floor-ceiling (parapet) air conditioner set from the professional UM6 series. Features dual installation modes: can be mounted on the wall above the floor or under the ceiling. Equipped with built-in Wi-Fi, ModBus connector, and precise humidity control for large spaces.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -8629,9 +8629,9 @@ export const products: Product[] = [
         "Group Control"
       ],
       specsExtended: [
-        { label: "Cooling capacity", value: "5.3 kW" },
-        { label: "Heating capacity", value: "5.6 kW" },
-        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.7 kW" },
+        { label: "Recommended room size", value: "55–80 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8643,23 +8643,126 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years" }
       ],
       longDesc: `<div class="product-description">
-        <p>The <strong>Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set</strong> offers the most versatile solution in modern climate control. Its unique design allows the unit to be mounted either vertically on the wall near the floor—resembling a radiator—or horizontally underneath the ceiling. This flexibility makes it indispensable in rooms where installing traditional wall-mounted air conditioners is not feasible.</p>
+        <p>The <strong>Gree UM6 Floor-Ceiling Inverter 7.1 kW Air Conditioner Set</strong> offers a professional solution for spacious areas where high capacity and installation flexibility are equally essential. Thanks to the dual installation design of the UM6 series, the unit can be elegantly placed at floor level on the wall or mounted horizontally under the ceiling to save space.</p>
 
-        <p>With 5.3 kW cooling and 5.6 kW heating capacity, it confidently serves medium-sized offices or living rooms. The professional features are rounded out by the <strong>built-in ModBus connector</strong> and <strong>humidity control</strong>. The set includes a <strong>Wi-Fi-enabled wired wall controller</strong> and a convenient IR remote control as standard, ensuring that usability meets all requirements.</p>
+        <p>With 7.1 kW cooling and 7.7 kW heating capacity, it is ideal for climate-controlling larger living rooms, office spaces, or retail units. The system is packed with smart features: the <strong>built-in ModBus connector</strong> allows for building management integration, while <strong>humidity control</strong> guarantees optimal indoor air quality. The <strong>Wi-Fi-enabled wired wall controller</strong> and IR remote control included in the set provide total command over the system.</p>
 
         <h3>Key Advantages:</h3>
         <ul>
-        <li><strong>Dual Installation:</strong> Flexibly choose between floor-level or under-ceiling placement depending on room layout.</li>
-        <li><strong>Intelligent Airflow:</strong> Precisely controlled vertical and horizontal louver movement for draft-free comfort.</li>
-        <li><strong>Humidity Control:</strong> Precise control over indoor air moisture levels for a healthier environment.</li>
-        <li><strong>BMS Ready:</strong> Direct ModBus connection for smart building management systems.</li>
-        <li><strong>Gree+ Wi-Fi:</strong> Remote access and programmability from anywhere via smartphone.</li>
+        <li><strong>Universal Placement:</strong> Choose between floor-level or under-ceiling mounting to suit your interior layout.</li>
+        <li><strong>Efficient Airflow:</strong> The high-performance fan and adjustable louvers ensure even air distribution even in large open spaces.</li>
+        <li><strong>Humidity Control:</strong> Active management of indoor humidity levels for enhanced comfort.</li>
+        <li><strong>Gree+ Smart Control:</strong> Remote access via Wi-Fi from wherever you are.</li>
+        <li><strong>BMS Integration:</strong> Factory-ready ModBus connectivity for professional management systems.</li>
         </ul>
         </div>`,
     },
-    price: "670.000 Ft",
-    powerCooling: 5.3,
-    powerHeating: 5.6,
+    price: "780.000 Ft",
+    powerCooling: 7.1,
+    powerHeating: 7.7,
+    pics: [
+        { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
+        { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um6-parapet-inverter-12-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD125ZD1/A-S",
+    type: "ac-parapet",
+    name: "Gree UM parapet 12 kW",
+    hu: {
+      fullName: "Gree UM6 Parapet inverter 12,1 kW klíma szett",
+      typeName: "Parapet klíma",
+      desc: "Ipari teljesítményű, 12,1 kW-os parapet klíma szett az UM6 professzionális sorozatból. Rugalmasan telepíthető: padló felett az oldalfalra vagy vízszintesen a mennyezet alá is rögzíthető. Beépített Wi-Fi-vel, ModBus csatlakozóval és precíz páratartalom-szabályozással nagyméretű terekbe.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Padlóra vagy mennyezetre szerelhető",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "12,1 kW" },
+        { label: "Fűtési teljesítmény", value: "13,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "100–140 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Elhelyezés", value: "Oldalfalra (lent) vagy mennyezet alá" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Opcionális" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Parapet inverter 12,1 kW klíma szett</strong> az ipari erejű légkondicionálás egyik legsokoldalúbb képviselője. Kifejezetten nagy alapterületű helyiségekhez tervezték, ahol a 12,1 kW hűtési teljesítmény mellett fontos a rugalmas elhelyezhetőség. Az egység kettős telepítési móddal rendelkezik: elegáns radiátorként az oldalfal alsó részére rögzíthető, vagy a mennyezet alá vízszintesen installálható, így értékes falfelületet szabadít fel.</p>
+
+        <p>A 13,5 kW fűtési kapacitásnak köszönhetően a berendezés télen is hatékony hőszivattyús megoldást nyújt. A professzionális üzemeltetést a <strong>beépített ModBus csatlakozó</strong> segíti, amellyel a gép közvetlenül illeszthető épületfelügyeleti rendszerekbe (BMS). A komfortérzetet a precíz <strong>páratartalom-szabályozás</strong> és a <strong>Wi-Fi funkcióval ellátott fali vezetékes távvezérlő</strong> emeli a legmagasabb szintre.</p>
+
+        <h3>Kiemelt előnyök:</h3>
+        <ul>
+        <li><strong>Ipari kapacitás:</strong> Megbízható hűtés és fűtés nagyméretű eladóterek, éttermek és irodák számára.</li>
+        <li><strong>Rugalmas telepítés:</strong> Választható padló közeli vagy mennyezeti elhelyezés a helyiség adottságaihoz mérten.</li>
+        <li><strong>Precíz páratartalom-szabályozás:</strong> Intelligens kontroll a levegő nedvességtartalma felett az ideális környezetért.</li>
+        <li><strong>Többirányú légterelés:</strong> Széles szögben állítható lamellák biztosítják a nagy légmennyiség huzatmentes eloszlását.</li>
+        <li><strong>ModBus és Wi-Fi:</strong> Teljes körű távoli elérés és központi felügyeleti lehetőség alapfelszereltségben.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Floor-Ceiling Inverter 12.1 kW Air Conditioner Set",
+      typeName: "Floor-Ceiling AC set",
+      desc: "Industrial-capacity 12.1 kW floor-ceiling (parapet) air conditioner set from the professional UM6 series. Flexible installation: can be mounted on the wall above the floor or horizontally under the ceiling. Equipped with built-in Wi-Fi, ModBus connector, and precise humidity control for large-scale spaces.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Floor or Ceiling mountable",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "12.1 kW" },
+        { label: "Heating capacity", value: "13.5 kW" },
+        { label: "Recommended room size", value: "100–140 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Placement", value: "Wall (floor-level) or Under-ceiling" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Optional" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Floor-Ceiling Inverter 12.1 kW Air Conditioner Set</strong> is one of the most versatile representatives of industrial-strength climate control. It is specifically designed for large spaces where installation flexibility is as important as the 12.1 kW cooling capacity. The unit features dual installation modes: it can be mounted as an elegant radiator on the lower part of the wall or horizontally underneath the ceiling, freeing up valuable wall space.</p>
+
+        <p>With a 13.5 kW heating capacity, the equipment provides an efficient heat pump solution even in winter. Professional operation is supported by the <strong>built-in ModBus connector</strong>, allowing the unit to be directly integrated into Building Management Systems (BMS). Comfort is elevated to the highest level by precise <strong>humidity control</strong> and the <strong>Wi-Fi-enabled wired wall controller</strong>.</p>
+
+        <h3>Key Advantages:</h3>
+        <ul>
+        <li><strong>Industrial Capacity:</strong> Reliable cooling and heating for large retail spaces, restaurants, and offices.</li>
+        <li><strong>Flexible Installation:</strong> Choice of floor-level or under-ceiling placement based on room layout.</li>
+        <li><strong>Precise Humidity Control:</strong> Intelligent management of air moisture levels for an ideal environment.</li>
+        <li><strong>Multi-directional Airflow:</strong> Wide-angle adjustable louvers ensure the draft-free distribution of large air volumes.</li>
+        <li><strong>ModBus and Wi-Fi:</strong> Full remote access and central monitoring capabilities as standard.</li>
+        </ul>
+        </div>`,
+    },
+    price: "1.210.000 Ft",
+    powerCooling: 12.1,
+    powerHeating: 13.5,
     pics: [
         { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
         { src: "kulteri.jpg", width: 1000, height: 1000 },

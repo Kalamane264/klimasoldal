@@ -8459,6 +8459,212 @@ export const products: Product[] = [
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-um6-parapet-inverter-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD50ZD1/A-S",
+    type: "ac-parapet",
+    name: "Gree UM parapet 5,3 kW",
+    hu: {
+      fullName: "Gree UM6 Parapet inverter 5,3 kW klíma szett",
+      typeName: "Parapet klíma",
+      desc: "Rendkívül rugalmasan telepíthető, 5,3 kW-os parapet klíma szett az UM6 sorozatból. Függőlegesen a padló felett vagy vízszintesen a mennyezet alá is szerelhető, így bármilyen helyiség adottságaihoz alkalmazkodik. Beépített Wi-Fi-vel és ModBus csatlakozóval felszerelt professzionális megoldás.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Padlóra vagy mennyezetre szerelhető",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Elhelyezés", value: "Oldalfalra (lent) vagy mennyezet alá" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Opcionális" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Parapet inverter 5,3 kW klíma szett</strong> a legsokoldalúbb megoldást kínálja a modern klimatizálásban. Különleges, "Floor-Ceiling" kialakítása lehetővé teszi, hogy az egységet akár a padló felett az oldalfalra szereljük – mint egy radiátort –, akár vízszintesen a mennyezet alá rögzítsük. Ez a rugalmasság teszi nélkülözhetetlenné olyan helyiségekben, ahol a hagyományos oldalfali klímák elhelyezése nem megoldható.</p>
+
+        <p>Az 5,3 kW hűtési teljesítmény és az 5,6 kW fűtési kapacitás magabiztosan szolgálja ki a közepes méretű irodákat vagy nappalikat. A professzionális funkciók sorát a <strong>beépített ModBus csatlakozó</strong> és a <strong>páratartalom-szabályozás</strong> teszi teljessé. A szett alapfelszereltségéhez tartozik a <strong>Wi-Fi funkcióval ellátott fali vezetékes távvezérlő</strong> és egy kényelmes infra távirányító is, így a kezelhetőség minden igényt kielégít.</p>
+
+        <h3>Kiemelt előnyök:</h3>
+        <ul>
+        <li><strong>Kettős szerelhetőség:</strong> Rugalmasan választható padló közeli vagy mennyezeti elhelyezés a helyiség adottságaitól függően.</li>
+        <li><strong>Intelligens légterelés:</strong> Függőleges és vízszintes irányban is precízen vezérelhető légáram a huzatmentes komfortért.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Precíz kontroll a beltéri levegő nedvességtartalma felett az egészségesebb környezetért.</li>
+        <li><strong>BMS-kompatibilitás:</strong> Közvetlen ModBus kapcsolat az intelligens épületfelügyeleti rendszerekhez.</li>
+        <li><strong>Gree+ Wi-Fi:</strong> Távoli elérés és programozhatóság bárhonnan, okostelefonon keresztül.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set",
+      typeName: "Floor-Ceiling AC set",
+      desc: "Highly flexible 5.3 kW floor-ceiling (parapet) air conditioner set from the UM6 series. It can be installed vertically above the floor or horizontally under the ceiling, adapting to any room layout. A professional solution equipped with built-in Wi-Fi and a ModBus connector.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Floor or Ceiling mountable",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Placement", value: "Wall (floor-level) or Under-ceiling" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Optional" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set</strong> offers the most versatile solution in modern climate control. Its unique design allows the unit to be mounted either vertically on the wall near the floor—resembling a radiator—or horizontally underneath the ceiling. This flexibility makes it indispensable in rooms where installing traditional wall-mounted air conditioners is not feasible.</p>
+
+        <p>With 5.3 kW cooling and 5.6 kW heating capacity, it confidently serves medium-sized offices or living rooms. The professional features are rounded out by the <strong>built-in ModBus connector</strong> and <strong>humidity control</strong>. The set includes a <strong>Wi-Fi-enabled wired wall controller</strong> and a convenient IR remote control as standard, ensuring that usability meets all requirements.</p>
+
+        <h3>Key Advantages:</h3>
+        <ul>
+        <li><strong>Dual Installation:</strong> Flexibly choose between floor-level or under-ceiling placement depending on room layout.</li>
+        <li><strong>Intelligent Airflow:</strong> Precisely controlled vertical and horizontal louver movement for draft-free comfort.</li>
+        <li><strong>Humidity Control:</strong> Precise control over indoor air moisture levels for a healthier environment.</li>
+        <li><strong>BMS Ready:</strong> Direct ModBus connection for smart building management systems.</li>
+        <li><strong>Gree+ Wi-Fi:</strong> Remote access and programmability from anywhere via smartphone.</li>
+        </ul>
+        </div>`,
+    },
+    price: "670.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
+        { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-um6-parapet-inverter-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GUD71ZD1/A-S",
+    type: "ac-parapet",
+    name: "Gree UM parapet 5,3 kW",
+    hu: {
+      fullName: "Gree UM6 Parapet inverter 7,1 kW klíma szett",
+      typeName: "Parapet klíma",
+      desc: "Rendkívül rugalmasan telepíthető, 5,3 kW-os parapet klíma szett az UM6 sorozatból. Függőlegesen a padló felett vagy vízszintesen a mennyezet alá is szerelhető, így bármilyen helyiség adottságaihoz alkalmazkodik. Beépített Wi-Fi-vel és ModBus csatlakozóval felszerelt professzionális megoldás.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Padlóra vagy mennyezetre szerelhető",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Páratartalom-szabályozás",
+        "ModBus",
+        "Csoportvezérelhető"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,7 kW" },
+        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        { label: "Elhelyezés", value: "Oldalfalra (lent) vagy mennyezet alá" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "ModBus csatlakozó", value: "Beépített" },
+        { label: "Csoportvezérlés", value: "Igen" },
+        { label: "Cseppvízszivattyú", value: "Opcionális" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree UM6 Parapet inverter 5,3 kW klíma szett</strong> a legsokoldalúbb megoldást kínálja a modern klimatizálásban. Különleges, "Floor-Ceiling" kialakítása lehetővé teszi, hogy az egységet akár a padló felett az oldalfalra szereljük – mint egy radiátort –, akár vízszintesen a mennyezet alá rögzítsük. Ez a rugalmasság teszi nélkülözhetetlenné olyan helyiségekben, ahol a hagyományos oldalfali klímák elhelyezése nem megoldható.</p>
+
+        <p>Az 5,3 kW hűtési teljesítmény és az 5,6 kW fűtési kapacitás magabiztosan szolgálja ki a közepes méretű irodákat vagy nappalikat. A professzionális funkciók sorát a <strong>beépített ModBus csatlakozó</strong> és a <strong>páratartalom-szabályozás</strong> teszi teljessé. A szett alapfelszereltségéhez tartozik a <strong>Wi-Fi funkcióval ellátott fali vezetékes távvezérlő</strong> és egy kényelmes infra távirányító is, így a kezelhetőség minden igényt kielégít.</p>
+
+        <h3>Kiemelt előnyök:</h3>
+        <ul>
+        <li><strong>Kettős szerelhetőség:</strong> Rugalmasan választható padló közeli vagy mennyezeti elhelyezés a helyiség adottságaitól függően.</li>
+        <li><strong>Intelligens légterelés:</strong> Függőleges és vízszintes irányban is precízen vezérelhető légáram a huzatmentes komfortért.</li>
+        <li><strong>Páratartalom-szabályozás:</strong> Precíz kontroll a beltéri levegő nedvességtartalma felett az egészségesebb környezetért.</li>
+        <li><strong>BMS-kompatibilitás:</strong> Közvetlen ModBus kapcsolat az intelligens épületfelügyeleti rendszerekhez.</li>
+        <li><strong>Gree+ Wi-Fi:</strong> Távoli elérés és programozhatóság bárhonnan, okostelefonon keresztül.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set",
+      typeName: "Floor-Ceiling AC set",
+      desc: "Highly flexible 5.3 kW floor-ceiling (parapet) air conditioner set from the UM6 series. It can be installed vertically above the floor or horizontally under the ceiling, adapting to any room layout. A professional solution equipped with built-in Wi-Fi and a ModBus connector.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Floor or Ceiling mountable",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Humidity Control",
+        "ModBus",
+        "Group Control"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
+        { label: "Placement", value: "Wall (floor-level) or Under-ceiling" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "ModBus connector", value: "Built-in" },
+        { label: "Group control", value: "Yes" },
+        { label: "Drain pump", value: "Optional" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set</strong> offers the most versatile solution in modern climate control. Its unique design allows the unit to be mounted either vertically on the wall near the floor—resembling a radiator—or horizontally underneath the ceiling. This flexibility makes it indispensable in rooms where installing traditional wall-mounted air conditioners is not feasible.</p>
+
+        <p>With 5.3 kW cooling and 5.6 kW heating capacity, it confidently serves medium-sized offices or living rooms. The professional features are rounded out by the <strong>built-in ModBus connector</strong> and <strong>humidity control</strong>. The set includes a <strong>Wi-Fi-enabled wired wall controller</strong> and a convenient IR remote control as standard, ensuring that usability meets all requirements.</p>
+
+        <h3>Key Advantages:</h3>
+        <ul>
+        <li><strong>Dual Installation:</strong> Flexibly choose between floor-level or under-ceiling placement depending on room layout.</li>
+        <li><strong>Intelligent Airflow:</strong> Precisely controlled vertical and horizontal louver movement for draft-free comfort.</li>
+        <li><strong>Humidity Control:</strong> Precise control over indoor air moisture levels for a healthier environment.</li>
+        <li><strong>BMS Ready:</strong> Direct ModBus connection for smart building management systems.</li>
+        <li><strong>Gree+ Wi-Fi:</strong> Remote access and programmability from anywhere via smartphone.</li>
+        </ul>
+        </div>`,
+    },
+    price: "670.000 Ft",
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    pics: [
+        { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
+        { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

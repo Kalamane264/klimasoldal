@@ -41,6 +41,8 @@ export default function ProductList({ products }: Props) {
             detailPageRoute = "/kazettas-klimak/" + product.id;
           } else if (product.type === "ac-ducted") {
             detailPageRoute = "/legcsatornas-klimak/" + product.id;
+          } else if (product.type === "ac-parapet") {
+            detailPageRoute = "parapet-klimak/" + product.id;
           }
 
           return (

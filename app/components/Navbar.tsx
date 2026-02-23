@@ -86,6 +86,16 @@ export default function Navbar(){
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
+                <Link href="/parapet-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? 'Parapet Klímák' : 'Floor-ceiling Air Conditioners'}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
+                <Link href="/konzol-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? 'Konzol Klímák' : 'Console Air Conditioners'}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
                 <Link href="/hoszivattyuk" className="cursor-pointer w-full">
                   {language === 'hu' ? 'Hőszivattyúk' : 'Heat Pumps'}
                 </Link>
@@ -161,6 +171,12 @@ export default function Navbar(){
                 </Link>
                 <Link href="/legcsatornas-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {language === 'hu' ? '• Légcsatornás Klímák' : '• Ducted Air Conditioners'}
+                </Link>
+                <Link href="/parapet-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Parapet Klímák' : '• Floor-ceiling Air Conditioners'}
+                </Link>
+                <Link href="/konzol-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? 'Konzol Klímák' : 'Console Air Conditioners'}
                 </Link>
                 <Link href="/hoszivattyuk" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {language === 'hu' ? '• Hőszivattyúk' : '• Heat Pumps'}

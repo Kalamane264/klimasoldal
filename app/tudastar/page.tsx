@@ -23,18 +23,6 @@ export default function KnowledgeBase() {
       hu: { title: "Az okosotthon előnyei", desc: "Hogyan teheti kényelmesebbé és energiatakarékosabbá életét az automatizáció?" },
       en: { title: "Benefits of Smart Home", desc: "How can automation make your life more comfortable and energy-efficient?" }
     },
-    {
-      id: "hoszivattyu-vs-klima-2",
-      icon: <BookOpen className="w-8 h-8 text-primary" />,
-      hu: { title: "Hőszivattyú vs Klíma", desc: "Melyik a jobb választás otthonába? Összehasonlítjuk a két rendszert hatékonyság és költség szempontjából." },
-      en: { title: "Heat Pump vs AC", desc: "Which is the better choice for your home? We compare the two systems in terms of efficiency and cost." }
-    },
-    {
-      id: "okosotthon-elonyok-2",
-      icon: <Lightbulb className="w-8 h-8 text-accent" />,
-      hu: { title: "Az okosotthon előnyei", desc: "Hogyan teheti kényelmesebbé és energiatakarékosabbá életét az automatizáció?" },
-      en: { title: "Benefits of Smart Home", desc: "How can automation make your life more comfortable and energy-efficient?" }
-    }
   ];
 
   return (

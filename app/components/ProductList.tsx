@@ -43,6 +43,8 @@ export default function ProductList({ products }: Props) {
             detailPageRoute = "/legcsatornas-klimak/" + product.id;
           } else if (product.type === "ac-parapet") {
             detailPageRoute = "parapet-klimak/" + product.id;
+          } else if (product.type === "ac-console") {
+            detailPageRoute = "konzol-klimak/" + product.id;
           }
 
           return (

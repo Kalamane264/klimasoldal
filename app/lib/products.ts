@@ -8768,6 +8768,306 @@ export const products: Product[] = [
         { src: "kulteri.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-konzol-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GEH09AA-K6DNA1F",
+    type: "ac-console",
+    name: "Gree konzol 2,7 kW",
+    hu: {
+      fullName: "Gree konzol inverter 2,7 kW klíma szett",
+      typeName: "Konzol klíma",
+      desc: "Prémium 2,7 kW-os konzol klíma, amely a padló közeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten téli komfortra tervezve: -22°C-ig üzembiztos, extra csendes működésű és Wi-Fi-vel bárhonnan vezérelhető.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Kettős légkifúvás (lábfűtés)",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Fűtés -22°C-ig",
+        "Extra csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "2,9 kW" },
+        { label: "Ajánlott helyiségméret", value: "15–30 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Infra távirányító + Wi-Fi" },
+        { label: "Légkifúvás", value: "Alsó és felső (választható)" },
+        { label: "Üzemmód", value: "Halk, zavartalan működés" },
+        { label: "Fűtési működési tartomány", value: "-22°C – +24°C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Console 3,5 kW klíma</strong> a modern technológia és az otthonos kényelem találkozása. Ez a beltéri egység diszkréten a padló közelében helyezkedik el, mint egy elegáns fűtőtest, így tökéletes választás nappalikba vagy tágasabb hálószobákba, ahol a hűtés mellett a professzionális hőszivattyús fűtés is elsődleges szempont.</p>
+
+        <p>A készülék titka a <strong>kettős légkifúvási technológia</strong>: fűtés közben képes a meleg levegőt közvetlenül a padló felett áramoltatni, így hatékonyan szünteti meg a lábfázást és teremt egyenletes hőérzetet. A rendszer rendkívül strapabíró: a beépített tálcafűtésnek köszönhetően még a <strong>kemény mínuszokban (-22°C)</strong> is magabiztosan fűt, miközben működése olyan halk, hogy szinte észrevehetetlen a jelenléte.</p>
+
+        <h3>Miért fogja imádni?</h3>
+        <ul>
+        <li><strong>Lábfűtés funkció:</strong> A padló közeli befúvás gyors és egyenletes melegérzetet biztosít az egész helyiségben.</li>
+        <li><strong>Téli specialisták:</strong> -22°C-ig terjedő működési tartományával a leghidegebb téli napokon is megbízható fűtési forrás.</li>
+        <li><strong>Tiszta levegő:</strong> A Cold Plasma szűrő aktívan dolgozik a por, a pollenek és a kellemetlen szagok semlegesítésén.</li>
+        <li><strong>Okos irányítás:</strong> A beépített Wi-Fi-vel a Gree+ alkalmazáson keresztül bárhonnan előmelegítheti otthonát.</li>
+        <li><strong>I-Feel kényelem:</strong> A távirányítóba épített szenzor segítségével a gép pontosan ott tartja a beállított hőfokot, ahol Ön tartózkodik.</li>
+        <li><strong>Garancia:</strong> 3 év teljes körű jótállás + 2 év extra garancia a kompresszorra.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Console Inverter 2.7 kW Air Conditioner Set",
+      typeName: "Console AC",
+      desc: "Premium 2.7 kW console air conditioner providing a radiator-like heating experience thanks to its floor-level installation and dual airflow. Designed for winter comfort: operational down to -22°C, featuring ultra-quiet operation and Wi-Fi control from anywhere.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Dual Airflow (Floor heating)",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Heating down to -22°C",
+        "Ultra-quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "2.9 kW" },
+        { label: "Recommended room size", value: "15–30 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Airflow", value: "Top and Bottom (selectable)" },
+        { label: "Noise level", value: "Whisper-quiet operation" },
+        { label: "Heating operating range", value: "-22°C to +24°C" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Console 3.5 kW Air Conditioner</strong> is where modern technology meets homey comfort. This indoor unit is discreetly positioned near the floor like an elegant heater, making it a perfect choice for living rooms or spacious bedrooms where professional-grade heat pump heating is just as important as cooling.</p>
+
+        <p>The unit's secret lies in its <strong>dual-path airflow technology</strong>: during heating, it can distribute warm air directly above the floor, effectively eliminating cold feet and creating an even temperature. The system is remarkably durable: thanks to the built-in base pan heater, it confidently maintains the set temperature even in <strong>extreme cold (-22°C)</strong>. And during operation, it's so quiet you’ll barely notice its presence.</p>
+
+        <h3>Why you'll love it:</h3>
+        <ul>
+        <li><strong>Floor Heating Function:</strong> Bottom-level airflow ensures a quick and even sense of warmth throughout the entire room.</li>
+        <li><strong>Winter Specialist:</strong> With an operating range down to -22°C, it's a reliable heating source even during the coldest winter days.</li>
+        <li><strong>Pure Air:</strong> The Cold Plasma filter actively works to neutralize dust, pollen, and unpleasant odors.</li>
+        <li><strong>Smart Control:</strong> Pre-heat your home from anywhere via the Gree+ app and built-in Wi-Fi.</li>
+        <li><strong>I-Feel Comfort:</strong> Using the sensor built into the remote, the unit maintains the exact temperature where you are located.</li>
+        <li><strong>Warranty:</strong> 3 years full warranty + 2 years extra warranty for the compressor.</li>
+        </ul>
+        </div>`,
+    },
+    price: "480.000 Ft",
+    powerCooling: 2.7,
+    powerHeating: 2.9,
+    pics: [
+        { src: "konzol-1.jpg", width: 1000, height: 1000 },
+        { src: "konzol-2.jpg", width: 1000, height: 1000 },
+        { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-konzol-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GEH12AA-K6DNA1A",
+    type: "ac-console",
+    name: "Gree konzol 3,5 kW",
+    hu: {
+      fullName: "Gree konzol inverter 3,52 kW klíma szett",
+      typeName: "Konzol klíma",
+      desc: "Prémium 3,5 kW-os konzol klíma, amely a padló közeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten téli komfortra tervezve: -22°C-ig üzembiztos, extra csendes működésű és Wi-Fi-vel bárhonnan vezérelhető.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Kettős légkifúvás (lábfűtés)",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Fűtés -22°C-ig",
+        "Extra csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,52 kW" },
+        { label: "Fűtési teljesítmény", value: "3,75 kW" },
+        { label: "Ajánlott helyiségméret", value: "25–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Infra távirányító + Wi-Fi" },
+        { label: "Légkifúvás", value: "Alsó és felső (választható)" },
+        { label: "Üzemmód", value: "Halk, zavartalan működés" },
+        { label: "Fűtési működési tartomány", value: "-22°C – +24°C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Console 3,5 kW klíma</strong> a modern technológia és az otthonos kényelem találkozása. Ez a beltéri egység diszkréten a padló közelében helyezkedik el, mint egy elegáns fűtőtest, így tökéletes választás nappalikba vagy tágasabb hálószobákba, ahol a hűtés mellett a professzionális hőszivattyús fűtés is elsődleges szempont.</p>
+
+        <p>A készülék titka a <strong>kettős légkifúvási technológia</strong>: fűtés közben képes a meleg levegőt közvetlenül a padló felett áramoltatni, így hatékonyan szünteti meg a lábfázást és teremt egyenletes hőérzetet. A rendszer rendkívül strapabíró: a beépített tálcafűtésnek köszönhetően még a <strong>kemény mínuszokban (-22°C)</strong> is magabiztosan fűt, miközben működése olyan halk, hogy szinte észrevehetetlen a jelenléte.</p>
+
+        <h3>Miért fogja imádni?</h3>
+        <ul>
+        <li><strong>Lábfűtés funkció:</strong> A padló közeli befúvás gyors és egyenletes melegérzetet biztosít az egész helyiségben.</li>
+        <li><strong>Téli specialisták:</strong> -22°C-ig terjedő működési tartományával a leghidegebb téli napokon is megbízható fűtési forrás.</li>
+        <li><strong>Tiszta levegő:</strong> A Cold Plasma szűrő aktívan dolgozik a por, a pollenek és a kellemetlen szagok semlegesítésén.</li>
+        <li><strong>Okos irányítás:</strong> A beépített Wi-Fi-vel a Gree+ alkalmazáson keresztül bárhonnan előmelegítheti otthonát.</li>
+        <li><strong>I-Feel kényelem:</strong> A távirányítóba épített szenzor segítségével a gép pontosan ott tartja a beállított hőfokot, ahol Ön tartózkodik.</li>
+        <li><strong>Garancia:</strong> 3 év teljes körű jótállás + 2 év extra garancia a kompresszorra.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Console Inverter 3.52 kW Air Conditioner Set",
+      typeName: "Console AC",
+      desc: "Premium 3.5 kW console air conditioner providing a radiator-like heating experience thanks to its floor-level installation and dual airflow. Designed for winter comfort: operational down to -22°C, featuring ultra-quiet operation and Wi-Fi control from anywhere.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Dual Airflow (Floor heating)",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Heating down to -22°C",
+        "Ultra-quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.52 kW" },
+        { label: "Heating capacity", value: "3.75 kW" },
+        { label: "Recommended room size", value: "25–45 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Airflow", value: "Top and Bottom (selectable)" },
+        { label: "Noise level", value: "Whisper-quiet operation" },
+        { label: "Heating operating range", value: "-22°C to +24°C" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Console 3.5 kW Air Conditioner</strong> is where modern technology meets homey comfort. This indoor unit is discreetly positioned near the floor like an elegant heater, making it a perfect choice for living rooms or spacious bedrooms where professional-grade heat pump heating is just as important as cooling.</p>
+
+        <p>The unit's secret lies in its <strong>dual-path airflow technology</strong>: during heating, it can distribute warm air directly above the floor, effectively eliminating cold feet and creating an even temperature. The system is remarkably durable: thanks to the built-in base pan heater, it confidently maintains the set temperature even in <strong>extreme cold (-22°C)</strong>. And during operation, it's so quiet you’ll barely notice its presence.</p>
+
+        <h3>Why you'll love it:</h3>
+        <ul>
+        <li><strong>Floor Heating Function:</strong> Bottom-level airflow ensures a quick and even sense of warmth throughout the entire room.</li>
+        <li><strong>Winter Specialist:</strong> With an operating range down to -22°C, it's a reliable heating source even during the coldest winter days.</li>
+        <li><strong>Pure Air:</strong> The Cold Plasma filter actively works to neutralize dust, pollen, and unpleasant odors.</li>
+        <li><strong>Smart Control:</strong> Pre-heat your home from anywhere via the Gree+ app and built-in Wi-Fi.</li>
+        <li><strong>I-Feel Comfort:</strong> Using the sensor built into the remote, the unit maintains the exact temperature where you are located.</li>
+        <li><strong>Warranty:</strong> 3 years full warranty + 2 years extra warranty for the compressor.</li>
+        </ul>
+        </div>`,
+    },
+    price: "510.000 Ft",
+    powerCooling: 3.52,
+    powerHeating: 3.75,
+    pics: [
+        { src: "konzol-1.jpg", width: 1000, height: 1000 },
+        { src: "konzol-2.jpg", width: 1000, height: 1000 },
+        { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ]
+  },
+  {
+    id: "gree-konzol-inverter-5-2-kw-klima-szett",
+    brand: "Gree",
+    serial: "GEH18AA-K6DNA1F",
+    type: "ac-console",
+    name: "Gree konzol 5,2 kW",
+    hu: {
+      fullName: "Gree konzol inverter 5,2 kW klíma szett",
+      typeName: "Konzol klíma",
+      desc: "Nagy teljesítményű, 5,2 kW-os konzol klíma, amely a padló közeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten nagyobb terek téli komfortjára tervezve: -22°C-ig üzembiztos, halk működésű és Wi-Fi-vel bárhonnan vezérelhető.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Kettős légkifúvás (lábfűtés)",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C-os temperálás",
+        "Fűtés -22°C-ig",
+        "Extra csendes működés"
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,2 kW" },
+        { label: "Fűtési teljesítmény", value: "5,33 kW" },
+        { label: "Ajánlott helyiségméret", value: "45–65 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Vezérlés", value: "Infra távirányító + Wi-Fi" },
+        { label: "Légkifúvás", value: "Alsó és felső (választható)" },
+        { label: "Üzemmód", value: "Halk, zavartalan működés" },
+        { label: "Fűtési működési tartomány", value: "-22°C – +24°C" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Console 5,2 kW klíma</strong> a Console sorozat legnagyobb teljesítményű tagja, amely kompromisszummentes megoldást nyújt nagyobb nappalik, tágas amerikai konyhás terek vagy üzlethelyiségek klimatizálására. Elegáns, padló közeli kialakítása révén tökéletesen illeszkedik az ablakok alá, modern és hatékony alternatívát kínálva a hagyományos fűtési rendszerekkel szemben.</p>
+
+        <p>A készülék kiemelkedő hatékonyságát a <strong>kettős légkifúvási technológia</strong> adja: fűtés során a meleg levegőt közvetlenül a padló felett áramoltatja, így gyorsan és egyenletesen fűti át a nagyobb helyiségeket is, megszüntetve a hideg zónákat. A masszív kialakítás és a professzionális inverter technológia révén akár <strong>-22°C-os külső hőmérséklet mellett is</strong> megbízhatóan tartja az otthon melegét.</p>
+
+        <h3>Főbb előnyök:</h3>
+        <ul>
+        <li><strong>Maximális fűtési komfort:</strong> Az alsó légkifúvás (lábfűtés) funkcióval a meleg levegő a padló közelében indul el, biztosítva az egyenletes hőeloszlást.</li>
+        <li><strong>Nagy teljesítmény:</strong> Az 5,2 kW-os kapacitás révén a nagyobb alapterületű helyiségek hűtése és fűtése is gyors és hatékony.</li>
+        <li><strong>Téli üzemre felkészítve:</strong> A beépített tálcafűtés és a karterfűtés garantálja az üzembiztos működést extrém hidegben is.</li>
+        <li><strong>Levegőtisztítás:</strong> A beépített Cold Plasma szűrő hatékonyan távolítja el a levegőből a szennyeződéseket és a szagokat.</li>
+        <li><strong>Okos vezérlés:</strong> A beépített Wi-Fi modul és a Gree+ alkalmazás segítségével bárhonnan, bármikor irányíthatja a készüléket.</li>
+        <li><strong>Garancia:</strong> 3 év teljes körű jótállás + 2 év extra garancia a kompresszorra.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Console Inverter 3.52 kW Air Conditioner Set",
+      typeName: "Console AC",
+      desc: "High-capacity 5.2 kW console air conditioner providing a radiator-like heating experience thanks to its floor-level installation and dual airflow. Designed for the winter comfort of larger spaces: operational down to -22°C, featuring quiet operation and Wi-Fi control from anywhere.",
+      specs: [
+        "A++",
+        "Wi-Fi",
+        "Dual Airflow (Floor heating)",
+        "Cold Plasma",
+        "I-Feel",
+        "8°C Heating",
+        "Heating down to -22°C",
+        "Ultra-quiet operation"
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.2 kW" },
+        { label: "Heating capacity", value: "5.33 kW" },
+        { label: "Recommended room size", value: "45–65 m²" },
+        { label: "Energy class cooling", value: "A++" },
+        { label: "Energy class heating", value: "A+" },
+        { label: "Control", value: "IR Remote + Wi-Fi" },
+        { label: "Airflow", value: "Top and Bottom (selectable)" },
+        { label: "Noise level", value: "Whisper-quiet operation" },
+        { label: "Heating operating range", value: "-22°C to +24°C" },
+        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Console 5.2 kW Air Conditioner</strong> is the highest capacity member of the Console series, providing an uncompromising solution for climate-controlling larger living rooms, spacious open-plan kitchens, or retail spaces. Thanks to its elegant floor-level design, it fits perfectly under windows, offering a modern and efficient alternative to traditional heating systems.</p>
+
+        <p>The unit's outstanding efficiency comes from its <strong>dual-path airflow technology</strong>: during heating, it circulates warm air directly above the floor, heating even larger rooms quickly and evenly while eliminating cold zones. With its robust build and professional inverter technology, it reliably maintains home warmth even at <strong>outdoor temperatures as low as -22°C</strong>.</p>
+
+        <h3>Key Advantages:</h3>
+        <ul>
+        <li><strong>Maximum Heating Comfort:</strong> With the bottom airflow (floor heating) function, warm air starts at floor level, ensuring even heat distribution.</li>
+        <li><strong>High Capacity:</strong> The 5.2 kW capacity ensures fast and efficient cooling and heating for larger rooms.</li>
+        <li><strong>Winter Ready:</strong> Built-in base pan and crankcase heaters guarantee reliable operation even in extreme cold.</li>
+        <li><strong>Air Purification:</strong> The integrated Cold Plasma filter effectively removes impurities and odors from the air.</li>
+        <li><strong>Smart Control:</strong> Control the device anytime, anywhere using the built-in Wi-Fi module and the Gree+ app.</li>
+        <li><strong>Warranty:</strong> 3 years full warranty + 2 years extra warranty for the compressor.</li>
+        </ul>
+        </div>`,
+    },
+    price: "580.000 Ft",
+    powerCooling: 5.2,
+    powerHeating: 5.33,
+    pics: [
+        { src: "konzol-1.jpg", width: 1000, height: 1000 },
+        { src: "konzol-2.jpg", width: 1000, height: 1000 },
+        { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

@@ -80,8 +80,10 @@ export const products: Product[] = [
         </div> `,
     },
     price: "290.000 Ft",
+    priceNum: 290000,
     powerCooling: 2.7,
     powerHeating: 2.8,
+    roomSize: "8-28",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -173,8 +175,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "310.000 Ft",
+    priceNum: 310000,
     powerCooling: 3.2,
     powerHeating: 3.4,
+    roomSize: "29-45",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -266,8 +270,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "420.000 Ft",
+    priceNum: 420000,
     powerCooling: 4.6,
     powerHeating: 5.2,
+    roomSize: "46-65",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -359,8 +365,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "480.000 Ft",
+    priceNum: 480000,
     powerCooling: 6.2,
     powerHeating: 6.5,
+    roomSize: "65-100",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -461,8 +469,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "310.000 Ft",
+    priceNum: 310000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "2-28",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -560,8 +570,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "330.000 Ft",
+    priceNum: 330000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -658,8 +670,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "430.000 Ft",
+    priceNum: 430000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-65",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -756,8 +770,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "510.000 Ft",
+    priceNum: 510000,
     powerCooling: 7.1,
     powerHeating: 7.8,
+    roomSize: "66-90",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -846,8 +862,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "450.000 Ft",
+    priceNum: 450000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: null,
     pics: [
         { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
     ]
@@ -933,8 +951,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "540.000 Ft",
+    priceNum: 540000,
     powerCooling: 7.1,
     powerHeating: 8.6,
+    roomSize: null,
     pics: [
         { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
     ]
@@ -1022,8 +1042,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "95.000 Ft",
+    priceNum: 95000,
     powerCooling: 2.7,
     powerHeating: 2.8,
+    roomSize: "8-28",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -1118,8 +1140,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "115.000 Ft",
+    priceNum: 115000,
     powerCooling: 3.2,
     powerHeating: 3.4,
+    roomSize: "29-45",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -1214,8 +1238,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "125.000 Ft",
+    priceNum: 125000,
     powerCooling: 4.6,
     powerHeating: 5.2,
+    roomSize: "46-65",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -1333,8 +1359,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "540.000 Ft",
+    priceNum: 540000,
     powerCooling: 3.5,
     powerHeating: 4.0,
+    roomSize: "29-55",
     pics: [
         { src: "syen-kazettas.jpg", width: 750, height: 548 },
         { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
@@ -1447,8 +1475,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "660.000 Ft",
+    priceNum: 660000,
     powerCooling: 5.0,
     powerHeating: 5.5,
+    roomSize: "56-75",
     pics: [
         { src: "syen-kazettas.jpg", width: 750, height: 548 },
         { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
@@ -1561,8 +1591,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "750.000 Ft",
+    priceNum: 750000,
     powerCooling: 7.0,
     powerHeating: 8.0,
+    roomSize: "76-100",
     pics: [
         { src: "syen-kazettas.jpg", width: 750, height: 548 },
         { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
@@ -1671,8 +1703,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "550.000 Ft",
+    priceNum: 550000,
     powerCooling: 3.5,
     powerHeating: 4.0,
+    roomSize: "29-55",
     pics: [
         { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
         { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
@@ -1781,8 +1815,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "630.000 Ft",
+    priceNum: 630000,
     powerCooling: 5,
     powerHeating: 5.5,
+    roomSize: "56-75",
     pics: [
         { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
         { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
@@ -1891,8 +1927,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "710.000 Ft",
+    priceNum: 710000,
     powerCooling: 7,
     powerHeating: 8,
+    roomSize: "76-100",
     pics: [
         { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
         { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
@@ -1989,8 +2027,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "320.000 Ft",
+    priceNum: 320000,
     powerCooling: 2.7,
     powerHeating: 2.8,
+    roomSize: "8-28",
     pics: [
         { src: "gree-pulse.jpg", width: 1000, height: 1000 },
         { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2089,8 +2129,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "330.000 Ft",
+    priceNum: 330000,
     powerCooling: 3.2,
     powerHeating: 3.4,
+    roomSize: "29-45",
     pics: [
         { src: "gree-pulse.jpg", width: 1000, height: 1000 },
         { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2189,8 +2231,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "420.000 Ft",
+    priceNum: 420000,
     powerCooling: 4.6,
     powerHeating: 5.2,
+    roomSize: "46-75",
     pics: [
         { src: "gree-pulse.jpg", width: 1000, height: 1000 },
         { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2289,8 +2333,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "510.000 Ft",
+    priceNum: 510000,
     powerCooling: 6.2,
     powerHeating: 6.5,
+    roomSize: "76-100",
     pics: [
         { src: "gree-pulse.jpg", width: 1000, height: 1000 },
         { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2397,8 +2443,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "300.000 Ft",
+    priceNum: 300000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
         { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2505,8 +2553,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "320.000 Ft",
+    priceNum: 320000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
         { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2613,8 +2663,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "440.000 Ft",
+    priceNum: 440000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
         { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2721,8 +2773,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "540.000 Ft",
+    priceNum: 540000,
     powerCooling: 7.1,
     powerHeating: 7.8,
+    roomSize: "76-100",
     pics: [
         { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
         { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2811,6 +2865,7 @@ export const products: Product[] = [
       </div>`,
     },
     price: "330.000 Ft",
+    priceNum: 330000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     pics: [
@@ -2902,8 +2957,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "355.000 Ft",
+    priceNum: 355000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "8-28",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -2993,8 +3050,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "470.000 Ft",
+    priceNum: 470000,
     powerCooling: 5.1,
     powerHeating: 5.3,
+    roomSize: "46-65",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -3084,8 +3143,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "530.000 Ft",
+    priceNum: 530000,
     powerCooling: 7.1,
     powerHeating: 7.3,
+    roomSize: "65-100",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -3197,8 +3258,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "330.000 Ft",
+    priceNum: 330000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
         { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
@@ -3301,8 +3364,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "350.000 Ft",
+    priceNum: 350000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
         { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
@@ -3405,8 +3470,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "460.000 Ft",
+    priceNum: 460000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
         { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
@@ -3517,8 +3584,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "350.000 Ft",
+    priceNum: 350000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
         { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
@@ -3629,8 +3698,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "360.000 Ft",
+    priceNum: 360000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
         { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
@@ -3741,8 +3812,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "480.000 Ft",
+    priceNum: 480000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
         { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
@@ -3853,8 +3926,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "540.000 Ft",
+    priceNum: 540000,
     powerCooling: 6.5,
     powerHeating: 7.0,
+    roomSize: "76-100",
     pics: [
         { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
         { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
@@ -3967,8 +4042,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "410.000 Ft",
+    priceNum: 410000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "ariy-02.jpg", width: 1000, height: 1000 },
         { src: "ariy-03.jpg", width: 1000, height: 1000 },
@@ -4082,8 +4159,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "430.000 Ft",
+    priceNum: 430000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "ariy-02.jpg", width: 1000, height: 1000 },
         { src: "ariy-03.jpg", width: 1000, height: 1000 },
@@ -4197,8 +4276,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "540.000 Ft",
+    priceNum: 540000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "ariy-02.jpg", width: 1000, height: 1000 },
         { src: "ariy-03.jpg", width: 1000, height: 1000 },
@@ -4312,8 +4393,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "590.000 Ft",
+    priceNum: 590000,
     powerCooling: 7.1,
     powerHeating: 7.8,
+    roomSize: "76-100",
     pics: [
         { src: "ariy-02.jpg", width: 1000, height: 1000 },
         { src: "ariy-03.jpg", width: 1000, height: 1000 },
@@ -4419,8 +4502,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "460.000 Ft",
+    priceNum: 460000,
     powerCooling: 2.7,
     powerHeating: 3.5,
+    roomSize: "8-28",
     pics: [
         { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
         { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
@@ -4525,8 +4610,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "490.000 Ft",
+    priceNum: 490000,
     powerCooling: 3.5,
     powerHeating: 4.2,
+    roomSize: "29-45",
     pics: [
         { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
         { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
@@ -4631,8 +4718,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "550.000 Ft",
+    priceNum: 550000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
         { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
@@ -4735,8 +4824,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "410.000 Ft",
+    priceNum: 410000,
     powerCooling: 4.1,
     powerHeating: 4.4,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-01.jpg", width: 1200, height: 1200 },
     ]
@@ -4836,8 +4927,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "450.000 Ft",
+    priceNum: 450000,
     powerCooling: 5.3,
     powerHeating: 5.65,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-01.jpg", width: 1200, height: 1200 },
     ]
@@ -4937,8 +5030,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "570.000 Ft",
+    priceNum: 570000,
     powerCooling: 7.1,
     powerHeating: 8.6,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
     ]
@@ -5038,8 +5133,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "620.000 Ft",
+    priceNum: 620000,
     powerCooling: 8.0,
     powerHeating: 9.5,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
     ]
@@ -5139,8 +5236,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "770.000 Ft",
+    priceNum: 770000,
     powerCooling: 10.6,
     powerHeating: 12,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
     ]
@@ -5240,8 +5339,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "900.000 Ft",
+    priceNum: 900000,
     powerCooling: 12.1,
     powerHeating: 13,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
     ]
@@ -5342,8 +5443,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "840.000 Ft",
+    priceNum: 840000,
     powerCooling: 10.6,
     powerHeating: 12,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
     ]
@@ -5444,8 +5547,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "960.000 Ft",
+    priceNum: 960000,
     powerCooling: 12.1,
     powerHeating: 13,
+    roomSize: null,
     pics: [
         { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
     ]
@@ -5471,6 +5576,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
         { label: "Fűtési teljesítmény", value: "4,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Látható panel mérete", value: "650 x 650 mm" },
         { label: "Beépítési méret", value: "570 x 570 mm (álmennyezet fölé)" },
         { label: "Légterelés", value: "4 irányú, körkörös" },
@@ -5506,6 +5612,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
         { label: "Heating capacity", value: "4.0 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Visible panel size", value: "650 x 650 mm" },
         { label: "Installation size", value: "570 x 570 mm (above ceiling)" },
         { label: "Air distribution", value: "4-way, circular" },
@@ -5526,8 +5633,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "220.000 Ft",
+    priceNum: 220000,
     powerCooling: 3.5,
     powerHeating: 4.0,
+    roomSize: "29-45",
     pics: [
         { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
     ]
@@ -5553,6 +5662,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5 kW" },
         { label: "Fűtési teljesítmény", value: "5,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Látható panel mérete", value: "650 x 650 mm" },
         { label: "Beépítési méret", value: "570 x 570 mm (álmennyezet fölé)" },
         { label: "Légterelés", value: "4 irányú, körkörös" },
@@ -5587,6 +5697,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5 kW" },
         { label: "Heating capacity", value: "5.5 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Visible panel size", value: "650 x 650 mm" },
         { label: "Installation size", value: "570 x 570 mm (above ceiling)" },
         { label: "Air distribution", value: "4-way, circular" },
@@ -5607,8 +5718,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "240.000 Ft",
+    priceNum: 240000,
     powerCooling: 5,
     powerHeating: 5.5,
+    roomSize: "46-75",
     pics: [
         { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
     ]
@@ -5634,6 +5747,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7 kW" },
         { label: "Fűtési teljesítmény", value: "8 kW" },
+        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
         { label: "Látható panel mérete", value: "950 x 950 mm" },
         { label: "Beépítési méret", value: "840 x 840 mm" },
         { label: "Légterelés", value: "4 irányú, körkörös" },
@@ -5668,6 +5782,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "7 kW" },
         { label: "Heating capacity", value: "8 kW" },
+        { label: "Recommended room size", value: "76–100 m²" },
         { label: "Visible panel size", value: "950 x 950 mm" },
         { label: "Installation size", value: "840 x 840 mm" },
         { label: "Air distribution", value: "4-way, circular" },
@@ -5688,8 +5803,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "290.000 Ft",
+    priceNum: 290000,
     powerCooling: 7,
     powerHeating: 8,
+    roomSize: "76-100",
     pics: [
         { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
     ]
@@ -5715,6 +5832,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,65 kW" },
         { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Beépítési magasság", value: "200 mm" },
         { label: "Zajszint", value: "Nagyon halk" },
         { label: "Vezérlés", value: "Fali vezetékes vagy infra távvezérlő" },
@@ -5748,6 +5866,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.65 kW" },
         { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Installation height", value: "200 mm" },
         { label: "Noise level", value: "Very quiet" },
         { label: "Control", value: "Wired wall or IR remote" },
@@ -5767,8 +5886,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "210.000 Ft",
+    priceNum: 210000,
     powerCooling: 2.65,
     powerHeating: 2.8,
+    roomSize: "8-28",
     pics: [
         { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
     ]
@@ -5794,6 +5915,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
         { label: "Fűtési teljesítmény", value: "3,9 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Beépítési magasság", value: "200 mm" },
         { label: "Zajszint", value: "Alacsony" },
         { label: "Vízszivattyú", value: "Beépített" },
@@ -5828,6 +5950,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
         { label: "Heating capacity", value: "3.9 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Installation height", value: "200 mm" },
         { label: "Noise level", value: "Low" },
         { label: "Drain pump", value: "Built-in" },
@@ -5847,8 +5970,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "230.000 Ft",
+    priceNum: 230000,
     powerCooling: 3.5,
     powerHeating: 3.9,
+    roomSize: "29-45",
     pics: [
         { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
     ]
@@ -5874,6 +5999,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,0 kW" },
         { label: "Fűtési teljesítmény", value: "5,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Beépítési magasság", value: "200 mm" },
         { label: "Zajszint", value: "Alacsony" },
         { label: "Vízszivattyú", value: "Beépített" },
@@ -5907,6 +6033,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.0 kW" },
         { label: "Heating capacity", value: "5.5 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Installation height", value: "200 mm" },
         { label: "Noise level", value: "Low" },
         { label: "Drain pump", value: "Built-in" },
@@ -5926,8 +6053,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "260.000 Ft",
+    priceNum: 260000,
     powerCooling: 5,
     powerHeating: 5.5,
+    roomSize: "46-75",
     pics: [
         { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
     ]
@@ -5953,6 +6082,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,6 kW" },
         { label: "Fűtési teljesítmény", value: "2,7 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
         { label: "Zajszint", value: "Csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
@@ -5987,6 +6117,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.6 kW" },
         { label: "Heating capacity", value: "2.7 kW" },
+        { label: "Recommended room size", value: "8-28 m²" },
         { label: "Placement", value: "Floor or ceiling" },
         { label: "Noise level", value: "Quiet" },
         { label: "Control", value: "IR Remote (included)" },
@@ -6006,8 +6137,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "260.000 Ft",
+    priceNum: 260000,
     powerCooling: 2.6,
     powerHeating: 2.7,
+    roomSize: "8-28",
     pics: [
         { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
     ]
@@ -6033,6 +6166,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
         { label: "Fűtési teljesítmény", value: "4 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
         { label: "Zajszint", value: "Csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
@@ -6066,6 +6200,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
         { label: "Heating capacity", value: "4 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Placement", value: "Floor or ceiling" },
         { label: "Noise level", value: "Quiet" },
         { label: "Control", value: "IR Remote (included)" },
@@ -6085,8 +6220,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "230.000 Ft",
+    priceNum: 230000,
     powerCooling: 3.5,
     powerHeating: 4,
+    roomSize: "29-45",
     pics: [
         { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
     ]
@@ -6112,6 +6249,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "4,5 kW" },
         { label: "Fűtési teljesítmény", value: "5 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–65 m²" },
         { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
         { label: "Zajszint", value: "Csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
@@ -6145,6 +6283,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "4.5 kW" },
         { label: "Heating capacity", value: "5 kW" },
+        { label: "Recommended room size", value: "46–65 m²" },
         { label: "Placement", value: "Floor or ceiling" },
         { label: "Noise level", value: "Quiet" },
         { label: "Control", value: "IR Remote (included)" },
@@ -6164,8 +6303,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "270.000 Ft",
+    priceNum: 270000,
     powerCooling: 4.5,
     powerHeating: 5,
+    roomSize: "46-65",
     pics: [
         { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
     ]
@@ -6191,6 +6332,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
         { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő" },
@@ -6224,6 +6366,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
         { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Air distribution", value: "Two-way (for heating)" },
         { label: "Noise level", value: "Extremely quiet" },
         { label: "Control", value: "IR Remote" },
@@ -6243,8 +6386,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "220.000 Ft",
+    priceNum: 220000,
     powerCooling: 2.7,
     powerHeating: 2.8,
+    roomSize: "8-28",
     pics: [
         { src: "konzol-1.jpg", width: 1000, height: 1000 },
         { src: "konzol-2.jpg", width: 1000, height: 1000 },
@@ -6271,6 +6416,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
         { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő" },
@@ -6304,6 +6450,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
         { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Air distribution", value: "Two-way (for heating)" },
         { label: "Noise level", value: "Extremely quiet" },
         { label: "Control", value: "IR Remote" },
@@ -6323,8 +6470,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "250.000 Ft",
+    priceNum: 250000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "konzol-1.jpg", width: 1000, height: 1000 },
         { src: "konzol-2.jpg", width: 1000, height: 1000 },
@@ -6351,6 +6500,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,2 kW" },
         { label: "Fűtési teljesítmény", value: "5,3 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő" },
@@ -6384,6 +6534,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.2 kW" },
         { label: "Heating capacity", value: "5.3 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Air distribution", value: "Two-way (for heating)" },
         { label: "Noise level", value: "Extremely quiet" },
         { label: "Control", value: "IR Remote" },
@@ -6403,7 +6554,9 @@ export const products: Product[] = [
         </div>`,
     },
     price: "290.000 Ft",
+    priceNum: 290000,
     powerCooling: 5.2,
+    roomSize: "46-75",
     powerHeating: 5.3,
     pics: [
         { src: "konzol-1.jpg", width: 1000, height: 1000 },
@@ -6431,6 +6584,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,2 kW" },
         { label: "Fűtési teljesítmény", value: "2,4 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
@@ -6465,6 +6619,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.2 kW" },
         { label: "Heating capacity", value: "2.4 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
@@ -6485,8 +6640,10 @@ export const products: Product[] = [
       </div>`,
     },
     price: "100.000 Ft",
+    priceNum: 290000,
     powerCooling: 2.2,
     powerHeating: 2.4,
+    roomSize: "8-28",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -6514,6 +6671,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,5 kW" },
         { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
@@ -6548,6 +6706,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.5 kW" },
         { label: "Heating capacity", value: "2.8 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
@@ -6568,8 +6727,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "110.000 Ft",
+    priceNum: 110000,
     powerCooling: 2.5,
     powerHeating: 2.8,
+    roomSize: "8-28",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -6597,6 +6758,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,2 kW" },
         { label: "Fűtési teljesítmény", value: "3,4 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
@@ -6632,6 +6794,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.2 kW" },
         { label: "Heating capacity", value: "3.4 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
@@ -6652,8 +6815,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "120.000 Ft",
+    priceNum: 120000,
     powerCooling: 3.2,
     powerHeating: 3.4,
+    roomSize: "29-45",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -6681,6 +6846,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "4,6 kW" },
         { label: "Fűtési teljesítmény", value: "5,2 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–65 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
@@ -6716,6 +6882,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "4.6 kW" },
         { label: "Heating capacity", value: "5.2 kW" },
+        { label: "Recommended room size", value: "46–65 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
@@ -6736,8 +6903,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "130.000 Ft",
+    priceNum: 130000,
     powerCooling: 4.6,
     powerHeating: 5.2,
+    roomSize: "46-65",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -6765,6 +6934,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "6,2 kW" },
         { label: "Fűtési teljesítmény", value: "6,5 kW" },
+        { label: "Ajánlott helyiségméret", value: "66–90 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
@@ -6799,6 +6969,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "6.2 kW" },
         { label: "Heating capacity", value: "6.5 kW" },
+        { label: "Recommended room size", value: "66–90 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
@@ -6819,8 +6990,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "150.000 Ft",
+    priceNum: 150000,
     powerCooling: 6.2,
     powerHeating: 6.5,
+    roomSize: "66-90",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -6848,6 +7021,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
         { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
@@ -6882,6 +7056,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
         { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
@@ -6902,8 +7077,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "110.000 Ft",
+    priceNum: 110000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
         { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
@@ -6931,6 +7108,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
         { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
@@ -6965,6 +7143,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
         { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
@@ -6985,8 +7164,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "120.000 Ft",
+    priceNum: 120000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
         { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
@@ -7014,6 +7195,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
         { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
@@ -7048,6 +7230,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
         { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
@@ -7068,8 +7251,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "140.000 Ft",
+    priceNum: 140000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "29-45",
     pics: [
         { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
         { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
@@ -7097,6 +7282,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
         { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
@@ -7131,6 +7317,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
         { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
@@ -7151,8 +7338,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "120.000 Ft",
+    priceNum: 120000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "dark-pro-01.png", width: 1000, height: 1000 },
         { src: "dark-pro-02.png", width: 1000, height: 1000 },
@@ -7180,6 +7369,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
         { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
@@ -7235,8 +7425,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "140.000 Ft",
+    priceNum: 140000,
     powerCooling: 3.5,
     powerHeating: 3.8,
+    roomSize: "29-45",
     pics: [
         { src: "dark-pro-01.png", width: 1000, height: 1000 },
         { src: "dark-pro-02.png", width: 1000, height: 1000 },
@@ -7264,6 +7456,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
         { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Energiaosztály hűtés", value: "A++" },
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
@@ -7318,8 +7511,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "160.000 Ft",
+    priceNum: 160000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "dark-pro-01.png", width: 1000, height: 1000 },
         { src: "dark-pro-02.png", width: 1000, height: 1000 },
@@ -7418,8 +7613,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "600.000 Ft",
+    priceNum: 600000,
     powerCooling: 3.5,
     powerHeating: 4.0,
+    roomSize: "25-45",
     pics: [
         { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
         { src: "kulteri-2.jpg", width: 1000, height: 1000 },
@@ -7449,7 +7646,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,1 kW" },
         { label: "Fűtési teljesítmény", value: "5,8 kW" },
-        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -7493,7 +7690,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.1 kW" },
         { label: "Heating capacity", value: "5.8 kW" },
-        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -7519,8 +7716,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "700.000 Ft",
+    priceNum: 700000,
     powerCooling: 5.1,
     powerHeating: 5.8,
+    roomSize: "46-75",
     pics: [
         { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
         { src: "kulteri-2.jpg", width: 1000, height: 1000 },
@@ -7551,7 +7750,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
         { label: "Fűtési teljesítmény", value: "7,8 kW" },
-        { label: "Ajánlott helyiségméret", value: "55–80 m²" },
+        { label: "Ajánlott helyiségméret", value: "76–120 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -7597,7 +7796,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
         { label: "Heating capacity", value: "7.8 kW" },
-        { label: "Recommended room size", value: "55–80 m²" },
+        { label: "Recommended room size", value: "76–120 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -7624,8 +7823,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "800.000 Ft",
+    priceNum: 800000,
     powerCooling: 7.1,
     powerHeating: 7.8,
+    roomSize: "76-120",
     pics: [
         { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
         { src: "kulteri-2.jpg", width: 1000, height: 1000 },
@@ -7656,7 +7857,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "10,5 kW" },
         { label: "Fűtési teljesítmény", value: "11,5 kW" },
-        { label: "Ajánlott helyiségméret", value: "85–120 m²" },
+        { label: "Ajánlott helyiségméret", value: "85–140 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -7702,7 +7903,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "10.5 kW" },
         { label: "Heating capacity", value: "11.5 kW" },
-        { label: "Recommended room size", value: "85–120 m²" },
+        { label: "Recommended room size", value: "85–140 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -7729,8 +7930,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "1.000.000 Ft",
+    priceNum: 1000000,
     powerCooling: 10.5,
     powerHeating: 11.5,
+    roomSize: "85-140",
     pics: [
         { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
         { src: "kulteri-2.jpg", width: 1000, height: 1000 },
@@ -7761,7 +7964,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
         { label: "Fűtési teljesítmény", value: "13,5 kW" },
-        { label: "Ajánlott helyiségméret", value: "100–140 m²" },
+        { label: "Ajánlott helyiségméret", value: "120–160 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -7807,7 +8010,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "12.1 kW" },
         { label: "Heating capacity", value: "13.5 kW" },
-        { label: "Recommended room size", value: "100–140 m²" },
+        { label: "Recommended room size", value: "120–160 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -7834,8 +8037,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "1.200.000 Ft",
+    priceNum: 1200000,
     powerCooling: 12.1,
     powerHeating: 13.5,
+    roomSize: "120-160",
     pics: [
         { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
         { src: "kulteri-2.jpg", width: 1000, height: 1000 },
@@ -7937,8 +8142,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "640.000 Ft",
+    priceNum: 640000,
     powerCooling: 3.5,
     powerHeating: 4.0,
+    roomSize: "25-45",
     pics: [
         { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
@@ -7968,7 +8175,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
         { label: "Fűtési teljesítmény", value: "5,6 kW" },
-        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8013,7 +8220,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
         { label: "Heating capacity", value: "5.6 kW" },
-        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8040,8 +8247,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "680.000 Ft",
+    priceNum: 680000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "um6-legcsatornas-001.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
@@ -8071,7 +8280,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
         { label: "Fűtési teljesítmény", value: "8,0 kW" },
-        { label: "Ajánlott helyiségméret", value: "55–80 m²" },
+        { label: "Ajánlott helyiségméret", value: "76–120 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8116,7 +8325,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
         { label: "Heating capacity", value: "8.0 kW" },
-        { label: "Recommended room size", value: "55–80 m²" },
+        { label: "Recommended room size", value: "76–120 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8143,8 +8352,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "790.000 Ft",
+    priceNum: 790000,
     powerCooling: 7.1,
     powerHeating: 8,
+    roomSize: "76-120",
     pics: [
         { src: "um6-legcsatornas-002.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
@@ -8174,7 +8385,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "10,5 kW" },
         { label: "Fűtési teljesítmény", value: "11,5 kW" },
-        { label: "Ajánlott helyiségméret", value: "85–120 m²" },
+        { label: "Ajánlott helyiségméret", value: "85–140 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8219,7 +8430,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "10.5 kW" },
         { label: "Heating capacity", value: "11.5 kW" },
-        { label: "Recommended room size", value: "85–120 m²" },
+        { label: "Recommended room size", value: "85–140 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8246,8 +8457,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "1.020.000 Ft",
+    priceNum: 1020000,
     powerCooling: 10.5,
     powerHeating: 11.5,
+    roomSize: "85-140",
     pics: [
         { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
@@ -8277,7 +8490,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
         { label: "Fűtési teljesítmény", value: "13,5 kW" },
-        { label: "Ajánlott helyiségméret", value: "100–140 m²" },
+        { label: "Ajánlott helyiségméret", value: "120–160 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8322,7 +8535,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "12.5 kW" },
         { label: "Heating capacity", value: "13.5 kW" },
-        { label: "Recommended room size", value: "100–140 m²" },
+        { label: "Recommended room size", value: "120–160 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8349,8 +8562,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "1.280.000 Ft",
+    priceNum: 1280000,
     powerCooling: 12.1,
     powerHeating: 13.5,
+    roomSize: "120-160",
     pics: [
         { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
@@ -8452,8 +8667,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "1.790.000 Ft",
+    priceNum: 1790000,
     powerCooling: 16,
     powerHeating: 17,
+    roomSize: "140-185",
     pics: [
         { src: "gree-um6-legcsatornas-004.jpg", width: 1000, height: 1000 },
         { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
@@ -8483,7 +8700,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
         { label: "Fűtési teljesítmény", value: "5,6 kW" },
-        { label: "Ajánlott helyiségméret", value: "40–60 m²" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8528,7 +8745,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
         { label: "Heating capacity", value: "5.6 kW" },
-        { label: "Recommended room size", value: "40–60 m²" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8555,8 +8772,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "670.000 Ft",
+    priceNum: 220000,
     powerCooling: 5.3,
     powerHeating: 5.6,
+    roomSize: "46-75",
     pics: [
         { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
         { src: "kulteri.jpg", width: 1000, height: 1000 },
@@ -8586,7 +8805,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
         { label: "Fűtési teljesítmény", value: "7,7 kW" },
-        { label: "Ajánlott helyiségméret", value: "55–80 m²" },
+        { label: "Ajánlott helyiségméret", value: "66–90 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8631,7 +8850,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
         { label: "Heating capacity", value: "7.7 kW" },
-        { label: "Recommended room size", value: "55–80 m²" },
+        { label: "Recommended room size", value: "66–90 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8658,8 +8877,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "780.000 Ft",
+    priceNum: 780000,
     powerCooling: 7.1,
     powerHeating: 7.7,
+    roomSize: "66-90",
     pics: [
         { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
         { src: "kulteri.jpg", width: 1000, height: 1000 },
@@ -8689,7 +8910,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
         { label: "Fűtési teljesítmény", value: "13,5 kW" },
-        { label: "Ajánlott helyiségméret", value: "100–140 m²" },
+        { label: "Ajánlott helyiségméret", value: "120–160 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
@@ -8734,7 +8955,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "12.1 kW" },
         { label: "Heating capacity", value: "13.5 kW" },
-        { label: "Recommended room size", value: "100–140 m²" },
+        { label: "Recommended room size", value: "120–160 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "Wi-Fi wired wall + IR remote controller" },
@@ -8761,8 +8982,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "1.210.000 Ft",
+    priceNum: 1210000,
     powerCooling: 12.1,
     powerHeating: 13.5,
+    roomSize: "120-160",
     pics: [
         { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
         { src: "kulteri.jpg", width: 1000, height: 1000 },
@@ -8791,7 +9014,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
         { label: "Fűtési teljesítmény", value: "2,9 kW" },
-        { label: "Ajánlott helyiségméret", value: "15–30 m²" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Infra távirányító + Wi-Fi" },
@@ -8834,7 +9057,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
         { label: "Heating capacity", value: "2.9 kW" },
-        { label: "Recommended room size", value: "15–30 m²" },
+        { label: "Recommended room size", value: "8–28 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
@@ -8860,8 +9083,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "480.000 Ft",
+    priceNum: 480000,
     powerCooling: 2.7,
     powerHeating: 2.9,
+    roomSize: "8-28",
     pics: [
         { src: "konzol-1.jpg", width: 1000, height: 1000 },
         { src: "konzol-2.jpg", width: 1000, height: 1000 },
@@ -8891,7 +9116,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,52 kW" },
         { label: "Fűtési teljesítmény", value: "3,75 kW" },
-        { label: "Ajánlott helyiségméret", value: "25–45 m²" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Infra távirányító + Wi-Fi" },
@@ -8934,7 +9159,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "3.52 kW" },
         { label: "Heating capacity", value: "3.75 kW" },
-        { label: "Recommended room size", value: "25–45 m²" },
+        { label: "Recommended room size", value: "29–45 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
@@ -8960,8 +9185,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "510.000 Ft",
+    priceNum: 510000,
     powerCooling: 3.52,
     powerHeating: 3.75,
+    roomSize: "29-45",
     pics: [
         { src: "konzol-1.jpg", width: 1000, height: 1000 },
         { src: "konzol-2.jpg", width: 1000, height: 1000 },
@@ -8991,7 +9218,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,2 kW" },
         { label: "Fűtési teljesítmény", value: "5,33 kW" },
-        { label: "Ajánlott helyiségméret", value: "45–65 m²" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Vezérlés", value: "Infra távirányító + Wi-Fi" },
@@ -9034,7 +9261,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "5.2 kW" },
         { label: "Heating capacity", value: "5.33 kW" },
-        { label: "Recommended room size", value: "45–65 m²" },
+        { label: "Recommended room size", value: "46–75 m²" },
         { label: "Energy class cooling", value: "A++" },
         { label: "Energy class heating", value: "A+" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
@@ -9060,8 +9287,10 @@ export const products: Product[] = [
         </div>`,
     },
     price: "580.000 Ft",
+    priceNum: 580000,
     powerCooling: 5.2,
     powerHeating: 5.33,
+    roomSize: "46-75",
     pics: [
         { src: "konzol-1.jpg", width: 1000, height: 1000 },
         { src: "konzol-2.jpg", width: 1000, height: 1000 },
@@ -9079,8 +9308,10 @@ export type Product = {
   hu: MultilingualProps;
   en: MultilingualProps;
   price: string;
+  priceNum: number;
   powerCooling: number;
   powerHeating: number;
+  roomSize: string | null;
   pics: 
     {
         src: string;

@@ -22,7 +22,6 @@ import { Button } from "@/app/ui/button";
 import { Checkbox } from "@/app/ui/checkbox";
 import { useState, useMemo } from "react";
 import { Product } from "../lib/products";
-import { Value } from "@radix-ui/react-select";
 
 type Props = {
   products: Product[];

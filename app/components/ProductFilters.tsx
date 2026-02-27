@@ -49,8 +49,8 @@ export default function ProductFilters({ products }: Props) {
 
   const filteredProducts = useMemo(() => {
     return products.filter((p) => {
-      if (filters.brand && p.brand !== filters.brand) return false;
-      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
+      if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
       if (
         filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))

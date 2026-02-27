@@ -22,11 +22,23 @@ import { Filter, RotateCcw } from "lucide-react";
 import { Button } from "@/app/ui/button";
 import { Checkbox } from "@/app/ui/checkbox";
 import { useState } from "react";
+import { Product } from "../lib/products";
 
-export default function ProductFilters() {
+type Props = {
+  products: Product[];
+};
+
+export default function ProductFilters({ products }: Props) {
+
   const { language } = useLanguage();
-  const [priceRange, setPriceRange] = useState([200000, 1000000]);
-  /* const [roomSize, setRoomSize] = useState([8, 100]); */
+
+  const brands = [...new Set(products.map(p => p.brand))];
+  const powers = [...new Set(products.map(p => p.powerCooling))];
+  const priceMin = Math.min(...products.map(p => p.priceNum));
+  const priceMax = Math.max(...products.map(p => p.priceNum));
+  const roomSizes = [...new Set(products.map(p => p.roomSize).filter(roomSize => roomSize !== null))];
+
+  const [priceRange, setPriceRange] = useState([priceMin, priceMax]);
   const [selectedRoomSizes, setSelectedRoomSizes] = useState<string[]>([]);
 
   const t = {
@@ -38,6 +50,7 @@ export default function ProductFilters() {
     all: language === "hu" ? "Összes" : "All",
     apply: language === "hu" ? "Szűrés alkalmazása" : "Apply Filters",
     clear: language === "hu" ? "Szűrők törlése" : "Clear All",
+    decimalDelimiter: language === "hu" ? "," : ".",
   };
 
   const roomSizeRanges = [
@@ -48,8 +61,8 @@ export default function ProductFilters() {
   ];
 
   const toggleRoomSize = (id: string) => {
-    setSelectedRoomSizes(prev => 
-      prev.includes(id) ? prev.filter(i => i !== id) : [...prev, id]
+    setSelectedRoomSizes((prev) =>
+      prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id],
     );
   };
 
@@ -74,9 +87,9 @@ export default function ProductFilters() {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">{t.all}</SelectItem>
-              <SelectItem value="syen">Syen</SelectItem>
-              <SelectItem value="gree">Gree</SelectItem>
-              <SelectItem value="daikin">Daikin</SelectItem>
+              {
+                brands.map((brand) => <SelectItem key={brand} value={brand}>{brand}</SelectItem>)
+              }
             </SelectContent>
           </Select>
         </div>
@@ -93,19 +106,12 @@ export default function ProductFilters() {
               {priceRange[1].toLocaleString()} Ft
             </span>
           </div>
-          {/* <Slider 
-            value={priceRange} 
-            onValueChange={setPriceRange}
-            max={1000000} 
-            step={10000} 
-            minStepsBetweenThumbs={1}
-          /> */}
           <Slider.Root
             className="relative flex items-center select-none touch-none w-full h-5"
             value={priceRange}
             onValueChange={(val) => setPriceRange(val as [number, number])}
-            min={200000}
-            max={1000000}
+            min={priceMin}
+            max={priceMax}
             step={10000}
             minStepsBetweenThumbs={1}
           >
@@ -135,10 +141,11 @@ export default function ProductFilters() {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">{t.all}</SelectItem>
-              <SelectItem value="2.7">2.7 kW</SelectItem>
-              <SelectItem value="3.2">3.2 kW</SelectItem>
-              <SelectItem value="4.6">4.6 kW</SelectItem>
-              <SelectItem value="6.2">6.2 kW</SelectItem>
+              {
+                powers.map((power) => <SelectItem key={power} value={power + ""}>{
+
+                  (power + "").replace(".", t.decimalDelimiter)} kW</SelectItem>)
+              }
             </SelectContent>
           </Select>
         </div>
@@ -149,18 +156,18 @@ export default function ProductFilters() {
             {t.roomSize}
           </Label>
           <div className="grid gap-2">
-            {roomSizeRanges.map((range) => (
-              <div key={range.id} className="flex items-center space-x-2">
+            {roomSizes.map((roomSize) => (
+              <div key={roomSize} className="flex items-center space-x-2">
                 <Checkbox
-                  id={range.id}
-                  checked={selectedRoomSizes.includes(range.id)}
-                  onCheckedChange={() => toggleRoomSize(range.id)}
+                  id={roomSize}
+                  checked={selectedRoomSizes.includes(roomSize)}
+                  onCheckedChange={() => toggleRoomSize(roomSize)}
                 />
                 <label
-                  htmlFor={range.id}
+                  htmlFor={roomSize}
                   className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
                 >
-                  {range.label}
+                  {roomSize} m²
                 </label>
               </div>
             ))}
@@ -193,12 +200,12 @@ export default function ProductFilters() {
         </div> */}
       </CardContent>
       <CardFooter className="flex flex-col gap-2 pt-0">
-        <Button className="w-full bg-primary hover:bg-primary/90">
+        {/*  <Button className="w-full bg-primary hover:bg-primary/90">
           {t.apply}
-        </Button>
+        </Button> */}
         <Button
           variant="ghost"
-          className="w-full text-muted-foreground text-xs h-8"
+          className="w-full text-muted-foreground text-xs h-8 cursor-pointer"
         >
           <RotateCcw className="w-3.5 h-3.5 mr-2" />
           {t.clear}

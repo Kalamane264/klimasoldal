@@ -212,7 +212,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "4,6 kW" },
         { label: "Fűtési teljesítmény", value: "5,2 kW" },
-        { label: "Ajánlott helyiségméret", value: "46-65 m²" },
+        { label: "Ajánlott helyiségméret", value: "46-75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Fűtési működési tartomány", value: "-15°C" },
@@ -249,7 +249,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Cooling capacity", value: "4.6 kW" },
         { label: "Heating capacity", value: "5.2 kW" },
-        { label: "Recommended room size", value: "46-65 m²" },
+        { label: "Recommended room size", value: "46-75 m²" },
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
@@ -273,7 +273,7 @@ export const products: Product[] = [
     priceNum: 420000,
     powerCooling: 4.6,
     powerHeating: 5.2,
-    roomSize: "46-65",
+    roomSize: "46-75",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -368,7 +368,7 @@ export const products: Product[] = [
     priceNum: 480000,
     powerCooling: 6.2,
     powerHeating: 6.5,
-    roomSize: "65-100",
+    roomSize: "66-120",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -472,7 +472,7 @@ export const products: Product[] = [
     priceNum: 310000,
     powerCooling: 2.7,
     powerHeating: 3.0,
-    roomSize: "2-28",
+    roomSize: "8-28",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -673,7 +673,7 @@ export const products: Product[] = [
     priceNum: 430000,
     powerCooling: 5.3,
     powerHeating: 5.6,
-    roomSize: "46-65",
+    roomSize: "46-75",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -773,7 +773,7 @@ export const products: Product[] = [
     priceNum: 510000,
     powerCooling: 7.1,
     powerHeating: 7.8,
-    roomSize: "66-90",
+    roomSize: "66-120",
     pics: [
         { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
         { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -1241,7 +1241,7 @@ export const products: Product[] = [
     priceNum: 125000,
     powerCooling: 4.6,
     powerHeating: 5.2,
-    roomSize: "46-65",
+    roomSize: "46-75",
     pics: [
         { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
         { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -1594,7 +1594,7 @@ export const products: Product[] = [
     priceNum: 750000,
     powerCooling: 7.0,
     powerHeating: 8.0,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "syen-kazettas.jpg", width: 750, height: 548 },
         { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
@@ -1930,7 +1930,7 @@ export const products: Product[] = [
     priceNum: 710000,
     powerCooling: 7,
     powerHeating: 8,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
         { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
@@ -2336,7 +2336,7 @@ export const products: Product[] = [
     priceNum: 510000,
     powerCooling: 6.2,
     powerHeating: 6.5,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "gree-pulse.jpg", width: 1000, height: 1000 },
         { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2776,7 +2776,7 @@ export const products: Product[] = [
     priceNum: 540000,
     powerCooling: 7.1,
     powerHeating: 7.8,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
         { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2868,6 +2868,7 @@ export const products: Product[] = [
     priceNum: 330000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    roomSize: "8-28",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -3053,7 +3054,7 @@ export const products: Product[] = [
     priceNum: 470000,
     powerCooling: 5.1,
     powerHeating: 5.3,
-    roomSize: "46-65",
+    roomSize: "46-75",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -3146,7 +3147,7 @@ export const products: Product[] = [
     priceNum: 530000,
     powerCooling: 7.1,
     powerHeating: 7.3,
-    roomSize: "65-100",
+    roomSize: "66-120",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -3850,7 +3851,7 @@ export const products: Product[] = [
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "6,5 kW" },
         { label: "Fűtési teljesítmény", value: "7,0 kW" },
-        { label: "Ajánlott helyiségméret", value: "76-100 m²" },
+        { label: "Ajánlott helyiségméret", value: "66-120 m²" },
         { label: "Hűtési energiaosztály", value: "A+++" },
         { label: "Fűtési energiaosztály", value: "A++" },
         { label: "Gree-AI technológia (öntanuló algoritmus)", value: "Igen" },
@@ -3929,7 +3930,7 @@ export const products: Product[] = [
     priceNum: 540000,
     powerCooling: 6.5,
     powerHeating: 7.0,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
         { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
@@ -4396,7 +4397,7 @@ export const products: Product[] = [
     priceNum: 590000,
     powerCooling: 7.1,
     powerHeating: 7.8,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "ariy-02.jpg", width: 1000, height: 1000 },
         { src: "ariy-03.jpg", width: 1000, height: 1000 },
@@ -5806,7 +5807,7 @@ export const products: Product[] = [
     priceNum: 290000,
     powerCooling: 7,
     powerHeating: 8,
-    roomSize: "76-100",
+    roomSize: "66-120",
     pics: [
         { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
     ]
@@ -6306,7 +6307,7 @@ export const products: Product[] = [
     priceNum: 270000,
     powerCooling: 4.5,
     powerHeating: 5,
-    roomSize: "46-65",
+    roomSize: "46-75",
     pics: [
         { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
     ]
@@ -6906,7 +6907,7 @@ export const products: Product[] = [
     priceNum: 130000,
     powerCooling: 4.6,
     powerHeating: 5.2,
-    roomSize: "46-65",
+    roomSize: "46-75",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -6993,7 +6994,7 @@ export const products: Product[] = [
     priceNum: 150000,
     powerCooling: 6.2,
     powerHeating: 6.5,
-    roomSize: "66-90",
+    roomSize: "66-120",
     pics: [
         { src: "pulse-01.jpg", width: 1000, height: 1000 },
         { src: "pulse-02.jpg", width: 1000, height: 1000 },
@@ -8880,7 +8881,7 @@ export const products: Product[] = [
     priceNum: 780000,
     powerCooling: 7.1,
     powerHeating: 7.7,
-    roomSize: "66-90",
+    roomSize: "66-120",
     pics: [
         { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
         { src: "kulteri.jpg", width: 1000, height: 1000 },

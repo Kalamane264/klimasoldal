@@ -15,21 +15,21 @@ export default function KlimaLista() {
           <div className="mb-12">
             <h1 className="text-4xl font-heading font-bold text-slate-900 mb-10">
               {language === "hu"
-                ? "Klímakészülékek telepítéssel – választható modellek"
-                : "Air conditioning with installation – available models"}
+                ? "Oldalfali split klímák – a legnépszerűbb lakossági megoldás"
+                : "Wall-Mounted Split Air Conditioners – The Most Popular Residential Solution"}
             </h1>
             <p className="text-lg text-muted-foreground maxWidth_700">
               {language === "hu"
-                ? `Ezen az oldalon az általunk kínált klímakészülékek közül válogathat, a 
-                feltüntetett árak telepítéssel együtt értendők.
-                A megfelelő klíma kiválasztása nemcsak ár, hanem teljesítmény, elhelyezés és 
-                használati szokások kérdése is — ebben szakmai segítséget nyújtunk a tervezéstől
-                 a kivitelezésig.`
-                : `On this page, you can browse our range of air conditioning units. All listed 
-                prices include the cost of installation.
-                Choosing the right AC is not just about the price — it is also a matter of 
-                performance, placement, and usage habits. We provide professional support 
-                throughout the entire process, from planning to final installation.`}
+                ? <>
+                Az oldalfali split klíma a legelterjedtebb és legkedvezőbb árú klimatizálási megoldás lakossági felhasználók számára. Egyszerű telepítés, megbízható működés és kiváló ár-érték arány jellemzi, ezért családi házakban, lakásokban és kisebb irodákban egyaránt ideális választás.
+                <br /><br />
+                A modern inverteres technológiának köszönhetően nemcsak hűtésre, hanem hatékony fűtésre is alkalmasak, miközben energiatakarékosan és csendesen üzemelnek. A legtöbb modell már Wi-Fi vezérléssel, levegőtisztító funkciókkal és kényelmi extrákkal érkezik.
+                </>
+                : <>
+                Wall-mounted split air conditioners are the most widely used and cost-effective climate control solution for residential applications. Easy installation, reliable operation, and excellent value for money make them an ideal choice for houses, apartments, and small offices alike.
+                <br /><br />
+                Thanks to modern inverter technology, these units are suitable not only for cooling but also for efficient heating, while operating quietly and energy-efficiently. Most models now come equipped with built-in Wi-Fi control, air purification features, and a range of comfort functions.
+                </>}
             </p>
           </div>
           <ProductList products={klimak} />

@@ -22,10 +22,12 @@ type Props = {
 export default function ProductList({ products }: Props) {
   const { language } = useLanguage();
 
+  
+
   return (
     <div className="flex flex-col lg:flex-row gap-8">
       <aside className="w-full lg:w-64 flex-shrink-0">
-        <ProductFilters />
+        <ProductFilters products={products} />
       </aside>
       <div className="flex-1 grid md:grid-cols-2 xl:grid-cols-3 gap-8">
         {products.map((product) => {

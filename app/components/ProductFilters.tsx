@@ -202,13 +202,13 @@ export default function ProductFilters({ products }: Props) {
 
     const newPriceRange = [Math.min(...prices), Math.max(...prices)];
 
-    if (newPriceRange[0] > filters.priceRange[0] || true) {
+    if (newPriceRange[0] > filters.priceRange[0]) {
       setFilters((prev) => ({
         ...prev,
         priceRange: [newPriceRange[0], prev.priceRange[1]],
       }));
     }
-    if (newPriceRange[1] < filters.priceRange[1] || true) {
+    if (newPriceRange[1] < filters.priceRange[1]) {
       setFilters((prev) => ({
         ...prev,
         priceRange: [prev.priceRange[0], newPriceRange[1]],

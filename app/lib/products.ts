@@ -2961,7 +2961,7 @@ export const products: Product[] = [
     priceNum: 355000,
     powerCooling: 3.5,
     powerHeating: 3.8,
-    roomSize: "8-28",
+    roomSize: "29-45",
     pics: [
         { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
         { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },

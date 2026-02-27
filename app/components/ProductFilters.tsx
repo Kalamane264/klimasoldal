@@ -35,7 +35,7 @@ export default function ProductFilters({ products }: Props) {
     brand: string | null;
     priceRange: number[];
     power: number | null;
-    roomSizes: string[] | null;
+    roomSizes: string[];
   };
 
   const prices = products.map((p) => p.priceNum);
@@ -44,7 +44,7 @@ export default function ProductFilters({ products }: Props) {
     brand: "all",
     priceRange: [Math.min(...prices), Math.max(...prices)],
     power: 0,
-    roomSizes: null,
+    roomSizes: [],
   });
 
   const filteredProducts = useMemo(() => {
@@ -52,7 +52,7 @@ export default function ProductFilters({ products }: Props) {
       if (filters.brand && p.brand !== filters.brand) return false;
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
-        filters.roomSizes &&
+        filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
       ) {
         return false;
@@ -71,7 +71,7 @@ export default function ProductFilters({ products }: Props) {
     const tempFilteredProducts = products.filter((p) => {
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
-        filters.roomSizes &&
+        filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
       ) {
         return false;
@@ -93,7 +93,7 @@ export default function ProductFilters({ products }: Props) {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
-        filters.roomSizes &&
+        filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
       ) {
         return false;
@@ -111,7 +111,7 @@ export default function ProductFilters({ products }: Props) {
     const tempFilteredProducts = products.filter((p) => {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (
-        filters.roomSizes &&
+        filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
       ) {
         return false;
@@ -190,7 +190,7 @@ export default function ProductFilters({ products }: Props) {
       if (val !== "all" && p.brand !== val) return false;
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
-        filters.roomSizes &&
+        filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
       ) {
         return false;
@@ -322,7 +322,7 @@ export default function ProductFilters({ products }: Props) {
               <div key={roomSize} className="flex items-center space-x-2">
                 <Checkbox
                   id={roomSize}
-                  checked={filters.roomSizes?.includes(roomSize)}
+                  checked={filters.roomSizes.includes(roomSize)}
                   onCheckedChange={() => toggleRoomSize(roomSize)}
                 />
                 <label

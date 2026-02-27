@@ -20,7 +20,7 @@ import { useLanguage } from "@/app/lib/i18n";
 import { Filter, RotateCcw } from "lucide-react";
 import { Button } from "@/app/ui/button";
 import { Checkbox } from "@/app/ui/checkbox";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Product } from "../lib/products";
 
 type Props = {
@@ -32,14 +32,16 @@ export default function ProductFilters({ products }: Props) {
 
   type Filters = {
     brand: string | null;
-    priceRange: [number, number] | null;
+    priceRange: number[];
     power: number | null;
     roomSizes: string[] | null;
   };
 
+  const prices = products.map((p) => p.priceNum);
+
   const [filters, setFilters] = useState<Filters>({
     brand: null,
-    priceRange: null,
+    priceRange: [Math.min(...prices), Math.max(...prices)],
     power: null,
     roomSizes: null,
   });
@@ -65,25 +67,94 @@ export default function ProductFilters({ products }: Props) {
   }, [products, filters]);
 
   const brands = useMemo(() => {
-    return [...new Set(filteredProducts.map((p) => p.brand))];
-  }, [filteredProducts]);
+    const tempFilteredProducts = products.filter((p) => {
+      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (
+        filters.roomSizes &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      if (filters.priceRange) {
+        const [min, max] = filters.priceRange;
+        if (p.priceNum < min || p.priceNum > max) return false;
+      }
+
+      return true;
+    });
+
+    return [...new Set(tempFilteredProducts.map((p) => p.brand))];
+  }, [products, filters.power, filters.roomSizes, filters.priceRange]);
 
   const priceRange = useMemo(() => {
-    if (filteredProducts.length === 0) return [0, 0];
+    const tempFilteredProducts = products.filter((p) => {
+      if (filters.brand && p.brand !== filters.brand) return false;
+      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (
+        filters.roomSizes &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
 
-    const prices = filteredProducts.map((p) => p.priceNum);
+      return true;
+    });
+
+    console.log("priceRange tempFilteredProducts", tempFilteredProducts);
+
+    const prices = tempFilteredProducts.map((p) => p.priceNum);
+
     return [Math.min(...prices), Math.max(...prices)];
-  }, [filteredProducts]);
+  }, [products, filters.power, filters.roomSizes, filters.brand]);
 
   const powers = useMemo(() => {
-    return [...new Set(filteredProducts.map((p) => p.powerCooling))];
-  }, [filteredProducts]);
+    const tempFilteredProducts = products.filter((p) => {
+      if (filters.brand && p.brand !== filters.brand) return false;
+      if (
+        filters.roomSizes &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      if (filters.priceRange) {
+        const [min, max] = filters.priceRange;
+        if (p.priceNum < min || p.priceNum > max) return false;
+      }
+
+      return true;
+    });
+
+    return [...new Set(tempFilteredProducts.map((p) => p.powerCooling))];
+  }, [products, filters.priceRange, filters.roomSizes, filters.brand]);
 
   const roomSizes = useMemo(() => {
-    return [...new Set(filteredProducts.map((p) => p.roomSize + ""))];
-  }, [filteredProducts]);
+    const tempFilteredProducts = products.filter((p) => {
+      if (filters.brand && p.brand !== filters.brand) return false;
+      if (filters.power && p.powerCooling !== filters.power) return false;
 
-  // const [selectedRoomSizes, setSelectedRoomSizes] = useState<string[]>([]);
+      if (filters.priceRange) {
+        const [min, max] = filters.priceRange;
+        if (p.priceNum < min || p.priceNum > max) return false;
+      }
+
+      return true;
+    });
+
+    const tempRoomSizes = [
+      ...new Set(tempFilteredProducts.map((p) => p.roomSize + "")),
+    ];
+    console.log(tempRoomSizes);
+
+    const sortedRommSizes = [...tempRoomSizes].sort((a, b) => {
+      const startA = Number(a.split("-")[0]);
+      const startB = Number(b.split("-")[0]);
+      return startA - startB;
+    });
+
+    return sortedRommSizes;
+  }, [products, filters.priceRange, filters.power, filters.brand]);
 
   const t = {
     filters: language === "hu" ? "Szűrők" : "Filters",
@@ -110,6 +181,37 @@ export default function ProductFilters({ products }: Props) {
 
   function selectBrand(val: string) {
     setFilters((prev) => ({ ...prev, brand: val }));
+    console.log("priceRange", priceRange);
+
+    const tempFilteredProducts = products.filter((p) => {
+      if (val && p.brand !== val) return false;
+      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (
+        filters.roomSizes &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      return true;
+    });
+
+    const prices = tempFilteredProducts.map((p) => p.priceNum);
+
+    const newPriceRange = [Math.min(...prices), Math.max(...prices)];
+
+    if (newPriceRange[0] > filters.priceRange[0]) {
+      setFilters((prev) => ({
+        ...prev,
+        priceRange: [newPriceRange[0], prev.priceRange[1]],
+      }));
+    }
+    if (newPriceRange[1] < filters.priceRange[1]) {
+      setFilters((prev) => ({
+        ...prev,
+        priceRange: [prev.priceRange[0], newPriceRange[1]],
+      }));
+    }
   }
 
   return (
@@ -150,13 +252,13 @@ export default function ProductFilters({ products }: Props) {
               {t.price}
             </Label>
             <span className="text-[10px] text-muted-foreground whitespace-nowrap">
-              {priceRange[0].toLocaleString()} -{" "}
-              {priceRange[1].toLocaleString()} Ft
+              {filters.priceRange[0].toLocaleString()} -{" "}
+              {filters.priceRange[1].toLocaleString()} Ft
             </span>
           </div>
           <Slider.Root
             className="relative flex items-center select-none touch-none w-full h-5"
-            value={priceRange}
+            value={filters.priceRange}
             onValueChange={(val) =>
               setFilters((prev) => ({
                 ...prev,

@@ -91,7 +91,7 @@ export default function ProductFilters({ products }: Props) {
   const priceRange = useMemo(() => {
     const tempFilteredProducts = products.filter((p) => {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
-      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
       if (
         filters.roomSizes.length > 0 &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
@@ -103,8 +103,11 @@ export default function ProductFilters({ products }: Props) {
     });
 
     const prices = tempFilteredProducts.map((p) => p.priceNum);
+    const pr = [Math.min(...prices), Math.max(...prices)];
 
-    return [Math.min(...prices), Math.max(...prices)];
+    console.log("pr", pr);
+
+    return pr;
   }, [products, filters.power, filters.roomSizes, filters.brand]);
 
   const powers = useMemo(() => {
@@ -284,6 +287,10 @@ export default function ProductFilters({ products }: Props) {
         priceRange: [prev.priceRange[0], newPriceRange[1]],
       }));
     }
+  }
+
+  function resetFilters() {
+
   }
 
   return (

@@ -143,10 +143,10 @@ export default function ProductFilters({ products }: Props) {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
 
-      /* if (filters.priceRange) {
+      if (filters.priceRange) {
         const [min, max] = filters.priceRange;
         if (p.priceNum < min || p.priceNum > max) return false;
-      } */
+      }
 
       return true;
     });
@@ -163,7 +163,7 @@ export default function ProductFilters({ products }: Props) {
     });
 
     return sortedRommSizes;
-  }, [products, filters.power, filters.brand]);
+  }, [products, filters.power, filters.brand, filters.priceRange]);
 
   const t = {
     filters: language === "hu" ? "Szűrők" : "Filters",

@@ -127,7 +127,9 @@ export default function ProductFilters({ products }: Props) {
 
     console.log("powers tempFilteredProducts", tempFilteredProducts);
 
-    const tempPowers = [...new Set(tempFilteredProducts.map((p) => p.powerCooling))];
+    const tempPowers = [
+      ...new Set(tempFilteredProducts.map((p) => p.powerCooling)),
+    ];
     const sortedPowers = tempPowers.sort();
 
     return sortedPowers;
@@ -138,10 +140,10 @@ export default function ProductFilters({ products }: Props) {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
 
-      if (filters.priceRange) {
+      /* if (filters.priceRange) {
         const [min, max] = filters.priceRange;
         if (p.priceNum < min || p.priceNum > max) return false;
-      }
+      } */
 
       return true;
     });
@@ -158,7 +160,7 @@ export default function ProductFilters({ products }: Props) {
     });
 
     return sortedRommSizes;
-  }, [products, filters.priceRange, filters.power, filters.brand]);
+  }, [products, filters.power, filters.brand]);
 
   const t = {
     filters: language === "hu" ? "Szűrők" : "Filters",
@@ -173,14 +175,47 @@ export default function ProductFilters({ products }: Props) {
   };
 
   const toggleRoomSize = (id: string) => {
-    setFilters((prev) => {
-      const current = prev.roomSizes ?? []; // null esetén üres tömb
-      const newRoomSizes = current.includes(id)
-        ? current.filter((i) => i !== id) // toggle off
-        : [...current, id]; // toggle on
 
+    const current = filters.roomSizes ?? []; // null esetén üres tömb
+    const newRoomSizes = current.includes(id)
+      ? current.filter((i) => i !== id) // toggle off
+      : [...current, id];
+
+    setFilters((prev) => {
       return { ...prev, roomSizes: newRoomSizes };
     });
+
+    const tempFilteredProducts = products.filter((p) => {
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
+      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (
+        newRoomSizes.length > 0 &&
+        (p.roomSize === null || !newRoomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      return true;
+    });
+
+    const prices = tempFilteredProducts.map((p) => p.priceNum);
+
+    const newPriceRange = [Math.min(...prices), Math.max(...prices)];
+
+    if (newPriceRange[0] > filters.priceRange[0] || true) {
+      setFilters((prev) => ({
+        ...prev,
+        priceRange: [newPriceRange[0], prev.priceRange[1]],
+      }));
+    }
+    if (newPriceRange[1] < filters.priceRange[1] || true) {
+      setFilters((prev) => ({
+        ...prev,
+        priceRange: [prev.priceRange[0], newPriceRange[1]],
+      }));
+    }
+
+    console.log("newRoomSizes", newRoomSizes);
   };
 
   function selectBrand(val: string) {
@@ -219,6 +254,36 @@ export default function ProductFilters({ products }: Props) {
 
   function selectPower(val: string) {
     setFilters((prev) => ({ ...prev, power: Number(val) }));
+
+    const tempFilteredProducts = products.filter((p) => {
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
+      if (Number(val) !== 0 && p.powerCooling !== Number(val)) return false;
+      if (
+        filters.roomSizes.length > 0 &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      return true;
+    });
+
+    const prices = tempFilteredProducts.map((p) => p.priceNum);
+
+    const newPriceRange = [Math.min(...prices), Math.max(...prices)];
+
+    if (newPriceRange[0] > filters.priceRange[0]) {
+      setFilters((prev) => ({
+        ...prev,
+        priceRange: [newPriceRange[0], prev.priceRange[1]],
+      }));
+    }
+    if (newPriceRange[1] < filters.priceRange[1]) {
+      setFilters((prev) => ({
+        ...prev,
+        priceRange: [prev.priceRange[0], newPriceRange[1]],
+      }));
+    }
   }
 
   return (

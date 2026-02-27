@@ -1,7 +1,6 @@
 "use client";
 
 import { Label } from "@/app/ui/label";
-//import { Slider } from "@/app/ui/slider";
 import * as Slider from "@radix-ui/react-slider";
 import {
   Select,
@@ -21,25 +20,71 @@ import { useLanguage } from "@/app/lib/i18n";
 import { Filter, RotateCcw } from "lucide-react";
 import { Button } from "@/app/ui/button";
 import { Checkbox } from "@/app/ui/checkbox";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Product } from "../lib/products";
+import { Value } from "@radix-ui/react-select";
 
 type Props = {
   products: Product[];
 };
 
 export default function ProductFilters({ products }: Props) {
-
   const { language } = useLanguage();
 
-  const brands = [...new Set(products.map(p => p.brand))];
-  const powers = [...new Set(products.map(p => p.powerCooling))];
-  const priceMin = Math.min(...products.map(p => p.priceNum));
-  const priceMax = Math.max(...products.map(p => p.priceNum));
-  const roomSizes = [...new Set(products.map(p => p.roomSize).filter(roomSize => roomSize !== null))];
+  type Filters = {
+    brand: string | null;
+    priceRange: [number, number] | null;
+    power: number | null;
+    roomSizes: string[] | null;
+  };
 
-  const [priceRange, setPriceRange] = useState([priceMin, priceMax]);
-  const [selectedRoomSizes, setSelectedRoomSizes] = useState<string[]>([]);
+  const [filters, setFilters] = useState<Filters>({
+    brand: null,
+    priceRange: null,
+    power: null,
+    roomSizes: null,
+  });
+
+  const filteredProducts = useMemo(() => {
+    return products.filter((p) => {
+      if (filters.brand && p.brand !== filters.brand) return false;
+      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (
+        filters.roomSizes &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      if (filters.priceRange) {
+        const [min, max] = filters.priceRange;
+        if (p.priceNum < min || p.priceNum > max) return false;
+      }
+
+      return true;
+    });
+  }, [products, filters]);
+
+  const brands = useMemo(() => {
+    return [...new Set(filteredProducts.map((p) => p.brand))];
+  }, [filteredProducts]);
+
+  const priceRange = useMemo(() => {
+    if (filteredProducts.length === 0) return [0, 0];
+
+    const prices = filteredProducts.map((p) => p.priceNum);
+    return [Math.min(...prices), Math.max(...prices)];
+  }, [filteredProducts]);
+
+  const powers = useMemo(() => {
+    return [...new Set(filteredProducts.map((p) => p.powerCooling))];
+  }, [filteredProducts]);
+
+  const roomSizes = useMemo(() => {
+    return [...new Set(filteredProducts.map((p) => p.roomSize + ""))];
+  }, [filteredProducts]);
+
+  // const [selectedRoomSizes, setSelectedRoomSizes] = useState<string[]>([]);
 
   const t = {
     filters: language === "hu" ? "Szűrők" : "Filters",
@@ -53,18 +98,20 @@ export default function ProductFilters({ products }: Props) {
     decimalDelimiter: language === "hu" ? "," : ".",
   };
 
-  const roomSizeRanges = [
-    { id: "8-28", label: "8-28 m²" },
-    { id: "29-45", label: "29-45 m²" },
-    { id: "46-65", label: "46-65 m²" },
-    { id: "66-100", label: "66-100 m²" },
-  ];
-
   const toggleRoomSize = (id: string) => {
-    setSelectedRoomSizes((prev) =>
-      prev.includes(id) ? prev.filter((i) => i !== id) : [...prev, id],
-    );
+    setFilters((prev) => {
+      const current = prev.roomSizes ?? []; // null esetén üres tömb
+      const newRoomSizes = current.includes(id)
+        ? current.filter((i) => i !== id) // toggle off
+        : [...current, id]; // toggle on
+
+      return { ...prev, roomSizes: newRoomSizes };
+    });
   };
+
+  function selectBrand(val: string) {
+    setFilters((prev) => ({ ...prev, brand: val }));
+  }
 
   return (
     <Card className="h-fit sticky top-24">
@@ -81,15 +128,17 @@ export default function ProductFilters({ products }: Props) {
             {/* <Tag className="w-3.5 h-3.5 text-muted-foreground" /> */}
             {t.brand}
           </Label>
-          <Select defaultValue="all">
+          <Select defaultValue="all" onValueChange={selectBrand}>
             <SelectTrigger>
               <SelectValue placeholder={t.all} />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">{t.all}</SelectItem>
-              {
-                brands.map((brand) => <SelectItem key={brand} value={brand}>{brand}</SelectItem>)
-              }
+              {brands.map((brand) => (
+                <SelectItem key={brand} value={brand}>
+                  {brand}
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
         </div>
@@ -109,9 +158,14 @@ export default function ProductFilters({ products }: Props) {
           <Slider.Root
             className="relative flex items-center select-none touch-none w-full h-5"
             value={priceRange}
-            onValueChange={(val) => setPriceRange(val as [number, number])}
-            min={priceMin}
-            max={priceMax}
+            onValueChange={(val) =>
+              setFilters((prev) => ({
+                ...prev,
+                priceRange: val as [number, number],
+              }))
+            }
+            min={priceRange[0]}
+            max={priceRange[1]}
             step={10000}
             minStepsBetweenThumbs={1}
           >
@@ -141,11 +195,11 @@ export default function ProductFilters({ products }: Props) {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">{t.all}</SelectItem>
-              {
-                powers.map((power) => <SelectItem key={power} value={power + ""}>{
-
-                  (power + "").replace(".", t.decimalDelimiter)} kW</SelectItem>)
-              }
+              {powers.map((power) => (
+                <SelectItem key={power} value={power + ""}>
+                  {(power + "").replace(".", t.decimalDelimiter)} kW
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
         </div>
@@ -160,7 +214,7 @@ export default function ProductFilters({ products }: Props) {
               <div key={roomSize} className="flex items-center space-x-2">
                 <Checkbox
                   id={roomSize}
-                  checked={selectedRoomSizes.includes(roomSize)}
+                  checked={filters.roomSizes?.includes(roomSize)}
                   onCheckedChange={() => toggleRoomSize(roomSize)}
                 />
                 <label

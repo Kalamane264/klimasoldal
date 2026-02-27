@@ -22,6 +22,7 @@ import { Button } from "@/app/ui/button";
 import { Checkbox } from "@/app/ui/checkbox";
 import { useState, useMemo, useEffect } from "react";
 import { Product } from "../lib/products";
+import { number } from "framer-motion";
 
 type Props = {
   products: Product[];
@@ -40,9 +41,9 @@ export default function ProductFilters({ products }: Props) {
   const prices = products.map((p) => p.priceNum);
 
   const [filters, setFilters] = useState<Filters>({
-    brand: null,
+    brand: "all",
     priceRange: [Math.min(...prices), Math.max(...prices)],
-    power: null,
+    power: 0,
     roomSizes: null,
   });
 
@@ -89,7 +90,7 @@ export default function ProductFilters({ products }: Props) {
 
   const priceRange = useMemo(() => {
     const tempFilteredProducts = products.filter((p) => {
-      if (filters.brand && p.brand !== filters.brand) return false;
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
         filters.roomSizes &&
@@ -101,8 +102,6 @@ export default function ProductFilters({ products }: Props) {
       return true;
     });
 
-    console.log("priceRange tempFilteredProducts", tempFilteredProducts);
-
     const prices = tempFilteredProducts.map((p) => p.priceNum);
 
     return [Math.min(...prices), Math.max(...prices)];
@@ -110,7 +109,7 @@ export default function ProductFilters({ products }: Props) {
 
   const powers = useMemo(() => {
     const tempFilteredProducts = products.filter((p) => {
-      if (filters.brand && p.brand !== filters.brand) return false;
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (
         filters.roomSizes &&
         (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
@@ -126,13 +125,18 @@ export default function ProductFilters({ products }: Props) {
       return true;
     });
 
-    return [...new Set(tempFilteredProducts.map((p) => p.powerCooling))];
+    console.log("powers tempFilteredProducts", tempFilteredProducts);
+
+    const tempPowers = [...new Set(tempFilteredProducts.map((p) => p.powerCooling))];
+    const sortedPowers = tempPowers.sort();
+
+    return sortedPowers;
   }, [products, filters.priceRange, filters.roomSizes, filters.brand]);
 
   const roomSizes = useMemo(() => {
     const tempFilteredProducts = products.filter((p) => {
-      if (filters.brand && p.brand !== filters.brand) return false;
-      if (filters.power && p.powerCooling !== filters.power) return false;
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
+      if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
 
       if (filters.priceRange) {
         const [min, max] = filters.priceRange;
@@ -181,10 +185,9 @@ export default function ProductFilters({ products }: Props) {
 
   function selectBrand(val: string) {
     setFilters((prev) => ({ ...prev, brand: val }));
-    console.log("priceRange", priceRange);
 
     const tempFilteredProducts = products.filter((p) => {
-      if (val && p.brand !== val) return false;
+      if (val !== "all" && p.brand !== val) return false;
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
         filters.roomSizes &&
@@ -212,6 +215,10 @@ export default function ProductFilters({ products }: Props) {
         priceRange: [prev.priceRange[0], newPriceRange[1]],
       }));
     }
+  }
+
+  function selectPower(val: string) {
+    setFilters((prev) => ({ ...prev, power: Number(val) }));
   }
 
   return (
@@ -290,12 +297,12 @@ export default function ProductFilters({ products }: Props) {
             {/* <Zap className="w-3.5 h-3.5 text-muted-foreground" /> */}
             {t.capacity}
           </Label>
-          <Select defaultValue="all">
+          <Select defaultValue="0" onValueChange={selectPower}>
             <SelectTrigger>
               <SelectValue placeholder={t.all} />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="all">{t.all}</SelectItem>
+              <SelectItem value="0">{t.all}</SelectItem>
               {powers.map((power) => (
                 <SelectItem key={power} value={power + ""}>
                   {(power + "").replace(".", t.decimalDelimiter)} kW

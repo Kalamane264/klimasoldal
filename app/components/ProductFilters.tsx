@@ -180,7 +180,7 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
       });
 
       const tempRoomSizes = [
-        ...new Set(tempFilteredProducts.map((p) => p.roomSize + "")),
+        ...new Set(tempFilteredProducts.filter(p => p.roomSize !== null).map((p) => p.roomSize + "")),
       ];
 
       const sortedRommSizes = [...tempRoomSizes].sort((a, b) => {

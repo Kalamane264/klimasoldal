@@ -6092,7 +6092,7 @@ export const products: Product[] = [
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match parapet beltéri egység (2,6 kW)</strong> a rugalmasság bajnoka a klímatechnikában. Különleges kialakításának köszönhetően Ön dönti el, hogyan illeszkedik legjobban a szobához: a padlóra helyezve úgy simul a falhoz, mint egy modern radiátor, a mennyezetre szerelve pedig diszkréten, a látótér felett biztosítja a hűvös levegőt. Ez a 2,6 kW-os típus kiválóan alkalmas hálószobákba, tetőtéri helyiségekbe vagy kisebb irodákba.</p>
 
-      <p>A berendezés egyik legnagyobb előnye az <strong>egyenletes légelosztás</strong>. Fűtés üzemmódban a padló közeli elhelyezés különösen komfortos, hiszen a meleg levegőt alulról fújja be, ami természetesebb hőérzetet ad. A készülék burkolata letisztult és elegáns, így nem csak hasznos, de dísze is lehet a helyiségnek. A modern szűrőrendszer pedig gondoskodik róla, hogy a befújt levegő tiszta és pormentes legyen.</p>
+      <p>A berendezés egyik legnagyobb előnye az <strong>egyenletes légelosztás</strong>. Fűtés üzemmódban a padlóközeli elhelyezés különösen komfortos, hiszen a meleg levegőt alulról fújja be, ami természetesebb hőérzetet ad. A készülék burkolata letisztult és elegáns, így nem csak hasznos, de dísze is lehet a helyiségnek. A modern szűrőrendszer pedig gondoskodik róla, hogy a befújt levegő tiszta és pormentes legyen.</p>
       <h3>Főbb kényelmi funkciók:</h3>
       <ul>
       <li><strong>Kettős beépíthetőség:</strong> Szabadon választható padlóra állított vagy mennyezeti szerelési mód.</li>
@@ -6175,7 +6175,7 @@ export const products: Product[] = [
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match parapet beltéri egység (3,5 kW)</strong> a rugalmasság és a teljesítmény ötvözete. Különleges kialakításának köszönhetően Ön dönti el, hogyan illeszkedik legjobban a szobához: a padlóra helyezve úgy simul a falhoz, mint egy modern radiátor, a mennyezetre szerelve pedig diszkréten, a látótér felett biztosítja a hűvös levegőt. Ez a 3,5 kW-os típus kiválóan alkalmas nappalikba, tetőtéri helyiségekbe vagy közepes méretű irodákba.</p>
-      <p>A berendezés egyik legnagyobb előnye az <strong>egyenletes légelosztás</strong>. Fűtés üzemmódban a padló közeli elhelyezés különösen komfortos, hiszen a meleg levegőt alulról fújja be, ami természetesebb hőérzetet ad. A készülék burkolata letisztult és elegáns, így nem csak hasznos, de dísze is lehet a helyiségnek. A modern szűrőrendszer pedig gondoskodik róla, hogy a befújt levegő tiszta és pormentes legyen.</p>
+      <p>A berendezés egyik legnagyobb előnye az <strong>egyenletes légelosztás</strong>. Fűtés üzemmódban a padlóközeli elhelyezés különösen komfortos, hiszen a meleg levegőt alulról fújja be, ami természetesebb hőérzetet ad. A készülék burkolata letisztult és elegáns, így nem csak hasznos, de dísze is lehet a helyiségnek. A modern szűrőrendszer pedig gondoskodik róla, hogy a befújt levegő tiszta és pormentes legyen.</p>
       <h3>Főbb kényelmi funkciók:</h3>
       <ul>
       <li><strong>Kettős beépíthetőség:</strong> Szabadon választható padlóra állított vagy mennyezeti szerelési mód.</li>
@@ -8720,7 +8720,7 @@ export const products: Product[] = [
 
         <h3>Kiemelt előnyök:</h3>
         <ul>
-        <li><strong>Kettős szerelhetőség:</strong> Rugalmasan választható padló közeli vagy mennyezeti elhelyezés a helyiség adottságaitól függően.</li>
+        <li><strong>Kettős szerelhetőség:</strong> Rugalmasan választható padlóközeli vagy mennyezeti elhelyezés a helyiség adottságaitól függően.</li>
         <li><strong>Intelligens légterelés:</strong> Függőleges és vízszintes irányban is precízen vezérelhető légáram a huzatmentes komfortért.</li>
         <li><strong>Páratartalom-szabályozás:</strong> Precíz kontroll a beltéri levegő nedvességtartalma felett az egészségesebb környezetért.</li>
         <li><strong>BMS-kompatibilitás:</strong> Közvetlen ModBus kapcsolat az intelligens épületfelügyeleti rendszerekhez.</li>
@@ -8819,13 +8819,13 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év" }
       ],
       longDesc: `<div class="product-description">
-        <p>A <strong>Gree UM6 Parapet inverter 7,1 kW klíma szett</strong> a professzionális megoldást kínálja olyan tágasabb helyiségekbe, ahol a nagy teljesítmény mellett az elhelyezés rugalmassága is kulcsfontosságú. Az UM6 sorozatra jellemző kettős telepíthetőség révén az egység elegáns módon elhelyezhető padló közeli magasságban az oldalfalon, vagy helytakarékos módon, vízszintesen a mennyezet alá rögzítve.</p>
+        <p>A <strong>Gree UM6 Parapet inverter 7,1 kW klíma szett</strong> a professzionális megoldást kínálja olyan tágasabb helyiségekbe, ahol a nagy teljesítmény mellett az elhelyezés rugalmassága is kulcsfontosságú. Az UM6 sorozatra jellemző kettős telepíthetőség révén az egység elegáns módon elhelyezhető padlóközeli magasságban az oldalfalon, vagy helytakarékos módon, vízszintesen a mennyezet alá rögzítve.</p>
 
         <p>A 7,1 kW hűtési és a 7,7 kW fűtési teljesítmény ideálissá teszi nagyobb nappalik, irodai terek vagy üzlethelyiségek klimatizálására. A rendszer okos funkciókkal van felvértezve: a <strong>beépített ModBus csatlakozó</strong> lehetővé teszi az épületfelügyeleti integrációt, míg a <strong>páratartalom-szabályozás</strong> garantálja az optimális beltéri levegőminőséget. A szett részét képező <strong>Wi-Fi-s fali vezetékes egység</strong> és az infra távirányító teljes kontrollt biztosít a felhasználó számára.</p>
 
         <h3>Kiemelt előnyök:</h3>
         <ul>
-        <li><strong>Univerzális elhelyezés:</strong> Padló közeli vagy mennyezeti szerelhetőség a belső tér adottságaihoz igazodva.</li>
+        <li><strong>Univerzális elhelyezés:</strong> padlóközeli vagy mennyezeti szerelhetőség a belső tér adottságaihoz igazodva.</li>
         <li><strong>Hatékony légáramlás:</strong> A nagyteljesítményű ventilátor és az állítható lamellák biztosítják a levegő egyenletes eloszlását a nagyobb terekben is.</li>
         <li><strong>Páratartalom-szabályozás:</strong> Aktív kontroll a beltéri páraszint felett a fokozott komfortérzetért.</li>
         <li><strong>Gree+ okosvezérlés:</strong> Távoli elérés Wi-Fi-n keresztül, bárhol is tartózkodjon.</li>
@@ -8931,7 +8931,7 @@ export const products: Product[] = [
         <h3>Kiemelt előnyök:</h3>
         <ul>
         <li><strong>Ipari kapacitás:</strong> Megbízható hűtés és fűtés nagyméretű eladóterek, éttermek és irodák számára.</li>
-        <li><strong>Rugalmas telepítés:</strong> Választható padló közeli vagy mennyezeti elhelyezés a helyiség adottságaihoz mérten.</li>
+        <li><strong>Rugalmas telepítés:</strong> Választható padlóközeli vagy mennyezeti elhelyezés a helyiség adottságaihoz mérten.</li>
         <li><strong>Precíz páratartalom-szabályozás:</strong> Intelligens kontroll a levegő nedvességtartalma felett az ideális környezetért.</li>
         <li><strong>Többirányú légterelés:</strong> Széles szögben állítható lamellák biztosítják a nagy légmennyiség huzatmentes eloszlását.</li>
         <li><strong>ModBus és Wi-Fi:</strong> Teljes körű távoli elérés és központi felügyeleti lehetőség alapfelszereltségben.</li>
@@ -9001,7 +9001,7 @@ export const products: Product[] = [
     hu: {
       fullName: "Gree konzol inverter 2,7 kW klíma szett",
       typeName: "Konzol klíma",
-      desc: "Prémium 2,7 kW-os konzol klíma, amely a padló közeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten téli komfortra tervezve: -22°C-ig üzembiztos, extra csendes működésű és Wi-Fi-vel bárhonnan vezérelhető.",
+      desc: "Prémium 2,7 kW-os konzol klíma, amely a padlóközeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten téli komfortra tervezve: -22°C-ig üzembiztos, extra csendes működésű és Wi-Fi-vel bárhonnan vezérelhető.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -9032,7 +9032,7 @@ export const products: Product[] = [
 
         <h3>Miért fogja imádni?</h3>
         <ul>
-        <li><strong>Lábfűtés funkció:</strong> A padló közeli befúvás gyors és egyenletes melegérzetet biztosít az egész helyiségben.</li>
+        <li><strong>Lábfűtés funkció:</strong> A padlóközeli befúvás gyors és egyenletes melegérzetet biztosít az egész helyiségben.</li>
         <li><strong>Téli specialisták:</strong> -22°C-ig terjedő működési tartományával a leghidegebb téli napokon is megbízható fűtési forrás.</li>
         <li><strong>Tiszta levegő:</strong> A Cold Plasma szűrő aktívan dolgozik a por, a pollenek és a kellemetlen szagok semlegesítésén.</li>
         <li><strong>Okos irányítás:</strong> A beépített Wi-Fi-vel a Gree+ alkalmazáson keresztül bárhonnan előmelegítheti otthonát.</li>
@@ -9103,7 +9103,7 @@ export const products: Product[] = [
     hu: {
       fullName: "Gree konzol inverter 3,52 kW klíma szett",
       typeName: "Konzol klíma",
-      desc: "Prémium 3,5 kW-os konzol klíma, amely a padló közeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten téli komfortra tervezve: -22°C-ig üzembiztos, extra csendes működésű és Wi-Fi-vel bárhonnan vezérelhető.",
+      desc: "Prémium 3,5 kW-os konzol klíma, amely a padlóközeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten téli komfortra tervezve: -22°C-ig üzembiztos, extra csendes működésű és Wi-Fi-vel bárhonnan vezérelhető.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -9134,7 +9134,7 @@ export const products: Product[] = [
 
         <h3>Miért fogja imádni?</h3>
         <ul>
-        <li><strong>Lábfűtés funkció:</strong> A padló közeli befúvás gyors és egyenletes melegérzetet biztosít az egész helyiségben.</li>
+        <li><strong>Lábfűtés funkció:</strong> A padlóközeli befúvás gyors és egyenletes melegérzetet biztosít az egész helyiségben.</li>
         <li><strong>Téli specialisták:</strong> -22°C-ig terjedő működési tartományával a leghidegebb téli napokon is megbízható fűtési forrás.</li>
         <li><strong>Tiszta levegő:</strong> A Cold Plasma szűrő aktívan dolgozik a por, a pollenek és a kellemetlen szagok semlegesítésén.</li>
         <li><strong>Okos irányítás:</strong> A beépített Wi-Fi-vel a Gree+ alkalmazáson keresztül bárhonnan előmelegítheti otthonát.</li>
@@ -9205,7 +9205,7 @@ export const products: Product[] = [
     hu: {
       fullName: "Gree konzol inverter 5,2 kW klíma szett",
       typeName: "Konzol klíma",
-      desc: "Nagy teljesítményű, 5,2 kW-os konzol klíma, amely a padló közeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten nagyobb terek téli komfortjára tervezve: -22°C-ig üzembiztos, halk működésű és Wi-Fi-vel bárhonnan vezérelhető.",
+      desc: "Nagy teljesítményű, 5,2 kW-os konzol klíma, amely a padlóközeli elhelyezésnek és a kettős légkifúvásnak köszönhetően radiátorszerű fűtési élményt nyújt. Kifejezetten nagyobb terek téli komfortjára tervezve: -22°C-ig üzembiztos, halk működésű és Wi-Fi-vel bárhonnan vezérelhető.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -9230,7 +9230,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
       ],
       longDesc: `<div class="product-description">
-        <p>A <strong>Gree Console 5,2 kW klíma</strong> a Console sorozat legnagyobb teljesítményű tagja, amely kompromisszummentes megoldást nyújt nagyobb nappalik, tágas amerikai konyhás terek vagy üzlethelyiségek klimatizálására. Elegáns, padló közeli kialakítása révén tökéletesen illeszkedik az ablakok alá, modern és hatékony alternatívát kínálva a hagyományos fűtési rendszerekkel szemben.</p>
+        <p>A <strong>Gree Console 5,2 kW klíma</strong> a Console sorozat legnagyobb teljesítményű tagja, amely kompromisszummentes megoldást nyújt nagyobb nappalik, tágas amerikai konyhás terek vagy üzlethelyiségek klimatizálására. Elegáns, padlóközeli kialakítása révén tökéletesen illeszkedik az ablakok alá, modern és hatékony alternatívát kínálva a hagyományos fűtési rendszerekkel szemben.</p>
 
         <p>A készülék kiemelkedő hatékonyságát a <strong>kettős légkifúvási technológia</strong> adja: fűtés során a meleg levegőt közvetlenül a padló felett áramoltatja, így gyorsan és egyenletesen fűti át a nagyobb helyiségeket is, megszüntetve a hideg zónákat. A masszív kialakítás és a professzionális inverter technológia révén akár <strong>-22°C-os külső hőmérséklet mellett is</strong> megbízhatóan tartja az otthon melegét.</p>
 

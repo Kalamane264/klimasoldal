@@ -15,7 +15,7 @@ export default function KlimaLista() {
           <div className="mb-12">
             <h1 className="text-4xl font-heading font-bold text-slate-900 mb-10">
               {language === "hu"
-                ? "Konzol klímák – Padló közeli elhelyezés a maximális fűtési komfortért"
+                ? "Konzol klímák – padlóközeli elhelyezés a maximális fűtési komfortért"
                 : "Console Air Conditioners – Floor-level placement for maximum heating comfort"}
             </h1>
             <p className="text-lg text-muted-foreground maxWidth_700">
@@ -24,7 +24,7 @@ export default function KlimaLista() {
                   A konzol klímák kifejezetten az alsó falfelületekre optimalizált, padlóra állítható vagy falra szerelhető egységek. 
                   <br />
                   <br />
-                  Ez a típus a legjobb választás, ha a cél a professzionális hőszivattyús fűtés: a padló közeli elhelyezés és a speciális alsó-felső légkifúvás révén a készülék közvetlenül a lábmagasságban kezdi el a fűtést, megszüntetve a hideg zónákat. Kompakt méretüknek köszönhetően tökéletesen illeszkednek az ablakok alá, modern és hatékony alternatívát kínálva a hagyományos fűtési rendszerekkel szemben.
+                  Ez a típus a legjobb választás, ha a cél a professzionális hőszivattyús fűtés: a padlóközeli elhelyezés és a speciális alsó-felső légkifúvás révén a készülék közvetlenül a lábmagasságban kezdi el a fűtést, megszüntetve a hideg zónákat. Kompakt méretüknek köszönhetően tökéletesen illeszkednek az ablakok alá, modern és hatékony alternatívát kínálva a hagyományos fűtési rendszerekkel szemben.
                 </>
                : 
                 <>

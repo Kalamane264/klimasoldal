@@ -21,7 +21,7 @@ export default function KlimaLista() {
             <p className="text-lg text-muted-foreground maxWidth_700">
               {language === "hu" ? 
                 <>
-                  A parapet klímák a legsokoldalúbb beltéri egységek közé tartoznak, hiszen kialakításuk lehetővé teszi a padló közeli (radiátor-szerű) és a mennyezet alatti vízszintes elhelyezést is. 
+                  A parapet klímák a legsokoldalúbb beltéri egységek közé tartoznak, hiszen kialakításuk lehetővé teszi a padlóközeli (radiátor-szerű) és a mennyezet alatti vízszintes elhelyezést is. 
                   <br />
                   <br />
                   Ez a rugalmasság ideálissá teszi őket irodákba, üzlethelyiségekbe vagy olyan helyiségekbe, ahol a falak adottságai miatt változatos telepítési megoldásra van szükség. Nagy teljesítményű légáramukkal hatékonyan hűtik vagy fűtik át a nagyobb tereket is, miközben modern megjelenésükkel bármilyen környezetbe beilleszkednek.

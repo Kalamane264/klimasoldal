@@ -22,21 +22,16 @@ import { Button } from "@/app/ui/button";
 import { Checkbox } from "@/app/ui/checkbox";
 import { useState, useMemo, useEffect } from "react";
 import { Product } from "../lib/products";
+import { Filters } from "../../types/filters";
 import { number } from "framer-motion";
 
 type Props = {
   products: Product[];
+  onFilterChange: (filters: Filters) => void;
 };
 
-export default function ProductFilters({ products }: Props) {
+export default function ProductFilters({ products, onFilterChange }: Props) {
   const { language } = useLanguage();
-
-  type Filters = {
-    brand: string | null;
-    priceRange: number[];
-    power: number | null;
-    roomSizes: string[];
-  };
 
   const prices = products.map((p) => p.priceNum);
 
@@ -48,6 +43,9 @@ export default function ProductFilters({ products }: Props) {
   });
 
   const filteredProducts = useMemo(() => {
+
+    // onFilterChange(filters);
+
     return products.filter((p) => {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
@@ -66,6 +64,10 @@ export default function ProductFilters({ products }: Props) {
       return true;
     });
   }, [products, filters]);
+
+  useEffect(() => {
+    onFilterChange(filters);
+  }, [filters]);
 
   const brands = useMemo(() => {
     const tempFilteredProducts = products.filter((p) => {

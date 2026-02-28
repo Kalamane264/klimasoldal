@@ -1,5 +1,6 @@
 "use client";
 
+import { useCallback, useState } from "react";
 import { useLanguage } from "@/app/lib/i18n";
 import { Button } from "@/app/ui/button";
 import ProductFilters from "./ProductFilters";
@@ -14,6 +15,7 @@ import {
 } from "@/app/ui/card";
 import { Badge } from "@/app/ui/badge";
 import { Product } from "../lib/products";
+import { Filters } from "../../types/filters";
 
 type Props = {
   products: Product[];
@@ -22,13 +24,39 @@ type Props = {
 export default function ProductList({ products }: Props) {
   const { language } = useLanguage();
 
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
+
+  const filterProducts = useCallback((filters: Filters) => {
+    console.log("Filters:", filters);
+
+    const prods = products.filter((p) => {
+      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
+      if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
+      if (
+        filters.roomSizes.length > 0 &&
+        (p.roomSize === null || !filters.roomSizes.includes(p.roomSize))
+      ) {
+        return false;
+      }
+
+      if (filters.priceRange) {
+        const [min, max] = filters.priceRange;
+        if (p.priceNum < min || p.priceNum > max) return false;
+      }
+
+      return true;
+    });
+
+    setFilteredProducts(prods);
+  }, [products]);
+
   return (
     <div className="flex flex-col lg:flex-row gap-8">
       <aside className="w-full lg:w-64 flex-shrink-0">
-        <ProductFilters products={products} />
+        <ProductFilters onFilterChange={filterProducts} products={products} />
       </aside>
       <div className="flex-1 grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-        {products.map((product) => {
+        {filteredProducts.map((product) => {
           const specs = language == "hu" ? product.hu.specs : product.en.specs;
           let detailPageRoute = "";
           if (product.type === "ac") {

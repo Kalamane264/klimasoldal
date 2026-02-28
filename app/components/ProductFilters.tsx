@@ -143,10 +143,10 @@ export default function ProductFilters({ products }: Props) {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power !== 0 && p.powerCooling !== filters.power) return false;
 
-      if (filters.priceRange) {
+      /* if (filters.priceRange) {
         const [min, max] = filters.priceRange;
         if (p.priceNum < min || p.priceNum > max) return false;
-      }
+      } */
 
       return true;
     });
@@ -154,7 +154,6 @@ export default function ProductFilters({ products }: Props) {
     const tempRoomSizes = [
       ...new Set(tempFilteredProducts.map((p) => p.roomSize + "")),
     ];
-    console.log(tempRoomSizes);
 
     const sortedRommSizes = [...tempRoomSizes].sort((a, b) => {
       const startA = Number(a.split("-")[0]);
@@ -188,7 +187,7 @@ export default function ProductFilters({ products }: Props) {
       return { ...prev, roomSizes: newRoomSizes };
     });
 
-    const tempFilteredProducts = products.filter((p) => {
+    /* const tempFilteredProducts = products.filter((p) => {
       if (filters.brand !== "all" && p.brand !== filters.brand) return false;
       if (filters.power && p.powerCooling !== filters.power) return false;
       if (
@@ -216,7 +215,7 @@ export default function ProductFilters({ products }: Props) {
         ...prev,
         priceRange: [prev.priceRange[0], newPriceRange[1]],
       }));
-    }
+    } */
 
     console.log("newRoomSizes", newRoomSizes);
   };

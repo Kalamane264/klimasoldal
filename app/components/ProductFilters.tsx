@@ -105,6 +105,10 @@ export default function ProductFilters({ products }: Props) {
     const prices = tempFilteredProducts.map((p) => p.priceNum);
     const pr = [Math.min(...prices), Math.max(...prices)];
 
+    if(pr[0] === pr[1]) {
+      pr[1] = pr[0] + 10000;
+    }
+
     console.log("pr", pr);
 
     return pr;
@@ -273,6 +277,10 @@ export default function ProductFilters({ products }: Props) {
     const prices = tempFilteredProducts.map((p) => p.priceNum);
 
     const newPriceRange = [Math.min(...prices), Math.max(...prices)];
+
+    if(newPriceRange[0] === newPriceRange[1]) {
+      newPriceRange[1] = newPriceRange[0] + 10000;
+    }
 
     if (newPriceRange[0] > filters.priceRange[0]) {
       setFilters((prev) => ({

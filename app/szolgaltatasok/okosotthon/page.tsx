@@ -81,7 +81,7 @@ export default function SmartHomeInstallation() {
             },
           ],
           area: "Okosotthon rendszerek telepítését országosan is vállaljuk egyedi egyeztetés alapján.",
-          cta: "Tegye okosabbá és takarékosabbá otthonát még ma!",
+          cta: "Tegye okosabbá és takarékosabbá otthonát!",
         }
       : {
           h1: "Smart Home and Comfort",
@@ -138,7 +138,7 @@ export default function SmartHomeInstallation() {
             },
           ],
           area: "We provide smart home installations nationwide based on custom agreements.",
-          cta: "Make your home smarter and more efficient today!",
+          cta: "Make your home smarter and more efficient!",
         };
 
   return (

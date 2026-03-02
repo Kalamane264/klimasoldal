@@ -9298,6 +9298,104 @@ export const products: Product[] = [
         { src: "kulteri.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "gree-versati-iv-monoblokk-levego-viz-6-kw-hoszivattyu",
+    brand: "Gree",
+    serial: "GRS-CQ6.0Pd/NhG4-E",
+    type: "hp",
+    name: "Gree Versati IV. 6 kW",
+    hu: {
+      fullName: "Gree Versati IV Monoblokk Levegő-víz 6 kW Hőszivattyú",
+      typeName: "Hőszivattyú",
+      desc: "A Gree Versati IV 6 kW-os monoblokk hőszivattyú egy kompakt, környezetbarát megoldás modern otthonok fűtésére, hűtésére és használati melegvíz előállítására. Az R32-es hűtőközegnek és a kétfokozatú kompresszornak köszönhetően kiemelkedő hatékonyságot nyújt akár -25°C-os külső hőmérséklet mellett is.",
+      specs: [
+        "A+++ energiaosztály",
+        "R32 hűtőközeg",
+        "Beépített Wi-Fi",
+        "Hűtés, fűtés és HMV készítés",
+        "Kétfokozatú inverteres kompresszor",
+        "Csendes üzemmód",
+        "Működés -25°C-ig",
+        "60°C-os előremenő víz"
+      ],
+      specsExtended: [
+        { label: "Névleges fűtési teljesítmény", value: "6,0 kW" },
+        { label: "Névleges hűtési teljesítmény", value: "5,4 kW" },
+        { label: "COP (fűtés)", value: "5,0" },
+        { label: "Energiaosztály (35°C / 55°C)", value: "A+++ / A++" },
+        { label: "Előremenő víz hőmérséklet (fűtés)", value: "25°C – 60°C" },
+        { label: "Működési tartomány (fűtés)", value: "-25°C – +35°C" },
+        { label: "Hálózati feszültség", value: "230V (1 fázis)" },
+        { label: "Vezérlés", value: "Érintőképernyős vezetékes távirányító + Wi-Fi" },
+        { label: "Beépített vízszivattyú", value: "WilLo (Inverteres)" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Gree Versati IV Monoblokk hőszivattyú</strong> a legújabb fejlesztés a levegő-víz rendszerek piacán, amely a fenntarthatóságot és a professzionális teljesítményt ötvözi. Monoblokk kialakítása révén a teljes hűtőkör a kültéri egységben helyezkedik el, így a telepítés egyszerűbb és nem igényel klímatechnikai (F-Gáz) szerelést a beltérben. A 6 kW-os teljesítmény ideális választás alacsony energiaigényű családi házak vagy jól szigetelt lakások korszerű fűtési rendszeréhez.</p>
+
+        <p>A berendezés szíve egy <strong>kétfokozatú inverteres kompresszor</strong>, amely lehetővé teszi a stabil működést még extrém, <strong>-25°C-os külső hőmérséklet</strong> mellett is. A Versati IV képes akár 60°C-os előremenő víz előállítására, így padlófűtés mellett radiátoros rendszerekhez vagy fan-coil egységekhez is kiválóan illeszthető. A rendszer alapfelszereltségként tartalmazza az <strong>érintőképernyős fali vezérlőt</strong> és a Wi-Fi modult.</p>
+
+        <h3>Főbb jellemzők:</h3>
+        <ul>
+        <li><strong>All-in-One megoldás:</strong> Egyetlen kültéri egység gondoskodik a fűtésről, a nyári hűtésről és a használati melegvíz (HMV) tartály felfűtéséről.</li>
+        <li><strong>A+++ energiahatékonyság:</strong> Az R32-es környezetbarát hűtőközeggel a rendszer minimális áramfelvétel mellett maximális teljesítményt nyújt.</li>
+        <li><strong>Intelligens vezérlés:</strong> A magyar nyelvű menüvel ellátott színes érintőképernyős kezelőfelület és a távoli Wi-Fi elérés teljes kontrollt biztosít.</li>
+        <li><strong>Halk működés:</strong> A továbbfejlesztett ventilátorlapátoknak és a hangszigetelt kompresszornak köszönhetően a készülék működése rendkívül csendes.</li>
+        <li><strong>Biztonságos üzem:</strong> Beépített tálcafűtéssel és intelligens leolvasztási funkcióval a jegesedés ellen.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Gree Versati IV Monobloc Air-to-Water 6 kW Heat Pump",
+      typeName: "Heat pump",
+      desc: "The Gree Versati IV 6 kW monobloc heat pump is a compact, eco-friendly solution for heating, cooling, and domestic hot water production in modern homes. Thanks to the R32 refrigerant and two-stage compressor, it delivers outstanding efficiency even at outdoor temperatures as low as -25°C.",
+      specs: [
+        "A+++ Energy Class",
+        "R32 Refrigerant",
+        "Built-in Wi-Fi",
+        "Cooling, Heating & DHW",
+        "Two-stage Inverter Compressor",
+        "Quiet Mode",
+        "Operation down to -25°C",
+        "60°C Leaving Water Temperature"
+      ],
+      specsExtended: [
+        { label: "Nominal heating capacity", value: "6.0 kW" },
+        { label: "Nominal cooling capacity", value: "5.4 kW" },
+        { label: "COP (heating)", value: "5.0" },
+        { label: "Energy class (35°C / 55°C)", value: "A+++ / A++" },
+        { label: "Leaving water temperature (heating)", value: "25°C – 60°C" },
+        { label: "Operating range (heating)", value: "-25°C to +35°C" },
+        { label: "Voltage", value: "230V (Single-phase)" },
+        { label: "Control", value: "Touchscreen wired controller + Wi-Fi" },
+        { label: "Built-in water pump", value: "WilLo (Inverter)" },
+        { label: "Warranty", value: "3 years" }
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Gree Versati IV Monobloc Heat Pump</strong> is the latest advancement in air-to-water systems, combining sustainability with professional performance. Thanks to its monobloc design, the entire refrigerant circuit is contained within the outdoor unit, simplifying installation as it does not require indoor F-gas pipework. The 6 kW capacity is an ideal choice for the modern heating systems of low-energy family houses or well-insulated apartments.</p>
+
+        <p>At the heart of the unit is a <strong>two-stage inverter compressor</strong>, which enables stable operation even at extreme <strong>outdoor temperatures as low as -25°C</strong>. The Versati IV is capable of producing leaving water temperatures up to 60°C, making it an excellent fit for underfloor heating, radiator systems, or fan-coil units. The system comes standard with a <strong>touchscreen wall controller</strong> and a Wi-Fi module.</p>
+
+        <h3>Key Features:</h3>
+        <ul>
+        <li><strong>All-in-One Solution:</strong> A single outdoor unit manages heating, summer cooling, and domestic hot water (DHW) production.</li>
+        <li><strong>A+++ Energy Efficiency:</strong> With eco-friendly R32 refrigerant, the system provides maximum performance with minimal power consumption.</li>
+        <li><strong>Smart Control:</strong> The color touchscreen interface and remote Wi-Fi access provide total command over the system settings.</li>
+        <li><strong>Quiet Operation:</strong> Improved fan blades and a sound-insulated compressor ensure the unit runs remarkably quietly.</li>
+        <li><strong>Reliable Operation:</strong> Features built-in base pan heating and intelligent defrost functions to prevent icing.</li>
+        </ul>
+        </div>`,
+    },
+    price: "580.000 Ft",
+    priceNum: 580000,
+    powerCooling: 4.9,
+    powerHeating: 6,
+    roomSize: null,
+    pics: [
+        { src: "versati-iv.jpg", width: 1000, height: 1000 },
+    ]
+  },
 ];
 
 export type Product = {

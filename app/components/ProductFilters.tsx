@@ -115,7 +115,7 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
     }, [products, filters.power, filters.roomSizes, filters.priceRange]);
 
     const priceRange = useMemo(() => {
-      const tempFilteredProducts = products.filter((p) => {
+      /* const tempFilteredProducts = products.filter((p) => {
         if (filters.brand !== "all" && p.brand !== filters.brand) return false;
         if (filters.power !== 0 && p.powerCooling !== filters.power)
           return false;
@@ -127,9 +127,9 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
         }
 
         return true;
-      });
+      }); */
 
-      const prices = tempFilteredProducts.map((p) => p.priceNum);
+      const prices = products.map((p) => p.priceNum);
       const pr = [Math.min(...prices), Math.max(...prices)];
 
       if (pr[0] === pr[1]) {
@@ -171,16 +171,20 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
         if (filters.power !== 0 && p.powerCooling !== filters.power)
           return false;
 
-        /* if (filters.priceRange) {
-        const [min, max] = filters.priceRange;
-        if (p.priceNum < min || p.priceNum > max) return false;
-      } */
+        if (filters.priceRange) {
+          const [min, max] = filters.priceRange;
+          if (p.priceNum < min || p.priceNum > max) return false;
+        }
 
         return true;
       });
 
       const tempRoomSizes = [
-        ...new Set(tempFilteredProducts.filter(p => p.roomSize !== null).map((p) => p.roomSize + "")),
+        ...new Set(
+          tempFilteredProducts
+            .filter((p) => p.roomSize !== null)
+            .map((p) => p.roomSize + ""),
+        ),
       ];
 
       const sortedRommSizes = [...tempRoomSizes].sort((a, b) => {

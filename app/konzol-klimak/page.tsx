@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://aclimate.hu/konzol-1.webp',
-        width: 1200,
-        height: 630,
+        width: 1000,
+        height: 1000,
         alt: 'AClimate konzol klíma megoldások',
       },
     ],

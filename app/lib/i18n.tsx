@@ -144,7 +144,7 @@ const translations: Record<Language, Translations> = {
     },
     services: {
       title: "Our services for residential customers",
-      subtitle: "We provide reliable engineering solutions primarily for apartments and family homes, with short lead times and transparent pricing. Our services are designed to deliver everyday comfort quickly and seamlessly – whether it’s air conditioning installation, heat pump setup, or electrical work.",
+      subtitle: "We provide reliable engineering solutions primarily for apartments, family homes and smaller business premises with short lead times and transparent pricing. Our services are designed to deliver everyday comfort quickly and seamlessly – whether it’s air conditioning installation, heat pump setup, or electrical work.",
       buttonText: "More",
       ac: {
         title: "Air Conditioning Installation",
@@ -345,7 +345,7 @@ const translations: Record<Language, Translations> = {
     },
     services: {
       title: "Szolgáltatásaink lakossági megrendelők számára",
-      subtitle: "Elsősorban lakások és családi házak számára kínálunk megbízható műszaki megoldásokat, rövid határidőkkel és átlátható árakkal. Szolgáltatásaink célja, hogy a mindennapi komfort gyorsan, felesleges bonyodalmak nélkül megvalósuljon – legyen szó klímaszerelésről, hőszivattyú telepítésről vagy elektromos munkákról.",
+      subtitle: "Elsősorban lakások, családi házak és kisebb üzletek számára kínálunk megbízható műszaki megoldásokat, rövid határidőkkel és átlátható árakkal. Szolgáltatásaink célja, hogy a mindennapi komfort gyorsan, felesleges bonyodalmak nélkül megvalósuljon – legyen szó klímaszerelésről, hőszivattyú telepítésről vagy elektromos munkákról.",
       buttonText: "Bővebben",
       ac: {
         title: "Klímaszerelés",

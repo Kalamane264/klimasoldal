@@ -1,8 +1,8 @@
 "use client";
 
 import NotFound from "@/app/pages/not-found";
-import { Education } from "@/app/components/Education";
-import { SmartHome } from "@/app/components/SmartHome";
+import { Education } from "@/app/tudastar/articles/Education";
+import { SmartHome } from "@/app/tudastar/articles/SmartHome";
 import { useLanguage } from "@/app/lib/i18n";
 import { Button } from "@/app/ui/button";
 import Link from "next/link";

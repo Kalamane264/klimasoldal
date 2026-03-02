@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Szolgaltatasok() {
+export default function Page() {
   
   return (
     <>

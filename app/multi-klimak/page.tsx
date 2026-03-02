@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://aclimate.hu/gree-multi.webp',
-        width: 1200,
-        height: 630,
+        width: 900,
+        height: 900,
         alt: 'AClimate multi split klíma rendszer',
       },
     ],
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Szolgaltatasok() {
+export default function Page() {
   
   return (
     <>

@@ -1,71 +1,40 @@
-"use client";
+import type { Metadata } from "next";
+import TudastarClient from "./TudastarClient";
 
-import { useLanguage } from "@/app/lib/i18n";
-import { Card, CardContent, CardHeader, CardTitle } from "@/app/ui/card";
-import { Button } from "@/app/ui/button";
-import Link from "next/link";
-import { motion } from "framer-motion";
-import { BookOpen, Lightbulb } from "lucide-react";
+export const metadata: Metadata = {
+  title: "Klíma és Hőszivattyú Tudástár: Tanácsok és Megoldások",
+  description: "Szakértői cikkek, vásárlási tanácsok és hasznos tudnivalók klímaberendezésekről és hőszivattyúkról. Segítünk a választásban, telepítésben és karbantartásban.",
+  
+  openGraph: {
+    title: "Klíma és Hőszivattyú Tudástár | AClimate Szakértői Blog",
+    description: "Minden, amit a modern hűtés-fűtésről tudni érdemes. Szakértői tanácsok, akciós megoldások és technológiai újdonságok egy helyen.",
+    url: 'https://aclimate.hu/tudastar',
+    siteName: 'AClimate',
+    locale: 'hu_HU',
+    type: 'website', // Később a konkrét cikkeknél ez 'article' lesz!
+    images: [
+      {
+        url: 'https://aclimate.hu/szolgaltatasok_hero.png',
+        width: 1408,
+        height: 736,
+        alt: 'AClimate Tudástár - Szakértői tanácsok klímaszereléshez',
+      },
+    ],
+  },
+  
+  twitter: {
+    card: 'summary_large_image',
+    title: "Klíma és Hőszivattyú Tudástár | AClimate",
+    description: "Hasznos tanácsok és szakértői cikkek a hatékony hűtés-fűtés világából.",
+    images: ['https://aclimate.hu/szolgaltatasok_hero.png'],
+  },
+};
 
-export default function KnowledgeBase() {
-  const { language, t } = useLanguage();
-
-  const articles = [
-    {
-      id: "hoszivattyu-vs-klima",
-      icon: <BookOpen className="w-8 h-8 text-primary" />,
-      hu: { title: "Hőszivattyú vagy Klíma?", desc: "Melyik a jobb választás otthonába? Összehasonlítjuk a két rendszert hatékonyság és költség szempontjából." },
-      en: { title: "Heat Pump vs AC", desc: "Which is the better choice for your home? We compare the two systems in terms of efficiency and cost." }
-    },
-    {
-      id: "okosotthon-elonyok",
-      icon: <Lightbulb className="w-8 h-8 text-accent" />,
-      hu: { title: "Az okosotthon előnyei", desc: "Hogyan teheti kényelmesebbé és energiatakarékosabbá életét az automatizáció?" },
-      en: { title: "Benefits of Smart Home", desc: "How can automation make your life more comfortable and energy-efficient?" }
-    },
-  ];
-
+export default function Szolgaltatasok() {
+  
   return (
-    <div className="min-h-screen bg-background font-sans">
-      <main className="pt-32 pb-24">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h1 className="text-4xl font-heading font-bold text-slate-900 mb-4">
-              {language === 'hu' ? 'Tudástár' : 'Knowledge Base'}
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              {language === 'hu' ? 'Hasznos információk és útmutatók a modern fűtési és hűtési rendszerekről.' : 'Useful information and guides about modern heating and cooling systems.'}
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {articles.map((article) => (
-              <motion.div key={article.id} whileHover={{ y: -5 }} transition={{ duration: 0.2 }}>
-                <Card className="h-full border-border/50 overflow-hidden hover:shadow-lg transition-shadow">
-                  <CardHeader className="flex flex-row items-center gap-4">
-                    <div className="p-3 bg-slate-50 rounded-xl">
-                      {article.icon}
-                    </div>
-                    <CardTitle className="text-xl">
-                      {language === 'hu' ? article.hu.title : article.en.title}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground mb-6">
-                      {language === 'hu' ? article.hu.desc : article.en.desc}
-                    </p>
-                    <Link href={`/tudastar/${article.id}`}>
-                      <Button variant="outline" className="cursor-pointer w-full">
-                        {language === 'hu' ? 'Elolvasom' : 'Read more'}
-                      </Button>
-                    </Link>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </main>
-    </div>
+    <>
+    <TudastarClient />
+    </>
   );
 }

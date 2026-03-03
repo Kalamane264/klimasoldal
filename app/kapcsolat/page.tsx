@@ -38,7 +38,7 @@ export default function ContactPage() {
     },
     locationBlock: {
       title: "Hol érhető el a szolgáltatás?",
-      content: "Szolgáltatásainkat elsősorban Pécsen, Budapesten, valamint a környező településeken nyújtjuk lakossági ügyfelek számára."
+      content: "Szolgáltatásainkat elsősorban Pécsen, Budapesten, valamint a környező településeken nyújtjuk, lakossági ügyfelek, illetve kisebb üzletek számára."
     },
     whyUs: {
       title: "Miért érdemes minket keresni?",
@@ -73,7 +73,7 @@ export default function ContactPage() {
     },
     locationBlock: {
       title: "Where are our services available?",
-      content: "We primarily provide our services in Pécs, Budapest District XV, and surrounding areas for residential clients."
+      content: "We primarily provide our services in Pécs, Budapest District XV, and surrounding areas for residential clients and smaller businesses."
     },
     whyUs: {
       title: "Why contact us?",

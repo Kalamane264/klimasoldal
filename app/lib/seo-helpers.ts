@@ -20,7 +20,7 @@ export async function getProductMetadata(id: string, urlBeginsWith: string): Pro
       url: urlBeginsWith + id,
       images: [
         {
-          url: product.pics[0].src, // Az első kép az objektumból
+          url: product.pics[0].src,
           width: product.pics[0].width,
           height: product.pics[0].height,
           alt: data.fullName,

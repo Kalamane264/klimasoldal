@@ -15,21 +15,25 @@ export default function HoszivattyukClient() {
           <div className="mb-12">
             <h1 className="text-4xl font-heading font-bold text-slate-900 mb-10">
               {language === "hu"
-                ? "Hőszivattyúk telepítéssel – választható rendszerek"
-                : "Heat pumps with installation – available models"}
+                ? "Hőszivattyú rendszerek – egyedi tervezéssel és kivitelezéssel"
+                : "Heat Pump Systems – Custom Design and Professional Installation"}
             </h1>
             <p className="text-lg text-muted-foreground maxWidth_700">
               {language === "hu"
-                ? `Ezen az oldalon az általunk kínált hőszivattyú-rendszerek közül válogathat.
-                A feltüntetett árak a telepítést is tartalmazzák.
-                A megfelelő hőszivattyú kiválasztása az épület adottságaitól, a fűtési rendszertől 
-                és az energiaigénytől is függ — a tervezéstől a kivitelezésig szakmai támogatást 
-                nyújtunk.`
-                : `On this page, you can browse our range of heat pump systems. All listed prices 
-                include the cost of installation.
-                Choosing the right heat pump depends on the building's characteristics, the 
-                existing heating system, and your energy requirements. We provide professional 
-                support throughout the entire process, from planning to installation.`}
+                ? <>
+                Ezen az oldalon az általunk kínált hőszivattyú-rendszerek közül válogathat. A feltüntetett árak a készülékek irányárai, a telepítés minden esetben egyedi kalkuláció alapján történik.
+                <br /><br />
+                A hőszivattyús rendszer kialakítása összetett, épületgépészeti tervezést igénylő folyamat, amely nagyban függ az ingatlan adottságaitól, a meglévő fűtési rendszertől, a hőigénytől és a szükséges kiegészítő munkáktól. Éppen ezért pontos kivitelezési árat kizárólag előzetes helyszíni felmérést követően tudunk adni.
+                <br /><br />
+                A tervezéstől a rendszer kialakításán át a beüzemelésig teljes körű szakmai támogatást biztosítunk.
+                </>
+                : <>
+                On this page you can explore the heat pump systems we offer. The listed prices refer to the unit price only; installation costs are calculated individually for each project.
+                <br /><br />
+                Installing a heat pump system is a complex building engineering process that depends on the property's characteristics, the existing heating system, the building’s heat demand, and any required additional works. For this reason, an accurate installation quote can only be provided after a prior on-site assessment.
+                <br /><br />
+                From system design through installation and commissioning, we provide full professional support at every stage of the project.
+                </>}
             </p>
           </div>
           <ProductList products={klimak} />

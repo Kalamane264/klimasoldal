@@ -76,7 +76,7 @@ export default function PecsKlimaszerelesClient(){
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
           <Link href="/teruletek">
-            <Button variant="ghost" className="mb-8 flex items-center gap-2 hover:bg-slate-100 transition-colors">
+            <Button variant="ghost" className="cursor-pointer mb-8 flex items-center gap-2 hover:bg-slate-100 transition-colors">
               <ArrowLeft className="w-4 h-4" />
               {language === 'hu' ? 'Vissza a területekhez' : 'Back to areas'}
             </Button>

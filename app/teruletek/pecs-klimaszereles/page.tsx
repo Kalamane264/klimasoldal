@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import PecsKlimaszerelesClient from "./PecsKlimaszerelesClient";
 
 export const metadata: Metadata = {
-  title: "Klímaszerelés Budapest: Gyors Telepítés és Karbantartás",
-  description: "Professzionális klímaszerelés Budapest minden kerületében és Pest vármegyében. Ingyenes felmérés, tiszta munkavégzés és akciós készülékek 3+2 év garanciával.",
+  title: "Klímaszerelés Pécs: Professzionális Telepítés Baranya Megyében",
+  description: "Szakszerű klímaszerelés és hőszivattyú telepítés Pécsen, Komlón, Mohácson és környékén. Ingyenes helyszíni felmérés, akciós árak és 3+2 év garancia helyi szakértőktől.",
   
   openGraph: {
-    title: "Klímaszerelés és Hőszivattyú Telepítés Budapesten | AClimate",
-    description: "Szakszerű klímatelepítés és beüzemelés Budapesten és környékén. Garanciális kivitelezés, szakértő csapat és folyamatos akciók minden kerületben.",
-    url: 'https://aclimate.hu/teruletek/budapest-klimaszereles',
+    title: "Klímaszerelés és Hőszivattyú Kivitelezés Pécsen | AClimate",
+    description: "Megbízható klímatelepítés és karbantartás Pécsen és Baranya vármegyében. Válogasson akciós készülékeink közül 3 év teljes körű és 2 év kompresszor garanciával.",
+    url: 'https://aclimate.hu/teruletek/pecs-klimaszereles',
     siteName: 'AClimate',
     locale: 'hu_HU',
     type: 'website',
@@ -17,15 +17,15 @@ export const metadata: Metadata = {
         url: 'https://aclimate.hu/modern_smart_home_living_room_with_subtle_tech.png',
         width: 1408,
         height: 768,
-        alt: 'AClimate klímaszerelés Budapest és környéke',
+        alt: 'AClimate klímaszerelés Pécs és Baranya vármegye',
       },
     ],
   },
   
   twitter: {
     card: 'summary_large_image',
-    title: "Budapesti Klímaszerelés Garanciával | AClimate",
-    description: "Gyors és precíz klímatelepítés Budapest minden kerületében. Kérje ingyenes helyszíni felmérésünket!",
+    title: "Pécsi Klímaszerelés és Szerviz | AClimate",
+    description: "Klíma és hőszivattyú megoldások Pécsen és környékén. Gyors kiszállás és szakszerű beüzemelés garanciával.",
     images: ['https://aclimate.hu/modern_smart_home_living_room_with_subtle_tech.png'],
   },
 };

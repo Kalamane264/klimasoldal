@@ -1,5 +1,6 @@
 "use client";
 
+import { Metadata, ResolvingMetadata } from "next";
 import { useLanguage } from "@/app/lib/i18n";
 import { useGoBack } from "@/app/lib/useGoBack";
 import Image from "next/image";
@@ -18,6 +19,38 @@ import "swiper/css/navigation";
 import "photoswipe/style.css";
 
 import { Product } from "../lib/products";
+
+export async function generateMetadata(
+  { params }: { params: { slug: string } },
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  // Itt kérdezed le a termék adatait az adatbázisodból vagy JSON-ből a slug alapján
+  // const product = await getProductBySlug(params.id);
+
+  /* if (!product) {
+    return { title: "Termék nem található | AClimate" };
+  } */
+
+  // Dinamikus kulcsszavak összeállítása (pl. "Syen Charm 3.2 kW")
+  // const fullTitle = `${product.brand} ${product.model} ${product.capacity} Split Klíma`;
+  const fullTitle = `Pátty Split Klíma`;
+
+  return {
+    title: `${fullTitle} - Telepítéssel és Garanciával`,
+    // description: `Vásároljon ${fullTitle} készüléket szakértő telepítéssel. ${product.features?.slice(0, 2).join(", ")}. Ingyenes felmérés, 3+2 év garancia és gyors házhozszállítás.`,
+    description: `Vásároljon ${fullTitle} készüléket szakértő telepítéssel. Ingyenes felmérés, 3+2 év garancia és gyors házhozszállítás.`,
+
+    openGraph: {
+      title: `${fullTitle} | AClimate Klímatechnika`,
+      // description: `Ismerje meg a ${product.brand} ${product.model} jellemzőit! Akciós ár, profi szerelés és megbízható szerviz háttér.`,
+      description: `Ismerje meg a jellemzőit! Akciós ár, profi szerelés és megbízható szerviz háttér.`,
+      url: `https://aclimate.hu/klimak/${params.slug}`,
+      // Az első kép használata a tömbből, vagy egy fallback kép
+      images: ["/default-product-og.jpg"],
+      type: "website",
+    },
+  };
+}
 
 type Props = {
   product: Product;
@@ -51,19 +84,6 @@ export default function ProductDetails({ product }: Props) {
       lightbox.destroy();
     };
   }, []);
-
-  let backRoute = "";
-  if(product.type === "ac") {
-    backRoute = "/klimak";
-  } else if(product.type === "hp") {
-    backRoute = "/hoszivattyuk";
-  } else if(product.type === "ac-multi") {
-    backRoute = "/multi-klimak";
-  } else if(product.type === "ac-casette") {
-    backRoute = "/kazettas-klimak";
-  } else if(product.type === "ac-ducted") {
-    backRoute = "/legcsatornas-klimak";
-  }
 
   return (
     <div className="min-h-screen bg-background font-sans">

@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/app/lib/i18n";
+import { useGoBack } from "@/app/lib/useGoBack";
 import {
   Accordion,
   AccordionContent,
@@ -23,6 +24,7 @@ import {
 
 export default function EducationClient() {
   const { language, t } = useLanguage();
+  const goBack = useGoBack();
 
   const comparisonFactors = [
     { key: "heating", icon: <Thermometer className="w-4 h-4" /> },
@@ -36,17 +38,16 @@ export default function EducationClient() {
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
-          <Link href="/tudastar">
-            <Button
-              variant="ghost"
-              className="cursor-pointer mb-8 flex items-center gap-2"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              {language === "hu"
-                ? "Vissza a tudástárhoz"
-                : "Back to knowledge base"}
-            </Button>
-          </Link>
+          <Button
+            variant="ghost"
+            onClick={ goBack }
+            className="cursor-pointer mb-8 flex items-center gap-2"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            {language === "hu"
+              ? "Vissza"
+              : "Back"}
+          </Button>
 
           <div className="max-w-5xl mx-auto">
             <section

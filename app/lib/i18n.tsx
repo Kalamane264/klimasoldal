@@ -306,7 +306,7 @@ const translations: Record<Language, Translations> = {
       pecs: {
         title: "AC Installation – Pécs & Baranya County",
         desc: "In Pécs and its surroundings, residential areas with detached houses and varied terrain are common, where the installation of air conditioning units and heat pumps often requires unique technical solutions.",
-        districts: "Pécs city and surrounding settlements in Baranya county within a 30km radius.",
+        districts: "Pécs city and surrounding settlements in Baranya county within a 30 km radius.",
         viewMore: "AC installation - Pécs",
       },
       whyUs: {

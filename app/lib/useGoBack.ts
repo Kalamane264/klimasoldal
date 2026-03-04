@@ -6,7 +6,7 @@ export function useGoBack() {
   const router = useRouter();
 
   return () => {
-    if (window.history.length > 1) {
+    if (window.history.length > 0) {
       router.back();
     } else {
       router.push("/");

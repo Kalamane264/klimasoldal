@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/app/lib/i18n";
+import { useGoBack } from "@/app/lib/useGoBack";
 import { Card, CardContent } from "@/app/ui/card";
 import { Badge } from "@/app/ui/badge";
 import { ShieldCheck, Zap, Info, ArrowRight } from "lucide-react";
@@ -11,6 +12,7 @@ import { ArrowLeft } from "lucide-react";
 
 export default function HEMProgramClient() {
   const { language } = useLanguage();
+  const goBack = useGoBack();
 
   const content = {
     hu: {
@@ -77,17 +79,16 @@ export default function HEMProgramClient() {
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
-          <Link href="/tudastar">
-            <Button
-              variant="ghost"
-              className="cursor-pointer mb-8 flex items-center gap-2"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              {language === "hu"
-                ? "Vissza a tudástárhoz"
-                : "Back to knowledge base"}
-            </Button>
-          </Link>
+          <Button
+            onClick={ goBack }
+            variant="ghost"
+            className="cursor-pointer mb-8 flex items-center gap-2"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            {language === "hu"
+              ? "Vissza"
+              : "Back"}
+          </Button>
 
           <div className="max-w-5xl mx-auto">
             <div className="space-y-12">

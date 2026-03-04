@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/app/lib/i18n";
+import { useGoBack } from "@/app/lib/useGoBack";
 import { Card } from "@/app/ui/card";
 import { Badge } from "@/app/ui/badge";
 import Link from "next/link";
@@ -18,6 +19,7 @@ import { motion } from "framer-motion";
 
 export default function SmartHomeClient() {
   const { language, t } = useLanguage();
+  const goBack = useGoBack();
 
   const benefits = [
     { icon: <Zap className="w-5 h-5" />, key: "efficiency" },
@@ -32,17 +34,16 @@ export default function SmartHomeClient() {
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
-          <Link href="/tudastar">
-            <Button
-              variant="ghost"
-              className="cursor-pointer mb-8 flex items-center gap-2"
-            >
-              <ArrowLeft className="w-4 h-4" />
-              {language === "hu"
-                ? "Vissza a tudástárhoz"
-                : "Back to knowledge base"}
-            </Button>
-          </Link>
+          <Button
+            onClick={ goBack }
+            variant="ghost"
+            className="cursor-pointer mb-8 flex items-center gap-2"
+          >
+            <ArrowLeft className="w-4 h-4" />
+            {language === "hu"
+              ? "Vissza"
+              : "Back"}
+          </Button>
 
           <div className="max-w-5xl mx-auto">
             <section

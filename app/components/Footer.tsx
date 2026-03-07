@@ -88,8 +88,12 @@ export function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-500 text-sm">
           <p>© 2026 AClimate.hu. All rights reserved.</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+            <Link href="/adatkezeles" className="hover:text-white transition-colors">
+              {language === 'hu' ? 'Adatkezelés' : 'Privacy policy'}
+            </Link>
+            <Link href="/impresszum" className="hover:text-white transition-colors">
+              {language === 'hu' ? 'Impresszum' : 'Legal notice'}
+            </Link>
           </div>
         </div>
       </div>

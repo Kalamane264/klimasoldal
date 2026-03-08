@@ -12,6 +12,7 @@ import { CheckCircle2 } from "lucide-react";
 import { Input } from "@/app/ui/input";
 import { Label } from "@/app/ui/label";
 import { Textarea } from "@/app/ui/textarea";
+import { Checkbox } from "@/app/ui/checkbox";
 import { ReactNode, useState } from "react";
 
 interface ContactDialogProps {
@@ -32,6 +33,7 @@ export function ContactDialog({
     email: "",
     phone: "",
     message: "",
+    privacyPolicy: false
   });
 
   const isEmailValid = (email: string) => {
@@ -42,6 +44,7 @@ export function ContactDialog({
     formData.name.trim() !== "" &&
     isEmailValid(formData.email) &&
     formData.phone.trim() !== "" &&
+    formData.privacyPolicy &&
     formData.message.trim() !== "";
 
   const handleChange = (
@@ -165,6 +168,39 @@ export function ContactDialog({
             onChange={handleChange}
             required
           />
+        </div>
+        <div className="grid gap-2">
+          <div className="flex items-center space-x-2">
+            <Checkbox
+              id="chk_adatkezelesi_ondialog"
+              onCheckedChange={(ev) => {
+                setFormData((prev) => ({
+                  ...prev,
+                  privacyPolicy: Boolean(ev),
+                }));
+              }}
+            />
+            <label
+              htmlFor="chk_adatkezelesi_ondialog"
+              className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+            >
+              {language === "hu" ? (
+                <>
+                  Elolvastam és elfogadom az{" "}
+                  <a href="/adatkezeles" target="_blank">
+                    <b>Adatkezelési Tájékoztatót.</b>
+                  </a>
+                </>
+              ) : (
+                <>
+                  I have read and agree to the{" "}
+                  <a href="/adatkezeles" target="_blank">
+                    <b>Privacy Policy.</b>
+                  </a>
+                </>
+              )}
+            </label>
+          </div>
         </div>
       </div>
       <Button

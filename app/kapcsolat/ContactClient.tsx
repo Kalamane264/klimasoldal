@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import { useLanguage } from "@/app/lib/i18n";
 import {
   Phone,
@@ -154,7 +154,7 @@ export default function ContactClient({ productId }: ContactClientProps) {
     email: "",
     message: "",
     privacyPolicy: false,
-    productid: productId
+    productid: productId,
   });
 
   const isFormValid =
@@ -188,7 +188,13 @@ export default function ContactClient({ productId }: ContactClientProps) {
     }
 
     setIsSubmitted(true);
-    setFormData((prev) => ({...prev, name: "", email: "", message: "", privacyPolicy: false }));
+    setFormData((prev) => ({
+      ...prev,
+      name: "",
+      email: "",
+      message: "",
+      privacyPolicy: false,
+    }));
 
     const data = await res.json();
     console.log(data);
@@ -401,22 +407,40 @@ export default function ContactClient({ productId }: ContactClientProps) {
                   />
                 </div>
                 <div className="grid gap-2">
-                    <div className="flex items-center space-x-2">
+                  <div className="flex items-center space-x-2">
                     <Checkbox
                       id="chk_adatkezelesi_onpage"
                       onCheckedChange={(ev) => {
-                        setFormData((prev) => ({...prev, privacyPolicy: Boolean(ev)}));
+                        setFormData((prev) => ({
+                          ...prev,
+                          privacyPolicy: Boolean(ev),
+                        }));
                       }}
                     />
                     <label
                       htmlFor="chk_adatkezelesi_onpage"
-                      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+                      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
                     >
-                      Elolvastam és elfogadom az Adatkezelési Tájékoztatót.
+                      {language === "hu" ? (
+                        <>
+                          Elolvastam és elfogadom az{" "}
+                          <a href="/adatkezeles" target="_blank">
+                            <b>Adatkezelési Tájékoztatót.</b>
+                          </a>
+                        </>
+                      ) : (
+                        <>
+                         
+                        I have read and agree to the{" "}
+                          <a href="/adatkezeles" target="_blank">
+                            <b>Privacy Policy.</b>
+                          </a>
+                        </>
+                      )}
                     </label>
                   </div>
                 </div>
-                
+
                 <Button
                   className="cursor-pointer w-full bg-primary text-white hover:bg-primary/90 rounded-full py-6 text-lg font-bold"
                   disabled={!isFormValid}

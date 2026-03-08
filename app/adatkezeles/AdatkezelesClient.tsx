@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
 
   const content = {
     hu: {
-      title: "Adatvédelmi tájékoztató",
+      title: "Adatkezelési tájékoztató",
       sections: [
         {
           title: "1. Az Adatkezelő adatai",

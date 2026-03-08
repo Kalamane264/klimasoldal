@@ -1,7 +1,15 @@
 "use client";
 
+import { ReactNode, useState } from "react";
 import { useLanguage } from "@/app/lib/i18n";
-import { Phone, Mail, MapPin, Clock, CheckCircle2, HelpCircle } from "lucide-react";
+import {
+  Phone,
+  Mail,
+  MapPin,
+  Clock,
+  CheckCircle2,
+  HelpCircle,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/app/ui/button";
 import { Input } from "@/app/ui/input";
@@ -13,81 +21,137 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/app/ui/accordion";
+import { products } from "@/app/lib/products";
+import { useRouter } from "next/navigation";
 
-export default function ContactClient() {
+type ContactClientProps = {
+  productId?: string;
+};
+
+export default function ContactClient({ productId }: ContactClientProps) {
   const { language } = useLanguage();
+  const router = useRouter();
+  const product = productId
+    ? products.find((p) => p.id === productId)
+    : undefined;
 
-  const t = language === 'hu' ? {
-    h1: "Kapcsolat – klímaszerelés és villanyszerelés",
-    lead: "Vegye fel velünk a kapcsolatot, ha gyors és megbízható megoldást keres otthonába.",
-    form: {
-      title: "Írjon nekünk üzenetet",
-      description: "Írjon nekünk bátran, akár konkrét elképzeléssel, akár kérdéssel. Minden megkeresésre rövid időn belül válaszolunk.",
-      name: "Név",
-      email: "Email cím vagy telefonszám",
-      message: "Üzenet",
-      submit: "Üzenet küldése",
-    },
-    info: {
-      phone: "+36 70 275 9141",
-      email: "info@aclimate.hu",
-      areaTitle: "Szolgáltatási terület:",
-      areas: ["Pécs és környéke", "Budapest és környéke"],
-      hoursTitle: "Elérhetőség:",
-      hours: "H–P 8:00–18:00"
-    },
-    locationBlock: {
-      title: "Hol érhető el a szolgáltatás?",
-      content: "Szolgáltatásainkat elsősorban Pécsen, Budapesten, valamint a környező településeken nyújtjuk, lakossági ügyfelek, illetve kisebb üzletek számára."
-    },
-    whyUs: {
-      title: "Miért érdemes minket keresni?",
-      items: ["Gyors visszajelzés", "Lakossági árak", "Megbízható kivitelezés", "Átlátható kommunikáció"]
-    },
-    faq: {
-      title: "Gyakori kérdések",
-      items: [
-        { q: "Mennyi időn belül kapok választ?", a: "Általában 24 órán belül válaszolunk minden megkeresésre." },
-        { q: "Van lehetőség helyszíni felmérést kérni?", a: "Igen, Budapesten és Pécsen díjmentes helyszíni felmérést biztosítunk." },
-        { q: "Milyen területeken dolgoznak?", a: "Elsősorban Pécsen és Budapest XV. kerületének vonzáskörzetében." }
-      ]
-    }
-  } : {
-    h1: "Contact – AC & Electrical Services",
-    lead: "Get in touch with us for fast and reliable solutions for your home.",
-    form: {
-      title: "Send us a message",
-      description: "Feel free to write to us with specific ideas or questions. We respond to every inquiry shortly.",
-      name: "Name",
-      email: "Email or phone number",
-      message: "Message",
-      submit: "Send Message",
-    },
-    info: {
-      phone: "+36 70 275 9141",
-      email: "info@ecoclimate.hu",
-      areaTitle: "Service Area:",
-      areas: ["Pécs and surroundings", "Budapest and surroundings"],
-      hoursTitle: "Availability:",
-      hours: "Mon–Fri 8:00–18:00"
-    },
-    locationBlock: {
-      title: "Where are our services available?",
-      content: "We primarily provide our services in Pécs, Budapest District XV, and surrounding areas for residential clients and smaller businesses."
-    },
-    whyUs: {
-      title: "Why contact us?",
-      items: ["Fast feedback", "Residential pricing", "Reliable execution", "Transparent communication"]
-    },
-    faq: {
-      title: "Frequently Asked Questions",
-      items: [
-        { q: "How soon will I get a response?", a: "We typically respond to all inquiries within 24 hours." },
-        { q: "Is on-site assessment available?", a: "Yes, we provide free on-site assessments in Budapest and Pécs." },
-        { q: "What areas do you cover?", a: "Mainly Pécs and the surroundings of Budapest District XV." }
-      ]
-    }
-  };
+  const t =
+    language === "hu"
+      ? {
+          h1: "Kapcsolat – klímaszerelés és villanyszerelés",
+          lead: "Vegye fel velünk a kapcsolatot, ha gyors és megbízható megoldást keres otthonába.",
+          form: {
+            title: "Írjon nekünk üzenetet",
+            description:
+              "Írjon nekünk bátran, akár konkrét elképzeléssel, akár kérdéssel. Minden megkeresésre rövid időn belül válaszolunk.",
+            name: "Név",
+            email: "Email cím vagy telefonszám",
+            message: "Üzenet",
+            submit: "Üzenet küldése",
+          },
+          info: {
+            phone: "+36 70 275 9141",
+            email: "info@aclimate.hu",
+            areaTitle: "Szolgáltatási terület:",
+            areas: ["Pécs és környéke", "Budapest és környéke"],
+            hoursTitle: "Elérhetőség:",
+            hours: "H–P 8:00–18:00",
+          },
+          locationBlock: {
+            title: "Hol érhető el a szolgáltatás?",
+            content:
+              "Szolgáltatásainkat elsősorban Pécsen, Budapesten, valamint a környező településeken nyújtjuk, lakossági ügyfelek, illetve kisebb üzletek számára.",
+          },
+          whyUs: {
+            title: "Miért érdemes minket keresni?",
+            items: [
+              "Gyors visszajelzés",
+              "Lakossági árak",
+              "Megbízható kivitelezés",
+              "Átlátható kommunikáció",
+            ],
+          },
+          faq: {
+            title: "Gyakori kérdések",
+            items: [
+              {
+                q: "Mennyi időn belül kapok választ?",
+                a: "Általában 24 órán belül válaszolunk minden megkeresésre.",
+              },
+              {
+                q: "Van lehetőség helyszíni felmérést kérni?",
+                a: "Igen, Budapesten és Pécsen díjmentes helyszíni felmérést biztosítunk.",
+              },
+              {
+                q: "Milyen területeken dolgoznak?",
+                a: "Elsősorban Pécsen és Budapest XV. kerületének vonzáskörzetében.",
+              },
+            ],
+          },
+        }
+      : {
+          h1: "Contact – AC & Electrical Services",
+          lead: "Get in touch with us for fast and reliable solutions for your home.",
+          form: {
+            title: "Send us a message",
+            description:
+              "Feel free to write to us with specific ideas or questions. We respond to every inquiry shortly.",
+            name: "Name",
+            email: "Email or phone number",
+            message: "Message",
+            submit: "Send Message",
+          },
+          info: {
+            phone: "+36 70 275 9141",
+            email: "info@ecoclimate.hu",
+            areaTitle: "Service Area:",
+            areas: ["Pécs and surroundings", "Budapest and surroundings"],
+            hoursTitle: "Availability:",
+            hours: "Mon–Fri 8:00–18:00",
+          },
+          locationBlock: {
+            title: "Where are our services available?",
+            content:
+              "We primarily provide our services in Pécs, Budapest District XV, and surrounding areas for residential clients and smaller businesses.",
+          },
+          whyUs: {
+            title: "Why contact us?",
+            items: [
+              "Fast feedback",
+              "Residential pricing",
+              "Reliable execution",
+              "Transparent communication",
+            ],
+          },
+          faq: {
+            title: "Frequently Asked Questions",
+            items: [
+              {
+                q: "How soon will I get a response?",
+                a: "We typically respond to all inquiries within 24 hours.",
+              },
+              {
+                q: "Is on-site assessment available?",
+                a: "Yes, we provide free on-site assessments in Budapest and Pécs.",
+              },
+              {
+                q: "What areas do you cover?",
+                a: "Mainly Pécs and the surroundings of Budapest District XV.",
+              },
+            ],
+          },
+        };
+
+  const [formData, setFormData] = useState({
+    name: "",
+    emailOrPhone: "",
+    message: "",
+  });
+
+  const isFormValid =
+    formData.name.trim() !== "" &&
+    formData.emailOrPhone.trim() !== "" &&
+    formData.message.trim() !== "";
 
   return (
     <div className="min-h-screen bg-background font-sans">
@@ -95,7 +159,11 @@ export default function ContactClient() {
         <div className="container mx-auto px-4 md:px-6">
           {/* 1. Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
               <h1 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight">
                 {t.h1}
               </h1>
@@ -105,21 +173,74 @@ export default function ContactClient() {
             </motion.div>
           </div>
 
+          {product && (
+            <div className="max-w-4xl mx-auto mb-16 bg-blue-50 p-8 rounded-3xl border border-blue-200">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+              >
+                <h3 className="text-lg font-bold text-blue-900 mb-3">
+                  {language === "hu"
+                    ? "Választott termék"
+                    : "Product Information"}
+                </h3>
+                <div className="space-y-2 mb-4">
+                  <p className="text-slate-700">
+                    <span className="font-bold">
+                      {language === "hu" ? "Termék: " : "Product: "}
+                    </span>
+                    {language === "hu"
+                      ? product.hu.fullName
+                      : product.en.fullName}
+                  </p>
+                  <p className="text-slate-700">
+                    <span className="font-bold">
+                      {language === "hu" ? "Márka: " : "Brand: "}
+                    </span>
+                    {product.brand}
+                  </p>
+                  {product.price && (
+                    <p className="text-slate-700">
+                      <span className="font-bold">
+                        {language === "hu" ? "Ár: " : "Price: "}
+                      </span>
+                      {product.price}
+                    </p>
+                  )}
+                </div>
+                <Button
+                  onClick={() => router.back()}
+                  variant="outline"
+                  className="w-full border-blue-300 text-blue-900 hover:bg-blue-100"
+                >
+                  {language === "hu" ? "Vissza a termékhez" : "Back to Product"}
+                </Button>
+              </motion.div>
+            </div>
+          )}
+
           <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             {/* 2. Info & Why Us */}
             <div className="space-y-12">
               <section className="bg-slate-50 p-8 rounded-3xl border border-border/50">
                 <h2 className="text-2xl font-heading font-bold mb-8 text-slate-900">
-                  {language === 'hu' ? 'Elérhetőségek' : 'Contact Details'}
+                  {language === "hu" ? "Elérhetőségek" : "Contact Details"}
                 </h2>
                 <div className="space-y-6">
-                  <a href={`tel:${t.info.phone}`} className="flex items-center gap-4 text-lg hover:text-primary transition-colors">
+                  <a
+                    href={`tel:${t.info.phone}`}
+                    className="flex items-center gap-4 text-lg hover:text-primary transition-colors"
+                  >
                     <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                       <Phone className="w-6 h-6" />
                     </div>
                     <span className="font-bold">{t.info.phone}</span>
                   </a>
-                  <a href={`mailto:${t.info.email}`} className="flex items-center gap-4 text-lg hover:text-primary transition-colors">
+                  <a
+                    href={`mailto:${t.info.email}`}
+                    className="flex items-center gap-4 text-lg hover:text-primary transition-colors"
+                  >
                     <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                       <Mail className="w-6 h-6" />
                     </div>
@@ -130,7 +251,9 @@ export default function ContactClient() {
                       <MapPin className="w-6 h-6" />
                     </div>
                     <div>
-                      <span className="font-bold block mb-1">{t.info.areaTitle}</span>
+                      <span className="font-bold block mb-1">
+                        {t.info.areaTitle}
+                      </span>
                       <ul className="text-muted-foreground">
                         {t.info.areas.map((area, i) => (
                           <li key={i}>{area}</li>
@@ -143,18 +266,27 @@ export default function ContactClient() {
                       <Clock className="w-6 h-6" />
                     </div>
                     <div>
-                      <span className="font-bold block mb-1">{t.info.hoursTitle}</span>
-                      <span className="text-muted-foreground">{t.info.hours}</span>
+                      <span className="font-bold block mb-1">
+                        {t.info.hoursTitle}
+                      </span>
+                      <span className="text-muted-foreground">
+                        {t.info.hours}
+                      </span>
                     </div>
                   </div>
                 </div>
               </section>
 
               <section>
-                <h2 className="text-2xl font-heading font-bold mb-6 text-slate-900">{t.whyUs.title}</h2>
+                <h2 className="text-2xl font-heading font-bold mb-6 text-slate-900">
+                  {t.whyUs.title}
+                </h2>
                 <div className="grid sm:grid-cols-2 gap-4">
                   {t.whyUs.items.map((item, i) => (
-                    <div key={i} className="flex items-center gap-3 bg-white p-4 rounded-xl border border-border/50 shadow-sm">
+                    <div
+                      key={i}
+                      className="flex items-center gap-3 bg-white p-4 rounded-xl border border-border/50 shadow-sm"
+                    >
                       <CheckCircle2 className="w-5 h-5 text-primary" />
                       <span className="font-medium text-slate-700">{item}</span>
                     </div>
@@ -165,22 +297,38 @@ export default function ContactClient() {
 
             {/* 3. Form */}
             <div className="bg-white p-8 md:p-10 rounded-3xl border border-border/50 shadow-xl shadow-slate-200/50">
-              <h2 className="text-2xl font-heading font-bold mb-4 text-slate-900">{t.form.title}</h2>
+              <h2 className="text-2xl font-heading font-bold mb-4 text-slate-900">
+                {t.form.title}
+              </h2>
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 {t.form.description}
               </p>
               <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
                 <div className="space-y-2">
                   <Label htmlFor="contact-name">{t.form.name}</Label>
-                  <Input id="contact-name" placeholder={language === 'hu' ? "Az Ön neve" : "Your name"} />
+                  <Input
+                    id="contact-name"
+                    placeholder={language === "hu" ? "Az Ön neve" : "Your name"}
+                  />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="contact-email">{t.form.email}</Label>
-                  <Input id="contact-email" placeholder="example@email.com / +36..." />
+                  <Input
+                    id="contact-email"
+                    placeholder="example@email.com / +36..."
+                  />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="contact-message">{t.form.message}</Label>
-                  <Textarea id="contact-message" className="min-h-[150px]" placeholder={language === 'hu' ? "Miben segíthetünk?" : "How can we help?"} />
+                  <Textarea
+                    id="contact-message"
+                    className="min-h-[150px]"
+                    placeholder={
+                      language === "hu"
+                        ? "Miben segíthetünk?"
+                        : "How can we help?"
+                    }
+                  />
                 </div>
                 <Button className="w-full bg-primary text-white hover:bg-primary/90 rounded-full py-6 text-lg font-bold">
                   {t.form.submit}
@@ -193,7 +341,9 @@ export default function ContactClient() {
           <div className="max-w-6xl mx-auto mt-24">
             <section className="bg-slate-900 text-white p-10 md:p-16 rounded-3xl text-center relative overflow-hidden">
               <div className="relative z-10 max-w-3xl mx-auto">
-                <h2 className="text-3xl font-heading font-bold mb-6">{t.locationBlock.title}</h2>
+                <h2 className="text-3xl font-heading font-bold mb-6">
+                  {t.locationBlock.title}
+                </h2>
                 <p className="text-xl text-slate-300 leading-relaxed">
                   {t.locationBlock.content}
                 </p>

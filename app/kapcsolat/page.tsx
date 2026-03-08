@@ -30,11 +30,12 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Page() {
+export default async function Page({ searchParams }: { searchParams: Promise<{ productId?: string }> }) {
+  const params = await searchParams;
   
   return (
     <>
-    <ContactClient />
+    <ContactClient productId={params.productId} />
     </>
   );
 }

@@ -192,7 +192,7 @@ export default function ProductDetailsClient({ product }: Props) {
                 ></div>
               </div>
 
-              <Link href="/kapcsolat">
+              <Link href={`/kapcsolat?productId=${product.id}`}>
                 <Button
                   size="lg"
                   className="cursor-pointer w-full bg-primary text-white rounded-full py-6 text-lg font-bold"

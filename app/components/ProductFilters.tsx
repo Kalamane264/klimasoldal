@@ -217,38 +217,6 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
       setFilters((prev) => {
         return { ...prev, roomSizes: newRoomSizes };
       });
-
-      /* const tempFilteredProducts = products.filter((p) => {
-      if (filters.brand !== "all" && p.brand !== filters.brand) return false;
-      if (filters.power && p.powerCooling !== filters.power) return false;
-      if (
-        newRoomSizes.length > 0 &&
-        (p.roomSize === null || !newRoomSizes.includes(p.roomSize))
-      ) {
-        return false;
-      }
-
-      return true;
-    });
-
-    const prices = tempFilteredProducts.map((p) => p.priceNum);
-
-    const newPriceRange = [Math.min(...prices), Math.max(...prices)];
-
-    if (newPriceRange[0] > filters.priceRange[0]) {
-      setFilters((prev) => ({
-        ...prev,
-        priceRange: [newPriceRange[0], prev.priceRange[1]],
-      }));
-    }
-    if (newPriceRange[1] < filters.priceRange[1]) {
-      setFilters((prev) => ({
-        ...prev,
-        priceRange: [prev.priceRange[0], newPriceRange[1]],
-      }));
-    } */
-
-      console.log("newRoomSizes", newRoomSizes);
     };
 
     function selectBrand(val: string) {

@@ -10,11 +10,18 @@ import {
   CheckCircle2,
   HelpCircle,
 } from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+} from "@/app/ui/dialog";
 import { motion } from "framer-motion";
 import { Button } from "@/app/ui/button";
 import { Input } from "@/app/ui/input";
 import { Label } from "@/app/ui/label";
 import { Textarea } from "@/app/ui/textarea";
+import { Checkbox } from "@/app/ui/checkbox";
 import {
   Accordion,
   AccordionContent,
@@ -144,18 +151,75 @@ export default function ContactClient({ productId }: ContactClientProps) {
 
   const [formData, setFormData] = useState({
     name: "",
-    emailOrPhone: "",
+    email: "",
     message: "",
+    privacyPolicy: false,
+    productid: productId
   });
 
   const isFormValid =
     formData.name.trim() !== "" &&
-    formData.emailOrPhone.trim() !== "" &&
+    formData.email.trim() !== "" &&
+    formData.privacyPolicy &&
     formData.message.trim() !== "";
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
+    const { id, value } = e.target;
+    const field = id.replace("contact-", "");
+    setFormData((prev) => ({ ...prev, [field]: value }));
+  };
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const sendForm = async () => {
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    if (!res.ok) {
+      alert("Hiba történt az elküldés során. Kérjük, próbálja meg később.");
+      throw new Error("Hiba történt az elküldés során");
+    }
+
+    setIsSubmitted(true);
+    setFormData((prev) => ({...prev, name: "", email: "", message: "", privacyPolicy: false }));
+
+    const data = await res.json();
+    console.log(data);
+  };
 
   return (
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
+        <Dialog open={isSubmitted}>
+          <DialogContent className="sm:max-w-[425px] text-foreground p-12">
+            <div className="flex flex-col items-center text-center space-y-4 py-4">
+              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-2">
+                <CheckCircle2 className="w-10 h-10" />
+              </div>
+              <DialogTitle className="text-2xl font-bold">
+                {language === "hu" ? "Köszönjük!" : "Thank You!"}
+              </DialogTitle>
+              <DialogDescription className="text-lg">
+                {language === "hu"
+                  ? "Üzenetét sikeresen megkaptuk. Hamarosan felvesszük Önnel a kapcsolatot."
+                  : "Your message has been received. We will contact you shortly."}
+              </DialogDescription>
+              <Button
+                className="cursor-pointer mt-6 w-full bg-primary text-white"
+                onClick={() => setIsSubmitted(false)}
+              >
+                {language === "hu" ? "Bezárás" : "Close"}
+              </Button>
+            </div>
+          </DialogContent>
+        </Dialog>
         <div className="container mx-auto px-4 md:px-6">
           {/* 1. Hero */}
           <div className="max-w-4xl mx-auto text-center mb-16">
@@ -308,6 +372,8 @@ export default function ContactClient({ productId }: ContactClientProps) {
                   <Label htmlFor="contact-name">{t.form.name}</Label>
                   <Input
                     id="contact-name"
+                    value={formData.name}
+                    onChange={handleChange}
                     placeholder={language === "hu" ? "Az Ön neve" : "Your name"}
                   />
                 </div>
@@ -315,6 +381,8 @@ export default function ContactClient({ productId }: ContactClientProps) {
                   <Label htmlFor="contact-email">{t.form.email}</Label>
                   <Input
                     id="contact-email"
+                    value={formData.email}
+                    onChange={handleChange}
                     placeholder="example@email.com / +36..."
                   />
                 </div>
@@ -322,6 +390,8 @@ export default function ContactClient({ productId }: ContactClientProps) {
                   <Label htmlFor="contact-message">{t.form.message}</Label>
                   <Textarea
                     id="contact-message"
+                    value={formData.message}
+                    onChange={handleChange}
                     className="min-h-[150px]"
                     placeholder={
                       language === "hu"
@@ -330,7 +400,32 @@ export default function ContactClient({ productId }: ContactClientProps) {
                     }
                   />
                 </div>
-                <Button className="w-full bg-primary text-white hover:bg-primary/90 rounded-full py-6 text-lg font-bold">
+                <div className="grid gap-2">
+                    <div className="flex items-center space-x-2">
+                    <Checkbox
+                      id="chk_adatkezelesi_onpage"
+                      onCheckedChange={(ev) => {
+                        setFormData((prev) => ({...prev, privacyPolicy: Boolean(ev)}));
+                      }}
+                    />
+                    <label
+                      htmlFor="chk_adatkezelesi_onpage"
+                      className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 cursor-pointer"
+                    >
+                      Elolvastam és elfogadom az Adatkezelési Tájékoztatót.
+                    </label>
+                  </div>
+                </div>
+                
+                <Button
+                  className="cursor-pointer w-full bg-primary text-white hover:bg-primary/90 rounded-full py-6 text-lg font-bold"
+                  disabled={!isFormValid}
+                  onClick={() => {
+                    if (isFormValid) {
+                      sendForm();
+                    }
+                  }}
+                >
                   {t.form.submit}
                 </Button>
               </form>

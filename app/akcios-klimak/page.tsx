@@ -15,8 +15,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: 'https://aclimate.hu/akcios_klimak_og.png',
-        width: 1200,
-        height: 630,
+        width: 1408,
+        height: 768,
         alt: 'AClimate - Akciós klímák és telepítés',
       },
     ],

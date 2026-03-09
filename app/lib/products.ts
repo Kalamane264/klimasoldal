@@ -9415,6 +9415,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Csendes működés",
         "Fűtés -15°C-ig",
+        "5 év teljes körű garancia"
       ],
 
       specsExtended: [
@@ -9436,7 +9437,7 @@ export const products: Product[] = [
         <li><strong>I FEEL funkció:</strong> A távirányítóba épített érzékelőnek köszönhetően a gép ott tartja a beállított hőmérsékletet, ahol Ön tartózkodik.</li>
         <li><strong>Öntisztító funkció:</strong> Megakadályozza a penész és a baktériumok megtelepedését a hőcserélőn, így biztosítva az egészséges levegőt.</li>
         <li><strong>Csendes üzemelés:</strong> Alacsony zajszint, amely ideálissá teszi hálószobai használatra is a zavartalan pihenés érdekében.</li>
-        <li><strong>5 év teljes körű garancia:</strong> A feltörekvő Auratsu márka kiemelten nagyvonalú, 5 év teljes körű garanciát vállal készülékeire. (A legtöbb gyártó szokásos ajánlata 3+2 év.)</li>
+        <li><strong>5 év teljes körű garancia:</strong> A feltörekvő Auratsu márka kiemelten nagyvonalú, 5 év teljes körű garanciát vállal készülékeire. (A legtöbb gyártó szokásos ajánlata 3 év teljes körű, +2 év a kompresszorra.)</li>
         </ul>
         </div>`,
     },
@@ -9453,6 +9454,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "Quiet Operation",
         "Heating up to -15°C",
+        "5-Year Full Warranty"
       ],
 
       specsExtended: [
@@ -9474,7 +9476,7 @@ export const products: Product[] = [
         <li><strong>I FEEL Function:</strong> Thanks to the sensor built into the remote control, the unit maintains the set temperature exactly where you are located.</li>
         <li><strong>Self-Cleaning Function:</strong> Prevents the growth of mold and bacteria on the heat exchanger, ensuring healthy air quality.</li>
         <li><strong>Quiet Operation:</strong> Low noise levels make it ideal for bedroom use, ensuring undisturbed rest.</li>
-        <li><strong>5-Year Full Warranty:</strong> The emerging Auratsu brand offers an exceptionally generous 5-year full warranty on its devices. (While most manufacturers typically offer a 3+2 year split warranty.)</li>
+        <li><strong>5-Year Full Warranty:</strong> The emerging Auratsu brand offers an exceptionally generous 5 years full warranty on its devices. (While most manufacturers typically offer a 3 years full +2 years for the compressor.)</li>
         </ul>
         </div>`,
     },

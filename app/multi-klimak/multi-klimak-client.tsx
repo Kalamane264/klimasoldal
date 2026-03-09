@@ -6,7 +6,7 @@ import { useLanguage } from "@/app/lib/i18n";
 
 export default function MultiKlimakClient() {
   const { language } = useLanguage();
-  const klimak = products.filter((p) => p.type == "ac-multi");
+  const klimak = products.filter((p) => p.type == "ac-multi").sort((a, b) => a.priceNum - b.priceNum);
 
   return (
     <div className="min-h-screen bg-background font-sans">

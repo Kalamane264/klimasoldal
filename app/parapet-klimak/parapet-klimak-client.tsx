@@ -6,7 +6,7 @@ import { useLanguage } from "@/app/lib/i18n";
 
 export default function ParapetKlimakClient() {
   const { language } = useLanguage();
-  const klimak = products.filter((p) => p.type == "ac-parapet");
+  const klimak = products.filter((p) => p.type == "ac-parapet").sort((a, b) => a.priceNum - b.priceNum);
 
   return (
     <div className="min-h-screen bg-background font-sans">

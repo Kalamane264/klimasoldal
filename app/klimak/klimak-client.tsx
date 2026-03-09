@@ -6,7 +6,7 @@ import { useLanguage } from "@/app/lib/i18n";
 
 export default function KlimakClient() {
   const { language } = useLanguage();
-  const klimak = products.filter((p) => p.type == "ac");
+  const klimak = products.filter((p) => p.type == "ac").sort((a, b) => a.priceNum - b.priceNum);
 
   return (
     <div className="min-h-screen bg-background font-sans">

@@ -66,6 +66,11 @@ export default function Navbar(){
             </DropdownMenuTrigger>
             <DropdownMenuContent align="start" className="w-48">
               <DropdownMenuItem asChild>
+                <Link href="/akcios-klimak" className="cursor-pointer w-full">
+                  {language === 'hu' ? 'Akciós klímák' : 'AC Units - Special offers'}
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem asChild>
                 <Link href="/klimak" className="cursor-pointer w-full">
                   {language === 'hu' ? 'Klímák' : 'Split air conditioners'}
                 </Link>
@@ -160,6 +165,9 @@ export default function Navbar(){
                 {language === 'hu' ? 'Készülékek' : 'Products'}
               </Link>
               <div className="flex flex-col pl-4 gap-2 pb-2">
+                <Link href="/akcios-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  {language === 'hu' ? '• Akciós klímák' : '• AC Units - Special offers'}
+                </Link>
                 <Link href="/klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {language === 'hu' ? '• Klímák' : '• AC Units'}
                 </Link>

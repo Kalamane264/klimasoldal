@@ -9396,6 +9396,99 @@ export const products: Product[] = [
         { src: "versati-iv.jpg", width: 1000, height: 1000 },
     ]
   },
+  {
+    id: "auratsu-osaka-3-4-kW-inverteres-split-klima",
+    brand: "Auratsu",
+    serial: "ATC-12CLHO",
+    type: "ac",
+    name: "Auratsu Osaka 3,4 kW",
+    hu: {
+      fullName: "Auratsu Osaka 3,4 kW inverteres split klíma szett",
+      typeName: "Klíma",
+      desc: "Az Auratsu Osaka a megbízható japán tervezés, a kiemelkedő ár-érték arány és a modern funkciók tökéletes ötvözete. Elegáns, magasfényű fehér előlapja mögött fejlett inverteres technológia és beépített csepptálca fűtés dolgozik, amely a leghidegebb téli napokon is magabiztos működést garantál. A kategóriájában egyedülálló, 5 év teljes körű garancia pedig hosszú távú nyugalmat biztosít minden felhasználó számára.",
+      specs: [
+        "A++",
+        "Wi-Fi vezérlés",
+        "Csepptálca fűtés",
+        "I-Feel funkció",
+        "Öntisztító üzemmód",
+        "8°C-os temperálás",
+        "Csendes működés",
+        "Fűtés -15°C-ig",
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,4 kW" },
+        { label: "Fűtési teljesítmény", value: "3,4 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Csepptálca fűtés", value: "Beépített" },
+        { label: "Fűtési működési tartomány", value: "-15°C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "5 év teljes körű" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>Az <strong>Auratsu Osaka ATC-12CLHO</strong> az elegancia és a hatékonyság találkozása. A modern inverteres technológiának köszönhetően rendkívül csendes működés mellett biztosít optimális hőmérsékletet egész évben, miközben letisztult, fényes fehér előlapja bármilyen enteriőrbe jól illeszkedik.</p>
+        <h3>Főbb jellemzők:</h3>
+        <ul>
+        <li><strong>I FEEL funkció:</strong> A távirányítóba épített érzékelőnek köszönhetően a gép ott tartja a beállított hőmérsékletet, ahol Ön tartózkodik.</li>
+        <li><strong>Öntisztító funkció:</strong> Megakadályozza a penész és a baktériumok megtelepedését a hőcserélőn, így biztosítva az egészséges levegőt.</li>
+        <li><strong>Csendes üzemelés:</strong> Alacsony zajszint, amely ideálissá teszi hálószobai használatra is a zavartalan pihenés érdekében.</li>
+        <li><strong>5 év teljes körű garancia:</strong> A feltörekvő Auratsu márka kiemelten nagyvonalú, 5 év teljes körű garanciát vállal készülékeire. (A legtöbb gyártó szokásos ajánlata 3+2 év.)</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Auratsu Osaka 3.4 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "The Auratsu Osaka is a perfect blend of reliable Japanese engineering, outstanding value for money, and modern features. Behind its elegant, high-gloss white front panel lies advanced inverter technology and a built-in base pan heater, ensuring confident operation even on the coldest winter days. Its class-leading 5-year full warranty provides long-term peace of mind for every user.",
+      specs: [
+        "A++",
+        "Wi-Fi Control",
+        "Base Pan Heater",
+        "I-Feel Function",
+        "Self-Cleaning Mode",
+        "8°C Heating Mode",
+        "Quiet Operation",
+        "Heating up to -15°C",
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "3.4 kW" },
+        { label: "Heating Capacity", value: "3.4 kW" },
+        { label: "Recommended Room Size", value: "29–45 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Base Pan Heater", value: "Built-in" },
+        { label: "Heating Operating Range", value: "-15°C" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        { label: "Warranty", value: "5-Year Full Warranty" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Auratsu Osaka ATC-12CLHO</strong> is where elegance meets efficiency. Thanks to modern inverter technology, it ensures optimal temperatures year-round with exceptionally quiet operation, while its sleek, glossy white front panel blends seamlessly into any interior.</p>
+        <h3>Key Features:</h3>
+        <ul>
+        <li><strong>I FEEL Function:</strong> Thanks to the sensor built into the remote control, the unit maintains the set temperature exactly where you are located.</li>
+        <li><strong>Self-Cleaning Function:</strong> Prevents the growth of mold and bacteria on the heat exchanger, ensuring healthy air quality.</li>
+        <li><strong>Quiet Operation:</strong> Low noise levels make it ideal for bedroom use, ensuring undisturbed rest.</li>
+        <li><strong>5-Year Full Warranty:</strong> The emerging Auratsu brand offers an exceptionally generous 5-year full warranty on its devices. (While most manufacturers typically offer a 3+2 year split warranty.)</li>
+        </ul>
+        </div>`,
+    },
+    price: "270.000 Ft",
+    priceNum: 270000,
+    powerCooling: 3.4,
+    powerHeating: 3.4,
+    roomSize: "29-45",
+    action: true,
+    pics: [
+        { src: "auratsu_osaka.jpg", width: 1200, height: 1200 },
+        { src: "auratsu_osaka_01.webp", width: 600, height: 600 },
+    ]
+  },
 ];
 
 export type Product = {
@@ -9411,6 +9504,7 @@ export type Product = {
   powerCooling: number;
   powerHeating: number;
   roomSize: string | null;
+  action?: boolean;
   pics: 
     {
         src: string;

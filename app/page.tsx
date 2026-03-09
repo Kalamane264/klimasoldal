@@ -44,7 +44,7 @@ export default function Home() {
       localDesc: (
         <>
           Örömmel értesítjük, hogy{" "}
-          <strong>Hird, Vasas, Somogy és Hosszúhetény</strong> környékén végzett
+          <strong>Hird, Vasas, Somogy, Hosszúhetény és Pécsvárad</strong> környékén végzett
           telepítések esetén <strong>extra kedvezményt</strong> tudunk
           biztosítani!
         </>
@@ -76,7 +76,7 @@ export default function Home() {
       localDesc: (
         <>
           We are pleased to inform you that for installations in the{" "}
-          <strong>Hird, Vasas, Somogy, and Hosszúhetény</strong> areas, we can
+          <strong>Hird, Vasas, Somogy, Hosszúhetény and Pécsvárad</strong> areas, we can
           provide <strong>extra discounts</strong>!
         </>
       ),

@@ -78,7 +78,7 @@ export function ContactDialog({
     }
 
     setIsSubmitted(true);
-    setFormData({ name: "", email: "", phone: "", message: "" });
+    setFormData({name: "", email: "", phone: "", message: "", privacyPolicy: false });
 
     const data = await res.json();
     console.log(data);

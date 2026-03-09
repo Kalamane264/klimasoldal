@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/app/ui/button";
+import Image from "next/image";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,6 +15,7 @@ import Link from "next/link";
 import { cn } from '@/app/lib/utils';
 import { useLanguage } from "@/app/lib/i18n";
 import { ContactDialog } from "./ContactDialog";
+import logoImage from "@/public/aclimate_logo02.svg";
 
 export default function Navbar(){
 
@@ -50,10 +52,16 @@ export default function Navbar(){
     >
       <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
         <Link href="/">
-          <div className="text-2xl font-heading font-bold text-primary flex items-center gap-2">
-            <div className="w-10 h-8 bg-primary rounded-tr-xl rounded-bl-xl flex items-center justify-center">
+          <div style={{color: '#2072a4'}} className="text-2xl font-heading font-bold text-primary flex items-center gap-2">
+            <Image
+              src={logoImage}
+              alt="AClimate logo"
+              width={35}
+              height={50}
+            />
+            {/* <div className="w-10 h-8 bg-primary rounded-tr-xl rounded-bl-xl flex items-center justify-center">
               <span className="text-white text-lg">AC</span>
-            </div>
+            </div> */}
             AClimate<span className="text-accent">.hu</span>
           </div>
         </Link>

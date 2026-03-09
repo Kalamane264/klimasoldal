@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import KlimakClient from "./klimak-client";
 
 export const metadata: Metadata = {
@@ -34,7 +35,9 @@ export default function Page() {
   
   return (
     <>
-    <KlimakClient />
+    <Suspense fallback={<div>Loading...</div>}>
+      <KlimakClient />
+    </Suspense>
     </>
   );
 }

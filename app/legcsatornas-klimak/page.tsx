@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import LegcsatornasKlimakClient from "./legcsatornas-klimak-client";
 
 export const metadata: Metadata = {
@@ -34,7 +35,9 @@ export default function Page() {
   
   return (
     <>
-    <LegcsatornasKlimakClient />
+    <Suspense fallback={<div>Loading...</div>}>
+      <LegcsatornasKlimakClient />
+    </Suspense>
     </>
   );
 }

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import KonzolKlimaClient from "./konzol-klimak-client";
 
 export const metadata: Metadata = {
@@ -34,7 +35,9 @@ export default function Page() {
   
   return (
     <>
-    <KonzolKlimaClient />
+    <Suspense fallback={<div>Loading...</div>}>
+      <KonzolKlimaClient />
+    </Suspense>
     </>
   );
 }

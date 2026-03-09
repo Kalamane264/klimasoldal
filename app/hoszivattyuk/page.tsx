@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import HoszivattyukClient from "./hoszivattyuk-client";
 
 export const metadata: Metadata = {
@@ -34,7 +35,9 @@ export default function Page() {
   
   return (
     <>
-    <HoszivattyukClient />
+    <Suspense fallback={<div>Loading...</div>}>
+      <HoszivattyukClient />
+    </Suspense>
     </>
   );
 }

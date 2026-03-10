@@ -58,7 +58,7 @@ export default function ContactClient({ productId }: ContactClientProps) {
           },
           info: {
             phone: "+36 70 275 9141",
-            email: "info@aclimate.hu",
+            email: "kalmiklima@gmail.com",
             areaTitle: "Szolgáltatási terület:",
             areas: ["Pécs és környéke", "Budapest és környéke"],
             hoursTitle: "Elérhetőség:",

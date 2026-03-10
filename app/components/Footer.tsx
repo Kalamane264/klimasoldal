@@ -47,7 +47,7 @@ export function Footer() {
                 <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-primary">
                   <Mail className="w-5 h-5" />
                 </div>
-                <span>info@aclimate.hu</span>
+                <span>kalmiklima@gmail.com</span>
               </li>
               <li className="flex items-center gap-3 text-slate-300">
                 <div className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-primary">

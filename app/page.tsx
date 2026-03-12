@@ -100,7 +100,7 @@ export default function Home() {
                       <Info className="w-8 h-8" />
                       <h2 className="font-bold text-2xl">{content.title}</h2>
                     </div>
-                    <p className="text-base text-primary leading-relaxed">
+                    <p className="text-base text-slate-600 leading-relaxed">
                       {content.subtitle}
                     </p>
                   </div>

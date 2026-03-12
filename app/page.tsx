@@ -136,7 +136,7 @@ export default function Home() {
 
                     <div className="flex gap-5">
                       <div className="mt-1 flex-shrink-0">
-                        <MapPin className="w-7 h-7 text-emerald-600" />
+                        <MapPin className="w-7 h-7 text-primary" />
                       </div>
                       <div>
                         <h3 className="font-bold text-lg text-slate-900 mb-2">

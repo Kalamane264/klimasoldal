@@ -18,7 +18,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
           <div className="space-y-6">
             <h2 className="text-3xl font-heading font-bold">AClimate.hu</h2>
-            <p className="text-slate-400 max-w-sm">
+            <p className="text-slate-300 max-w-sm">
               {t.contact.subtitle}
             </p>
             <div className="flex gap-4">
@@ -60,7 +60,7 @@ export function Footer() {
 
           <div className="space-y-6">
             <h3 className="text-xl font-bold">{t.nav.services}</h3>
-            <ul className="space-y-2 text-slate-400">
+            <ul className="space-y-2 text-slate-300">
               <li>
                 <Link href="/szolgaltatasok/klimaszereles">
                   {t.services.ac.title}

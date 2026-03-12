@@ -158,7 +158,7 @@ export default function Navbar(){
           >
             {language.toUpperCase()}
           </Button>
-          <button onClick={() => setIsOpen(!isOpen)} className="text-foreground">
+          <button onClick={() => setIsOpen(!isOpen)} className="text-foreground" aria-label={ language === 'hu' ? 'Menü megnyitása' : 'Open menu' }>
             {isOpen ? <X /> : <Menu />}
           </button>
         </div>

@@ -9571,22 +9571,214 @@ export const products: Product[] = [
         </ul>
         </div>`,
     },
-    price: "280.000 Ft", // Ez csak példa ár, írd át a valósra!
-    priceNum: 280000,
-    powerCooling: 2.5,
-    powerHeating: 2.8,
-    roomSize: "8-28",
-    action: true,
-    pics: [
-        { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
-        { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
-        { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
-        { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
-        { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
-        { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
-        { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
-    ]
-}
+      price: "280.000 Ft",
+      priceNum: 280000,
+      powerCooling: 2.5,
+      powerHeating: 2.8,
+      roomSize: "8-28",
+      action: true,
+      pics: [
+          { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+          { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+          { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+      ]
+  },
+  {
+    id: "kinghome-primor-3-2-kW-inverteres-split-klima",
+    brand: "Kinghome",
+    serial: "KWH12AZBXB-K6DNA1F",
+    type: "ac",
+    name: "Kinghome Primor 3,2 kW",
+    hu: {
+      fullName: "Kinghome Primor inverter 3,2 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Kinghome Primor 3,2 kW-os modellje a sorozat optimális teljesítményű tagja, amely hatékony megoldást kínál közepes méretű helyiségek klimatizálására. A megbízható Gree technológiára épülő készülék precíz hűtő- és fűtőteljesítményével kiegyensúlyozott komfortot és kiváló energiahatékonyságot biztosít az év minden szakaszában.",
+      specs: [
+        "A++",
+        "Wi-Fi vezérlés",
+        "Gree gyártói háttér",
+        "I-Feel funkció",
+        "8°C-os temperálás",
+        "Intelligens leolvasztás",
+        "Csendes működés",
+        "Fűtés -15°C-ig",
+        "3 év + 2 év kompresszor garancia"
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,2 kW" },
+        { label: "Fűtési teljesítmény", value: "3,4 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év teljes körű + 2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Kinghome Primor</strong> ezen modellje precízen összehangolt teljesítményt kínál modern otthonok számára. A 3,2 kW hűtő- és 3,4 kW fűtőteljesítmény ideális választássá teszi olyan helyiségekbe, ahol a kisebb gépek már kevésnek bizonyulnának. Az intelligens inverteres szabályozásnak köszönhetően a készülék mindig az aktuális igényekhez mérten használja az energiát, így elkerülhető a felesleges fogyasztás.</p>
+        <h3>Főbb előnyök és funkciók:</h3>
+        <ul>
+          <li><strong>Kiegyensúlyozott teljesítmény:</strong> A 3,4 kW-os fűtési kapacitás magabiztos fűtést garantál a hűvösebb átmeneti időszakokban és a téli hónapokban is.</li>
+          <li><strong>Energiatakarékos működés:</strong> A készülék alkalmas a kedvezményes H-tarifa igénylésére, így a fűtési költségek jelentősen csökkenthetők.</li>
+          <li><strong>I FEEL funkció:</strong> A távirányítóba épített szenzor segítségével a gép ott tartja a kívánt hőmérsékletet, ahol Ön tartózkodik, nem pedig a beltéri egység magasságában mérve.</li>
+          <li><strong>Garanciális feltételek:</strong> A készülékre 3 év teljes körű garanciát vállalunk, amit további 2 év garancia egészít ki a kompresszorra.</li>
+        </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Kinghome Primor 3.2 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "The 3.2 kW model of the Kinghome Primor series offers optimized performance for medium-sized rooms. Built on reliable Gree technology, this unit provides precise cooling and heating capacity, ensuring consistent comfort and excellent energy efficiency throughout the year.",
+      specs: [
+        "A++",
+        "Wi-Fi Control",
+        "Powered by Gree",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "Intelligent Defrost",
+        "Quiet Operation",
+        "Heating up to -15°C",
+        "3+2 Years Warranty"
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "3.2 kW" },
+        { label: "Heating Capacity", value: "3.4 kW" },
+        { label: "Recommended Room Size", value: "29–45 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years full + 2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>This <strong>Kinghome Primor</strong> model provides precisely tuned performance for modern homes. Its 3.2 kW cooling and 3.4 kW heating capacity make it an ideal choice for rooms where smaller units wouldn't be enough. Thanks to intelligent inverter regulation, the device always uses energy in proportion to current demands, preventing unnecessary power consumption.</p>
+        <h3>Key Benefits and Features:</h3>
+        <ul>
+          <li><strong>Balanced Performance:</strong> The 3.4 kW heating capacity guarantees confident heating during transitional periods and cold winter months alike.</li>
+          <li><strong>Energy Savings:</strong> The unit is compatible with discounted energy tariffs (H-tariff), allowing for significantly lower heating costs.</li>
+          <li><strong>I FEEL Function:</strong> Using the sensor built into the remote control, the unit maintains the desired temperature exactly where you are, rather than just measuring it at the indoor unit's height.</li>
+          <li><strong>Warranty Terms:</strong> The unit comes with a 3-year full warranty, plus an additional 2-year warranty specifically for the compressor.</li>
+        </ul>
+      </div>`,
+    },
+      price: "290.000 Ft",
+      priceNum: 290000,
+      powerCooling: 3.2,
+      powerHeating: 3.4,
+      roomSize: "29-45",
+      action: true,
+      pics: [
+          { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+          { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+          { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+      ]
+  },
+  {
+    id: "kinghome-primor-4-6-kW-inverteres-split-klima",
+    brand: "Kinghome",
+    serial: "KWH18AZDXB-K6DNA1A",
+    type: "ac",
+    name: "Kinghome Primor 4,6 kW",
+    hu: {
+      fullName: "Kinghome Primor inverter 4,6 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Kinghome Primor 4,6 kW-os modellje a sorozat nagy teljesítményű tagja, amelyet kifejezetten tágas nappalik, egybefüggő lakásrészek vagy irodák hatékony hűtésére és fűtésére terveztek. A megbízható Gree technológiai háttér garantálja, hogy a készülék még a legnagyobb nyári hőségben is stabilan és gazdaságosan tartsa a kívánt hőmérsékletet.",
+      specs: [
+        "A++",
+        "Wi-Fi vezérlés",
+        "Gree gyártói háttér",
+        "I-Feel funkció",
+        "8°C-os temperálás",
+        "Intelligens leolvasztás",
+        "Csendes működés",
+        "Fűtés -15°C-ig",
+        "3 év + 2 év kompresszor garancia"
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "4,6 kW" },
+        { label: "Fűtési teljesítmény", value: "5,2 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év teljes körű + 2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Kinghome Primor</strong> család ezen tagja a meggyőző erő és a modern technológia ötvözete. A 4,6 kW-os hűtő- és az 5,2 kW-os fűtőteljesítmény lehetővé teszi a nagyobb légterek gyors és egyenletes temperálását, így ideális választás olyan helyiségekbe, ahol a standard teljesítményű klímák már nem lennének elegendőek. Az inverteres szabályozásnak köszönhetően a nagy erő nem jár feleslegesen magas fogyasztással.</p>
+        <h3>Főbb előnyök és funkciók:</h3>
+        <ul>
+          <li><strong>Nagyobb terekre optimalizálva:</strong> Az 5,2 kW-os fűtési kapacitásnak köszönhetően a készülék a téli hónapokban is hatékony és üzembiztos fűtési megoldást kínál nagyobb helyiségekben is.</li>
+          <li><strong>H-tarifa kompatibilitás:</strong> A készülék megfelel a kedvezményes energiafelhasználási feltételeknek, így fűtési szezonban jelentős megtakarítás érhető el vele.</li>
+          <li><strong>I FEEL funkció:</strong> A távirányítóba épített érzékelő folyamatosan kommunikál a beltéri egységgel, így a gép pontosan ott tartja a beállított hőmérsékletet, ahol Ön éppen tartózkodik.</li>
+          <li><strong>Garanciális feltételek:</strong> A készülékre 3 év teljes körű garanciát biztosítunk, amelyet további 2 év garancia egészít ki a kompresszorra.</li>
+        </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Kinghome Primor 4.6 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "The 4.6 kW model of the Kinghome Primor series is a high-capacity unit specifically designed for the efficient cooling and heating of spacious living rooms, open-plan areas, or offices. Powered by reliable Gree technology, it ensures stable and economical temperature control even during the most intense summer heatwaves.",
+      specs: [
+        "A++",
+        "Wi-Fi Control",
+        "Powered by Gree",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "Intelligent Defrost",
+        "Quiet Operation",
+        "Heating up to -15°C",
+        "3+2 Years Warranty"
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "4.6 kW" },
+        { label: "Heating Capacity", value: "5.2 kW" },
+        { label: "Recommended Room Size", value: "46–75 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years full + 2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>This member of the <strong>Kinghome Primor</strong> family combines impressive power with modern technology. With 4.6 kW cooling and 5.2 kW heating capacity, it allows for fast and even temperature control of larger spaces, making it the perfect choice for areas where standard units would fall short. Thanks to inverter regulation, high performance does not lead to excessive power consumption.</p>
+          <h3>Key Benefits and Features:</h3>
+          <ul>
+            <li><strong>Optimized for Larger Spaces:</strong> With its 5.2 kW heating capacity, the unit offers an efficient and reliable heating solution for larger rooms even during the coldest winter months.</li>
+            <li><strong>Energy Savings:</strong> The unit is compatible with discounted energy tariffs (H-tariff), allowing for significantly lower utility costs during the heating season.</li>
+            <li><strong>I FEEL Function:</strong> The sensor built into the remote control continuously communicates with the indoor unit, ensuring the set temperature is maintained exactly where you are located.</li>
+            <li><strong>Warranty Terms:</strong> The device comes with a 3-year full warranty, plus an additional 2-year warranty for the compressor.</li>
+          </ul>
+        </div>`,
+      },
+      price: "290.000 Ft",
+      priceNum: 290000,
+      powerCooling: 4.6,
+      powerHeating: 5.2,
+      roomSize: "46-75",
+      action: true,
+      pics: [
+          { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+          { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+          { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+          { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+      ]
+  }
 ];
 
 export type Product = {

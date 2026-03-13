@@ -85,14 +85,14 @@ export const products: Product[] = [
     powerHeating: 2.8,
     roomSize: "8-28",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-charm-3-2-kw-split-klima",
@@ -180,14 +180,14 @@ export const products: Product[] = [
     powerHeating: 3.4,
     roomSize: "29-45",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-charm-4-6-kw-split-klima",
@@ -275,14 +275,14 @@ export const products: Product[] = [
     powerHeating: 5.2,
     roomSize: "46-75",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-charm-6-2-kw-split-klima",
@@ -370,14 +370,14 @@ export const products: Product[] = [
     powerHeating: 6.5,
     roomSize: "66-120",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-outdoor.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-muse-next-2-7-kw-split-klima",
@@ -399,7 +399,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -441,7 +441,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -474,11 +474,11 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
-    ]
+      { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
+    ],
   },
   {
     id: "syen-muse-next-3-5-kw-split-klima",
@@ -500,7 +500,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -542,7 +542,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -575,11 +575,11 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
-    ]
+      { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
+    ],
   },
   {
     id: "syen-muse-next-5-3-kw-split-klima",
@@ -601,7 +601,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -642,7 +642,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -675,11 +675,11 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
-    ]
+      { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
+    ],
   },
   {
     id: "syen-muse-next-7-1-kw-split-klima",
@@ -701,7 +701,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -742,7 +742,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -775,11 +775,11 @@ export const products: Product[] = [
     powerHeating: 7.8,
     roomSize: "66-120",
     pics: [
-        { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
-        { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
-    ]
+      { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-remote.jpg", width: 1000, height: 731 },
+      { src: "syen-muse-next-outdoor.jpg", width: 750, height: 548 },
+    ],
   },
   {
     id: "syen-multi-inverter-5-3-kw-klima-kulteri",
@@ -796,7 +796,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "Karterfűtés",
         "Csepptálca fűtés",
-        "Intelligens leolvasztás"
+        "Intelligens leolvasztás",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -833,7 +833,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "Crankcase heater",
         "Base pan heater",
-        "Intelligent Defrosting"
+        "Intelligent Defrosting",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -867,8 +867,12 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: null,
     pics: [
-        { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
-    ]
+      {
+        src: "syen-multi-inverter-5-3-kw-klima-kulteri.png",
+        width: 1500,
+        height: 1097,
+      },
+    ],
   },
   {
     id: "syen-multi-inverter-7-1-kw-klima-kulteri",
@@ -885,7 +889,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "Karterfűtés",
         "Csepptálca fűtés",
-        "Intelligens leolvasztás"
+        "Intelligens leolvasztás",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -922,7 +926,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "Crankcase heater",
         "Base pan heater",
-        "Intelligent Defrosting"
+        "Intelligent Defrosting",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -956,8 +960,12 @@ export const products: Product[] = [
     powerHeating: 8.6,
     roomSize: null,
     pics: [
-        { src: "syen-multi-inverter-5-3-kw-klima-kulteri.png", width: 1500, height: 1097 },
-    ]
+      {
+        src: "syen-multi-inverter-5-3-kw-klima-kulteri.png",
+        width: 1500,
+        height: 1097,
+      },
+    ],
   },
   {
     id: "syen-multi-charm-2-7-kw-klima-belteri",
@@ -1047,13 +1055,13 @@ export const products: Product[] = [
     powerHeating: 2.8,
     roomSize: "8-28",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-multi-charm-3-2-kw-klima-belteri",
@@ -1145,13 +1153,13 @@ export const products: Product[] = [
     powerHeating: 3.4,
     roomSize: "29-45",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-multi-charm-4-6-kw-klima-belteri",
@@ -1243,13 +1251,13 @@ export const products: Product[] = [
     powerHeating: 5.2,
     roomSize: "46-75",
     pics: [
-        { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
-        { src: "syen-charm-remote.jpg", width: 1750, height: 1279 }
-    ]
+      { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-03.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-04.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-indoor-05.jpg", width: 1750, height: 1279 },
+      { src: "syen-charm-remote.jpg", width: 1750, height: 1279 },
+    ],
   },
   {
     id: "syen-um-kazettas-inverter-3-5-kw-klima-szett",
@@ -1274,7 +1282,7 @@ export const products: Product[] = [
         "Öndiagnózis",
         "Automata üzem",
         "Memória funkció",
-        "Kiemelkedő minőségű motorok"
+        "Kiemelkedő minőségű motorok",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -1325,7 +1333,7 @@ export const products: Product[] = [
         "Self-Diagnosis",
         "Auto Mode",
         "Memory Function",
-        "Superior quality motors"
+        "Superior quality motors",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -1364,9 +1372,9 @@ export const products: Product[] = [
     powerHeating: 4.0,
     roomSize: "29-55",
     pics: [
-        { src: "syen-kazettas.jpg", width: 750, height: 548 },
-        { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
-    ]
+      { src: "syen-kazettas.jpg", width: 750, height: 548 },
+      { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
+    ],
   },
   {
     id: "syen-um-kazettas-inverter-5-kw-klima-szett",
@@ -1391,7 +1399,7 @@ export const products: Product[] = [
         "Öndiagnózis",
         "Automata üzem",
         "Memória funkció",
-        "Kiemelkedő minőségű motorok"
+        "Kiemelkedő minőségű motorok",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,0 kW" },
@@ -1441,7 +1449,7 @@ export const products: Product[] = [
         "Self-Diagnosis",
         "Auto Mode",
         "Memory Function",
-        "Superior quality motors"
+        "Superior quality motors",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.0 kW" },
@@ -1480,9 +1488,9 @@ export const products: Product[] = [
     powerHeating: 5.5,
     roomSize: "56-75",
     pics: [
-        { src: "syen-kazettas.jpg", width: 750, height: 548 },
-        { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
-    ]
+      { src: "syen-kazettas.jpg", width: 750, height: 548 },
+      { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
+    ],
   },
   {
     id: "syen-um-kazettas-inverter-7-kw-klima-szett",
@@ -1507,7 +1515,7 @@ export const products: Product[] = [
         "Öndiagnózis",
         "Automata üzem",
         "Memória funkció",
-        "Kiemelkedő minőségű motorok"
+        "Kiemelkedő minőségű motorok",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,0 kW" },
@@ -1557,7 +1565,7 @@ export const products: Product[] = [
         "Self-Diagnosis",
         "Auto Mode",
         "Memory Function",
-        "Superior quality motors"
+        "Superior quality motors",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.0 kW" },
@@ -1596,9 +1604,9 @@ export const products: Product[] = [
     powerHeating: 8.0,
     roomSize: "66-120",
     pics: [
-        { src: "syen-kazettas.jpg", width: 750, height: 548 },
-        { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
-    ]
+      { src: "syen-kazettas.jpg", width: 750, height: 548 },
+      { src: "syen-kazettas-kulteri.jpg", width: 1000, height: 731 },
+    ],
   },
   {
     id: "syen-um-legcsatornas-inverter-3-5-kw-klima-szett",
@@ -1623,7 +1631,7 @@ export const products: Product[] = [
         "Öndiagnózis",
         "Automata üzem",
         "Memória funkció",
-        "Kiemelkedő minőségű motorok"
+        "Kiemelkedő minőségű motorok",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -1671,7 +1679,7 @@ export const products: Product[] = [
         "Self-Diagnosis",
         "Auto Mode",
         "Memory Function",
-        "Superior quality motors"
+        "Superior quality motors",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -1708,9 +1716,9 @@ export const products: Product[] = [
     powerHeating: 4.0,
     roomSize: "29-55",
     pics: [
-        { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
-        { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
-    ]
+      { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
+      { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
+    ],
   },
   {
     id: "syen-um-legcsatornas-inverter-5-kw-klima-szett",
@@ -1735,7 +1743,7 @@ export const products: Product[] = [
         "Öndiagnózis",
         "Automata üzem",
         "Memória funkció",
-        "Kiemelkedő minőségű motorok"
+        "Kiemelkedő minőségű motorok",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,0 kW" },
@@ -1783,7 +1791,7 @@ export const products: Product[] = [
         "Self-Diagnosis",
         "Auto Mode",
         "Memory Function",
-        "Superior quality motors"
+        "Superior quality motors",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.0 kW" },
@@ -1820,9 +1828,9 @@ export const products: Product[] = [
     powerHeating: 5.5,
     roomSize: "56-75",
     pics: [
-        { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
-        { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
-    ]
+      { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
+      { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
+    ],
   },
   {
     id: "syen-um-legcsatornas-inverter-7-kw-klima-szett",
@@ -1847,7 +1855,7 @@ export const products: Product[] = [
         "Öndiagnózis",
         "Automata üzem",
         "Memória funkció",
-        "Kiemelkedő minőségű motorok"
+        "Kiemelkedő minőségű motorok",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,0 kW" },
@@ -1895,7 +1903,7 @@ export const products: Product[] = [
         "Self-Diagnosis",
         "Auto Mode",
         "Memory Function",
-        "Superior quality motors"
+        "Superior quality motors",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.0 kW" },
@@ -1932,9 +1940,9 @@ export const products: Product[] = [
     powerHeating: 8,
     roomSize: "66-120",
     pics: [
-        { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
-        { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
-    ]
+      { src: "syen-legcsatornas.jpg", width: 750, height: 548 },
+      { src: "syen-legcsatornas-kulteri.jpg", width: 1000, height: 731 },
+    ],
   },
   {
     id: "gree-pulse-inverter-2-5-kw-klima-szett",
@@ -2032,11 +2040,11 @@ export const products: Product[] = [
     powerHeating: 2.8,
     roomSize: "8-28",
     pics: [
-        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
-        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+      { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-pulse-inverter-3-2-kw-klima-szett",
@@ -2134,11 +2142,11 @@ export const products: Product[] = [
     powerHeating: 3.4,
     roomSize: "29-45",
     pics: [
-        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
-        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+      { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-pulse-inverter-4-6-kw-klima-szett",
@@ -2236,11 +2244,11 @@ export const products: Product[] = [
     powerHeating: 5.2,
     roomSize: "46-75",
     pics: [
-        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
-        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+      { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-pulse-inverter-6-2-kw-klima-szett",
@@ -2338,11 +2346,11 @@ export const products: Product[] = [
     powerHeating: 6.5,
     roomSize: "66-120",
     pics: [
-        { src: "gree-pulse.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
-        { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-pulse.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "gree-pulse-06.webp", width: 1000, height: 1000 },
+      { src: "gree-pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-comfort-pro-inverter-2-7-kw-klima-szett",
@@ -2364,7 +2372,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -2410,7 +2418,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -2448,11 +2456,11 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
-        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+      { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-comfort-pro-inverter-3-5-kw-klima-szett",
@@ -2474,7 +2482,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -2520,7 +2528,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -2558,11 +2566,11 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
-        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+      { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-comfort-pro-inverter-5-3-kw-klima-szett",
@@ -2584,7 +2592,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -2630,7 +2638,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -2668,11 +2676,11 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
-        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+      { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-comfort-pro-inverter-7-1-kw-klima-szett",
@@ -2694,7 +2702,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -2740,7 +2748,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-Speed Fan",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -2778,11 +2786,11 @@ export const products: Product[] = [
     powerHeating: 7.8,
     roomSize: "66-120",
     pics: [
-        { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
-        { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
-        { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
+      { src: "gree-comfort-pro-remote.jpg", width: 1200, height: 1200 },
+      { src: "gree-comfort-pro-outdoor.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-cosmo-inverter-2-7-kw-klima-szett",
@@ -2803,7 +2811,7 @@ export const products: Product[] = [
         "-15°C-os fűtési tartomány",
         "Extra csendes üzem (19dB)",
         "7 fokozatú ventilátor",
-        "Intelligens leolvasztás"
+        "Intelligens leolvasztás",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -2814,7 +2822,7 @@ export const products: Product[] = [
         { label: "WiFi vezérlés", value: "Igen" },
         { label: "Cold Plasma szűrő", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év, +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Cosmo 2,7 kW</strong> a modern otthonok letisztult megoldása. A készülék kifinomult vezérlése folyamatosan alkalmazkodik az igényekhez, biztosítva a stabil hőmérsékletet, amivel jelentős energiát takaríthat meg a mindennapi használat során.</p>
@@ -2840,7 +2848,7 @@ export const products: Product[] = [
         "-15°C Heating Range",
         "Ultra Quiet (19dB)",
         "7 Fan Speeds",
-        "Intelligent Defrosting"
+        "Intelligent Defrosting",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -2851,7 +2859,7 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Cold Plasma Filter", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years, +2 years for compressor" }
+        { label: "Warranty", value: "3 years, +2 years for compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Cosmo 2.7 kW</strong> is the sleek solution for modern homes. Its refined control system constantly adapts to your needs, ensuring stable temperatures and significant energy savings during daily use.</p>
@@ -2870,12 +2878,12 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
-        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+      { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-cosmo-inverter-3-5-kw-klima-szett",
@@ -2896,7 +2904,7 @@ export const products: Product[] = [
         "-15°C-os fűtési tartomány",
         "Csendes üzem",
         "7 fokozatú ventilátor",
-        "Automatikus öntisztítás"
+        "Automatikus öntisztítás",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -2907,7 +2915,7 @@ export const products: Product[] = [
         { label: "WiFi vezérlés", value: "Igen" },
         { label: "Cold Plasma szűrő", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év, +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Cosmo 3,5 kW</strong> ötvözi az erőt a megbízhatósággal. A modern technológiának köszönhetően a készülék dinamikusan alkalmazkodik a környezeti változásokhoz, biztosítva az optimális komfortot gazdaságos fogyasztás mellett.</p>
@@ -2933,7 +2941,7 @@ export const products: Product[] = [
         "-15°C Heating Range",
         "Quiet Operation",
         "7 Fan Speeds",
-        "Auto Self-Cleaning"
+        "Auto Self-Cleaning",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -2944,7 +2952,7 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Cold Plasma Filter", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years, +2 years for compressor" }
+        { label: "Warranty", value: "3 years, +2 years for compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Cosmo 3.5 kW</strong> combines power with reliability. Thanks to modern technology, the unit dynamically adapts to environmental changes, ensuring optimal comfort with economical consumption.</p>
@@ -2963,12 +2971,12 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
-        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+      { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-cosmo-inverter-5-1-kw-klima-szett",
@@ -2989,7 +2997,7 @@ export const products: Product[] = [
         "-15°C-os fűtési tartomány",
         "Erőteljes légáram",
         "Intelligens leolvasztás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,1 kW" },
@@ -3000,7 +3008,7 @@ export const products: Product[] = [
         { label: "WiFi vezérlés", value: "Igen" },
         { label: "Cold Plasma szűrő", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év, +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Cosmo 5,1 kW</strong> robusztus teljesítményt nyújt megbízható funkciókkal ötvözve. Ideális választás modern lakásokba, ahol nagy felületen kell fenntartani az egyenletes hőmérsékletet gazdaságos üzemeltetés mellett.</p>
@@ -3026,7 +3034,7 @@ export const products: Product[] = [
         "-15°C Heating Range",
         "Powerful Airflow",
         "Intelligent Defrosting",
-        "7 Fan Speeds"
+        "7 Fan Speeds",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.1 kW" },
@@ -3037,7 +3045,7 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Cold Plasma Filter", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years, +2 years for compressor" }
+        { label: "Warranty", value: "3 years, +2 years for compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Cosmo 5.1 kW</strong> provides robust performance combined with reliable features. An ideal choice for modern apartments where uniform temperature needs to be maintained across large areas economically.</p>
@@ -3056,12 +3064,12 @@ export const products: Product[] = [
     powerHeating: 5.3,
     roomSize: "46-75",
     pics: [
-        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
-        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+      { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-cosmo-inverter-7-1-kw-klima-szett",
@@ -3082,7 +3090,7 @@ export const products: Product[] = [
         "-15°C-os fűtési tartomány",
         "Maximális légszállítás",
         "7 fokozatú ventilátor",
-        "Intelligens leolvasztás"
+        "Intelligens leolvasztás",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -3093,7 +3101,7 @@ export const products: Product[] = [
         { label: "WiFi vezérlés", value: "Igen" },
         { label: "Cold Plasma szűrő", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év, +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Cosmo 7,1 kW</strong> kompromisszummentes megoldás nagy alapterületű ingatlanokhoz, irodákhoz. A készülék még ekkora teljesítmény mellett is képes a precíz, inverteres finomszabályozásra a maximális komfort érdekében.</p>
@@ -3119,7 +3127,7 @@ export const products: Product[] = [
         "-15°C Heating Range",
         "Maximum Airflow",
         "7 Fan Speeds",
-        "Intelligent Defrosting"
+        "Intelligent Defrosting",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -3130,7 +3138,7 @@ export const products: Product[] = [
         { label: "WiFi control", value: "Yes" },
         { label: "Cold Plasma Filter", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years, +2 years for compressor" }
+        { label: "Warranty", value: "3 years, +2 years for compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Cosmo 7.1 kW</strong> is an uncompromising solution for large-scale properties and offices. Even at this capacity, the unit is capable of precise, inverter-based fine-tuning for maximum comfort.</p>
@@ -3149,12 +3157,12 @@ export const products: Product[] = [
     powerHeating: 7.3,
     roomSize: "66-120",
     pics: [
-        { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
-        { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
-        { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-03.png", width: 1200, height: 1200 },
+      { src: "gree-cosmo-04-1.png", width: 1200, height: 1200 },
+      { src: "taviranyito-010.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-dark-pro-inverter-2-7-kw-klima-szett",
@@ -3176,7 +3184,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -3191,7 +3199,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Dark Pro inverter 2,7 kW</strong> klíma szett a bizonyított Comfort Pro technológiát öltözteti elegáns, sötétszürke köntösbe. Ez a modell azoknak készült, akik a prémium megjelenést keresik anélkül, hogy lemondanának a stabil, fűtésre is optimalizált műszaki tartalomról. A sötét tónusú beltéri egység diszkréten és stílusosan simul bele a modern belső terekbe.</p>
@@ -3224,7 +3232,7 @@ export const products: Product[] = [
         "-25°C heating operating range",
         "7-speed fan (Extra quiet)",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -3239,7 +3247,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase heater", value: "Yes" },
         { label: "Base pan heater", value: "Yes" },
-        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Dark Pro Inverter 2.7 kW</strong> air conditioning set dresses the proven Comfort Pro technology in an elegant, dark grey finish. This model is designed for those seeking a premium look without compromising on stable, heating-optimized technical performance. The dark-toned indoor unit blends discreetly and stylishly into modern interiors.</p>
@@ -3264,11 +3272,11 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
-        { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
-        { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
-        { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
+      { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
+      { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
+      { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-dark-pro-inverter-3-5-kw-klima-szett",
@@ -3290,7 +3298,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -3305,7 +3313,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Dark Pro 3,5 kW</strong> a bizonyíték arra, hogy a prémium dizájn és a professzionális fűtési teljesítmény kéz a kézben járhat. Ez a modell a sötétebb tónusú, modern lakberendezési stílusok tökéletes kiegészítője, miközben technikai felszereltsége a legzordabb teleken is biztonságot nyújt.</p>
@@ -3334,7 +3342,7 @@ export const products: Product[] = [
         "-25°C heating operating range",
         "7-speed fan (Extra quiet)",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -3349,7 +3357,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase heater", value: "Yes" },
         { label: "Base pan heater", value: "Yes" },
-        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Dark Pro 3.5 kW</strong> is proof that premium design and professional heating performance can go hand in hand. This model is the perfect match for dark-toned, modern interior styles, while its technical features provide security even during the harshest winters.</p>
@@ -3370,11 +3378,11 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
-        { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
-        { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
-        { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
+      { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
+      { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
+      { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-dark-pro-inverter-5-3-kw-klima-szett",
@@ -3396,7 +3404,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -3411,7 +3419,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Dark Pro 5,3 kW</strong> az ideális választás nagyobb nappalikba, amerikai konyhás terekbe vagy irodákba, ahol a stílusos megjelenés mellett nagy hűtési és fűtési kapacitásra van szükség. A szálcsiszolt hatású sötétszürke beltéri egység tekintélyt parancsoló, mégis elegáns megjelenést kölcsönöz a helyiségnek.</p>
@@ -3440,7 +3448,7 @@ export const products: Product[] = [
         "-25°C heating operating range",
         "7-speed fan (Extra quiet)",
         "Crankcase heater",
-        "Base pan heater"
+        "Base pan heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -3455,7 +3463,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase heater", value: "Yes" },
         { label: "Base pan heater", value: "Yes" },
-        { label: "Extra quiet mode", value: "Yes (from 19 dB)" }
+        { label: "Extra quiet mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Dark Pro 5.3 kW</strong> is the ideal choice for larger living rooms, open-plan areas, or offices where high cooling and heating capacity is required alongside stylish design. The brushed-effect dark gray indoor unit adds a commanding yet elegant touch to any interior.</p>
@@ -3476,11 +3484,11 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
-        { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
-        { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
-        { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "dark-pro-1.jpg", width: 1200, height: 1200 },
+      { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
+      { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
+      { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-smart-one-inverter-2-7-kw-klima-szett",
@@ -3504,7 +3512,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -3521,7 +3529,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Smart One (Smart R) 2,7 kW</strong> a bizonyíték arra, hogy a legmodernebb technológia kis helyen is elfér. Ezt a modellt kifejezetten hálószobákba és kisebb helyiségekbe tervezték, ahol a precíz hőmérséklet-szabályozás és a tökéletes csend elengedhetetlen a pihenéshez.</p>
@@ -3552,7 +3560,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan (Extra Quiet)",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -3569,7 +3577,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
-        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" }
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Smart One (Smart R) 2.7 kW</strong> is proof that the most advanced technology can fit into small spaces. This model is specifically designed for bedrooms and smaller rooms where precise temperature control and perfect silence are essential for rest.</p>
@@ -3590,11 +3598,11 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-03.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-03.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-smart-one-inverter-3-5-kw-klima-szett",
@@ -3618,7 +3626,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -3635,7 +3643,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Smart One (Smart R) 3,5 kW</strong> a lakossági légkondicionálók új generációját képviseli. Ez a készülék nem csupán hűt és fűt, hanem a beépített <strong>Gree-AI</strong> technológiának köszönhetően aktívan tanul a környezetéből és a felhasználói szokásokból, így folyamatosan optimalizálja az energiafelhasználást a maximális komfort mellett.</p>
@@ -3666,7 +3674,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan (Extra Quiet)",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -3683,7 +3691,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
-        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" }
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Smart One (Smart R) 3.5 kW</strong> represents the next generation of residential air conditioning. Beyond cooling and heating, its built-in <strong>Gree-AI</strong> technology actively learns from the environment and user habits, continuously optimizing energy consumption while maintaining maximum comfort.</p>
@@ -3704,11 +3712,11 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-03.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-03.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-smart-one-inverter-5-3-kw-klima-szett",
@@ -3732,7 +3740,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -3749,7 +3757,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Smart One (Smart R) 5,3 kW</strong> a tökéletes választás tágas nappalikhoz, egybefüggő amerikai konyhás terekhez vagy irodákhoz. Ez a készülék a nyers erőt ötvözi a legfinomabb intelligens vezérléssel, így nagy légtömeg mozgatása mellett is képes az energiatakarékos és csendes működésre.</p>
@@ -3780,7 +3788,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan (Extra Quiet)",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -3797,7 +3805,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
-        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" }
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Smart One (Smart R) 5.3 kW</strong> is the perfect choice for spacious living rooms, open-plan areas, or offices. This unit combines raw power with the most refined intelligent control, enabling energy-efficient and quiet operation even when moving large volumes of air.</p>
@@ -3818,11 +3826,11 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-03.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-03.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-smart-one-inverter-6-5-kw-klima-szett",
@@ -3846,7 +3854,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor (Extra csendes)",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "6,5 kW" },
@@ -3863,7 +3871,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3+2 év" },
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
-        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" }
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Smart One (Smart R) 7,1 kW</strong> a megoldás, ahol nincs kompromisszum a teljesítmény terén. Ezt a készüléket kifejezetten nagy alapterületű helyiségekhez, bemutatótermekhez vagy tágas családi házakhoz tervezték, ahol a nagy légtömeg gyors és hatékony lehűtése vagy felfűtése a cél.</p>
@@ -3894,7 +3902,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan (Extra Quiet)",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "6.5 kW" },
@@ -3911,7 +3919,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3+2 years" },
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
-        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" }
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Smart One (Smart R) 7.1 kW</strong> is the no-compromise solution for maximum performance. This unit is specifically designed for large areas, showrooms, or spacious family homes where the goal is to cool or heat high air volumes quickly and efficiently.</p>
@@ -3932,11 +3940,11 @@ export const products: Product[] = [
     powerHeating: 7.0,
     roomSize: "66-120",
     pics: [
-        { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-03.jpg", width: 1000, height: 1000 },
-        { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "smart-r-01-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-02-1.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-03.jpg", width: 1000, height: 1000 },
+      { src: "smart-r-04-1.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-airy-inverter-2-7-kw-klima-szett",
@@ -3962,7 +3970,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -3970,7 +3978,10 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "8–28 m²" },
         { label: "Hűtési energiaosztály", value: "A+++" },
         { label: "Fűtési energiaosztály", value: "A++" },
-        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        {
+          label: "Intelligens szabályozás",
+          value: "Gree-AI + Páratartalom kontroll",
+        },
         { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
         { label: "Fűtési működési tartomány", value: "-25°C" },
         { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
@@ -3978,7 +3989,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Airy 2,7 kW</strong> a jövő légkondicionálója, amely az eleganciát és a legmagasabb szintű technológiai innovációt egyesíti. Ez a modell nem csupán a hőmérsékletet figyeli, hanem a környezet teljes komfortérzetét kezeli, beleértve a páratartalmat és a levegő sterilitását is.</p>
@@ -4011,7 +4022,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -4027,7 +4038,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Airy 2.7 kW</strong> is the air conditioner of the future, combining elegance with the highest level of technological innovation. This model doesn't just monitor temperature; it manages the overall comfort of the environment, including humidity and air sterility.</p>
@@ -4048,12 +4059,12 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "ariy-02.jpg", width: 1000, height: 1000 },
-        { src: "ariy-03.jpg", width: 1000, height: 1000 },
-        { src: "ariy-05.jpg", width: 1000, height: 1000 },
-        { src: "ariy-04.jpg", width: 1000, height: 1000 },
-        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "ariy-02.jpg", width: 1000, height: 1000 },
+      { src: "ariy-03.jpg", width: 1000, height: 1000 },
+      { src: "ariy-05.jpg", width: 1000, height: 1000 },
+      { src: "ariy-04.jpg", width: 1000, height: 1000 },
+      { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-airy-inverter-3-5-kw-klima-szett",
@@ -4079,7 +4090,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -4087,7 +4098,10 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Hűtési energiaosztály", value: "A+++" },
         { label: "Fűtési energiaosztály", value: "A++" },
-        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        {
+          label: "Intelligens szabályozás",
+          value: "Gree-AI + Páratartalom kontroll",
+        },
         { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
         { label: "Fűtési működési tartomány", value: "-25°C" },
         { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
@@ -4095,7 +4109,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Airy 3,5 kW</strong> a modern otthonok esztétikai és technológiai központja. Ez a modell a Gree legújabb innovációit ötvözi egy rendkívül elegáns, texturált előlappal rendelkező készülékházban, amely nemcsak hűti vagy fűti a teret, hanem aktívan alakítja a helyiség klímáját.</p>
@@ -4128,7 +4142,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -4144,7 +4158,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Airy 3.5 kW</strong> is the aesthetic and technological center of modern homes. This model combines Gree's latest innovations in a highly elegant casing with a textured front panel, which doesn't just cool or heat the space but actively shapes the overall room climate.</p>
@@ -4165,12 +4179,12 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "ariy-02.jpg", width: 1000, height: 1000 },
-        { src: "ariy-03.jpg", width: 1000, height: 1000 },
-        { src: "ariy-05.jpg", width: 1000, height: 1000 },
-        { src: "ariy-04.jpg", width: 1000, height: 1000 },
-        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "ariy-02.jpg", width: 1000, height: 1000 },
+      { src: "ariy-03.jpg", width: 1000, height: 1000 },
+      { src: "ariy-05.jpg", width: 1000, height: 1000 },
+      { src: "ariy-04.jpg", width: 1000, height: 1000 },
+      { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-airy-inverter-5-3-kw-klima-szett",
@@ -4196,7 +4210,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -4204,7 +4218,10 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A+++" },
         { label: "Fűtési energiaosztály", value: "A++" },
-        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        {
+          label: "Intelligens szabályozás",
+          value: "Gree-AI + Páratartalom kontroll",
+        },
         { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
         { label: "Fűtési működési tartomány", value: "-25°C" },
         { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
@@ -4212,7 +4229,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Airy 5,3 kW</strong> a prémium klimatizálás erejét hozza el tágas nappalijába vagy irodájába. Ez a modell a kifinomult texturált dizájnt ötvözi a nagy légtömegek precíz kezelésével, így még nagyobb alapterületen is képes fenntartani a tökéletes komfortérzetet.</p>
@@ -4245,7 +4262,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -4261,7 +4278,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Airy 5.3 kW</strong> brings the power of premium air conditioning to your spacious living room or office. This model combines sophisticated textured design with precise handling of high air volumes, maintaining perfect comfort even across larger floor areas.</p>
@@ -4282,12 +4299,12 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "ariy-02.jpg", width: 1000, height: 1000 },
-        { src: "ariy-03.jpg", width: 1000, height: 1000 },
-        { src: "ariy-05.jpg", width: 1000, height: 1000 },
-        { src: "ariy-04.jpg", width: 1000, height: 1000 },
-        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "ariy-02.jpg", width: 1000, height: 1000 },
+      { src: "ariy-03.jpg", width: 1000, height: 1000 },
+      { src: "ariy-05.jpg", width: 1000, height: 1000 },
+      { src: "ariy-04.jpg", width: 1000, height: 1000 },
+      { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-airy-inverter-7-1-kw-klima-szett",
@@ -4313,7 +4330,7 @@ export const products: Product[] = [
         "-25°C-os fűtési működési tartomány",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -4321,7 +4338,10 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "76–100 m²" },
         { label: "Hűtési energiaosztály", value: "A+++" },
         { label: "Fűtési energiaosztály", value: "A++" },
-        { label: "Intelligens szabályozás", value: "Gree-AI + Páratartalom kontroll" },
+        {
+          label: "Intelligens szabályozás",
+          value: "Gree-AI + Páratartalom kontroll",
+        },
         { label: "Légtisztítás", value: "UV-C szűrő + Cold Plasma" },
         { label: "Fűtési működési tartomány", value: "-25°C" },
         { label: "Zajszint", value: "Extra csendes (19 dB-től)" },
@@ -4329,7 +4349,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Airy 7,1 kW</strong> a megoldás, ahol a kiemelkedő stílusnak hatalmas erővel kell párosulnia. Ezt a modellt kifejezetten tágas nappalikhoz, egybefüggő amerikai konyhás terekhez vagy irodákhoz tervezték, ahol a nagy légtömeg gyors hűtése és fűtése mellett elvárás az intelligens vezérlés és az elegáns megjelenés is.</p>
@@ -4362,7 +4382,7 @@ export const products: Product[] = [
         "-25°C Heating Operating Range",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -4378,7 +4398,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Airy 7.1 kW</strong> is the solution where outstanding style must meet immense power. This model is specifically designed for spacious living rooms, open-plan areas, or offices where high-capacity cooling and heating are required alongside intelligent control and elegant design.</p>
@@ -4399,12 +4419,12 @@ export const products: Product[] = [
     powerHeating: 7.8,
     roomSize: "66-120",
     pics: [
-        { src: "ariy-02.jpg", width: 1000, height: 1000 },
-        { src: "ariy-03.jpg", width: 1000, height: 1000 },
-        { src: "ariy-05.jpg", width: 1000, height: 1000 },
-        { src: "ariy-04.jpg", width: 1000, height: 1000 },
-        { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "ariy-02.jpg", width: 1000, height: 1000 },
+      { src: "ariy-03.jpg", width: 1000, height: 1000 },
+      { src: "ariy-05.jpg", width: 1000, height: 1000 },
+      { src: "ariy-04.jpg", width: 1000, height: 1000 },
+      { src: "gree-taviranyito.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-amber-royal-inverter-2-7-kw-klima-szett",
@@ -4427,7 +4447,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -4442,7 +4462,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3+2 év" }
+        { label: "Garancia", value: "3+2 év" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Amber Royal 2,7 kW</strong> a mérnöki precizitás csúcsa, ha fűtésről van szó. Ezt a készüléket nem csupán kiegészítő fűtésre tervezték: a speciális technológiai megoldásai révén a legzordabb északi teleken is magabiztosan állja meg a helyét mint önálló fűtési rendszer.</p>
@@ -4472,7 +4492,7 @@ export const products: Product[] = [
         "8°C Heating",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -4487,7 +4507,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Amber Royal 2.7 kW</strong> is the pinnacle of engineering when it comes to heating. This unit is not just designed for supplemental heating: through its specialized technological solutions, it stands its ground as an independent heating system even during the harshest northern winters.</p>
@@ -4508,11 +4528,11 @@ export const products: Product[] = [
     powerHeating: 3.5,
     roomSize: "8-28",
     pics: [
-        { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-amber-royal-inverter-3-5-kw-klima-szett",
@@ -4535,7 +4555,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -4550,7 +4570,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Amber Royal 3,5 kW</strong> a fűtésre optimalizált klímaberendezések etalonja. Kifejezetten a mérsékelt égöv szélsőségeire tervezték, ahol a megbízható fűtés nem opció, hanem alapkövetelmény. A Dual Stage technológiának köszönhetően ez a készülék akkor is magabiztosan fűt, amikor a hagyományos hőszivattyúk már veszítenek hatékonyságukból.</p>
@@ -4580,7 +4600,7 @@ export const products: Product[] = [
         "8°C Heating",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -4595,7 +4615,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Amber Royal 3.5 kW</strong> is the gold standard for heating-optimized air conditioners. It is specifically designed for the extremes of temperate climates, where reliable heating is a fundamental requirement. Thanks to Dual Stage technology, this unit continues to heat confidently when traditional heat pumps begin to lose their efficiency.</p>
@@ -4616,11 +4636,11 @@ export const products: Product[] = [
     powerHeating: 4.2,
     roomSize: "29-45",
     pics: [
-        { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-amber-royal-inverter-5-3-kw-klima-szett",
@@ -4643,7 +4663,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "7 fokozatú ventilátor",
         "Karterfűtés",
-        "Csepptálca fűtés"
+        "Csepptálca fűtés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -4658,7 +4678,7 @@ export const products: Product[] = [
         { label: "Karterfűtés", value: "Igen" },
         { label: "Csepptálca fűtés", value: "Igen" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év +2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Amber Royal 5,3 kW</strong> a tökéletes választás azoknak, akik egy nagyobb alapterületű otthont vagy irodát szeretnének teljes mértékben kiváltani gázfűtésről. Ez a készülék a nyers erőt és a speciális Dual Stage technológiát ötvözi, hogy a leghidegebb téli éjszakákon is stabil meleget biztosítson.</p>
@@ -4688,7 +4708,7 @@ export const products: Product[] = [
         "8°C Heating",
         "7-speed fan",
         "Crankcase Heater",
-        "Base Pan Heater"
+        "Base Pan Heater",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -4703,7 +4723,7 @@ export const products: Product[] = [
         { label: "Crankcase Heater", value: "Yes" },
         { label: "Base Pan Heater", value: "Yes" },
         { label: "H-tariff eligible", value: "Yes" },
-        { label: "Warranty", value: "3 years +2 years for the compressor" }
+        { label: "Warranty", value: "3 years +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Amber Royal 5.3 kW</strong> is the perfect choice for those looking to fully replace gas heating in a larger home or office. This unit combines raw power with specialized Dual Stage technology to provide stable warmth even on the coldest winter nights.</p>
@@ -4724,11 +4744,11 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
-        { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "amber_royal_01.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_02.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_03.jpg", width: 1000, height: 1000 },
+      { src: "amber_royal_04.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-multi-inverter-4-1-kw-kulteri-egyseg",
@@ -4748,7 +4768,7 @@ export const products: Product[] = [
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
         "Intelligens leolvasztás",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "4,1 kW" },
@@ -4763,7 +4783,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "40 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 4,1 kW kültéri egység</strong> a modern épületgépészet egyik legpraktikusabb megoldása, amikor korlátozott hely áll rendelkezésre a kültéri egységek elhelyezésére. Ez a berendezés központi egységként funkcionál, amelyre akár két különböző típusú beltéri egység is csatlakoztatható, legyen szó fali, kazettás, konzol vagy légcsatornázható kivitelről. Ezzel a megoldással nemcsak az épület homlokzatának esztétikáját óvhatjuk meg, hanem jelentősen csökkenthetjük a telepítési és karbantartási költségeket is.</p>
@@ -4792,7 +4812,7 @@ export const products: Product[] = [
         "Base Pan Heater",
         "-22°C Heating range",
         "Intelligent defrosting",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "4.1 kW" },
@@ -4807,7 +4827,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "40 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 4.1 kW outdoor unit</strong> is one of the most practical solutions in modern building climate control, especially when outdoor installation space is limited. This unit acts as a central hub, allowing the connection of up to two indoor units of different types, such as wall-mounted, cassette, console, or ducted models. This approach not only preserves the aesthetic appeal of the building's facade but also significantly reduces installation and long-term maintenance costs.</p>
@@ -4829,9 +4849,7 @@ export const products: Product[] = [
     powerCooling: 4.1,
     powerHeating: 4.4,
     roomSize: null,
-    pics: [
-        { src: "gree-kulteri-01.jpg", width: 1200, height: 1200 },
-    ]
+    pics: [{ src: "gree-kulteri-01.jpg", width: 1200, height: 1200 }],
   },
   {
     id: "gree-multi-inverter-5-3-kw-kulteri-egyseg",
@@ -4851,7 +4869,7 @@ export const products: Product[] = [
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
         "Intelligens leolvasztás",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -4866,7 +4884,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "40 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 5,3 kW kültéri egység (GWHD(18)NK6OO)</strong> a hatékonyság és a megbízhatóság jegyében született. Ezt a modellt kifejezetten olyan ingatlanokhoz tervezték, ahol két helyiség egyidejű klimatizálása a cél, de a helyszíni adottságok vagy az esztétikai szempontok csak egyetlen kültéri egység telepítését teszik lehetővé. Az 5,3 kW-os hűtési teljesítmény magabiztos tartalékot nyújt a legforróbb nyári napokon is, biztosítva a gyors és egyenletes hűtést mindkét csatlakoztatott helyiségben.</p>
@@ -4895,7 +4913,7 @@ export const products: Product[] = [
         "Base Pan Heater",
         "-22°C Heating range",
         "Intelligent defrosting",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -4910,7 +4928,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "40 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 5.3 kW outdoor unit (GWHD(18)NK6OO)</strong> is engineered for maximum efficiency and reliability. This model is specifically designed for properties where cooling and heating two rooms simultaneously is required, but site conditions or aesthetic preferences allow for the installation of only a single outdoor unit. With a 5.3 kW cooling capacity, it provides a solid power reserve even on the hottest summer days, ensuring fast and consistent climate control in both connected spaces.</p>
@@ -4932,9 +4950,7 @@ export const products: Product[] = [
     powerCooling: 5.3,
     powerHeating: 5.65,
     roomSize: null,
-    pics: [
-        { src: "gree-kulteri-01.jpg", width: 1200, height: 1200 },
-    ]
+    pics: [{ src: "gree-kulteri-01.jpg", width: 1200, height: 1200 }],
   },
   {
     id: "gree-multi-inverter-7-1-kw-kulteri-egyseg",
@@ -4954,7 +4970,7 @@ export const products: Product[] = [
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
         "Intelligens leolvasztás",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -4969,7 +4985,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "60 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 7,1 kW kültéri egység</strong> a prémium kategóriás lakásklimatizálás egyik alapköve. Ez a nagy teljesítményű berendezés lehetővé teszi, hogy egyetlen központi egységre akár három különálló beltéri egységet csatlakoztasson, így tökéletes választás háromszobás lakások, kisebb családi házak vagy többszobás irodák hűtésére és fűtésére. A 7,1 kW-os hűtési kapacitás bőséges energiát biztosít ahhoz, hogy a lakás minden pontján egyszerre élvezhessük a tökéletes komfortot.</p>
@@ -4998,7 +5014,7 @@ export const products: Product[] = [
         "Base Pan Heater",
         "-22°C Heating range",
         "Intelligent defrosting",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -5013,7 +5029,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "60 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 7.1 kW outdoor unit</strong> is a cornerstone of premium residential climate control. This high-performance unit allows you to connect up to three separate indoor units to a single central hub, making it the perfect choice for cooling and heating three-room apartments, small family houses, or multi-room offices. The 7.1 kW cooling capacity provides ample energy to ensure perfect comfort throughout the entire property simultaneously.</p>
@@ -5035,9 +5051,7 @@ export const products: Product[] = [
     powerCooling: 7.1,
     powerHeating: 8.6,
     roomSize: null,
-    pics: [
-        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
-    ]
+    pics: [{ src: "gree-kulteri-02.jpg", width: 1200, height: 1200 }],
   },
   {
     id: "gree-multi-inverter-8-kw-kulteri-egyseg",
@@ -5057,7 +5071,7 @@ export const products: Product[] = [
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
         "Intelligens leolvasztás",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "8,0 kW" },
@@ -5072,7 +5086,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "70 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 8,0 kW kültéri egység</strong> a professzionális otthoni klimatizálás egyik leghatékonyabb eszköze. Ez a robusztus berendezés központi egységként szolgálva akár négy különálló beltéri egységet is képes kiszolgálni, így alkalmassá válik komplett lakások, többszintes családi házak vagy irodák teljes körű hűtésére és fűtésére. A 8,0 kW-os teljesítmény garantálja, hogy még extrém hőségben is stabil és egyenletes maradjon a hőmérséklet minden érintett helyiségben.</p>
@@ -5101,7 +5115,7 @@ export const products: Product[] = [
         "Base Pan Heater",
         "-22°C Heating range",
         "Intelligent defrosting",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "8.0 kW" },
@@ -5116,7 +5130,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "70 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 8.0 kW outdoor unit</strong> is one of the most efficient tools for professional residential climate control. Serving as a robust central hub, this unit can power up to four separate indoor units, making it suitable for the comprehensive cooling and heating of entire apartments, multi-story family homes, or offices. The 8.0 kW capacity ensures that even during extreme heat, the temperature remains stable and consistent across all connected rooms.</p>
@@ -5138,9 +5152,7 @@ export const products: Product[] = [
     powerCooling: 8.0,
     powerHeating: 9.5,
     roomSize: null,
-    pics: [
-        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
-    ]
+    pics: [{ src: "gree-kulteri-02.jpg", width: 1200, height: 1200 }],
   },
   {
     id: "gree-multi-inverter-10-6-kw-kulteri-egyseg",
@@ -5160,7 +5172,7 @@ export const products: Product[] = [
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
         "Intelligens leolvasztás",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "10,6 kW" },
@@ -5175,7 +5187,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "80 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 10,6 kW kültéri egység</strong> (GWHD(36)NK6OO) a nagy teljesítményű multi split rendszerek egyik legstabilabb tagja. Ezt a készüléket kifejezetten olyan tágas ingatlanokhoz tervezték, ahol akár négy különálló helyiség (például egy nagy nappali és három hálószoba) független klimatizálása a feladat egyetlen, nagy hatásfokú kültéri egységgel. A dupla ventilátoros felépítés garantálja az optimális hőcserét és a csendes működést még teljes terhelés mellett is.</p>
@@ -5204,7 +5216,7 @@ export const products: Product[] = [
         "Base Pan Heater",
         "-22°C Heating range",
         "Intelligent defrosting",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "10.6 kW" },
@@ -5219,7 +5231,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "80 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 10.6 kW outdoor unit</strong> (GWHD(36)NK6OO) is a highly reliable component for large-scale multi-split systems. This unit is specifically designed for spacious properties where the independent climate control of up to four separate rooms (e.g., a large living room and three bedrooms) is required using a single, high-efficiency outdoor unit. The dual-fan design guarantees optimal heat exchange and quiet operation even under full load.</p>
@@ -5241,9 +5253,7 @@ export const products: Product[] = [
     powerCooling: 10.6,
     powerHeating: 12,
     roomSize: null,
-    pics: [
-        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
-    ]
+    pics: [{ src: "gree-kulteri-02.jpg", width: 1200, height: 1200 }],
   },
   {
     id: "gree-multi-inverter-12-1-kw-kulteri-egyseg",
@@ -5263,7 +5273,7 @@ export const products: Product[] = [
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
         "Intelligens leolvasztás",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
@@ -5278,7 +5288,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "100 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 12,1 kW kültéri egység</strong> (GWHD(42)NK6OO) a lakossági és kisüzemi multi-split rendszerek csúcskategóriáját képviseli. Ezt a berendezést kifejezetten olyan komplex feladatokra tervezték, ahol egyetlen kültéri egységgel kell megoldani akár öt különböző helyiség – például egy nappali, három hálószoba és egy dolgozószoba – teljes körű klimatizálását. A 12,1 kW-os hűtési erőforrás és a dupla ventilátoros technológia biztosítja, hogy a rendszer még a legforróbb nyári napokon is stabilan és hatékonyan üzemeljen.</p>
@@ -5307,7 +5317,7 @@ export const products: Product[] = [
         "Base Pan Heater",
         "-22°C Heating range",
         "Intelligent defrosting",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "12.1 kW" },
@@ -5322,7 +5332,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "100 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 12.1 kW outdoor unit</strong> (GWHD(42)NK6OO) represents the top tier of residential and light commercial multi-split systems. This unit is specifically designed for complex tasks where a single outdoor unit must provide comprehensive climate control for up to five different rooms – such as a living room, three bedrooms, and a study. The 12.1 kW cooling capacity and dual-fan technology ensure the system remains stable and efficient even on the hottest summer days.</p>
@@ -5344,9 +5354,7 @@ export const products: Product[] = [
     powerCooling: 12.1,
     powerHeating: 13,
     roomSize: null,
-    pics: [
-        { src: "gree-kulteri-02.jpg", width: 1200, height: 1200 },
-    ]
+    pics: [{ src: "gree-kulteri-02.jpg", width: 1200, height: 1200 }],
   },
   {
     id: "gree-multi-inverter-hydromulti-10-6-kw-kulteri-egyseg",
@@ -5366,7 +5374,7 @@ export const products: Product[] = [
         "Karterfűtés",
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "10,6 kW" },
@@ -5382,7 +5390,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "80 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 10,6 kW (GWHD(36)NK6RO)</strong> kültéri egység túllép a hagyományos légkondicionálók korlátain. Ez a speciális, hibrid technológiás modell a <strong>Multi+ (Multi Hybrid)</strong> sorozat tagja, amelynek egyedülálló képessége, hogy a lakás hűtése és fűtése mellett a használati meleg víz (HMV) előállítását is elvégzi. Egy opcionális vízoldali egység (hidrobox) csatlakoztatásával a rendszer képes a hűtés során keletkező hulladékhőt a víz melegítésére fordítani, ami rendkívül magas energiahatékonyságot és alacsonyabb rezsiköltséget eredményez.</p>
@@ -5410,7 +5418,7 @@ export const products: Product[] = [
         "Crankcase Heater",
         "Base Pan Heater",
         "-22°C Heating range",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "10.6 kW" },
@@ -5426,7 +5434,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "80 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 10.6 kW (GWHD(36)NK6RO)</strong> outdoor unit goes beyond the limitations of traditional air conditioners. This specialized hybrid technology model is part of the <strong>Multi+ (Multi Hybrid)</strong> series, featuring the unique ability to produce domestic hot water (DHW) in addition to cooling and heating the home. By connecting an optional water-side unit (hydrobox), the system can utilize the waste heat generated during cooling to heat water, resulting in extremely high energy efficiency and lower utility bills.</p>
@@ -5449,8 +5457,8 @@ export const products: Product[] = [
     powerHeating: 12,
     roomSize: null,
     pics: [
-        { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-multi-inverter-hydromulti-12-1-kw-kulteri-egyseg",
@@ -5470,7 +5478,7 @@ export const products: Product[] = [
         "Karterfűtés",
         "Csepptálca fűtés",
         "-22°C-os fűtési tartomány",
-        "Inverteres technológia"
+        "Inverteres technológia",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
@@ -5486,7 +5494,7 @@ export const products: Product[] = [
         { label: "Működési tartomány (Fűtés)", value: "-22°C – +24°C" },
         { label: "Max. össz csőhossz", value: "100 m" },
         { label: "Max. szintkülönbség", value: "15 m" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
           <p>A <strong>Gree Multi Inverter 12,1 kW (GWHD(42)NK6RO)</strong> a Gree hibrid technológiájának csúcsmodellje, amely minden eddiginél nagyobb szabadságot ad az otthoni gépészet kialakításában. Ez a <strong>Multi+ (Multi Hybrid)</strong> kültéri egység nem csupán a helyiségek hűtéséért és fűtéséért felel, hanem akár <strong>öt független beltéri egység</strong> kiszolgálására is képes, miközben egy opcionális hidrobox segítségével a használati meleg víz (HMV) előállítását is elvégzi.</p>
@@ -5514,7 +5522,7 @@ export const products: Product[] = [
         "Crankcase Heater",
         "Base Pan Heater",
         "-22°C Heating range",
-        "Inverter Technology"
+        "Inverter Technology",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "12.1 kW" },
@@ -5530,7 +5538,7 @@ export const products: Product[] = [
         { label: "Operating range (Heating)", value: "-22°C – +24°C" },
         { label: "Max. total pipe length", value: "80 m" },
         { label: "Max. height difference", value: "15 m" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Multi Inverter 12.1 kW (GWHD(42)NK6RO)</strong> is the flagship of Gree's hybrid technology, offering more freedom than ever in home mechanical design. This <strong>Multi+ (Multi Hybrid)</strong> outdoor unit is not only responsible for cooling and heating but is also capable of serving up to <strong>five independent indoor units</strong>, while simultaneously producing domestic hot water (DHW) via an optional hydrobox.</p>
@@ -5553,8 +5561,8 @@ export const products: Product[] = [
     powerHeating: 13,
     roomSize: null,
     pics: [
-        { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
-    ]
+      { src: "gree-kulteri-tartaly-kulteri.jpg", width: 1200, height: 1200 },
+    ],
   },
   {
     id: "gree-fm-kazettas-inverter-3-5-kw-klima-belteri-egyseg",
@@ -5572,7 +5580,7 @@ export const products: Product[] = [
         "360°-os légbefúvás",
         "Huzatmentes komfort",
         "Beépített vízszivattyú",
-        "Csendes működés"
+        "Csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -5582,7 +5590,7 @@ export const products: Product[] = [
         { label: "Beépítési méret", value: "570 x 570 mm (álmennyezet fölé)" },
         { label: "Légterelés", value: "4 irányú, körkörös" },
         { label: "Zajszint", value: "Kiemelkedően halk" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match légcsatornás beltéri egység (3,5 kW)</strong> a modern minimalizmus jegyében született. Ideális választás azoknak, akik nem szeretnének látványos klímaberendezéseket a falon, mégis elvárják a professzionális hűtési és fűtési teljesítményt. A készülék az álmennyezet felett rejtve marad, a levegőt pedig diszkrét rácsokon keresztül juttatja a helyiségbe, így a lakás belső tere elegáns és tágas marad.</p>
@@ -5608,7 +5616,7 @@ export const products: Product[] = [
         "360° airflow",
         "Draft-free comfort",
         "Built-in water pump",
-        "Quiet operation"
+        "Quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -5618,7 +5626,7 @@ export const products: Product[] = [
         { label: "Installation size", value: "570 x 570 mm (above ceiling)" },
         { label: "Air distribution", value: "4-way, circular" },
         { label: "Noise level", value: "Extra quiet" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Free Match Ducted Indoor Unit (3.5 kW)</strong> was created in the spirit of modern minimalism. It is the ideal choice for those who prefer not to have visible air conditioning units on their walls but still demand professional cooling and heating performance. The unit remains hidden above the suspended ceiling, delivering air through discreet grilles, ensuring the interior remains elegant and spacious.</p>
@@ -5638,9 +5646,7 @@ export const products: Product[] = [
     powerCooling: 3.5,
     powerHeating: 4.0,
     roomSize: "29-45",
-    pics: [
-        { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "gree-kazettas-1.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-kazettas-inverter-5-kw-klima-belteri-egyseg",
@@ -5658,7 +5664,7 @@ export const products: Product[] = [
         "360°-os légbefúvás",
         "Huzatmentes komfort",
         "Beépített vízszivattyú",
-        "Csendes működés"
+        "Csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5 kW" },
@@ -5668,7 +5674,7 @@ export const products: Product[] = [
         { label: "Beépítési méret", value: "570 x 570 mm (álmennyezet fölé)" },
         { label: "Légterelés", value: "4 irányú, körkörös" },
         { label: "Zajszint", value: "Kiemelkedően halk" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match kazettás klíma (5,0 kW)</strong> ideális megoldás a tágasabb helyiségek diszkrét klimatizálására. A berendezés szinte teljes egésze az álmennyezet síkja felett helyezkedik el, így csak az esztétikus, <strong>650x650 mm-es fehér dekorpanel</strong> látható belőle. Ez a kialakítás lehetővé teszi, hogy a nagy teljesítmény ellenére se kelljen lemondania a belső tér letisztult stílusáról.</p>
@@ -5693,7 +5699,7 @@ export const products: Product[] = [
         "360° airflow",
         "Draft-free comfort",
         "Built-in water pump",
-        "Quiet operation"
+        "Quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5 kW" },
@@ -5703,7 +5709,7 @@ export const products: Product[] = [
         { label: "Installation size", value: "570 x 570 mm (above ceiling)" },
         { label: "Air distribution", value: "4-way, circular" },
         { label: "Noise level", value: "Extra quiet" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Free Match Cassette Indoor Unit (5.0 kW)</strong> is the ideal solution for discreetly controlling the climate in larger spaces. Almost the entire unit is located above the ceiling line, leaving only the aesthetic <strong>650x650 mm white decorative panel</strong> visible. This design allows you to maintain a clean interior style while enjoying high cooling and heating performance.</p>
@@ -5723,9 +5729,7 @@ export const products: Product[] = [
     powerCooling: 5,
     powerHeating: 5.5,
     roomSize: "46-75",
-    pics: [
-        { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "gree-kazettas-1.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-kazettas-inverter-7-kw-klima-belteri-egyseg",
@@ -5743,7 +5747,7 @@ export const products: Product[] = [
         "360°-os légbefúvás",
         "Huzatmentes komfort",
         "Beépített vízszivattyú",
-        "Csendes működés"
+        "Csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7 kW" },
@@ -5753,7 +5757,7 @@ export const products: Product[] = [
         { label: "Beépítési méret", value: "840 x 840 mm" },
         { label: "Légterelés", value: "4 irányú, körkörös" },
         { label: "Zajszint", value: "Csendes működés" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Free Match kazettás klíma (7,1 kW)</strong> a multi rendszerek belső egységeinek legerősebb tagja, amelyet kifejezetten nagy alapterületű helyiségek klimatizálására terveztek. Mivel szinte a teljes készülék az álmennyezet felett helyezkedik el, esztétikus megoldást nyújt ott is, ahol a nagy teljesítmény ellenére fontos a letisztult belső építészeti megjelenés. A látható, modern <strong>950x950 mm-es fehér dekorpanel</strong> professzionális megjelenést kölcsönöz bármilyen térnek.</p>
@@ -5778,7 +5782,7 @@ export const products: Product[] = [
         "360° airflow",
         "Draft-free comfort",
         "Built-in water pump",
-        "Quiet operation"
+        "Quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7 kW" },
@@ -5788,7 +5792,7 @@ export const products: Product[] = [
         { label: "Installation size", value: "840 x 840 mm" },
         { label: "Air distribution", value: "4-way, circular" },
         { label: "Noise level", value: "Quiet operation" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
           <p>The <strong>Gree Free Match Cassette Indoor Unit (7.1 kW)</strong> is the most powerful member of the multi-split indoor lineup, specifically designed for climate-controlling large areas. As nearly the entire unit is hidden above the ceiling, it provides an aesthetic solution where high performance must be paired with clean architectural design. The visible, modern <strong>950x950 mm white decorative panel</strong> lends a professional finish to any space.</p>
@@ -5808,9 +5812,7 @@ export const products: Product[] = [
     powerCooling: 7,
     powerHeating: 8,
     roomSize: "66-120",
-    pics: [
-        { src: "gree-kazettas-1.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "gree-kazettas-1.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-legcsatornas-inverter-2-5-kw-klima-belteri",
@@ -5828,7 +5830,7 @@ export const products: Product[] = [
         "Láthatatlan kivitel",
         "Ultra-lapos ház",
         "Huzatmentes befúvás",
-        "Csendes működés"
+        "Csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,65 kW" },
@@ -5837,7 +5839,7 @@ export const products: Product[] = [
         { label: "Beépítési magasság", value: "200 mm" },
         { label: "Zajszint", value: "Nagyon halk" },
         { label: "Vezérlés", value: "Fali vezetékes vagy infra távvezérlő" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match légcsatornás beltéri egység (2,65 kW)</strong> a legkifinomultabb megoldás azok számára, akik úgy szeretnék élvezni a tökéletes hőmérsékletet, hogy közben a klímaberendezés teljesen láthatatlan marad. Ezt az egységet az álmennyezet fölé vagy egy külön gépészeti helyiségbe építik be, a kezelt levegő pedig észrevétlen szellőzőrácsokon keresztül érkezik a szobába. Mivel nincs látható beltéri egység a falon, semmi sem töri meg a lakás belső dizájnját.</p>
@@ -5862,7 +5864,7 @@ export const products: Product[] = [
         "Ultra-slim design",
         "Draft-free distribution",
         "Built-in pump",
-        "Quiet operation"
+        "Quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.65 kW" },
@@ -5871,7 +5873,7 @@ export const products: Product[] = [
         { label: "Installation height", value: "200 mm" },
         { label: "Noise level", value: "Very quiet" },
         { label: "Control", value: "Wired wall or IR remote" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Free Match Ducted Indoor Unit (2.65 kW)</strong> is the most sophisticated solution for those who want to enjoy the perfect temperature while the air conditioning remains completely invisible. This unit is installed above the suspended ceiling or in a separate utility space, with conditioned air delivered to the room through discreet ventilation grilles. Since there is no visible indoor unit on the wall, nothing disrupts the home's interior design.</p>
@@ -5891,9 +5893,7 @@ export const products: Product[] = [
     powerCooling: 2.65,
     powerHeating: 2.8,
     roomSize: "8-28",
-    pics: [
-        { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "gree-legcsatornas.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-legcsatornas-inverter-3-5-kw-klima-belteri",
@@ -5911,7 +5911,7 @@ export const products: Product[] = [
         "Ultra-lapos kialakítás",
         "Huzatmentes légelosztás",
         "Beépített szivattyú",
-        "Csendes üzemmód"
+        "Csendes üzemmód",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -5920,7 +5920,7 @@ export const products: Product[] = [
         { label: "Beépítési magasság", value: "200 mm" },
         { label: "Zajszint", value: "Alacsony" },
         { label: "Vízszivattyú", value: "Beépített" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match légcsatornás beltéri egység (3,5 kW)</strong> a modern minimalizmus jegyében született. Ideális választás azoknak, akik nem szeretnének látványos klímaberendezéseket a falon, mégis elvárják a professzionális hűtési és fűtési teljesítményt. A készülék az álmennyezet felett rejtve marad, a levegőt pedig diszkrét rácsokon keresztül juttatja a helyiségbe, így a lakás belső tere elegáns és tágas marad.</p>
@@ -5946,7 +5946,7 @@ export const products: Product[] = [
         "Ultra-slim design",
         "Draft-free distribution",
         "Built-in pump",
-        "Quiet operation"
+        "Quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -5955,7 +5955,7 @@ export const products: Product[] = [
         { label: "Installation height", value: "200 mm" },
         { label: "Noise level", value: "Low" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Free Match Ducted Indoor Unit (3.5 kW)</strong> was created in the spirit of modern minimalism. It is the ideal choice for those who prefer not to have visible air conditioning units on their walls but still demand professional cooling and heating performance. The unit remains hidden above the suspended ceiling, delivering air through discreet grilles, ensuring the interior remains elegant and spacious.</p>
@@ -5975,9 +5975,7 @@ export const products: Product[] = [
     powerCooling: 3.5,
     powerHeating: 3.9,
     roomSize: "29-45",
-    pics: [
-        { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "gree-legcsatornas.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-legcsatornas-inverter-5-kw-klima-belteri",
@@ -5995,7 +5993,7 @@ export const products: Product[] = [
         "Nagy teljesítmény",
         "Huzatmentes légelosztás",
         "Beépített szivattyú",
-        "Csendes üzemmód"
+        "Csendes üzemmód",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,0 kW" },
@@ -6004,7 +6002,7 @@ export const products: Product[] = [
         { label: "Beépítési magasság", value: "200 mm" },
         { label: "Zajszint", value: "Alacsony" },
         { label: "Vízszivattyú", value: "Beépített" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match légcsatornás beltéri egység (5,0 kW)</strong> a láthatatlan klimatizálás erejét hozza el a nagyobb helyiségekbe. Kifejezetten olyan tágas nappalikhoz vagy irodákhoz ajánljuk, ahol az esztétika nem ismer kompromisszumot: a berendezés az álmennyezet felett rejtve marad, így csak a gondosan elhelyezett szellőzőrácsok utalnak a jelenlétére. Ez a megoldás lehetővé teszi a belső tér teljes kihasználását falra szerelt egységek nélkül.</p>
@@ -6029,7 +6027,7 @@ export const products: Product[] = [
         "High performance",
         "Draft-free distribution",
         "Built-in pump",
-        "Quiet operation"
+        "Quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.0 kW" },
@@ -6038,7 +6036,7 @@ export const products: Product[] = [
         { label: "Installation height", value: "200 mm" },
         { label: "Noise level", value: "Low" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Free Match Ducted Indoor Unit (5.0 kW)</strong> brings the power of invisible climate control to larger spaces. It is highly recommended for spacious living rooms or offices where aesthetics are non-negotiable: the unit remains hidden above the ceiling, with only carefully placed ventilation grilles hinting at its presence. This solution allows for full use of the interior space without the need for wall-mounted units.</p>
@@ -6058,9 +6056,7 @@ export const products: Product[] = [
     powerCooling: 5,
     powerHeating: 5.5,
     roomSize: "46-75",
-    pics: [
-        { src: "gree-legcsatornas.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "gree-legcsatornas.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-parapet-inverter-2-6-kw-klima-belteri",
@@ -6078,7 +6074,7 @@ export const products: Product[] = [
         "Kétirányú légbefúvás",
         "Kompakt, lapos ház",
         "Intelligens leolvasztás",
-        "Alacsony zajszint"
+        "Alacsony zajszint",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,6 kW" },
@@ -6087,7 +6083,7 @@ export const products: Product[] = [
         { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
         { label: "Zajszint", value: "Csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match parapet beltéri egység (2,6 kW)</strong> a rugalmasság bajnoka a klímatechnikában. Különleges kialakításának köszönhetően Ön dönti el, hogyan illeszkedik legjobban a szobához: a padlóra helyezve úgy simul a falhoz, mint egy modern radiátor, a mennyezetre szerelve pedig diszkréten, a látótér felett biztosítja a hűvös levegőt. Ez a 2,6 kW-os típus kiválóan alkalmas hálószobákba, tetőtéri helyiségekbe vagy kisebb irodákba.</p>
@@ -6113,7 +6109,7 @@ export const products: Product[] = [
         "Two-way airflow",
         "Compact, slim body",
         "Intelligent defrosting",
-        "Low noise level"
+        "Low noise level",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.6 kW" },
@@ -6122,7 +6118,7 @@ export const products: Product[] = [
         { label: "Placement", value: "Floor or ceiling" },
         { label: "Noise level", value: "Quiet" },
         { label: "Control", value: "IR Remote (included)" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Free Match Floor/Ceiling Indoor Unit (2.6 kW)</strong> is the ultimate champion of flexibility in climate control. Thanks to its unique design, you decide how it best fits your room: placed on the floor, it sits against the wall like a modern radiator, or mounted on the ceiling, it discreetly provides cool air from above the field of vision. This 2.6 kW model is excellent for bedrooms, attic rooms, or small offices.</p>
@@ -6142,9 +6138,7 @@ export const products: Product[] = [
     powerCooling: 2.6,
     powerHeating: 2.7,
     roomSize: "8-28",
-    pics: [
-        { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "cool4u-logo.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-parapet-inverter-3-5-kw-klima-belteri",
@@ -6162,7 +6156,7 @@ export const products: Product[] = [
         "Kétirányú légbefúvás",
         "Kompakt, lapos ház",
         "Intelligens leolvasztás",
-        "Alacsony zajszint"
+        "Alacsony zajszint",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -6171,7 +6165,7 @@ export const products: Product[] = [
         { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
         { label: "Zajszint", value: "Csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree Free Match parapet beltéri egység (3,5 kW)</strong> a rugalmasság és a teljesítmény ötvözete. Különleges kialakításának köszönhetően Ön dönti el, hogyan illeszkedik legjobban a szobához: a padlóra helyezve úgy simul a falhoz, mint egy modern radiátor, a mennyezetre szerelve pedig diszkréten, a látótér felett biztosítja a hűvös levegőt. Ez a 3,5 kW-os típus kiválóan alkalmas nappalikba, tetőtéri helyiségekbe vagy közepes méretű irodákba.</p>
@@ -6196,7 +6190,7 @@ export const products: Product[] = [
         "Two-way airflow",
         "Compact, slim body",
         "Intelligent defrosting",
-        "Low noise level"
+        "Low noise level",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -6205,7 +6199,7 @@ export const products: Product[] = [
         { label: "Placement", value: "Floor or ceiling" },
         { label: "Noise level", value: "Quiet" },
         { label: "Control", value: "IR Remote (included)" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Free Match Floor/Ceiling Indoor Unit (3.5 kW)</strong> combines flexibility with reliable performance. Thanks to its unique design, you decide how it best fits your room: placed on the floor, it sits against the wall like a modern radiator, or mounted on the ceiling, it discreetly provides conditioned air from above. This 3.5 kW model is an ideal choice for living rooms, attic spaces, or medium-sized offices.</p>
@@ -6225,9 +6219,7 @@ export const products: Product[] = [
     powerCooling: 3.5,
     powerHeating: 4,
     roomSize: "29-45",
-    pics: [
-        { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "cool4u-logo.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-parapet-inverter-4-5-kw-klima-belteri",
@@ -6245,7 +6237,7 @@ export const products: Product[] = [
         "Kétirányú légbefúvás",
         "Kompakt, lapos ház",
         "Intelligens leolvasztás",
-        "Alacsony zajszint"
+        "Alacsony zajszint",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "4,5 kW" },
@@ -6254,7 +6246,7 @@ export const products: Product[] = [
         { label: "Elhelyezés", value: "Padlóra vagy mennyezetre" },
         { label: "Zajszint", value: "Csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő (tartozék)" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Free Match parapet beltéri egység (4,5 kW)</strong> a sokoldalúság és a nyers erő kombinációja. Egyedi felépítése lehetővé teszi, hogy Ön döntse el a telepítés módját: a padlóra állítva úgy funkcionál, mint egy modern, elegáns radiátor, a mennyezet alá függesztve pedig hatékonyan, a látótérből kikerülve hűti vagy fűti a helyiséget. Ez a 4,5 kW-os modell kiváló választás tágas nappalikba, bemutatótermekbe vagy nagyobb irodákba.</p>
@@ -6279,7 +6271,7 @@ export const products: Product[] = [
         "Two-way airflow",
         "Compact, slim body",
         "Intelligent defrosting",
-        "Low noise level"
+        "Low noise level",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "4.5 kW" },
@@ -6288,7 +6280,7 @@ export const products: Product[] = [
         { label: "Placement", value: "Floor or ceiling" },
         { label: "Noise level", value: "Quiet" },
         { label: "Control", value: "IR Remote (included)" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Free Match Floor/Ceiling Indoor Unit (4.5 kW)</strong> is a combination of versatility and raw power. Its unique design allows you to decide the method of installation: placed on the floor, it functions like a modern, elegant radiator, while suspended from the ceiling, it efficiently cools or heats the room while remaining out of the line of sight. This 4.5 kW model is an excellent choice for spacious living rooms, showrooms, or larger offices.</p>
@@ -6308,9 +6300,7 @@ export const products: Product[] = [
     powerCooling: 4.5,
     powerHeating: 5,
     roomSize: "46-75",
-    pics: [
-        { src: "cool4u-logo.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "cool4u-logo.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "gree-fm-konzol-inverter-2-7-kw-klima-belteri",
@@ -6328,7 +6318,7 @@ export const products: Product[] = [
         "Kettős (alsó-felső) kifúvás",
         "Fűtésre optimalizált",
         "Kompakt radiátor-méret",
-        "Halk éjszakai üzemmód"
+        "Halk éjszakai üzemmód",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -6337,7 +6327,7 @@ export const products: Product[] = [
         { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Console beltéri egység (2,7 kW)</strong> a tökéletes választás, ha a fali klímák elhelyezése nem megoldható, vagy ha a fűtési komfort az elsődleges szempont. Ez a berendezés úgy helyezhető el a padlón, mint egy hagyományos radiátor, így diszkréten simul a belső térbe, akár az ablakok alá is telepíthető. A 2,7 kW-os teljesítmény kiválóan alkalmas kisebb és közepes méretű szobák energiahatékony hűtésére és fűtésére.</p>
@@ -6362,7 +6352,7 @@ export const products: Product[] = [
         "Dual (top-bottom) discharge",
         "Heating optimized",
         "Compact radiator size",
-        "Quiet night mode"
+        "Quiet night mode",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -6371,7 +6361,7 @@ export const products: Product[] = [
         { label: "Air distribution", value: "Two-way (for heating)" },
         { label: "Noise level", value: "Extremely quiet" },
         { label: "Control", value: "IR Remote" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Console Indoor Unit (2.7 kW)</strong> is the perfect choice when wall-mounted installation is not feasible or when heating comfort is a top priority. This unit can be placed on the floor much like a traditional radiator, blending discreetly into the interior and fitting perfectly under windows. The 2.7 kW capacity is ideal for energy-efficient cooling and heating of small to medium-sized rooms.</p>
@@ -6392,9 +6382,9 @@ export const products: Product[] = [
     powerHeating: 2.8,
     roomSize: "8-28",
     pics: [
-        { src: "konzol-1.jpg", width: 1000, height: 1000 },
-        { src: "konzol-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "konzol-1.jpg", width: 1000, height: 1000 },
+      { src: "konzol-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-konzol-inverter-3-5-kw-klima-belteri",
@@ -6412,7 +6402,7 @@ export const products: Product[] = [
         "Kettős (alsó-felső) kifúvás",
         "Fűtésre optimalizált",
         "Kompakt radiátor-méret",
-        "Halk éjszakai üzemmód"
+        "Halk éjszakai üzemmód",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -6421,7 +6411,7 @@ export const products: Product[] = [
         { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Console beltéri egység (3,5 kW)</strong> ötvözi a modern technológiát a klasszikus elhelyezhetőséggel. Kiváló alternatívája az oldalfali klímáknak, különösen olyan helyiségekben, ahol a mennyezet közeli szerelés nem esztétikus vagy nem kivitelezhető. A 3,5 kW-os hűtési teljesítmény elegendő erőt biztosít egy tágasabb nappali vagy egy nagyobb dolgozószoba hatékony klimatizálásához.</p>
@@ -6446,7 +6436,7 @@ export const products: Product[] = [
         "Dual (top-bottom) discharge",
         "Heating optimized",
         "Compact radiator size",
-        "Quiet night mode"
+        "Quiet night mode",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -6455,7 +6445,7 @@ export const products: Product[] = [
         { label: "Air distribution", value: "Two-way (for heating)" },
         { label: "Noise level", value: "Extremely quiet" },
         { label: "Control", value: "IR Remote" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Console Indoor Unit (3.5 kW)</strong> combines modern technology with classic placement options. It is an excellent alternative to wall-mounted units, especially in rooms where high-wall installation is not aesthetically pleasing or feasible. The 3.5 kW cooling capacity provides sufficient power to efficiently climate-control a spacious living room or a larger office.</p>
@@ -6476,9 +6466,9 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "konzol-1.jpg", width: 1000, height: 1000 },
-        { src: "konzol-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "konzol-1.jpg", width: 1000, height: 1000 },
+      { src: "konzol-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-konzol-inverter-5-2-kw-klima-belteri",
@@ -6496,7 +6486,7 @@ export const products: Product[] = [
         "Kettős (alsó-felső) kifúvás",
         "Fűtésre optimalizált",
         "Kompakt radiátor-méret",
-        "Halk éjszakai üzemmód"
+        "Halk éjszakai üzemmód",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,2 kW" },
@@ -6505,7 +6495,7 @@ export const products: Product[] = [
         { label: "Légterelés", value: "Kétirányú (fűtésnél)" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Console beltéri egység (5,2 kW)</strong> a sorozat legnagyobb teljesítményű tagja, amely a masszív hűtési és fűtési erőt ötvözi a konzol készülékek minden előnyével. Kifejezetten olyan nagy belmagasságú vagy tágas terekbe ajánljuk, ahol az oldalfali klímák elhelyezése akadályokba ütközik. Radiátor-szerű megjelenése révén diszkréten simul a fal alsó részéhez, akár ablakok alá is telepíthető.</p>
@@ -6530,7 +6520,7 @@ export const products: Product[] = [
         "Dual (top-bottom) discharge",
         "Heating optimized",
         "Compact radiator size",
-        "Quiet night mode"
+        "Quiet night mode",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.2 kW" },
@@ -6539,7 +6529,7 @@ export const products: Product[] = [
         { label: "Air distribution", value: "Two-way (for heating)" },
         { label: "Noise level", value: "Extremely quiet" },
         { label: "Control", value: "IR Remote" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Console Indoor Unit (5.2 kW)</strong> is the most powerful member of the series, combining robust cooling and heating capacity with all the advantages of console-style units. It is specifically recommended for large spaces or rooms with high ceilings where wall-mounted installation is not feasible. With its radiator-like appearance, it blends discreetly into the lower part of the wall and can even be installed under windows.</p>
@@ -6560,9 +6550,9 @@ export const products: Product[] = [
     roomSize: "46-75",
     powerHeating: 5.3,
     pics: [
-        { src: "konzol-1.jpg", width: 1000, height: 1000 },
-        { src: "konzol-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "konzol-1.jpg", width: 1000, height: 1000 },
+      { src: "konzol-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-pulse-inverter-2-2-kw-klima-belteri-egyseg",
@@ -6580,7 +6570,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,2 kW" },
@@ -6590,7 +6580,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Pulse oldalfali beltéri egység (2,2 kW)</strong> a tökéletes egyensúlyt képviseli a funkcionalitás és a modern esztétika között. Kifejezetten kisebb alapterületű helyiségekbe tervezték, ahol fontos a helytakarékos kialakítás és a megbízható teljesítmény. Mattfehér burkolata és minimalista vonalvezetése révén észrevétlenül válik a szoba részévé, legyen szó modern vagy klasszikus berendezésről.</p>
@@ -6615,7 +6605,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.2 kW" },
@@ -6625,7 +6615,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
       <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (2.2 kW)</strong> represents the perfect balance between functionality and modern aesthetics. Specifically designed for smaller rooms, it focuses on space-saving design and reliable performance. With its matte white finish and minimalist lines, it blends effortlessly into any room, whether the interior is modern or classical.</p>
@@ -6646,10 +6636,10 @@ export const products: Product[] = [
     powerHeating: 2.4,
     roomSize: "8-28",
     pics: [
-        { src: "pulse-01.jpg", width: 1000, height: 1000 },
-        { src: "pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "pulse-01.jpg", width: 1000, height: 1000 },
+      { src: "pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-pulse-inverter-2-5-kw-klima-belteri-egyseg",
@@ -6667,7 +6657,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,5 kW" },
@@ -6677,7 +6667,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Pulse oldalfali beltéri egység (2,5 kW)</strong> a modern lakások alapvető kényelmi berendezése. A Pulse sorozatra jellemző mattfehér kivitel és kompakt felépítés lehetővé teszi, hogy a készülék szinte bármilyen belső építészeti stílushoz jól illeszkedjen. A 2,5 kW-os teljesítmény optimális választás a legtöbb lakószobába, ahol fontos a gyors hűtés és a hatékony fűtés.</p>
@@ -6702,7 +6692,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.5 kW" },
@@ -6712,7 +6702,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (2.5 kW)</strong> is an essential comfort appliance for modern apartments. The characteristic matte white finish and compact build of the Pulse series allow the unit to blend seamlessly into almost any interior architectural style. The 2.5 kW capacity is an optimal choice for most residential rooms, providing fast cooling and efficient heating.</p>
@@ -6733,10 +6723,10 @@ export const products: Product[] = [
     powerHeating: 2.8,
     roomSize: "8-28",
     pics: [
-        { src: "pulse-01.jpg", width: 1000, height: 1000 },
-        { src: "pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "pulse-01.jpg", width: 1000, height: 1000 },
+      { src: "pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-pulse-inverter-3-2-kw-klima-belteri-egyseg",
@@ -6754,7 +6744,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,2 kW" },
@@ -6764,7 +6754,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Pulse oldalfali beltéri egység (3,2 kW)</strong> a megbízhatóság és a modern dizájn ötvözete, amely kiválóan alkalmas nappalik vagy nagyobb hálószobák klimatizálására. A mattfehér előlap és a kompakt kialakítás diszkréten illeszkedik a belső térbe, miközben a készülék halk működése zavartalan pihenést biztosít. A 3,2 kW-os teljesítmény garantálja a gyors hűtést a legforróbb nyári napokon is.</p>
@@ -6790,7 +6780,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.2 kW" },
@@ -6800,7 +6790,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (3.2 kW)</strong> is a blend of reliability and modern design, perfectly suited for climate control in living rooms or larger bedrooms. Its matte white front panel and compact build blend discreetly into any interior, while its quiet operation ensures undisturbed rest. The 3.2 kW capacity guarantees rapid cooling even on the hottest summer days.</p>
@@ -6821,10 +6811,10 @@ export const products: Product[] = [
     powerHeating: 3.4,
     roomSize: "29-45",
     pics: [
-        { src: "pulse-01.jpg", width: 1000, height: 1000 },
-        { src: "pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "pulse-01.jpg", width: 1000, height: 1000 },
+      { src: "pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-pulse-inverter-4-6-kw-klima-belteri-egyseg",
@@ -6842,7 +6832,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "4,6 kW" },
@@ -6852,7 +6842,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Pulse oldalfali beltéri egység (4,6 kW)</strong> a sorozat azon tagja, amelynél a stílus és a nyers erő találkozik. Ez a készülék ideális választás 40-55 m² közötti helyiségekbe, ahol a nagy légtömeg mozgatása alapfeltétel a gyors és egyenletes hőmérséklet-szabályozáshoz. A Pulse sorozatra jellemző mattfehér borítás diszkrét eleganciát kölcsönöz a beltéri egységnek, így az nagyobb mérete ellenére sem válik tolakodóvá a belső térben.</p>
@@ -6878,7 +6868,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "4.6 kW" },
@@ -6888,7 +6878,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (4.6 kW)</strong> is where style meets raw power in the series. This unit is the ideal choice for spaces between 40-55 m², where moving a large volume of air is essential for fast and even temperature control. The characteristic matte white finish of the Pulse series provides a discreet elegance, ensuring that despite its higher capacity, the indoor unit does not become intrusive in the interior space.</p>
@@ -6909,10 +6899,10 @@ export const products: Product[] = [
     powerHeating: 5.2,
     roomSize: "46-75",
     pics: [
-        { src: "pulse-01.jpg", width: 1000, height: 1000 },
-        { src: "pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "pulse-01.jpg", width: 1000, height: 1000 },
+      { src: "pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-pulse-inverter-6-2-kw-klima-belteri-egyseg",
@@ -6930,7 +6920,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "6,2 kW" },
@@ -6940,7 +6930,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Extra csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Pulse oldalfali beltéri egység (6,2 kW)</strong> a sorozat legnagyobb és legerősebb tagja, amely kompromisszumok nélküli teljesítményt nyújt a legméretesebb terekben is. Ideális választás nagy belmagasságú helyiségekbe, tágas amerikai konyhás nappalikba vagy irodákba, ahol a gyors és hatékony légcsere elengedhetetlen. A készülék 6,2 kW-os hűtési kapacitása garantálja a kellemes hőmérsékletet még a legextrémebb hőhullámok idején is.</p>
@@ -6965,7 +6955,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "6.2 kW" },
@@ -6975,7 +6965,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Extra quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Pulse Wall-Mounted Indoor Unit (6.2 kW)</strong> is the largest and most powerful member of the series, delivering uncompromising performance even in the most expansive spaces. It is an ideal choice for rooms with high ceilings, spacious open-plan living areas, or offices where fast and efficient air exchange is essential. Its 6.2 kW cooling capacity guarantees a pleasant temperature even during the most extreme heatwaves.</p>
@@ -6996,10 +6986,10 @@ export const products: Product[] = [
     powerHeating: 6.5,
     roomSize: "66-120",
     pics: [
-        { src: "pulse-01.jpg", width: 1000, height: 1000 },
-        { src: "pulse-02.jpg", width: 1000, height: 1000 },
-        { src: "pulse-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "pulse-01.jpg", width: 1000, height: 1000 },
+      { src: "pulse-02.jpg", width: 1000, height: 1000 },
+      { src: "pulse-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-comfort-pro-inverter-2-7-kw-klima-belteri",
@@ -7017,7 +7007,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -7027,7 +7017,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Comfort Pro oldalfali beltéri egység (2,7 kW)</strong> a Gree egyik legkeresettebb közép-felső kategóriás modellje, amely az eleganciát ötvözi a professzionális tudással. A készülék selyemfényű, mattfehér borítása és diszkrét LED kijelzője bármilyen modern belső térbe tökéletesen illeszkedik. A 2,7 kW-os teljesítmény ideális választás hálószobákba vagy kisebb nappalikba, ahol a csendes működés alapfeltétel.</p>
@@ -7052,7 +7042,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -7062,7 +7052,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Comfort Pro Wall-Mounted Indoor Unit (2.7 kW)</strong> is one of Gree's most popular upper-mid-range models, combining elegance with professional capabilities. The unit's silk-finish matte white cover and discreet LED display fit perfectly into any modern interior. The 2.7 kW capacity is an ideal choice for bedrooms or smaller living rooms where quiet operation is a fundamental requirement.</p>
@@ -7083,10 +7073,10 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
-        { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
-        { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
+      { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
+      { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-comfort-pro-inverter-3-5-kw-klima-belteri",
@@ -7104,7 +7094,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -7114,7 +7104,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Comfort Pro oldalfali beltéri egység (3,5 kW)</strong> a kategória egyik legkifinomultabb modellje, amely minden részletében a felhasználói élmény fokozására törekszik. A selyemfényű matt burkolat nemcsak elegáns, de kevésbé gyűjti az ujjlenyomatokat és a port, így hosszú távon is megőrzi esztétikus megjelenését. A 3,5 kW-os kapacitás magabiztosan kezeli a közepes méretű helyiségeket, legyen szó tikkasztó hőségről vagy hűvös átmeneti időszakokról.</p>
@@ -7139,7 +7129,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -7149,7 +7139,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Comfort Pro Wall-Mounted Indoor Unit (3.5 kW)</strong> is one of the most sophisticated models in its category, designed to enhance user experience in every detail. The silk-finish matte cover is not only elegant but also more resistant to fingerprints and dust, maintaining its aesthetic appeal over time. The 3.5 kW capacity confidently handles medium-sized rooms, whether during scorching summer heat or chilly transitional periods.</p>
@@ -7170,10 +7160,10 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
-        { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
-        { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
+      { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
+      { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-comfort-pro-inverter-5-3-kw-klima-belteri",
@@ -7191,7 +7181,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -7201,7 +7191,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Comfort Pro oldalfali beltéri egység (5,3 kW)</strong> a sorozat "erőgépe", amelyet kifejezetten a nagyobb alapterületű helyiségek igényes hűtésére és fűtésére terveztek. A modern, selyemfényű matt fehér burkolat diszkréten simul a falra, így a készülék nagyobb mérete ellenére is esztétikus marad. Az 5,3 kW-os kapacitás ideális választás amerikai konyhás nappalikba vagy tágas irodákba, ahol a gyors és egyenletes hőmérséklet-szabályozás kulcsfontosságú.</p>
@@ -7226,7 +7216,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -7236,7 +7226,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Comfort Pro Wall-Mounted Indoor Unit (5.3 kW)</strong> is the powerhouse of the series, specifically designed for the sophisticated cooling and heating of larger rooms. Its modern, silk-finish matte white cover blends discreetly onto the wall, ensuring the unit remains aesthetic despite its higher capacity. The 5.3 kW capacity is an ideal choice for open-plan living rooms or spacious offices where fast and even temperature control is key.</p>
@@ -7257,10 +7247,10 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "29-45",
     pics: [
-        { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
-        { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
-        { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "comfort-x-1-1.jpg", width: 1000, height: 1000 },
+      { src: "comfort-x-2-2.jpg", width: 1000, height: 1000 },
+      { src: "comfort-x-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-dark-pro-inverter-2-7-kw-klima-belteri",
@@ -7278,7 +7268,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -7288,7 +7278,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Dark Pro oldalfali beltéri egység (2,7 kW)</strong> a népszerű Comfort Pro széria dizájn-orientált változata. A készülék különlegessége a mélyszürke, selyemfényű burkolat, amely diszkrét eleganciát kölcsönöz a helyiségnek, és kiválóan illeszkedik a sötétebb tónusú bútorokhoz vagy betonhatású falfelületekhez. A 2,7 kW-os teljesítmény precíz és halk működéssel párosul, ideálissá téve a készüléket hálószobai elhelyezésre.</p>
@@ -7313,7 +7303,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -7323,7 +7313,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Dark Pro Wall-Mounted Indoor Unit (2.7 kW)</strong> is the design-oriented version of the popular Comfort Pro series. The unit's standout feature is its deep grey, silk-finish housing, which lends a discreet elegance to the room and perfectly complements darker furniture or concrete-effect wall surfaces. The 2.7 kW capacity is paired with precise and quiet operation, making it ideal for bedroom installation.</p>
@@ -7344,10 +7334,10 @@ export const products: Product[] = [
     powerHeating: 3.0,
     roomSize: "8-28",
     pics: [
-        { src: "dark-pro-01.png", width: 1000, height: 1000 },
-        { src: "dark-pro-02.png", width: 1000, height: 1000 },
-        { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "dark-pro-01.png", width: 1000, height: 1000 },
+      { src: "dark-pro-02.png", width: 1000, height: 1000 },
+      { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-dark-pro-inverter-3-5-kw-klima-belteri",
@@ -7365,7 +7355,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -7375,7 +7365,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Dark Pro oldalfali beltéri egység (3,5 kW)</strong> azok számára készült, akik nem akarnak kompromisszumot kötni a teljesítmény és a látvány között. A készülék különleges, sötétszürke selyemfényű burkolata modern és elegáns karaktert kölcsönöz a helyiségnek, tökéletesen illeszkedve a kortárs lakberendezési trendekhez. A 3,5 kW-os hűtési kapacitás bőséges tartalékot nyújt egy átlagos méretű nappali kényelmes klimatizálásához.</p>
@@ -7401,7 +7391,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -7410,7 +7400,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Dark Pro Wall-Mounted Indoor Unit (3.5 kW)</strong> is designed for those who refuse to compromise between performance and aesthetics. The unit's special dark grey silk-finish housing lends a modern and elegant character to the room, perfectly aligning with contemporary interior design trends. The 3.5 kW cooling capacity provides ample power for the comfortable climate control of an average-sized living room.</p>
@@ -7431,10 +7421,10 @@ export const products: Product[] = [
     powerHeating: 3.8,
     roomSize: "29-45",
     pics: [
-        { src: "dark-pro-01.png", width: 1000, height: 1000 },
-        { src: "dark-pro-02.png", width: 1000, height: 1000 },
-        { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "dark-pro-01.png", width: 1000, height: 1000 },
+      { src: "dark-pro-02.png", width: 1000, height: 1000 },
+      { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-fm-dark-pro-inverter-5-3-kw-klima-belteri",
@@ -7452,7 +7442,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C-os temperálás",
-        "7 fokozatú ventilátor"
+        "7 fokozatú ventilátor",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -7462,7 +7452,7 @@ export const products: Product[] = [
         { label: "Energiaosztály fűtés", value: "A+" },
         { label: "Zajszint", value: "Rendkívül csendes" },
         { label: "Vezérlés", value: "Infra távvezérlő + Wi-Fi" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Dark Pro oldalfali beltéri egység (5,3 kW)</strong> a dizájn és a nyers erő tökéletes szimbiózisa. Ezt a modellt kifejezetten olyan tágas, modern életterekbe tervezték (40–55 m²), ahol a beltéri egységnek nemcsak funkcionális gépnek, hanem hangsúlyos lakberendezési elemnek is kell lennie. A mélyszürke, selyemfényű borítás prémium érzetet kelt, miközben az 5,3 kW-os teljesítmény magabiztosan kezeli a nagyobb légtereket is.</p>
@@ -7487,7 +7477,7 @@ export const products: Product[] = [
         "Cold Plasma",
         "I-Feel",
         "8°C Heating",
-        "7-speed fan"
+        "7-speed fan",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -7496,7 +7486,7 @@ export const products: Product[] = [
         { label: "Energy class heating", value: "A+" },
         { label: "Noise level", value: "Ultra-quiet" },
         { label: "Control", value: "IR Remote + Wi-Fi" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Dark Pro Wall-Mounted Indoor Unit (5.3 kW)</strong> is the perfect symbiosis of design and raw power. This model is specifically designed for spacious, modern living areas (40–55 m²) where the indoor unit must be a significant interior design element as well as a functional appliance. The deep grey, silk-finish housing provides a premium feel, while the 5.3 kW capacity confidently manages larger air volumes.</p>
@@ -7517,10 +7507,10 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "dark-pro-01.png", width: 1000, height: 1000 },
-        { src: "dark-pro-02.png", width: 1000, height: 1000 },
-        { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "dark-pro-01.png", width: 1000, height: 1000 },
+      { src: "dark-pro-02.png", width: 1000, height: 1000 },
+      { src: "dark-pro-remote.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-kazettas-inverter-3-5-kw-klima-szett",
@@ -7541,7 +7531,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -7549,13 +7539,16 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "25–45 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Kazettás inverter 3,5 kW klíma szett</strong> a professzionális légkondicionálás magasiskoláját képviseli, ahol a diszkrét megjelenés technológiai sokoldalúsággal párosul. Az álmennyezetbe simuló egység <strong>360°-os légbefúvása</strong> garantálja, hogy a helyiségben ne alakuljanak ki hideg vagy meleg zónák, így maximális komfortot biztosít irodákban, üzletekben vagy akár igényes lakóingatlanokban is.</p>
@@ -7583,7 +7576,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -7596,7 +7589,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Cassette Inverter 3.5 kW Air Conditioner Set</strong> represents the pinnacle of professional air conditioning, combining a discreet appearance with technological versatility. The unit, which blends seamlessly into suspended ceilings, features <strong>360° airflow</strong>, ensuring that no cold or hot spots develop in the room, thus providing maximum comfort for offices, retail stores, or high-end residential properties.</p>
@@ -7619,9 +7612,9 @@ export const products: Product[] = [
     powerHeating: 4.0,
     roomSize: "25-45",
     pics: [
-        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
-        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+      { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-kazettas-inverter-5-kw-klima-szett",
@@ -7642,7 +7635,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,1 kW" },
@@ -7650,13 +7643,16 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Kazettás inverter 5,1 kW klíma szett</strong> az üzleti szféra elvárásaihoz igazított professzionális megoldás. Az álmennyezeti kialakítás lehetővé teszi, hogy a készülék diszkréten a háttérbe húzódjon, miközben az 5,1 kW-os teljesítmény magabiztosan biztosítja a kívánt hőmérsékletet tágasabb helyiségekben is. A <strong>360°-os légbefúvási technológia</strong> megakadályozza a kellemetlen huzat kialakulását, mivel a levegőt minden irányban egyenletesen teríti szét.</p>
@@ -7686,7 +7682,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.1 kW" },
@@ -7699,7 +7695,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Cassette Inverter 5.1 kW Air Conditioner Set</strong> is a professional solution tailored to the requirements of the business sector. Its ceiling-mounted design allows the unit to blend discreetly into the background, while its 5.1 kW capacity confidently maintains the desired temperature even in more spacious rooms. The <strong>360° airflow technology</strong> prevents unpleasant drafts by distributing air evenly in all directions.</p>
@@ -7722,9 +7718,9 @@ export const products: Product[] = [
     powerHeating: 5.8,
     roomSize: "46-75",
     pics: [
-        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
-        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+      { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-kazettas-inverter-7-1-kw-klima-szett",
@@ -7746,7 +7742,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -7754,14 +7750,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "76–120 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Karbantartás", value: "Motoros leengedhető szűrő" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Kazettás inverter 7,1 kW klíma szett</strong> a professzionális felhasználók számára kínál kompromisszummentes megoldást. A 7,1 kW-os hűtési teljesítmény már nagyobb alapterületű helyiségek klimatizálására is alkalmas, miközben az egység <strong>360°-os légbefúvása</strong> biztosítja az egyenletes és huzatmentes hőmérsékletet. A készülék egyik legkiemelkedőbb újdonsága a <strong>motorosan leengedhető szűrő</strong>, amely lehetővé teszi a szűrők tisztítását létra használata nélkül is, ami különösen előnyös nagy belmagasságú terekben.</p>
@@ -7792,7 +7791,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -7806,7 +7805,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Cassette Inverter 7.1 kW Air Conditioner Set</strong> offers an uncompromising solution for professional users. The 7.1 kW cooling capacity is suitable for climate control in larger areas, while the unit’s <strong>360° airflow</strong> ensures uniform and draft-free temperatures. One of the most outstanding features of this model is the <strong>motor-elevated filter</strong>, which allows for filter cleaning without the use of a ladder—particularly beneficial in spaces with high ceilings.</p>
@@ -7829,9 +7828,9 @@ export const products: Product[] = [
     powerHeating: 7.8,
     roomSize: "76-120",
     pics: [
-        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
-        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+      { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-kazettas-inverter-10-5-kw-klima-szett",
@@ -7853,7 +7852,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "10,5 kW" },
@@ -7861,14 +7860,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "85–140 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Karbantartás", value: "Motoros leengedhető szűrő" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Kazettás inverter 10,5 kW klíma szett</strong> az ipari és nagyteljesítményű kereskedelmi alkalmazások csúcsmodellje. A 10,5 kW-os hűtési kapacitás képessé teszi a készüléket arra, hogy akár 100 négyzetméter feletti egybefüggő tereket is hatékonyan klimatizáljon. A <strong>360°-os légbefúvás</strong> ebben a méretben alapvető fontosságú, hiszen a nagy mennyiségű levegőt így lehet huzatmentesen és egyenletesen eloszlatni a helyiségben.</p>
@@ -7899,7 +7901,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "10.5 kW" },
@@ -7913,7 +7915,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Cassette Inverter 10.5 kW Air Conditioner Set</strong> is a flagship model for industrial and high-capacity commercial applications. Its 10.5 kW cooling capacity enables the unit to efficiently climate-control open spaces exceeding 100 square meters. At this capacity, <strong>360° airflow</strong> is essential, as it allows for the even and draft-free distribution of large air volumes throughout the room.</p>
@@ -7936,9 +7938,9 @@ export const products: Product[] = [
     powerHeating: 11.5,
     roomSize: "85-140",
     pics: [
-        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
-        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+      { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-kazettas-inverter-12-1-kw-klima-szett",
@@ -7960,7 +7962,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
@@ -7968,14 +7970,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "120–160 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Karbantartás", value: "Motoros leengedhető szűrő" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Kazettás inverter 12,1 kW klíma szett</strong> a professzionális légkondicionálás csúcskategóriáját képviseli, ahol a kimagasló nyers erő és az intelligens vezérlés találkozik. A 12,1 kW-os hűtési teljesítmény stabil és hatékony üzemet biztosít nagyméretű, egybefüggő terekben, miközben a <strong>360°-os légbefúvási technológia</strong> gondoskodik a levegő egyenletes elosztásáról, minimalizálva a közvetlen huzatérzetet.</p>
@@ -7991,7 +7996,7 @@ export const products: Product[] = [
         <li><strong>Egészséges levegő:</strong> Cold Plasma ionizáló technológia a baktériumok és vírusok semlegesítésére.</li>
         </ul>
         </div>`,
-            },
+    },
     en: {
       fullName: "Gree UM6 Cassette Inverter 10.5 kW Air Conditioner Set",
       typeName: "Cassette AC set",
@@ -8006,7 +8011,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "12.1 kW" },
@@ -8020,7 +8025,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Cassette Inverter 12.1 kW Air Conditioner Set</strong> represents the pinnacle of professional air conditioning, where exceptional raw power meets intelligent control. The 12.1 kW cooling capacity provides stable and efficient operation in large open spaces, while the <strong>360° airflow technology</strong> ensures even air distribution, minimizing direct drafts.</p>
@@ -8043,9 +8048,9 @@ export const products: Product[] = [
     powerHeating: 13.5,
     roomSize: "120-160",
     pics: [
-        { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
-        { src: "kulteri-2.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-kazettas-002.jpg", width: 1000, height: 1000 },
+      { src: "kulteri-2.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um5-legcsatornas-inverter-3-5-kw-klima-szett",
@@ -8066,7 +8071,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,5 kW" },
@@ -8074,14 +8079,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "25–45 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Statikus nyomás", value: "Állítható (ESP)" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM5 Légcsatornás inverter 3,5 kW klíma szett</strong> a legdiszkrétebb megoldást kínálja a modern épületek klimatizálására. Mivel a beltéri egység teljesen elrejthető az álmennyezet feletti térben, a belső térben csak a légbefúvó és elszívó rácsok maradnak láthatóak, így semmilyen falra szerelt egység nem bontja meg a helyiség esztétikai egységét.</p>
@@ -8111,7 +8119,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.5 kW" },
@@ -8125,7 +8133,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM5 Ducted Inverter 3.5 kW Air Conditioner Set</strong> offers the most discreet solution for modern building climate control. Since the indoor unit can be completely hidden within the ceiling void, only the air supply and return grilles remain visible in the interior, ensuring no wall-mounted units disrupt the room's aesthetic integrity.</p>
@@ -8148,9 +8156,9 @@ export const products: Product[] = [
     powerHeating: 4.0,
     roomSize: "25-45",
     pics: [
-        { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
-        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-um-legcsatornas-1.jpg", width: 1000, height: 1000 },
+      { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um5-legcsatornas-inverter-5-3-kw-klima-szett",
@@ -8171,7 +8179,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -8179,14 +8187,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Statikus nyomás", value: "Állítható (ESP)" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Légcsatornás inverter 5,3 kW klíma szett</strong> a diszkréció és a hatékonyság tökéletes egyensúlyát nyújtja közepes alapterületű helyiségek számára. Az álmennyezetbe rejthető kialakításnak köszönhetően a beltéri egység teljesen láthatatlan marad, így a legigényesebb belsőépítészeti megoldásokhoz is kiválóan illeszkedik. Az 5,3 kW-os hűtési teljesítmény magabiztosan szolgálja ki a tágasabb tereket is, miközben a levegő elosztása légcsatornákon keresztül, huzatmentesen történik.</p>
@@ -8216,7 +8227,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -8230,7 +8241,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Ducted Inverter 5.3 kW Air Conditioner Set</strong> provides the perfect balance of discretion and efficiency for medium-sized spaces. Thanks to its concealable ceiling design, the indoor unit remains completely invisible, making it an excellent match for the most demanding interior designs. The 5.3 kW cooling capacity confidently serves larger areas, while air distribution occurs via ductwork, ensuring a draft-free environment.</p>
@@ -8253,9 +8264,9 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "um6-legcsatornas-001.jpg", width: 1000, height: 1000 },
-        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-legcsatornas-001.jpg", width: 1000, height: 1000 },
+      { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um5-legcsatornas-inverter-7-1-kw-klima-szett",
@@ -8276,7 +8287,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -8284,14 +8295,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "76–120 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Statikus nyomás", value: "Állítható (ESP)" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
       <p>A <strong>Gree UM6 Légcsatornás inverter 7,1 kW klíma szett</strong> a professzionális légkondicionálás diszkrét erejét képviseli. A 7,1 kW-os hűtési teljesítmény képessé teszi nagyobb egybefüggő terek, irodák vagy üzlethelyiségek hatékony hűtésére és fűtésére, miközben az egység teljesen rejtve marad az álmennyezet felett. Csak a stílusos befúvórácsok láthatóak, így a belsőépítészeti koncepció sértetlen marad.</p>
@@ -8321,7 +8335,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -8335,7 +8349,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Ducted Inverter 7.1 kW Air Conditioner Set</strong> represents the discreet power of professional air conditioning. Its 7.1 kW cooling capacity makes it capable of efficiently cooling and heating larger open spaces, offices, or retail environments, all while the unit remains completely hidden above the suspended ceiling. Only the stylish supply grilles are visible, leaving the interior design concept intact.</p>
@@ -8358,9 +8372,9 @@ export const products: Product[] = [
     powerHeating: 8,
     roomSize: "76-120",
     pics: [
-        { src: "um6-legcsatornas-002.jpg", width: 1000, height: 1000 },
-        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-legcsatornas-002.jpg", width: 1000, height: 1000 },
+      { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um5-legcsatornas-inverter-10-5-kw-klima-szett",
@@ -8381,7 +8395,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "10,5 kW" },
@@ -8389,14 +8403,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "85–140 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Statikus nyomás", value: "Állítható (ESP)" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Légcsatornás inverter 10,5 kW klíma szett</strong> az ipari teljesítmény és a letisztult esztétika csúcsát képviseli. A 10,5 kW-os hűtési kapacitás lehetővé teszi, hogy nagy kiterjedésű, egybefüggő tereket vagy akár több különálló helyiséget klimatizáljunk egyetlen, álmennyezet felett elhelyezett központi egységgel. A láthatatlan beépítés révén az enteriőr megőrzi eleganciáját, miközben a professzionális légtechnikai hálózat és az <strong>állítható statikus nyomás (ESP)</strong> garantálja a tökéletes légeloszlást.</p>
@@ -8426,7 +8443,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "10.5 kW" },
@@ -8440,7 +8457,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Ducted Inverter 10.5 kW Air Conditioner Set</strong> represents the pinnacle of industrial performance and clean aesthetics. Its 10.5 kW cooling capacity allows for the climate control of large open areas or even multiple separate rooms using a single central unit hidden above the suspended ceiling. With invisible installation, the interior maintains its elegance, while the professional air duct network and <strong>adjustable static pressure (ESP)</strong> guarantee perfect air distribution.</p>
@@ -8463,9 +8480,9 @@ export const products: Product[] = [
     powerHeating: 11.5,
     roomSize: "85-140",
     pics: [
-        { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
-        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
+      { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um5-legcsatornas-inverter-12-1-kw-klima-szett",
@@ -8486,7 +8503,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
@@ -8494,14 +8511,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "120–160 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Statikus nyomás", value: "Állítható (ESP)" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Légcsatornás inverter 12,1 kW klíma szett</strong> a professzionális légtechnikai megoldások csúcsát képviseli. Ezt a rendszert kifejezetten nagy kiterjedésű terek, irodaházak vagy üzletek klimatizálására tervezték, ahol a 12,1 kW-os hűtési teljesítmény és a rejtett beépítés alapvető elvárás. A készülék <strong>állítható statikus nyomása (ESP)</strong> lehetővé teszi, hogy a levegőt bonyolultabb és hosszabb légcsatorna-hálózatokon keresztül is egyenletesen juttassa el a kívánt pontokba.</p>
@@ -8531,7 +8551,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "12.5 kW" },
@@ -8545,7 +8565,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Ducted Inverter 12.1 kW Air Conditioner Set</strong> represents the pinnacle of professional air handling solutions. This system is specifically designed for the climate control of large spaces, office buildings, or retail units where 12.1 kW cooling capacity and concealed installation are primary requirements. The unit's <strong>adjustable static pressure (ESP)</strong> allows for the uniform distribution of air through complex and extensive ductwork networks.</p>
@@ -8568,9 +8588,9 @@ export const products: Product[] = [
     powerHeating: 13.5,
     roomSize: "120-160",
     pics: [
-        { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
-        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-um6-legcsatornas-003.jpg", width: 1000, height: 1000 },
+      { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um5-legcsatornas-inverter-16-kw-klima-szett",
@@ -8591,7 +8611,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "16,0 kW" },
@@ -8599,14 +8619,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "140–185 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Statikus nyomás", value: "Állítható (ESP)" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Beépített" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Légcsatornás inverter 16,0 kW klíma szett</strong> a sorozat legnagyobb és legerősebb tagja, amelyet az extrém hűtési és fűtési igényekre terveztek. Ez az ipari nagyágyú képes akár 180 négyzetméteres egybefüggő terek, vagy kiterjedt csatornarendszeren keresztül több nagyobb helyiség egyidejű, láthatatlan klimatizálására. A készülék <strong>állítható statikus nyomása (ESP)</strong> biztosítja, hogy a hatalmas légmennyiség a leghosszabb csatornaszakaszok végén is a tervezett intenzitással érkezzen meg.</p>
@@ -8636,7 +8659,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "16.0 kW" },
@@ -8650,7 +8673,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Built-in" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Ducted Inverter 16.0 kW Air Conditioner Set</strong> is the largest and most powerful member of the series, designed for extreme cooling and heating requirements. This industrial powerhouse is capable of invisibly climate-controlling open areas of up to 180 square meters, or multiple large rooms simultaneously via an extensive ductwork system. The unit's <strong>adjustable static pressure (ESP)</strong> ensures that large volumes of air reach their destination with the intended intensity, even at the end of long duct runs.</p>
@@ -8673,9 +8696,9 @@ export const products: Product[] = [
     powerHeating: 17,
     roomSize: "140-185",
     pics: [
-        { src: "gree-um6-legcsatornas-004.jpg", width: 1000, height: 1000 },
-        { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "gree-um6-legcsatornas-004.jpg", width: 1000, height: 1000 },
+      { src: "gree-kulteri-3.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-parapet-inverter-5-kw-klima-szett",
@@ -8696,7 +8719,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,3 kW" },
@@ -8704,14 +8727,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Elhelyezés", value: "Oldalfalra (lent) vagy mennyezet alá" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Opcionális" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Parapet inverter 5,3 kW klíma szett</strong> a legsokoldalúbb megoldást kínálja a modern klimatizálásban. Különleges, "Floor-Ceiling" kialakítása lehetővé teszi, hogy az egységet akár a padló felett az oldalfalra szereljük – mint egy radiátort –, akár vízszintesen a mennyezet alá rögzítsük. Ez a rugalmasság teszi nélkülözhetetlenné olyan helyiségekben, ahol a hagyományos oldalfali klímák elhelyezése nem megoldható.</p>
@@ -8741,7 +8767,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.3 kW" },
@@ -8755,7 +8781,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Optional" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Floor-Ceiling Inverter 5.3 kW Air Conditioner Set</strong> offers the most versatile solution in modern climate control. Its unique design allows the unit to be mounted either vertically on the wall near the floor—resembling a radiator—or horizontally underneath the ceiling. This flexibility makes it indispensable in rooms where installing traditional wall-mounted air conditioners is not feasible.</p>
@@ -8778,9 +8804,9 @@ export const products: Product[] = [
     powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
-        { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
-        { src: "kulteri.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
+      { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-parapet-inverter-7-kw-klima-szett",
@@ -8801,7 +8827,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "7,1 kW" },
@@ -8809,14 +8835,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "66–90 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Elhelyezés", value: "Oldalfalra (lent) vagy mennyezet alá" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Opcionális" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Parapet inverter 7,1 kW klíma szett</strong> a professzionális megoldást kínálja olyan tágasabb helyiségekbe, ahol a nagy teljesítmény mellett az elhelyezés rugalmassága is kulcsfontosságú. Az UM6 sorozatra jellemző kettős telepíthetőség révén az egység elegáns módon elhelyezhető padlóközeli magasságban az oldalfalon, vagy helytakarékos módon, vízszintesen a mennyezet alá rögzítve.</p>
@@ -8846,7 +8875,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "7.1 kW" },
@@ -8860,7 +8889,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Optional" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Floor-Ceiling Inverter 7.1 kW Air Conditioner Set</strong> offers a professional solution for spacious areas where high capacity and installation flexibility are equally essential. Thanks to the dual installation design of the UM6 series, the unit can be elegantly placed at floor level on the wall or mounted horizontally under the ceiling to save space.</p>
@@ -8883,9 +8912,9 @@ export const products: Product[] = [
     powerHeating: 7.7,
     roomSize: "66-120",
     pics: [
-        { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
-        { src: "kulteri.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
+      { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-um6-parapet-inverter-12-kw-klima-szett",
@@ -8906,7 +8935,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Páratartalom-szabályozás",
         "ModBus",
-        "Csoportvezérelhető"
+        "Csoportvezérelhető",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "12,1 kW" },
@@ -8914,14 +8943,17 @@ export const products: Product[] = [
         { label: "Ajánlott helyiségméret", value: "120–160 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
-        { label: "Vezérlés", value: "Wi-Fi-s fali vezetékes + infra távirányító" },
+        {
+          label: "Vezérlés",
+          value: "Wi-Fi-s fali vezetékes + infra távirányító",
+        },
         { label: "Elhelyezés", value: "Oldalfalra (lent) vagy mennyezet alá" },
         { label: "Páratartalom-szabályozás", value: "Igen" },
         { label: "ModBus csatlakozó", value: "Beépített" },
         { label: "Csoportvezérlés", value: "Igen" },
         { label: "Cseppvízszivattyú", value: "Opcionális" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree UM6 Parapet inverter 12,1 kW klíma szett</strong> az ipari erejű légkondicionálás egyik legsokoldalúbb képviselője. Kifejezetten nagy alapterületű helyiségekhez tervezték, ahol a 12,1 kW hűtési teljesítmény mellett fontos a rugalmas elhelyezhetőség. Az egység kettős telepítési móddal rendelkezik: elegáns radiátorként az oldalfal alsó részére rögzíthető, vagy a mennyezet alá vízszintesen installálható, így értékes falfelületet szabadít fel.</p>
@@ -8951,7 +8983,7 @@ export const products: Product[] = [
         "8°C Heating",
         "Humidity Control",
         "ModBus",
-        "Group Control"
+        "Group Control",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "12.1 kW" },
@@ -8965,7 +8997,7 @@ export const products: Product[] = [
         { label: "ModBus connector", value: "Built-in" },
         { label: "Group control", value: "Yes" },
         { label: "Drain pump", value: "Optional" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree UM6 Floor-Ceiling Inverter 12.1 kW Air Conditioner Set</strong> is one of the most versatile representatives of industrial-strength climate control. It is specifically designed for large spaces where installation flexibility is as important as the 12.1 kW cooling capacity. The unit features dual installation modes: it can be mounted as an elegant radiator on the lower part of the wall or horizontally underneath the ceiling, freeing up valuable wall space.</p>
@@ -8988,9 +9020,9 @@ export const products: Product[] = [
     powerHeating: 13.5,
     roomSize: "120-160",
     pics: [
-        { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
-        { src: "kulteri.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "um6-parapet-001.jpg", width: 1000, height: 1000 },
+      { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-konzol-inverter-2-7-kw-klima-szett",
@@ -9010,7 +9042,7 @@ export const products: Product[] = [
         "I-Feel",
         "8°C-os temperálás",
         "Fűtés -22°C-ig",
-        "Extra csendes működés"
+        "Extra csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "2,7 kW" },
@@ -9023,7 +9055,7 @@ export const products: Product[] = [
         { label: "Üzemmód", value: "Halk, zavartalan működés" },
         { label: "Fűtési működési tartomány", value: "-22°C – +24°C" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Console 3,5 kW klíma</strong> a modern technológia és az otthonos kényelem találkozása. Ez a beltéri egység diszkréten a padló közelében helyezkedik el, mint egy elegáns fűtőtest, így tökéletes választás nappalikba vagy tágasabb hálószobákba, ahol a hűtés mellett a professzionális hőszivattyús fűtés is elsődleges szempont.</p>
@@ -9053,7 +9085,7 @@ export const products: Product[] = [
         "I-Feel",
         "8°C Heating",
         "Heating down to -22°C",
-        "Ultra-quiet operation"
+        "Ultra-quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "2.7 kW" },
@@ -9065,7 +9097,7 @@ export const products: Product[] = [
         { label: "Airflow", value: "Top and Bottom (selectable)" },
         { label: "Noise level", value: "Whisper-quiet operation" },
         { label: "Heating operating range", value: "-22°C to +24°C" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Console 3.5 kW Air Conditioner</strong> is where modern technology meets homey comfort. This indoor unit is discreetly positioned near the floor like an elegant heater, making it a perfect choice for living rooms or spacious bedrooms where professional-grade heat pump heating is just as important as cooling.</p>
@@ -9089,10 +9121,10 @@ export const products: Product[] = [
     powerHeating: 2.9,
     roomSize: "8-28",
     pics: [
-        { src: "konzol-1.jpg", width: 1000, height: 1000 },
-        { src: "konzol-2.jpg", width: 1000, height: 1000 },
-        { src: "kulteri.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "konzol-1.jpg", width: 1000, height: 1000 },
+      { src: "konzol-2.jpg", width: 1000, height: 1000 },
+      { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-konzol-inverter-3-5-kw-klima-szett",
@@ -9112,7 +9144,7 @@ export const products: Product[] = [
         "I-Feel",
         "8°C-os temperálás",
         "Fűtés -22°C-ig",
-        "Extra csendes működés"
+        "Extra csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "3,52 kW" },
@@ -9125,7 +9157,7 @@ export const products: Product[] = [
         { label: "Üzemmód", value: "Halk, zavartalan működés" },
         { label: "Fűtési működési tartomány", value: "-22°C – +24°C" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Console 3,5 kW klíma</strong> a modern technológia és az otthonos kényelem találkozása. Ez a beltéri egység diszkréten a padló közelében helyezkedik el, mint egy elegáns fűtőtest, így tökéletes választás nappalikba vagy tágasabb hálószobákba, ahol a hűtés mellett a professzionális hőszivattyús fűtés is elsődleges szempont.</p>
@@ -9155,7 +9187,7 @@ export const products: Product[] = [
         "I-Feel",
         "8°C Heating",
         "Heating down to -22°C",
-        "Ultra-quiet operation"
+        "Ultra-quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "3.52 kW" },
@@ -9167,7 +9199,7 @@ export const products: Product[] = [
         { label: "Airflow", value: "Top and Bottom (selectable)" },
         { label: "Noise level", value: "Whisper-quiet operation" },
         { label: "Heating operating range", value: "-22°C to +24°C" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Console 3.5 kW Air Conditioner</strong> is where modern technology meets homey comfort. This indoor unit is discreetly positioned near the floor like an elegant heater, making it a perfect choice for living rooms or spacious bedrooms where professional-grade heat pump heating is just as important as cooling.</p>
@@ -9191,10 +9223,10 @@ export const products: Product[] = [
     powerHeating: 3.75,
     roomSize: "29-45",
     pics: [
-        { src: "konzol-1.jpg", width: 1000, height: 1000 },
-        { src: "konzol-2.jpg", width: 1000, height: 1000 },
-        { src: "kulteri.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "konzol-1.jpg", width: 1000, height: 1000 },
+      { src: "konzol-2.jpg", width: 1000, height: 1000 },
+      { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-konzol-inverter-5-2-kw-klima-szett",
@@ -9214,7 +9246,7 @@ export const products: Product[] = [
         "I-Feel",
         "8°C-os temperálás",
         "Fűtés -22°C-ig",
-        "Extra csendes működés"
+        "Extra csendes működés",
       ],
       specsExtended: [
         { label: "Hűtési teljesítmény", value: "5,2 kW" },
@@ -9227,7 +9259,7 @@ export const products: Product[] = [
         { label: "Üzemmód", value: "Halk, zavartalan működés" },
         { label: "Fűtési működési tartomány", value: "-22°C – +24°C" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év + 2 év a kompresszorra" }
+        { label: "Garancia", value: "3 év + 2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Console 5,2 kW klíma</strong> a Console sorozat legnagyobb teljesítményű tagja, amely kompromisszummentes megoldást nyújt nagyobb nappalik, tágas amerikai konyhás terek vagy üzlethelyiségek klimatizálására. Elegáns, padlóközeli kialakítása révén tökéletesen illeszkedik az ablakok alá, modern és hatékony alternatívát kínálva a hagyományos fűtési rendszerekkel szemben.</p>
@@ -9257,7 +9289,7 @@ export const products: Product[] = [
         "I-Feel",
         "8°C Heating",
         "Heating down to -22°C",
-        "Ultra-quiet operation"
+        "Ultra-quiet operation",
       ],
       specsExtended: [
         { label: "Cooling capacity", value: "5.2 kW" },
@@ -9269,7 +9301,7 @@ export const products: Product[] = [
         { label: "Airflow", value: "Top and Bottom (selectable)" },
         { label: "Noise level", value: "Whisper-quiet operation" },
         { label: "Heating operating range", value: "-22°C to +24°C" },
-        { label: "Warranty", value: "3 years + 2 years for the compressor" }
+        { label: "Warranty", value: "3 years + 2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Console 5.2 kW Air Conditioner</strong> is the highest capacity member of the Console series, providing an uncompromising solution for climate-controlling larger living rooms, spacious open-plan kitchens, or retail spaces. Thanks to its elegant floor-level design, it fits perfectly under windows, offering a modern and efficient alternative to traditional heating systems.</p>
@@ -9293,10 +9325,10 @@ export const products: Product[] = [
     powerHeating: 5.33,
     roomSize: "46-75",
     pics: [
-        { src: "konzol-1.jpg", width: 1000, height: 1000 },
-        { src: "konzol-2.jpg", width: 1000, height: 1000 },
-        { src: "kulteri.jpg", width: 1000, height: 1000 },
-    ]
+      { src: "konzol-1.jpg", width: 1000, height: 1000 },
+      { src: "konzol-2.jpg", width: 1000, height: 1000 },
+      { src: "kulteri.jpg", width: 1000, height: 1000 },
+    ],
   },
   {
     id: "gree-versati-iv-monoblokk-levego-viz-6-kw-hoszivattyu",
@@ -9316,7 +9348,7 @@ export const products: Product[] = [
         "Kétfokozatú inverteres kompresszor",
         "Csendes üzemmód",
         "Működés -25°C-ig",
-        "60°C-os előremenő víz"
+        "60°C-os előremenő víz",
       ],
       specsExtended: [
         { label: "Névleges fűtési teljesítmény", value: "6,0 kW" },
@@ -9326,10 +9358,13 @@ export const products: Product[] = [
         { label: "Előremenő víz hőmérséklet (fűtés)", value: "25°C – 60°C" },
         { label: "Működési tartomány (fűtés)", value: "-25°C – +35°C" },
         { label: "Hálózati feszültség", value: "230V (1 fázis)" },
-        { label: "Vezérlés", value: "Érintőképernyős vezetékes távirányító + Wi-Fi" },
+        {
+          label: "Vezérlés",
+          value: "Érintőképernyős vezetékes távirányító + Wi-Fi",
+        },
         { label: "Beépített vízszivattyú", value: "WilLo (Inverteres)" },
         { label: "H-tarifa igényelhető", value: "Igen" },
-        { label: "Garancia", value: "3 év" }
+        { label: "Garancia", value: "3 év" },
       ],
       longDesc: `<div class="product-description">
         <p>A <strong>Gree Versati IV Monoblokk hőszivattyú</strong> a legújabb fejlesztés a levegő-víz rendszerek piacán, amely a fenntarthatóságot és a professzionális teljesítményt ötvözi. Monoblokk kialakítása révén a teljes hűtőkör a kültéri egységben helyezkedik el, így a telepítés egyszerűbb és nem igényel klímatechnikai (F-Gáz) szerelést a beltérben. A 6 kW-os teljesítmény ideális választás alacsony energiaigényű családi házak vagy jól szigetelt lakások korszerű fűtési rendszeréhez.</p>
@@ -9358,7 +9393,7 @@ export const products: Product[] = [
         "Two-stage Inverter Compressor",
         "Quiet Mode",
         "Operation down to -25°C",
-        "60°C Leaving Water Temperature"
+        "60°C Leaving Water Temperature",
       ],
       specsExtended: [
         { label: "Nominal heating capacity", value: "6.0 kW" },
@@ -9370,7 +9405,7 @@ export const products: Product[] = [
         { label: "Voltage", value: "230V (Single-phase)" },
         { label: "Control", value: "Touchscreen wired controller + Wi-Fi" },
         { label: "Built-in water pump", value: "WilLo (Inverter)" },
-        { label: "Warranty", value: "3 years" }
+        { label: "Warranty", value: "3 years" },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Gree Versati IV Monobloc Heat Pump</strong> is the latest advancement in air-to-water systems, combining sustainability with professional performance. Thanks to its monobloc design, the entire refrigerant circuit is contained within the outdoor unit, simplifying installation as it does not require indoor F-gas pipework. The 6 kW capacity is an ideal choice for the modern heating systems of low-energy family houses or well-insulated apartments.</p>
@@ -9392,9 +9427,7 @@ export const products: Product[] = [
     powerCooling: 4.9,
     powerHeating: 6,
     roomSize: null,
-    pics: [
-        { src: "versati-iv.jpg", width: 1000, height: 1000 },
-    ]
+    pics: [{ src: "versati-iv.jpg", width: 1000, height: 1000 }],
   },
   {
     id: "auratsu-osaka-3-4-kW-inverteres-split-klima",
@@ -9415,7 +9448,7 @@ export const products: Product[] = [
         "8°C-os temperálás",
         "Csendes működés",
         "Fűtés -15°C-ig",
-        "5 év teljes körű garancia"
+        "5 év teljes körű garancia",
       ],
 
       specsExtended: [
@@ -9454,7 +9487,7 @@ export const products: Product[] = [
         "8°C Heating Mode",
         "Quiet Operation",
         "Heating up to -15°C",
-        "5-Year Full Warranty"
+        "5-Year Full Warranty",
       ],
 
       specsExtended: [
@@ -9487,9 +9520,9 @@ export const products: Product[] = [
     roomSize: "29-45",
     action: true,
     pics: [
-        { src: "auratsu_osaka.jpg", width: 1200, height: 1200 },
-        { src: "auratsu_osaka_01.webp", width: 600, height: 600 },
-    ]
+      { src: "auratsu_osaka.jpg", width: 1200, height: 1200 },
+      { src: "auratsu_osaka_01.webp", width: 600, height: 600 },
+    ],
   },
   {
     id: "kinghome-primor-2-5-kW-inverteres-split-klima",
@@ -9510,7 +9543,7 @@ export const products: Product[] = [
         "Intelligens leolvasztás",
         "Csendes működés",
         "Fűtés -15°C-ig",
-        "3 év + 2 év kompresszor garancia"
+        "3 év + 2 év kompresszor garancia",
       ],
 
       specsExtended: [
@@ -9547,7 +9580,7 @@ export const products: Product[] = [
         "Intelligent Defrost",
         "Quiet Operation",
         "Heating up to -15°C",
-        "3+2 Years Warranty"
+        "3+2 Years Warranty",
       ],
 
       specsExtended: [
@@ -9558,7 +9591,10 @@ export const products: Product[] = [
         { label: "Energy Class (Heating)", value: "A+" },
         { label: "Wi-Fi Control", value: "Yes" },
         { label: "H-Tariff Compatible", value: "Yes" },
-        { label: "Warranty", value: "3 years full + 2 years for the compressor" },
+        {
+          label: "Warranty",
+          value: "3 years full + 2 years for the compressor",
+        },
       ],
       longDesc: `<div class="product-description">
         <p>The <strong>Kinghome Primor</strong> series is a discreet yet powerful companion for modern homes. Thanks to inverter control, the unit only consumes the energy strictly necessary to maintain the desired temperature, ensuring low utility bills during both cooling and heating seasons.</p>
@@ -9571,21 +9607,21 @@ export const products: Product[] = [
         </ul>
         </div>`,
     },
-      price: "280.000 Ft",
-      priceNum: 280000,
-      powerCooling: 2.5,
-      powerHeating: 2.8,
-      roomSize: "8-28",
-      action: true,
-      pics: [
-          { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
-          { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
-          { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
-      ]
+    price: "280.000 Ft",
+    priceNum: 280000,
+    powerCooling: 2.5,
+    powerHeating: 2.8,
+    roomSize: "8-28",
+    action: true,
+    pics: [
+      { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+      { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+      { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ],
   },
   {
     id: "kinghome-primor-3-2-kW-inverteres-split-klima",
@@ -9606,7 +9642,7 @@ export const products: Product[] = [
         "Intelligens leolvasztás",
         "Csendes működés",
         "Fűtés -15°C-ig",
-        "3 év + 2 év kompresszor garancia"
+        "3 év + 2 év kompresszor garancia",
       ],
 
       specsExtended: [
@@ -9643,7 +9679,7 @@ export const products: Product[] = [
         "Intelligent Defrost",
         "Quiet Operation",
         "Heating up to -15°C",
-        "3+2 Years Warranty"
+        "3+2 Years Warranty",
       ],
 
       specsExtended: [
@@ -9654,7 +9690,10 @@ export const products: Product[] = [
         { label: "Energy Class (Heating)", value: "A+" },
         { label: "Wi-Fi Control", value: "Yes" },
         { label: "H-Tariff Compatible", value: "Yes" },
-        { label: "Warranty", value: "3 years full + 2 years for the compressor" },
+        {
+          label: "Warranty",
+          value: "3 years full + 2 years for the compressor",
+        },
       ],
       longDesc: `<div class="product-description">
         <p>This <strong>Kinghome Primor</strong> model provides precisely tuned performance for modern homes. Its 3.2 kW cooling and 3.4 kW heating capacity make it an ideal choice for rooms where smaller units wouldn't be enough. Thanks to intelligent inverter regulation, the device always uses energy in proportion to current demands, preventing unnecessary power consumption.</p>
@@ -9667,21 +9706,21 @@ export const products: Product[] = [
         </ul>
       </div>`,
     },
-      price: "290.000 Ft",
-      priceNum: 290000,
-      powerCooling: 3.2,
-      powerHeating: 3.4,
-      roomSize: "29-45",
-      action: true,
-      pics: [
-          { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
-          { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
-          { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
-      ]
+    price: "290.000 Ft",
+    priceNum: 290000,
+    powerCooling: 3.2,
+    powerHeating: 3.4,
+    roomSize: "29-45",
+    action: true,
+    pics: [
+      { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+      { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+      { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ],
   },
   {
     id: "kinghome-primor-4-6-kW-inverteres-split-klima",
@@ -9702,7 +9741,7 @@ export const products: Product[] = [
         "Intelligens leolvasztás",
         "Csendes működés",
         "Fűtés -15°C-ig",
-        "3 év + 2 év kompresszor garancia"
+        "3 év + 2 év kompresszor garancia",
       ],
 
       specsExtended: [
@@ -9739,7 +9778,7 @@ export const products: Product[] = [
         "Intelligent Defrost",
         "Quiet Operation",
         "Heating up to -15°C",
-        "3+2 Years Warranty"
+        "3+2 Years Warranty",
       ],
 
       specsExtended: [
@@ -9750,7 +9789,10 @@ export const products: Product[] = [
         { label: "Energy Class (Heating)", value: "A+" },
         { label: "Wi-Fi Control", value: "Yes" },
         { label: "H-Tariff Compatible", value: "Yes" },
-        { label: "Warranty", value: "3 years full + 2 years for the compressor" },
+        {
+          label: "Warranty",
+          value: "3 years full + 2 years for the compressor",
+        },
       ],
       longDesc: `<div class="product-description">
           <p>This member of the <strong>Kinghome Primor</strong> family combines impressive power with modern technology. With 4.6 kW cooling and 5.2 kW heating capacity, it allows for fast and even temperature control of larger spaces, making it the perfect choice for areas where standard units would fall short. Thanks to inverter regulation, high performance does not lead to excessive power consumption.</p>
@@ -9762,23 +9804,329 @@ export const products: Product[] = [
             <li><strong>Warranty Terms:</strong> The device comes with a 3-year full warranty, plus an additional 2-year warranty for the compressor.</li>
           </ul>
         </div>`,
-      },
-      price: "360.000 Ft",
-      priceNum: 360000,
-      powerCooling: 4.6,
-      powerHeating: 5.2,
-      roomSize: "46-75",
-      action: true,
-      pics: [
-          { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
-          { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
-          { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
-          { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
-      ]
-  }
+    },
+    price: "380.000 Ft",
+    priceNum: 380000,
+    powerCooling: 4.6,
+    powerHeating: 5.2,
+    roomSize: "46-75",
+    action: true,
+    pics: [
+      { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+      { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+      { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+      { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ],
+  },
+  {
+    id: "kinghome-maximus-inverter-2-7-kw-klima-szett",
+    brand: "Kinghome",
+    serial: "KWH09AYCXB-K6DNA2A",
+    type: "ac",
+    name: "Kinghome Maximus 2,7 kW",
+    hu: {
+      fullName: "Kinghome Maximus inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Kinghome prémium sorozatának legkisebb tagja a technológia és a stílus találkozása. A 2,7 kW-os hűtési teljesítmény mellett kiemelkedő, akár -25 °C-os külső hőmérsékletig terjedő fűtési tartománnyal rendelkezik, így a legzordabb téli napokon is magabiztos hőforrást jelent otthonában.",
+      specs: [
+        "A+++",
+        "Wi-Fi vezérlés",
+        "Csepptálca fűtés",
+        "Fűtés -25 °C-ig",
+        "I-Feel funkció",
+        "8 °C-os temperálás",
+        "Ultra csendes működés",
+        "Cold Plasma szűrő",
+        "3 év + 2 év kompresszor garancia",
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Csepptálca fűtés", value: "Beépített" },
+        { label: "Fűtési működési tartomány", value: "-25 °C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év teljes körű + 2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Kinghome prémium</strong> klímaberendezés azok számára készült, akik nem ismernek kompromisszumot a komfort terén. A készülék különlegessége a megerősített fűtési rendszer, amely a beépített csepptálca fűtésnek és a speciális vezérlésnek köszönhetően még extrém, -25 °C-os hidegben is üzembiztos marad.</p>
+        <h3>Prémium funkciók az Ön kényelméért:</h3>
+        <ul>
+        <li><strong>Extrém fűtési tartomány:</strong> A -25 °C-ig hitelesített fűtési képesség lehetővé teszi, hogy a készülék akár önálló fűtési megoldásként is megállja a helyét a leghidegebb téli éjszakákon is.</li>
+        <li><strong>Csepptálca fűtés:</strong> Megakadályozza a kondenzvíz visszafagyását, így védve a kültéri egységet a jegesedéstől és a meghibásodástól fűtési üzemmódban.</li>
+        <li><strong>Egészséges levegő:</strong> A beépített ionizátor és a Cold Plasma technológia hatékonyan semlegesíti a baktériumokat és a kellemetlen szagokat.</li>
+        <li><strong>Garancia:</strong> A prémium minőséget a 3 év teljes körű és a további 2 év kompresszor garancia teszi teljessé, biztosítva a hosszú távú nyugalmat.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Kinghome Maximus 2.7 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "The smallest member of the Kinghome Premium series is where technology meets style. With 2.7 kW cooling capacity and an exceptional heating range down to -25 °C, it provides a reliable heat source for your home even on the harshest winter days.",
+      specs: [
+        "A+++",
+        "Wi-Fi Control",
+        "Base Pan Heater",
+        "Heating up to -25 °C",
+        "I-Feel Function",
+        "8 °C Heating Mode",
+        "Ultra Quiet Operation",
+        "Cold Plasma Filter",
+        "3+2 Years Warranty",
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "2.7 kW" },
+        { label: "Heating Capacity", value: "3.0 kW" },
+        { label: "Recommended Room Size", value: "8–28 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Base Pan Heater", value: "Built-in" },
+        { label: "Heating Operating Range", value: "-25 °C" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        {
+          label: "Warranty",
+          value: "3 years full + 2 years for the compressor",
+        },
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Kinghome Premium</strong> air conditioner is designed for those who refuse to compromise on comfort. The highlight of this unit is the reinforced heating system, which, thanks to the built-in base pan heater and specialized control, remains operational even in extreme -25 °C cold.</p>
+        <h3>Premium Features for Your Comfort:</h3>
+        <ul>
+        <li><strong>Extreme Heating Range:</strong> Certified heating capability down to -25 °C allows the unit to function as a standalone heating solution even on the coldest winter nights.</li>
+        <li><strong>Base Pan Heater:</strong> Prevents condensate water from refreezing, protecting the outdoor unit from icing and damage during heating mode.</li>
+        <li><strong>Healthy Air:</strong> The built-in ionizer and Cold Plasma technology effectively neutralize bacteria and unpleasant odors.</li>
+        <li><strong>Warranty:</strong> Premium quality is backed by a 3-year full warranty and an additional 2-year warranty on the compressor, ensuring long-term peace of mind.</li>
+        </ul>
+        </div>`,
+    },
+    price: "300.000 Ft",
+    priceNum: 300000,
+    powerCooling: 2.7,
+    powerHeating: 3,
+    roomSize: "8-28",
+    action: true,
+    pics: [
+      { src: "kinghome-maximus-01.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-02.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-03.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-04.png", width: 1500, height: 1500 },
+      { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+      { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ],
+  },
+  {
+    id: "kinghome-maximus-inverter-3-5-kw-klima-szett",
+    brand: "Kinghome",
+    serial: "KWH12AYCXB-K6DNA2A",
+    type: "ac",
+    name: "Kinghome Maximus 3,5 kW",
+    hu: {
+      fullName: "Kinghome Maximus inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Kinghome prémium sorozatának 3,5 kW-os modellje a technológia és a megbízhatóság csúcsát képviseli. A beépített csepptálca fűtés és a rendkívüli, -25 °C-ig terjedő működési tartomány garantálja, hogy ez a 3,5 kW hűtő- és 3,8 kW fűtőteljesítményű készülék a legzordabb teleken is magabiztosan gondoskodjon otthona melegéről.",
+      specs: [
+        "A+++",
+        "Wi-Fi vezérlés",
+        "Csepptálca fűtés",
+        "Fűtés -25 °C-ig",
+        "I-Feel funkció",
+        "8 °C-os temperálás",
+        "Ultra csendes működés",
+        "Cold Plasma szűrő",
+        "3 év + 2 év kompresszor garancia",
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29–45 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Csepptálca fűtés", value: "Beépített" },
+        { label: "Fűtési működési tartomány", value: "-25 °C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év teljes körű + 2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Kinghome prémium</strong> sorozat ezen tagja kiemelkedik a hagyományos klímaberendezések közül. Masszív felépítése és speciálisan téliesített kültéri egysége lehetővé teszi, hogy ne csak kiegészítő, hanem akár elsődleges fűtési megoldásként is szolgáljon. A 3,8 kW-os fűtési teljesítménye révén még a legkeményebb fagyok idején is stabil hőmérsékletet biztosít.</p>
+        <h3>Miért a Kinghome prémium megoldását válassza?</h3>
+        <ul>
+          <li><strong>Extrém hidegre tervezve:</strong> A készülék -25 °C-os külső hőmérséklet mellett is üzembiztosan fűt, így a leghidegebb téli éjszakákon sem hagyja cserben.</li>
+          <li><strong>Intelligens csepptálca fűtés:</strong> Megelőzi a kültéri egység eljegesedését, ami kritikus a folyamatos és biztonságos fűtési üzemmód fenntartásához télen.</li>
+          <li><strong>Cold Plasma ionizátor:</strong> Aktívan tisztítja a levegőt, semlegesítve a vírusokat és baktériumokat, így biztosítva egészségesebb környezetet családja számára.</li>
+          <li><strong>Garanciális feltételek:</strong> A készülékre 3 év teljes körű garanciát biztosítunk, amelyet további 2 év garancia egészít ki a kompresszorra.</li>
+        </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Kinghome Maximus 3.5 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "The 3.5 kW model of the Kinghome Premium series represents the pinnacle of technology and reliability. With a built-in base pan heater and an extraordinary operating range down to -25 °C, this unit with 3.5 kW cooling and 3.8 kW heating capacity ensures your home stays warm even during the harshest winters.",
+      specs: [
+        "A+++",
+        "Wi-Fi Control",
+        "Base Pan Heater",
+        "Heating up to -25 °C",
+        "I-Feel Function",
+        "8 °C Heating Mode",
+        "Ultra Quiet Operation",
+        "Cold Plasma Filter",
+        "3+2 Years Warranty",
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "3.5 kW" },
+        { label: "Heating Capacity", value: "3.8 kW" },
+        { label: "Recommended Room Size", value: "29–45 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Base Pan Heater", value: "Built-in" },
+        { label: "Heating Operating Range", value: "-25 °C" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        {
+          label: "Warranty",
+          value: "3 years full + 2 years for the compressor",
+        },
+      ],
+      longDesc: `<div class="product-description">
+        <p>This <strong>Kinghome Premium</strong> model stands out among traditional air conditioning units. Its robust design and specially winterized outdoor unit allow it to serve as a primary heating solution. With its 3.8 kW heating capacity, it provides stable temperatures even during the most severe frosts.</p>
+        <h3>Why choose the Kinghome Premium solution?</h3>
+        <ul>
+          <li><strong>Designed for Extreme Cold:</strong> The unit operates reliably in heating mode down to -25 °C, ensuring your comfort even on the coldest winter nights.</li>
+          <li><strong>Intelligent Base Pan Heater:</strong> Prevents ice buildup in the outdoor unit, which is critical for maintaining safe and continuous heating operation in winter.</li>
+          <li><strong>Cold Plasma Ionizer:</strong> Actively purifies the air by neutralizing viruses and bacteria, ensuring a healthier environment for your family.</li>
+          <li><strong>Warranty Terms:</strong> The device comes with a 3-year full warranty, plus an additional 2-year warranty for the compressor.</li>
+        </ul>
+      </div>`,
+    },
+    price: "310.000 Ft",
+    priceNum: 310000,
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    roomSize: "29-45",
+    action: true,
+    pics: [
+      { src: "kinghome-maximus-01.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-02.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-03.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-04.png", width: 1500, height: 1500 },
+      { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+      { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ],
+  },
+  {
+    id: "kinghome-maximus-inverter-5-3-kw-klima-szett",
+    brand: "Kinghome",
+    serial: "KWH18AYDXD-K6DNA2A",
+    type: "ac",
+    name: "Kinghome Maximus 5,3 kW",
+    hu: {
+      fullName: "Kinghome Maximus inverter 5,3 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Kinghome prémium sorozatának 5,3 kW-os modellje a kiemelkedő erő és a legmodernebb technológia ötvözete. Ezt a nagy teljesítményű készüléket kifejezetten tágas terek hűtésére és teljes értékű fűtésére tervezték, amely a beépített csepptálca fűtésnek köszönhetően még a leghidegebb téli napokon, akár -25 °C-os fagyban is megbízhatóan üzemel.",
+      specs: [
+        "A+++",
+        "Wi-Fi vezérlés",
+        "Csepptálca fűtés",
+        "Fűtés -25 °C-ig",
+        "I-Feel funkció",
+        "8 °C-os temperálás",
+        "Ultra csendes működés",
+        "Cold Plasma szűrő",
+        "3 év + 2 év kompresszor garancia",
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46–75 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "Csepptálca fűtés", value: "Beépített" },
+        { label: "Fűtési működési tartomány", value: "-25 °C" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év teljes körű + 2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Kinghome prémium</strong> 5,3 kW-os változata nem ismer akadályt, ha nagyobb helyiségek komfortjáról van szó. Robusztus kialakítása és megnövelt hőcserélő felülete révén rendkívül gyorsan hűti le vagy fűti fel otthonát, miközben a precíz inverteres vezérlés gondoskodik arról, hogy az energiafelhasználás mindig optimális maradjon.</p>
+        <h3>Miért válassza ezt a nagy teljesítményű prémium modellt?</h3>
+        <ul>
+          <li><strong>Magabiztos fűtés extrém hidegben:</strong> Az 5,6 kW-os fűtőerő és a -25 °C-os üzemi tartomány lehetővé teszi, hogy a készülék a gázfűtés valódi, környezetbarát alternatívája legyen nagyobb lakásokban is.</li>
+          <li><strong>Téliesített kültéri egység:</strong> Az intelligens csepptálca fűtés megakadályozza a jég lerakódását, így fűtés üzemmódban is folyamatos és csendes marad a működés.</li>
+          <li><strong>Cold Plasma technológia:</strong> A beépített légtisztító rendszer hatékonyan szűri ki a porszemcséket és semlegesíti a kórokozókat, így nagy terekben is friss és tiszta marad a levegő.</li>
+          <li><strong>Garancia:</strong> A biztonságot a 3 év teljes körű garancia és a további 2 év kompresszor garancia garantálja.</li>
+        </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Kinghome Maximus 5.3 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "The 5.3 kW model of the Kinghome Premium series combines outstanding power with state-of-the-art technology. This high-capacity unit is specifically designed for cooling and providing full heating for spacious areas, operating reliably even on the coldest winter days down to -25 °C, thanks to its built-in base pan heater.",
+      specs: [
+        "A+++",
+        "Wi-Fi Control",
+        "Base Pan Heater",
+        "Heating up to -25 °C",
+        "I-Feel Function",
+        "8 °C Heating Mode",
+        "Ultra Quiet Operation",
+        "Cold Plasma Filter",
+        "3+2 Years Warranty",
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "5.3 kW" },
+        { label: "Heating Capacity", value: "5.6 kW" },
+        { label: "Recommended Room Size", value: "46–75 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Base Pan Heater", value: "Built-in" },
+        { label: "Heating Operating Range", value: "-25 °C" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        {
+          label: "Warranty",
+          value: "3 years full + 2 years for the compressor",
+        },
+      ],
+      longDesc: `<div class="product-description">
+        <p>The 5.3 kW version of the <strong>Kinghome Premium</strong> series is unstoppable when it comes to the comfort of larger rooms. Its robust design and enlarged heat exchanger surfaces allow it to cool or heat your home exceptionally fast, while precise inverter control ensures that energy consumption always remains optimized.</p>
+        <h3>Why choose this high-performance premium model?</h3>
+        <ul>
+          <li><strong>Confident Heating in Extreme Cold:</strong> With 5.6 kW of heating power and a -25 °C operating range, this unit serves as a genuine, eco-friendly alternative to gas heating even in larger apartments.</li>
+          <li><strong>Winterized Outdoor Unit:</strong> The intelligent base pan heater prevents ice buildup, ensuring continuous and quiet operation during heating mode.</li>
+          <li><strong>Cold Plasma Technology:</strong> The built-in air purification system effectively filters out dust particles and neutralizes pathogens, keeping the air fresh and clean even in large spaces.</li>
+          <li><strong>Warranty Terms:</strong> Reliability is guaranteed by a 3-year full warranty and an additional 2-year warranty for the compressor.</li>
+        </ul>
+      </div>`,
+    },
+    price: "400.000 Ft",
+    priceNum: 400000,
+    powerCooling: 5.3,
+    powerHeating: 5.6,
+    roomSize: "46-75",
+    action: true,
+    pics: [
+      { src: "kinghome-maximus-01.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-02.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-03.png", width: 1500, height: 1500 },
+      { src: "kinghome-maximus-04.png", width: 1500, height: 1500 },
+      { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+      { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ],
+  },
 ];
 
 export type Product = {
@@ -9795,13 +10143,11 @@ export type Product = {
   powerHeating: number;
   roomSize: string | null;
   action?: boolean;
-  pics: 
-    {
-        src: string;
-        width: number;
-        height: number;
-    }[]
-  ;
+  pics: {
+    src: string;
+    width: number;
+    height: number;
+  }[];
 };
 
 type MultilingualProps = {

@@ -9491,6 +9491,102 @@ export const products: Product[] = [
         { src: "auratsu_osaka_01.webp", width: 600, height: 600 },
     ]
   },
+  {
+    id: "kinghome-primor-2-5-kW-inverteres-split-klima",
+    brand: "Kinghome",
+    serial: "KWH09AZAXB-K6DNA1CG",
+    type: "ac",
+    name: "Kinghome Primor 2,5 kW",
+    hu: {
+      fullName: "Kinghome Primor inverter 2,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A Kinghome Primor a világszerte elismert gyártói háttérnek köszönhetően a megbízhatóság és a hatékonyság mintaképe. Ez a kompakt készülék ideális választás hálószobákba vagy kisebb nappalikba, ahol a csendes működés és a precíz hőmérséklet-szabályozás elsődleges szempont. Kiváló ár-érték aránya mellett a biztonságos üzemeltetést a gyártói garancia teszi teljessé.",
+      specs: [
+        "A++",
+        "Wi-Fi vezérlés",
+        "Gree gyártói háttér",
+        "I-Feel funkció",
+        "8°C-os temperálás",
+        "Intelligens leolvasztás",
+        "Csendes működés",
+        "Fűtés -15°C-ig",
+        "3 év + 2 év kompresszor garancia"
+      ],
+
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,5 kW" },
+        { label: "Fűtési teljesítmény", value: "2,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "8–28 m²" },
+        { label: "Hűtési energiaosztály", value: "A++" },
+        { label: "Fűtési energiaosztály", value: "A+" },
+        { label: "WiFi vezérlés", value: "Igen" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3 év teljes körű + 2 év a kompresszorra" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>A <strong>Kinghome Primor</strong> sorozat a modern otthonok észrevétlen, de hatékony segítőtársa. Az inverteres vezérlésnek köszönhetően a készülék csak annyi energiát fogyaszt, amennyi a kívánt hőmérséklet fenntartásához feltétlenül szükséges, így garantálva az alacsony villanyszámlát hűtési és fűtési szezonban egyaránt.</p>
+        <h3>Miért érdemes a Kinghome Primort választani?</h3>
+        <ul>
+        <li><strong>I FEEL funkció:</strong> A beltéri egység a távirányító helyzetéhez igazítja a hűtést, így elkerülhető, hogy a szoba távolabbi pontjain melegebb maradjon a levegő.</li>
+        <li><strong>8°C-os temperálás:</strong> Ideális nyaralókba vagy ritkán használt helyiségekbe, hogy megakadályozza a vizesblokkok elfagyását a téli időszakban.</li>
+        <li><strong>Gree technológia:</strong> A Kinghome a világ legnagyobb klímagyártójának márkája, így a szervizháttér és az alkatrészellátás hosszú távon is biztosított.</li>
+        <li><strong>Garanciális biztonság:</strong> A készülékre a gyártó által előírt 3 év teljes körű garancia vonatkozik, amelyet további 2 év kompresszor garancia egészít ki, így biztosítva a hosszú távú üzembiztonságot.</li>
+        </ul>
+        </div>`,
+    },
+    en: {
+      fullName: "Kinghome Primor 2.5 kW Inverter Split Air Conditioner Set",
+      typeName: "AC",
+      desc: "Backed by world-class manufacturing expertise, the Kinghome Primor is a model of reliability and efficiency. This compact unit is an ideal choice for bedrooms or smaller living rooms where quiet operation and precise temperature control are top priorities. Beyond its excellent value, its long-term safe operation is guaranteed by professional warranty terms.",
+      specs: [
+        "A++",
+        "Wi-Fi Control",
+        "Powered by Gree",
+        "I-Feel Function",
+        "8°C Heating Mode",
+        "Intelligent Defrost",
+        "Quiet Operation",
+        "Heating up to -15°C",
+        "3+2 Years Warranty"
+      ],
+
+      specsExtended: [
+        { label: "Cooling Capacity", value: "2.5 kW" },
+        { label: "Heating Capacity", value: "2.8 kW" },
+        { label: "Recommended Room Size", value: "8–28 m²" },
+        { label: "Energy Class (Cooling)", value: "A++" },
+        { label: "Energy Class (Heating)", value: "A+" },
+        { label: "Wi-Fi Control", value: "Yes" },
+        { label: "H-Tariff Compatible", value: "Yes" },
+        { label: "Warranty", value: "3 years full + 2 years for the compressor" },
+      ],
+      longDesc: `<div class="product-description">
+        <p>The <strong>Kinghome Primor</strong> series is a discreet yet powerful companion for modern homes. Thanks to inverter control, the unit only consumes the energy strictly necessary to maintain the desired temperature, ensuring low utility bills during both cooling and heating seasons.</p>
+        <h3>Key Features:</h3>
+        <ul>
+        <li><strong>I FEEL Function:</strong> The indoor unit adjusts cooling based on the remote control's location, preventing uneven temperatures in the room.</li>
+        <li><strong>8°C Tempering:</strong> Perfect for weekend houses or rarely used rooms to prevent plumbing from freezing during winter.</li>
+        <li><strong>Gree Technology:</strong> Kinghome is a brand of the world's largest air conditioner manufacturer, ensuring reliable service and parts availability in the long run.</li>
+        <li><strong>Standard Warranty:</strong> The unit comes with a 3-year full warranty, complemented by an additional 2-year warranty on the compressor, providing reliable long-term protection.</li>
+        </ul>
+        </div>`,
+    },
+    price: "280.000 Ft", // Ez csak példa ár, írd át a valósra!
+    priceNum: 280000,
+    powerCooling: 2.5,
+    powerHeating: 2.8,
+    roomSize: "8-28",
+    action: true,
+    pics: [
+        { src: "kinghome-Primor-01.png", width: 1500, height: 1500 },
+        { src: "kinghome-Primor-02.png", width: 1500, height: 1500 },
+        { src: "kinghome-Primor-03-1.png", width: 1500, height: 1500 },
+        { src: "kinghome-Primor-04.png", width: 1500, height: 1500 },
+        { src: "kinghome-Primor-05.png", width: 1500, height: 1500 },
+        { src: "kingome-maximus-05.png", width: 1500, height: 1500 },
+        { src: "x-kingome-kulteri.png", width: 1500, height: 1500 },
+    ]
+}
 ];
 
 export type Product = {

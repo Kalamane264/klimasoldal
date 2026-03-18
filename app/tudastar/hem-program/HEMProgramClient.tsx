@@ -32,7 +32,7 @@ export default function HEMProgramClient() {
     subtitle:
       "Ha energiahatékony berendezést telepít, a megtakarítása pénzt ér. Ez a HEM program lényege – és akár 500 000 Ft kedvezményt is jelenthet.",
     intro:
-      "Sokan hallottak már a HEM programról, de kevesen értik pontosan, hogyan is működik. Ez a cikk megpróbálja egyszeruen, lépésről lépésre elmagyarázni: mi ez, miért kaphat miatta pénzt, és mit kell tennie ahhoz, hogy tényleg megkapja.",
+      "Sokan hallottak már a HEM programról, de kevesen értik pontosan, hogyan is működik. Ez a cikk megpróbálja egyszerűen, lépésről lépésre elmagyarázni: mi ez, miért kaphat miatta pénzt, és mit kell tennie ahhoz, hogy tényleg megkapja.",
 
     whatIs: {
       title: "Mi az a HEM, egyszerűen fogalmazva?",
@@ -57,15 +57,15 @@ export default function HEMProgramClient() {
     },
 
     example: {
-      title: "Konkrét példa: 100 m2-es ház, gázkazánról klímára váltás",
+      title: "Konkrét példa: 100 m2-es ház, gázkazánról 2 db fűtős split klímára váltás",
       rows: [
-        { label: "Beruházás összege (2 db klíma + szerelés)", value: "1 200 000 Ft", highlight: false },
+        { label: "Beruházás összege (2 db Gree klíma + szerelés)", value: "kb. 700 000 Ft", highlight: false },
         { label: "Hitelesített energiamegtakarítás", value: "kb. 15 GJ", highlight: false },
         { label: "HEM kedvezmény értéke (11 700 Ft/GJ)", value: "kb. 175 000 Ft", highlight: true },
-        { label: "Ténylegesen fizetett összeg", value: "kb. 1 025 000 Ft", highlight: true },
+        { label: "Ténylegesen fizetett összeg", value: "kb. 525 000 Ft", highlight: true },
       ],
       footnote:
-        "A pontos szam az ingatlan adataitol, a regi futes tipustatol es az uj berendezes teljesitmenyetol fugg. Auditor vegzi a pontos szamitast.",
+        "A pontos összeg az ingatlan adataitól, a régi fűtés típusától és az új berendezés teljesítményétől függ. Az energiamegtakarítást auditor számítja ki.",
     },
 
     howToGet: {
@@ -198,12 +198,12 @@ export default function HEMProgramClient() {
     },
 
     example: {
-      title: "Concrete example: 100 m2 house, switching from gas boiler to AC",
+      title: "Concrete example: 100 m2 house, switching from gas boiler to 2 heating split ACs",
       rows: [
-        { label: "Investment amount (2 AC units + installation)", value: "HUF 1,200,000", highlight: false },
+        { label: "Investment amount (2 Gree AC units + installation)", value: "approx. HUF 700,000", highlight: false },
         { label: "Certified energy savings", value: "approx. 15 GJ", highlight: false },
         { label: "HEM discount value (HUF 11,700/GJ)", value: "approx. HUF 175,000", highlight: true },
-        { label: "Amount actually paid", value: "approx. HUF 1,025,000", highlight: true },
+        { label: "Amount actually paid", value: "approx. HUF 525,000", highlight: true },
       ],
       footnote:
         "The exact figures depend on the property data, the type of old heating, and the performance of the new equipment. An auditor performs the precise calculation.",

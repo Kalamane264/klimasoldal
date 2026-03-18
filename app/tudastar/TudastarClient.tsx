@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/app/ui/card";
 import { Button } from "@/app/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, Lightbulb, ShieldCheck } from "lucide-react";
+import { BookOpen, Lightbulb, ShieldCheck, Home } from "lucide-react";
 
 export default function TudastarClient() {
   const { language, t } = useLanguage();
@@ -45,6 +45,18 @@ export default function TudastarClient() {
       en: {
         title: "HEM Program",
         desc: "Learn everything about the Certified Energy Savings program and the available discounts.",
+      },
+    },
+    {
+      id: "otthonfelujitasi-tamogatas",
+      icon: <Home className="w-8 h-8 text-orange-500" />,
+      hu: {
+        title: "Otthonfelújítási Támogatás 2026",
+        desc: "Mennyit spórolhat klíma- vagy hőszivattyú-telepítéssel? Átfogó útmutató a Vidéki Program és a KEHOP Plusz lehetőségeiről.",
+      },
+      en: {
+        title: "Home Renovation Subsidy 2026",
+        desc: "How much can you save with AC or heat pump installation? A comprehensive guide to Hungary's state support programs.",
       },
     },
   ];

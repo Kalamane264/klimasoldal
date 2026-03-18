@@ -35,7 +35,7 @@ export default function HEMProgramClient() {
       "Sokan hallottak már a HEM programról, de kevesen értik pontosan, hogyan is működik. Ez a cikk megpróbálja egyszeruen, lépésről lépésre elmagyarázni: mi ez, miért kaphat miatta pénzt, és mit kell tennie ahhoz, hogy tényleg megkapja.",
 
     whatIs: {
-      title: "Mi az a HEM, egyszeruen fogalmazva?",
+      title: "Mi az a HEM, egyszerűen fogalmazva?",
       lead: "Ha Ön gázkazánról klímára vagy hőszivattyúra vált, kevesebb energiát fogyaszt. Ez az energiamegtakarítás – meglepő módon – pénzt ér.",
       analogy:
         "Képzelje el úgy, mint a visszaváltható palackot: a megtakarítása egy olyan igazolás, amit energiakereskedő cégek (pl. MVM, E.ON) megvesznek Öntől. Cserébe Ön kedvezményt vagy készpénzt kap.",

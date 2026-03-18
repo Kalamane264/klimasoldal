@@ -30,7 +30,7 @@ export default function OtthonfelujitasClient() {
     subtitle:
       "Hogyan spórolhat akár több millió forintot klíma- vagy hőszivattyú-telepítéssel? Átfogó útmutató a két elérhető állami programról.",
     intro:
-      "Magyarországon jelenleg két egymást kiegészítő állami program is segít abban, hogy olcsóbban korszerűsítse otthonát – és mindkettő igénybe vehető klímaberendezés vagy hőszivattyú telepítésekor is. Ha jól választ, akár 5 millió forintnyi vissza nem térítendő támogatást is kaphat, ráadásul kamatmentes hitellel megtámogatva.",
+      "Magyarországon jelenleg két egymást kiegészítő állami program is segít abban, hogy olcsóbban korszerűsítse otthonát. A Vidéki Otthonfelújítási Program klímaszereléshez és hőszivattyúhoz egyaránt igénybe vehető, a KEHOP Plusz pedig kifejezetten energetikai korszerűsítésre – hőszivattyú telepítésre – nyújtja a legtöbb támogatást. Ha jól választ, akár 5 millió forintnyi vissza nem térítendő támogatást kaphat.",
 
     programs: [
       {
@@ -40,8 +40,8 @@ export default function OtthonfelujitasClient() {
         title: "Vidéki Otthonfelújítási Program",
         period: "2025. január 1. – 2026. június 30.",
         who: "Kistelepüléseken élők – gyerekesek és nyugdíjasok egyaránt",
-        support: "3 000 000 Ft vissza nem térítendő támogatás",
-        loan: "6 000 000 Ft kamattámogatott kölcsön",
+        support: "Az elköltött összeg 50%-a visszatérítve (max. 3 000 000 Ft)",
+        loan: "6 000 000 Ft kamattámogatott kölcsön (az előfinanszírozáshoz)",
         energy: "Nincs energetikai elvárás",
         items: [
           "Klímaberendezés telepítése ✔",
@@ -49,8 +49,9 @@ export default function OtthonfelujitasClient() {
           "Napkollektor, napelemes rendszer ✔",
           "Tetőcsere, nyílászárók cseréje ✔",
           "Belső terek felújítása ✔",
+          "Utófinanszírozás: számlák beadása után érkezik a visszatérítés",
         ],
-        note: "5 éves lakkötöttség: a támogatott ingatlanban kell élni, és a számlákat meg kell őrizni.",
+        note: "Minimum 6 M Ft összértékű munkával érhető el a teljes 3 M Ft-os támogatás (az állam az összeg 50%-át téríti vissza). 5 éves lakóhelyi kötöttség érvényes.",
         noteType: "info" as const,
       },
       {
@@ -60,15 +61,15 @@ export default function OtthonfelujitasClient() {
         title: "KEHOP Plusz Energetikai Program",
         period: "2024. júliustól, jelenleg is elérhető",
         who: "2007 előtt épített, belterületi, lakott ingatlanok tulajdonosai",
-        support: "5 000 000 Ft vissza nem térítendő támogatás",
-        loan: "5 000 000 Ft kamatmentes kölcsön",
+        support: "A beruházás 50%-a vissza nem térítendő (max. 5 000 000 Ft)",
+        loan: "A beruházás 45%-a kamatmentes kölcsön (max. 5 000 000 Ft) + 5% önerő",
         energy: "30%-os energiamegtakarítás szükséges",
         items: [
           "Levegő-víz hőszivattyú telepítése ✔",
           "Hőszigeteléssel kombinálva ✔",
           "Nyílászárócsere + fűtéskorszerűsítés ✔",
-          "Max. 10 millió Ft beruházás összesen",
-          "Minimálisan 5% önerő szükséges",
+          "2,5–10 millió Ft közötti beruházási összeg",
+          "Hagyományos klímaberendezés NEM támogatható fűtési célra",
         ],
         note: "Ha a 30%-os energiamegtakarítás nem teljesül, a teljes összeget kamatostul vissza kell fizetni. Érdemes energetikai szakértővel előzetesen egyeztetni.",
         noteType: "warning" as const,
@@ -80,16 +81,17 @@ export default function OtthonfelujitasClient() {
       subtitle:
         "Nézzünk egy valós példát, hogy könnyebb legyen elképzelni a megtakarítást.",
       example: {
-        title: "Példa: hőszivattyú telepítése KEHOP Plusz programmal",
+        title: "Példa: hőszivattyú telepítése KEHOP Plusz programmal (6 M Ft-os beruházás)",
         rows: [
-          { label: "Hőszivattyú + telepítés teljes ára", value: "1 200 000 Ft", highlight: false },
-          { label: "Vissza nem térítendő támogatás (5 M Ft-ig)", value: "− 600 000 Ft", highlight: true },
-          { label: "Kamatmentes kölcsön (a maradékra)", value: "600 000 Ft 0% kamattal", highlight: false },
+          { label: "Hőszivattyú + telepítés teljes ára", value: "6 000 000 Ft", highlight: false },
+          { label: "Vissza nem térítendő támogatás (50%)", value: "− 3 000 000 Ft", highlight: true },
+          { label: "Kamatmentes kölcsön (45%, 0% kamat)", value: "2 700 000 Ft", highlight: false },
+          { label: "Saját forrás (5% önerő)", value: "300 000 Ft", highlight: false },
           { label: "Éves rezsimegtakarítás (gáz vs. hőszivattyú)", value: "≈ 150 000–300 000 Ft/év", highlight: true },
-          { label: "Megtérülési idő (támogatással)", value: "2–4 év", highlight: false },
+          { label: "Megtérülési idő (önerőre vetítve)", value: "1–2 év", highlight: false },
         ],
         footnote:
-          "A számok tájékoztató jellegűek, a tényleges megtakarítás az ingatlan méretétől, szigetelésétől és energiaáraktól függ.",
+          "A számok tájékoztató jellegűek. A tényleges megtakarítás az ingatlan méretétől, szigetelésétől és energiaáraktól függ.",
       },
       cards: [
         {
@@ -100,7 +102,7 @@ export default function OtthonfelujitasClient() {
         {
           icon: <Banknote className="w-7 h-7 text-blue-600" />,
           title: "Kamatmentes finanszírozás",
-          desc: "A maradék összeget 0%-os kamattal hitelezik, így a bank sem nyerészkedik és az infláció sem emészti fel a megtakarítást.",
+          desc: "A maradék összeget 0%-os kamattal hitelezik, így a bank sem nyeri és az infláció sem emészti fel a megtakarítást.",
         },
         {
           icon: <Home className="w-7 h-7 text-primary" />,
@@ -114,13 +116,14 @@ export default function OtthonfelujitasClient() {
       title: "Melyik program az Önnek való?",
       headers: ["", "Vidéki Program", "KEHOP Plusz"],
       rows: [
+        ["Finanszírozási modell", "50% visszatérítés (utólag)", "50% adomány + 45% hitel + 5% önerő"],
         ["Max. vissza nem térítendő", "3 000 000 Ft", "5 000 000 Ft"],
-        ["Max. hitel/kölcsön", "6 000 000 Ft", "5 000 000 Ft"],
-        ["Energetikai feltétel", "Nincs", "30% megtakarítás"],
-        ["Klímaszerelés", "✔ Igen", "Feltételektől függ"],
+        ["Max. hitel/kölcsön", "6 000 000 Ft kamattámogatott", "5 000 000 Ft kamatmentes"],
+        ["Energetikai feltétel", "Nincs", "30% megtakarítás kötelező"],
+        ["Klímaszerelés", "✔ Igen", "✗ Fűtési célra nem (csak hőszivattyú)"],
         ["Hőszivattyú", "✔ Igen", "✔ Igen"],
         ["Hol érhető el", "Max. 5 000 fős település", "Országos"],
-        ["Önerő", "Nincs előírva", "Min. 5%"],
+        ["Min. beruházási összeg", "Nincs meghatározva", "2 500 000 Ft"],
       ],
     },
 
@@ -168,7 +171,7 @@ export default function OtthonfelujitasClient() {
     subtitle:
       "How can you save several million forints with AC or heat pump installation? A comprehensive guide to Hungary's two available state programs.",
     intro:
-      "In Hungary, two complementary state programs currently help you renovate your home more affordably – and both can be used for air conditioning or heat pump installation. With the right choice, you can receive up to 5 million HUF in non-refundable support, backed by an interest-free loan.",
+      "In Hungary, two complementary state programs currently help you renovate your home more affordably. The Rural Home Renovation Program covers both AC and heat pump installation, while the KEHOP Plus program focuses on energy-efficient upgrades – specifically heat pumps. With the right choice, you can receive up to 5 million HUF in non-refundable support.",
 
     programs: [
       {
@@ -178,8 +181,8 @@ export default function OtthonfelujitasClient() {
         title: "Rural Home Renovation Program",
         period: "January 1, 2025 – June 30, 2026",
         who: "Residents of small settlements – families with children and retirees alike",
-        support: "HUF 3,000,000 non-refundable grant",
-        loan: "HUF 6,000,000 interest-subsidized loan",
+        support: "50% of costs reimbursed (max. HUF 3,000,000)",
+        loan: "HUF 6,000,000 interest-subsidized loan (to help pre-finance the work)",
         energy: "No energy efficiency requirement",
         items: [
           "Air conditioning installation ✔",
@@ -187,8 +190,9 @@ export default function OtthonfelujitasClient() {
           "Solar collectors, solar panel systems ✔",
           "Roof replacement, window replacement ✔",
           "Interior renovation ✔",
+          "Post-financing: reimbursement arrives after invoices are submitted",
         ],
-        note: "5-year residency requirement: you must live in the supported property and keep all invoices.",
+        note: "To receive the maximum HUF 3M, you must spend at least HUF 6M (the state reimburses 50%). 5-year residency requirement applies.",
         noteType: "info" as const,
       },
       {
@@ -198,15 +202,15 @@ export default function OtthonfelujitasClient() {
         title: "KEHOP Plus Energy Program",
         period: "From July 2024, currently available",
         who: "Owners of residential properties built before 2007",
-        support: "HUF 5,000,000 non-refundable grant",
-        loan: "HUF 5,000,000 interest-free loan",
+        support: "50% of project cost as non-refundable grant (max. HUF 5,000,000)",
+        loan: "45% as interest-free loan (max. HUF 5,000,000) + 5% own contribution",
         energy: "30% energy savings required",
         items: [
           "Air-to-water heat pump installation ✔",
           "Combined with insulation ✔",
           "Window replacement + heating modernization ✔",
-          "Max. HUF 10 million total investment",
-          "Minimum 5% own contribution required",
+          "HUF 2.5–10 million investment range",
+          "Standard AC units NOT eligible for heating purposes",
         ],
         note: "If the 30% energy savings are not achieved, the full amount must be repaid with interest. It's worth consulting an energy expert in advance.",
         noteType: "warning" as const,
@@ -217,16 +221,17 @@ export default function OtthonfelujitasClient() {
       title: "How much can you actually save?",
       subtitle: "Let's look at a real-life example to make the savings easier to visualize.",
       example: {
-        title: "Example: heat pump installation with KEHOP Plus program",
+        title: "Example: heat pump installation with KEHOP Plus (HUF 6M project)",
         rows: [
-          { label: "Heat pump + installation total price", value: "HUF 1,200,000", highlight: false },
-          { label: "Non-refundable grant (up to 5M HUF)", value: "− HUF 600,000", highlight: true },
-          { label: "Interest-free loan (for the remainder)", value: "HUF 600,000 at 0% interest", highlight: false },
+          { label: "Heat pump + installation total price", value: "HUF 6,000,000", highlight: false },
+          { label: "Non-refundable grant (50%)", value: "− HUF 3,000,000", highlight: true },
+          { label: "Interest-free loan (45%, 0% interest)", value: "HUF 2,700,000", highlight: false },
+          { label: "Own contribution (5%)", value: "HUF 300,000", highlight: false },
           { label: "Annual utility savings (gas vs. heat pump)", value: "≈ HUF 150,000–300,000/year", highlight: true },
-          { label: "Payback period (with subsidy)", value: "2–4 years", highlight: false },
+          { label: "Payback period (on own contribution)", value: "1–2 years", highlight: false },
         ],
         footnote:
-          "Figures are indicative; actual savings depend on property size, insulation, and energy prices.",
+          "Figures are indicative. Actual savings depend on property size, insulation, and energy prices.",
       },
       cards: [
         {
@@ -251,13 +256,14 @@ export default function OtthonfelujitasClient() {
       title: "Which program is right for you?",
       headers: ["", "Rural Program", "KEHOP Plus"],
       rows: [
+        ["Financing model", "50% reimbursement (post-financing)", "50% grant + 45% loan + 5% own"],
         ["Max. non-refundable grant", "HUF 3,000,000", "HUF 5,000,000"],
-        ["Max. loan", "HUF 6,000,000", "HUF 5,000,000"],
-        ["Energy requirement", "None", "30% savings"],
-        ["AC installation", "✔ Yes", "Depends on conditions"],
+        ["Max. loan", "HUF 6M interest-subsidized", "HUF 5M interest-free"],
+        ["Energy requirement", "None", "30% savings required"],
+        ["AC installation", "✔ Yes", "✗ Not for heating (heat pump only)"],
         ["Heat pump", "✔ Yes", "✔ Yes"],
         ["Available where", "Max. 5,000-person settlement", "Nationwide"],
-        ["Own contribution", "Not required", "Min. 5%"],
+        ["Min. investment", "Not specified", "HUF 2,500,000"],
       ],
     },
 

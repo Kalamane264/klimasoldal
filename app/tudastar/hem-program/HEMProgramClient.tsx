@@ -587,8 +587,8 @@ export default function HEMProgramClient() {
                       : "Home Renovation Support 2026 – Rural Program and KEHOP Plus"}
                   </p>
                 </div>
-                <Link href="/tudastar/otthonfelujitasi_tamogatas">
-                  <Button variant="outline" size="sm" className="flex-shrink-0">
+                <Link href="/tudastar/otthonfelujitasi-tamogatas">
+                  <Button variant="outline" size="sm" className="flex-shrink-0 cursor-pointer">
                     <ArrowRight className="w-4 h-4" />
                   </Button>
                 </Link>

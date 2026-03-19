@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Otthonfelújítási Támogatás 2026 – Spóroljon Milliókat | AClimate",
     description: "Két állami program, amelyekkel akár 5 millió forint vissza nem térítendő támogatást kaphat klíma- vagy hőszivattyú-telepítéshez. Részletes összehasonlítás, megtakarítási számítások.",
-    url: "https://aclimate.hu/tudastar/otthonfelujitasi_tamogatas",
+    url: "https://aclimate.hu/tudastar/otthonfelujitasi-tamogatas",
     siteName: "AClimate",
     locale: "hu_HU",
     type: "article",

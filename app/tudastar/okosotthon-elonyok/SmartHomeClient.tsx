@@ -14,6 +14,8 @@ import {
   TrendingDown,
   Clock,
   Shield,
+  ArrowRight,
+  MessageCircle,
 } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -153,6 +155,30 @@ export default function SmartHomeClient() {
                 </div>
               </div>
             </section>
+
+            <div className="mt-16 rounded-2xl bg-primary/5 border border-primary/15 px-8 py-10 flex flex-col sm:flex-row items-center gap-6">
+              <div className="flex-shrink-0 bg-primary text-white rounded-xl p-3">
+                <MessageCircle className="w-6 h-6" />
+              </div>
+              <div className="flex-1 text-center sm:text-left">
+                <p className="font-semibold text-lg text-foreground">
+                  {language === "hu"
+                    ? "Okosotthon megoldásokat keres?"
+                    : "Looking for smart home solutions?"}
+                </p>
+                <p className="text-muted-foreground text-sm mt-1">
+                  {language === "hu"
+                    ? "Szakértőink személyre szabott tanácsot adnak az Ön otthonához."
+                    : "Our experts provide personalised advice for your home."}
+                </p>
+              </div>
+              <Link href="/kapcsolat" className="flex-shrink-0">
+                <Button className="cursor-pointer bg-primary hover:bg-primary/90 text-white rounded-full px-6">
+                  {language === "hu" ? "Kapcsolatfelvétel" : "Get in touch"}
+                  <ArrowRight className="ml-2 w-4 h-4" />
+                </Button>
+              </Link>
+            </div>
           </div>
         </div>
       </main>

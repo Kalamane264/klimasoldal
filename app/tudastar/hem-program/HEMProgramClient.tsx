@@ -14,9 +14,7 @@ import {
   AlertTriangle,
   Info,
   HelpCircle,
-  TrendingDown,
   ShieldCheck,
-  Building2,
   Gift,
 } from "lucide-react";
 import { motion } from "framer-motion";

@@ -35,7 +35,10 @@ export default function Home() {
       inquiryTitle: "Érdeklődjön személyre szabott ajánlatunkról",
       inquiryDesc: (
         <>
-          Kapcsolatfelvétel vagy érdeklődés esetén további tájékoztatást
+          <Link
+            className="text-primary font-bold underline hover:opacity-80 transition-opacity cursor-pointer"
+            href={"/kapcsolat"}
+          >Kapcsolatfelvétel</Link> vagy érdeklődés esetén további tájékoztatást
           nyújtunk az egyedi akciós lehetőségekről, amelyeket kifejezetten az Ön
           igényeihez szabhatunk.
         </>
@@ -71,7 +74,12 @@ export default function Home() {
       ),
       inquiryTitle: "Inquire About Your Custom Offer",
       inquiryDesc:
-        "Upon contact or inquiry, we provide detailed information about current personalized promotional opportunities that can be tailored specifically to your needs.",
+        <>
+          Upon <Link
+            className="text-primary font-bold underline hover:opacity-80 transition-opacity cursor-pointer"
+            href={"/kapcsolat"}
+          >contact</Link> or inquiry, we provide detailed information about current personalized promotional opportunities that can be tailored specifically to your needs.
+        </>,
       localTitle: "Local Discounts",
       localDesc: (
         <>

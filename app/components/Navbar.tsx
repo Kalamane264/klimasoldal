@@ -192,7 +192,7 @@ export default function Navbar(){
                   {language === 'hu' ? '• Parapet Klímák' : '• Floor-ceiling Air Conditioners'}
                 </Link>
                 <Link href="/konzol-klimak" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  {language === 'hu' ? 'Konzol Klímák' : 'Console Air Conditioners'}
+                  {language === 'hu' ? '• Konzol Klímák' : 'Console Air Conditioners'}
                 </Link>
                 <Link href="/hoszivattyuk" onClick={() => setIsOpen(false)} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {language === 'hu' ? '• Hőszivattyúk' : '• Heat Pumps'}

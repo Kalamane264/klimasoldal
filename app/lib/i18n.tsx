@@ -18,6 +18,8 @@ type Translations = {
     subtitle: string;
     cta: string;
     secondaryCta: string;
+    saleCta: string;
+    saleSubtitle: string;
   };
   services: {
     title: string;
@@ -140,7 +142,9 @@ const translations: Record<Language, Translations> = {
       title: "Sustainable Comfort for Modern Living",
       subtitle: "Professional installation of Air Conditioning, Heat Pumps, and Electrical Systems. Future-proof your home with AClimate.",
       cta: "Explore Services",
-      secondaryCta: "Learn About Heat Pumps"
+      secondaryCta: "Learn About Heat Pumps",
+      saleCta: "Sale AC units",
+      saleSubtitle: "Regularly updated stock at discounted prices"
     },
     services: {
       title: "Our services for residential customers",
@@ -341,7 +345,9 @@ const translations: Record<Language, Translations> = {
       title: "Fenntartható Kényelem Modern Otthonokba",
       subtitle: "Klímák, hőszivattyúk és elektromos rendszerek professzionális telepítése. Tegye jövőbiztossá otthonát az AClimate-tel.",
       cta: "Szolgáltatásaink",
-      secondaryCta: "Tudjon meg többet"
+      secondaryCta: "Tudjon meg többet",
+      saleCta: "Akciós klímáink",
+      saleSubtitle: "Rendszeresen frissített készlet, kedvező árakon"
     },
     services: {
       title: "Szolgáltatásaink lakossági megrendelők számára",

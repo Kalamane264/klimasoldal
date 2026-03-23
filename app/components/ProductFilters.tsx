@@ -72,8 +72,6 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
 
     const [filters, setFilters] = useState<Filters>(filtersReadFromQuery);
 
-    console.log("Fittesz", filters);
-
     useEffect(() => {
       onFilterChange(filters);
 
@@ -90,7 +88,7 @@ const ProductFilters = forwardRef<ProductFiltersHandle, Props>(
         params.append("roomsize", size.toString());
       });
 
-      router.push(`?${params.toString()}`, { scroll: false });
+      router.replace(`?${params.toString()}`, { scroll: false });
     }, [filters]);
 
     const brands = useMemo(() => {

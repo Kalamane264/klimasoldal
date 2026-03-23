@@ -5,7 +5,7 @@ import { Button } from "@/app/ui/button";
 import { useGoBack } from "@/app/lib/useGoBack";
 import { 
   ArrowLeft, CheckCircle2, Zap, ShieldCheck, 
-  MapPin, TrendingDown
+  MapPin, TrendingDown, Tag
 } from "lucide-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -41,7 +41,9 @@ export default function ACInstallation() {
       { q: "Mennyi a fogyasztása egy klímának?", a: "A modern inverteres készülékek rendkívül takarékosak, havi pár ezer forintból üzemeltethetők." }
     ],
     area: "Klímatelepítést és karbantartást országszerte, de Pécs környékén kiemelten (gyorsabban, olcsóbban) vállalunk.",
-    cta: "Klímaszerelésre vagy hőszivattyú-telepítésre van szüksége?"
+    cta: "Klímaszerelésre vagy hőszivattyú-telepítésre van szüksége?",
+    ctaContact: "Kapcsolatfelvétel",
+    ctaSale: "Akciós klímáink",
   } : {
     h1: "Residential Air Conditioning Installation",
     lead: "Fast and reliable AC installation for apartments and houses with transparent pricing and short deadlines.",
@@ -62,7 +64,9 @@ export default function ACInstallation() {
       { q: "What is the power consumption?", a: "Modern inverter units are very efficient and cost-effective to run." }
     ],
     area: "We offer air conditioning installation and maintenance nationwide, with priority service (faster and more affordable) in the Pécs area.",
-    cta: "Need AC installation or a heat pump in Budapest?"
+    cta: "Need AC installation or a heat pump in Budapest?",
+    ctaContact: "Contact Us",
+    ctaSale: "Sale AC units",
   };
 
   return (
@@ -88,11 +92,19 @@ export default function ACInstallation() {
                     priority
                   />
                 </div>
-                <Link href="/kapcsolat">
-                  <Button size="lg" className="cursor-pointer bg-primary text-white hover:bg-primary/90 rounded-full px-8 py-6 text-lg">
-                    {language === 'hu' ? 'Kapcsolatfelvétel' : 'Contact Us'}
-                  </Button>
-                </Link>
+                <div className="flex flex-wrap gap-4">
+                  <Link href="/kapcsolat">
+                    <Button size="lg" className="cursor-pointer bg-primary text-white hover:bg-primary/90 rounded-full px-8 py-6 text-lg">
+                      {t.ctaContact}
+                    </Button>
+                  </Link>
+                  <Link href="/akcios-klimak">
+                    <Button size="lg" variant="outline" className="cursor-pointer rounded-full px-8 py-6 text-lg border-primary text-primary hover:bg-primary/5">
+                      <Tag className="w-5 h-5 mr-2" />
+                      {t.ctaSale}
+                    </Button>
+                  </Link>
+                </div>
               </div>
 
               <section className="mb-16">
@@ -174,11 +186,19 @@ export default function ACInstallation() {
 
               <div className="bg-primary p-12 rounded-3xl text-center text-white shadow-xl shadow-primary/20">
                 <h2 className="text-3xl md:text-4xl font-heading font-bold mb-8 leading-tight">{t.cta}</h2>
-                <Link href="/kapcsolat">
-                  <Button size="lg" variant="secondary" className="cursor-pointer  bg-white text-primary hover:bg-slate-100 rounded-full px-12 py-8 text-xl font-bold">
-                    {language === 'hu' ? 'Kapcsolatfelvétel' : 'Contact Us'}
-                  </Button>
-                </Link>
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Link href="/kapcsolat">
+                    <Button size="lg" variant="secondary" className="cursor-pointer bg-white text-primary hover:bg-slate-100 rounded-full px-10 py-7 text-xl font-bold">
+                      {t.ctaContact}
+                    </Button>
+                  </Link>
+                  <Link href="/akcios-klimak">
+                    <Button size="lg" variant="outline" className="cursor-pointer border-2 border-white text-white hover:bg-white/10 rounded-full px-10 py-7 text-xl font-bold">
+                      <Tag className="w-5 h-5 mr-2" />
+                      {t.ctaSale}
+                    </Button>
+                  </Link>
+                </div>
               </div>
             </motion.div>
           </div>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/app/ui/button";
 import { useLanguage } from "@/app/lib/i18n";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight, ChevronDown, Snowflake } from "lucide-react";
 import heroImage from "@/public/modern_smart_home_living_room_with_subtle_tech.png";
 import { motion } from "framer-motion";
 
@@ -48,6 +48,24 @@ export function Hero() {
               </Button>
             </Link>
           </div>
+
+          <Link href="/akcios-klimak" className="block mt-2">
+            <motion.div
+              whileHover={{ scale: 1.02 }}
+              className="flex items-center justify-between gap-4 bg-orange-50 border-2 border-orange-300 hover:border-orange-400 hover:bg-orange-100 rounded-2xl px-6 py-4 transition-colors cursor-pointer shadow-sm"
+            >
+              <div className="flex items-center gap-3">
+                <span className="flex-shrink-0 bg-orange-500 text-white rounded-xl p-2">
+                  <Snowflake className="w-5 h-5" />
+                </span>
+                <div>
+                  <p className="font-bold text-orange-900 text-lg leading-tight">{t.hero.saleCta}</p>
+                  <p className="text-orange-700 text-sm">{t.hero.saleSubtitle}</p>
+                </div>
+              </div>
+              <ArrowRight className="w-5 h-5 text-orange-500 flex-shrink-0" />
+            </motion.div>
+          </Link>
         </motion.div>
 
         <motion.div

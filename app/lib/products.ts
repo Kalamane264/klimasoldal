@@ -79,8 +79,8 @@ export const products: Product[] = [
             </ul>
         </div> `,
     },
-    price: "290.000 Ft",
-    priceNum: 290000,
+    price: "270.000 Ft",
+    priceNum: 270000,
     powerCooling: 2.7,
     powerHeating: 2.8,
     roomSize: "8-28",
@@ -174,11 +174,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "310.000 Ft",
-    priceNum: 310000,
+    price: "290.000 Ft",
+    priceNum: 290000,
     powerCooling: 3.2,
     powerHeating: 3.4,
     roomSize: "29-45",
+    action: true,
     pics: [
       { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
       { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -269,11 +270,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "420.000 Ft",
-    priceNum: 420000,
+    price: "380.000 Ft",
+    priceNum: 380000,
     powerCooling: 4.6,
     powerHeating: 5.2,
     roomSize: "46-75",
+    action: true,
     pics: [
       { src: "syen-charm-indoor-01.jpg", width: 1750, height: 1279 },
       { src: "syen-charm-indoor-02.jpg", width: 1750, height: 1279 },
@@ -468,11 +470,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "310.000 Ft",
-    priceNum: 310000,
+    price: "290.000 Ft",
+    priceNum: 290000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     roomSize: "8-28",
+    action: true,
     pics: [
       { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
       { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -569,11 +572,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "330.000 Ft",
-    priceNum: 330000,
+    price: "300.000 Ft",
+    priceNum: 300000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
+    action: true,
     pics: [
       { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
       { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -669,11 +673,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "430.000 Ft",
-    priceNum: 430000,
+    price: "390.000 Ft",
+    priceNum: 390000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
+    action: true,
     pics: [
       { src: "syen-muse-next-01.jpg", width: 1000, height: 731 },
       { src: "syen-muse-next-02.jpg", width: 1000, height: 731 },
@@ -2034,11 +2039,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "320.000 Ft",
-    priceNum: 320000,
+    price: "280.000 Ft",
+    priceNum: 280000,
     powerCooling: 2.7,
     powerHeating: 2.8,
     roomSize: "8-28",
+    action: true,
     pics: [
       { src: "gree-pulse.jpg", width: 1000, height: 1000 },
       { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2136,11 +2142,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "330.000 Ft",
-    priceNum: 330000,
+    price: "300.000 Ft",
+    priceNum: 300000,
     powerCooling: 3.2,
     powerHeating: 3.4,
     roomSize: "29-45",
+    action: true,
     pics: [
       { src: "gree-pulse.jpg", width: 1000, height: 1000 },
       { src: "gree-pulse-02.jpg", width: 1000, height: 1000 },
@@ -2454,6 +2461,7 @@ export const products: Product[] = [
     priceNum: 300000,
     powerCooling: 2.7,
     powerHeating: 3.0,
+    action: true,
     roomSize: "8-28",
     pics: [
       { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
@@ -2565,6 +2573,7 @@ export const products: Product[] = [
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
+    action: true,
     pics: [
       { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
       { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2670,11 +2679,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "440.000 Ft",
-    priceNum: 440000,
+    price: "410.000 Ft",
+    priceNum: 410000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
+    action: true,
     pics: [
       { src: "gree-comfort-pro-1.jpg", width: 900, height: 900 },
       { src: "gree-comfort-pro-2.jpg", width: 900, height: 900 },
@@ -2872,8 +2882,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "330.000 Ft",
-    priceNum: 330000,
+    price: "320.000 Ft",
+    priceNum: 320000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     roomSize: "8-28",
@@ -2965,11 +2975,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "355.000 Ft",
-    priceNum: 355000,
+    price: "330.000 Ft",
+    priceNum: 330000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
+    action: true,
     pics: [
       { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
       { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },
@@ -3058,11 +3069,12 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "470.000 Ft",
-    priceNum: 470000,
+    price: "420.000 Ft",
+    priceNum: 420000,
     powerCooling: 5.1,
     powerHeating: 5.3,
     roomSize: "46-75",
+    action: true,
     pics: [
       { src: "gree-cosmo-01-2.png", width: 1200, height: 1200 },
       { src: "gree-cosmo-02-2.png", width: 1200, height: 1200 },

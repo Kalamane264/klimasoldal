@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/app/ui/card";
 import { Button } from "@/app/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, Lightbulb, ShieldCheck, Home } from "lucide-react";
+import { BookOpen, Lightbulb, ShieldCheck, Home, Droplets } from "lucide-react";
 
 export default function TudastarClient() {
   const { language, t } = useLanguage();
@@ -57,6 +57,18 @@ export default function TudastarClient() {
       en: {
         title: "Home Renovation Subsidy 2026",
         desc: "How much can you save with AC or heat pump installation? A comprehensive guide to Hungary's state support programs.",
+      },
+    },
+    {
+      id: "klimatisztitas",
+      icon: <Droplets className="w-8 h-8 text-cyan-500" />,
+      hu: {
+        title: "Klímatisztítás: miért fontos és mi a valódi mosás?",
+        desc: "Garancia, egészség, energiahatékonyság – miért nem elegendő a spray-es kezelés, és mit jelent a teljes vegyszeres gépi mosás.",
+      },
+      en: {
+        title: "AC Cleaning: why it matters and what a real wash means",
+        desc: "Warranty, health, energy efficiency – why spray treatment isn't enough and what a full chemical machine wash involves.",
       },
     },
   ];

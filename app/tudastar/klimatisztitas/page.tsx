@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Klímatisztítás: Garancia és Egészség | AClimate",
     description: "Rendszeres vegyszeres klímatisztítás Pécs és 30 km-es körzetében, 29 000 Ft-tól, kiszállási díj nélkül.",
+    images: ['https://aclimate.hu/klimatisztitas.png'],
   },
 };
 

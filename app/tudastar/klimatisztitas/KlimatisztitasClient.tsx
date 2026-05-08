@@ -4,6 +4,8 @@ import { useLanguage } from "@/app/lib/i18n";
 import { useGoBack } from "@/app/lib/useGoBack";
 import { Card } from "@/app/ui/card";
 import { Badge } from "@/app/ui/badge";
+import Image from "next/image";
+import klimatisztitasKep from "@/public/klimatisztitas.png";
 import Link from "next/link";
 import { Button } from "@/app/ui/button";
 import {
@@ -119,9 +121,19 @@ export default function KlimatisztitasClient() {
               </h1>
               <p className="text-lg text-muted-foreground">
                 {hu
-                  ? "A rendszeres, szakszerű klímatisztítás nem csupán az egészséget védi – a garancia megőrzésének is feltétele lehet."
-                  : "Regular professional AC cleaning not only protects your health – it can also be a condition for maintaining your warranty."}
+                  ? "A rendszeres, szakszerű klímatisztítás nem csupán az egészséget védi – a garancia megőrzésének is feltétele."
+                  : "Regular professional AC cleaning not only protects your health – it is also a condition for maintaining your warranty."}
               </p>
+            </div>
+
+             {/* Hero image */}
+            <div className="mb-14 rounded-2xl overflow-hidden shadow-md">
+              <Image
+                src={klimatisztitasKep}
+                alt={hu ? "Szakszerű klímatisztítás mosózsákos eljárással" : "Professional AC cleaning with washing bag method"}
+                className="w-full object-cover"
+                priority
+              />
             </div>
 
             {/* Why clean */}

@@ -79,8 +79,8 @@ export const products: Product[] = [
             </ul>
         </div> `,
     },
-    price: "270.000 Ft",
-    priceNum: 270000,
+    price: "285.000 Ft",
+    priceNum: 285000,
     powerCooling: 2.7,
     powerHeating: 2.8,
     roomSize: "8-28",
@@ -174,8 +174,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "290.000 Ft",
-    priceNum: 290000,
+    price: "295.000 Ft",
+    priceNum: 295000,
     powerCooling: 3.2,
     powerHeating: 3.4,
     roomSize: "29-45",
@@ -270,8 +270,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "380.000 Ft",
-    priceNum: 380000,
+    price: "405.000 Ft",
+    priceNum: 405000,
     powerCooling: 4.6,
     powerHeating: 5.2,
     roomSize: "46-75",
@@ -366,8 +366,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "480.000 Ft",
-    priceNum: 480000,
+    price: "455.000 Ft",
+    priceNum: 455000,
     powerCooling: 6.2,
     powerHeating: 6.5,
     roomSize: "66-120",
@@ -470,8 +470,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "290.000 Ft",
-    priceNum: 290000,
+    price: "315.000 Ft",
+    priceNum: 315000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     roomSize: "8-28",
@@ -572,8 +572,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "300.000 Ft",
-    priceNum: 300000,
+    price: "330.000 Ft",
+    priceNum: 330000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
@@ -673,8 +673,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "390.000 Ft",
-    priceNum: 390000,
+    price: "435.000 Ft",
+    priceNum: 435000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
@@ -774,8 +774,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "510.000 Ft",
-    priceNum: 510000,
+    price: "480.000 Ft",
+    priceNum: 480000,
     powerCooling: 7.1,
     powerHeating: 7.8,
     roomSize: "66-120",
@@ -866,8 +866,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "450.000 Ft",
-    priceNum: 450000,
+    price: "425.000 Ft",
+    priceNum: 425000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: null,
@@ -959,8 +959,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "540.000 Ft",
-    priceNum: 540000,
+    price: "510.000 Ft",
+    priceNum: 510000,
     powerCooling: 7.1,
     powerHeating: 8.6,
     roomSize: null,
@@ -1054,8 +1054,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "95.000 Ft",
-    priceNum: 95000,
+    price: "120.000 Ft",
+    priceNum: 120000,
     powerCooling: 2.7,
     powerHeating: 2.8,
     roomSize: "8-28",
@@ -1152,8 +1152,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "115.000 Ft",
-    priceNum: 115000,
+    price: "125.000 Ft",
+    priceNum: 125000,
     powerCooling: 3.2,
     powerHeating: 3.4,
     roomSize: "29-45",
@@ -1250,8 +1250,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "125.000 Ft",
-    priceNum: 125000,
+    price: "135.000 Ft",
+    priceNum: 135000,
     powerCooling: 4.6,
     powerHeating: 5.2,
     roomSize: "46-75",
@@ -1267,7 +1267,7 @@ export const products: Product[] = [
   {
     id: "syen-um-kazettas-inverter-3-5-kw-klima-szett",
     brand: "Syen",
-    serial: "SKH35/A-T",
+    serial: "SKH35/A-S",
     type: "ac-casette",
     name: "Syen UM 3,5 kW",
     hu: {
@@ -1371,8 +1371,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "540.000 Ft",
-    priceNum: 540000,
+    price: "515.000 Ft",
+    priceNum: 515000,
     powerCooling: 3.5,
     powerHeating: 4.0,
     roomSize: "29-55",
@@ -1384,7 +1384,7 @@ export const products: Product[] = [
   {
     id: "syen-um-kazettas-inverter-5-kw-klima-szett",
     brand: "Syen",
-    serial: "SKH50/A-T",
+    serial: "SKH50/A-S",
     type: "ac-casette",
     name: "Syen UM 5 kW",
     hu: {
@@ -1487,8 +1487,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "660.000 Ft",
-    priceNum: 660000,
+    price: "590.000 Ft",
+    priceNum: 590000,
     powerCooling: 5.0,
     powerHeating: 5.5,
     roomSize: "56-75",
@@ -1500,7 +1500,7 @@ export const products: Product[] = [
   {
     id: "syen-um-kazettas-inverter-7-kw-klima-szett",
     brand: "Syen",
-    serial: "SKH71/A-T",
+    serial: "SKH71/A-S",
     type: "ac-casette",
     name: "Syen UM 7 kW",
     hu: {
@@ -1603,8 +1603,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "750.000 Ft",
-    priceNum: 750000,
+    price: "680.000 Ft",
+    priceNum: 680000,
     powerCooling: 7.0,
     powerHeating: 8.0,
     roomSize: "66-120",
@@ -1616,7 +1616,7 @@ export const products: Product[] = [
   {
     id: "syen-um-legcsatornas-inverter-3-5-kw-klima-szett",
     brand: "Syen",
-    serial: "SLH35/A-T",
+    serial: "SLH35/A-S",
     type: "ac-ducted",
     name: "Syen ducted UM 3,5 kW",
     hu: {
@@ -1715,8 +1715,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "550.000 Ft",
-    priceNum: 550000,
+    price: "530.000 Ft",
+    priceNum: 530000,
     powerCooling: 3.5,
     powerHeating: 4.0,
     roomSize: "29-55",
@@ -1728,7 +1728,7 @@ export const products: Product[] = [
   {
     id: "syen-um-legcsatornas-inverter-5-kw-klima-szett",
     brand: "Syen",
-    serial: "SLH50/A-T",
+    serial: "SLH50/A-S",
     type: "ac-ducted",
     name: "Syen ducted UM 5 kW",
     hu: {
@@ -1827,8 +1827,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "630.000 Ft",
-    priceNum: 630000,
+    price: "580.000 Ft",
+    priceNum: 580000,
     powerCooling: 5,
     powerHeating: 5.5,
     roomSize: "56-75",
@@ -1939,8 +1939,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "710.000 Ft",
-    priceNum: 710000,
+    price: "650.000 Ft",
+    priceNum: 650000,
     powerCooling: 7,
     powerHeating: 8,
     roomSize: "66-120",

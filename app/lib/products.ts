@@ -1950,15 +1950,15 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "gree-pulse-inverter-2-5-kw-klima-szett",
+    id: "gree-pulse-pro-inverter-2-7-kw-klima-szett",
     brand: "Gree",
-    serial: "GWH09AGA-K6DNA1A",
+    serial: "GWH09AGC-K6DNA1P",
     type: "ac",
-    name: "Gree Pulse 2,5 kW",
+    name: "Gree Pulse Pro 2,7 kW",
     hu: {
-      fullName: "Gree Pulse inverter 2,5 kW klíma szett",
+      fullName: "Gree Pulse Pro inverter 2,7 kW klíma szett",
       typeName: "Klíma",
-      desc: "A Gree Pulse inverter 2,5 kW klíma szett ideális választás kisebb helyiségek hatékony hűtésére és fűtésére. Modern inverteres technológiája energiatakarékos működést, csendes üzemet és egyenletes komfortérzetet biztosít a mindennapokban. Wi-Fi vezérléssel, 3D légárammal és intelligens hőmérséklet-szabályozással gondoskodik az optimális klímáról otthonában vagy irodájában.",
+      desc: "A Gree Pulse Pro inverter 2,7 kW klíma szett ideális választás kisebb helyiségek hatékony hűtésére és fűtésére. Modern inverteres technológiája energiatakarékos működést, csendes üzemet és egyenletes komfortérzetet biztosít a mindennapokban. Wi-Fi vezérléssel, 3D légárammal és intelligens hőmérséklet-szabályozással gondoskodik az optimális klímáról otthonában vagy irodájában.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -1998,9 +1998,9 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Pulse Inverter 2.5 kW Air Conditioning Set",
+      fullName: "Gree Pulse Pro Inverter 2.7 kW Air Conditioning Set",
       typeName: "AC",
-      desc: "The Gree Pulse Inverter 2.5 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of smaller rooms. Its modern inverter technology ensures energy-saving performance, quiet operation, and consistent everyday comfort. With Wi-Fi control, 3D airflow, and intelligent temperature regulation, it provides the optimal climate for your home or office.",
+      desc: "The Gree Pulse Pro Inverter 2.7 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of smaller rooms. Its modern inverter technology ensures energy-saving performance, quiet operation, and consistent everyday comfort. With Wi-Fi control, 3D airflow, and intelligent temperature regulation, it provides the optimal climate for your home or office.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2039,8 +2039,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "280.000 Ft",
-    priceNum: 280000,
+    price: "315.000 Ft",
+    priceNum: 315000,
     powerCooling: 2.7,
     powerHeating: 2.8,
     roomSize: "8-28",
@@ -2053,15 +2053,15 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "gree-pulse-inverter-3-2-kw-klima-szett",
+    id: "gree-pulse-pro-inverter-3-5-kw-klima-szett",
     brand: "Gree",
-    serial: "GWH12AGB-K6DNA1A",
+    serial: "GWH12AGC-K6DNA1P",
     type: "ac",
-    name: "Gree Pulse 3,2 kW",
+    name: "Gree Pulse 3,5 kW",
     hu: {
-      fullName: "Gree Pulse inverter 3,2 kW klíma szett",
+      fullName: "Gree Pulse Pro inverter 3,5 kW klíma szett",
       typeName: "Klíma",
-      desc: "A Gree Pulse inverter 3,2 kW klíma szett ideális választás közepes méretű helyiségek hatékony hűtésére és fűtésére. Inverteres technológiája energiatakarékos működést, gyors hőmérséklet-elérést és csendes üzemet biztosít. Wi-Fi vezérlésével, 3D légáram funkciójával és levegőtisztító szűrésével egész évben komfortos beltéri klímát teremt.",
+      desc: "A Gree Pulse Pro inverter 3,5 kW klíma szett ideális választás közepes méretű helyiségek hatékony hűtésére és fűtésére. Inverteres technológiája energiatakarékos működést, gyors hőmérséklet-elérést és csendes üzemet biztosít. Wi-Fi vezérlésével, 3D légáram funkciójával és levegőtisztító szűrésével egész évben komfortos beltéri klímát teremt.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2073,8 +2073,8 @@ export const products: Product[] = [
         "7 fokozatú ventilátor",
       ],
       specsExtended: [
-        { label: "Hűtési teljesítmény", value: "3,2 kW" },
-        { label: "Fűtési teljesítmény", value: "3,4 kW" },
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
         { label: "Ajánlott helyiségméret", value: "29–45 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
@@ -2084,7 +2084,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-          <p>A <strong>Gree Pulse inverter 3,2 kW klíma szett</strong> megbízható és korszerű megoldást kínál lakások és kisebb irodák hűtésére-fűtésére. A fejlett inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely egyenletes hőmérsékletet és kedvező energiafogyasztást biztosít.</p>
+          <p>A <strong>Gree Pulse inverter 3,5 kW klíma szett</strong> megbízható és korszerű megoldást kínál lakások és kisebb irodák hűtésére-fűtésére. A fejlett inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely egyenletes hőmérsékletet és kedvező energiafogyasztást biztosít.</p>
           
           <p>A letisztult megjelenésű beltéri egység diszkréten illeszkedik a modern enteriőrökbe, miközben halk működésének köszönhetően ideális hálószobába vagy nappaliba is. A beépített Wi-Fi modul révén a készülék okostelefonról, távolról is vezérelhető.</p>
 
@@ -2101,9 +2101,9 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Pulse Inverter 3.2 kW Air Conditioning Set",
+      fullName: "Gree Pulse Pro Inverter 3.5 kW Air Conditioning Set",
       typeName: "AC",
-      desc: "The Gree Pulse Inverter 3.2 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of medium-sized rooms. Its inverter technology ensures energy-saving operation, rapid temperature pull-down, and quiet performance. With Wi-Fi control, a 3D airflow function, and air purification filtering, it creates a comfortable indoor climate all year round.",
+      desc: "The Gree Pulse Pro Inverter 3.5 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of medium-sized rooms. Its inverter technology ensures energy-saving operation, rapid temperature pull-down, and quiet performance. With Wi-Fi control, a 3D airflow function, and air purification filtering, it creates a comfortable indoor climate all year round.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2115,8 +2115,8 @@ export const products: Product[] = [
         "7-Speed Fan",
       ],
       specsExtended: [
-        { label: "Cooling capacity", value: "3.2 kW" },
-        { label: "Heating capacity", value: "3.4 kW" },
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
         { label: "Recommended room size", value: "29–45 m²" },
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
@@ -2142,10 +2142,10 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "300.000 Ft",
-    priceNum: 300000,
-    powerCooling: 3.2,
-    powerHeating: 3.4,
+    price: "320.000 Ft",
+    priceNum: 320000,
+    powerCooling: 3.5,
+    powerHeating: 3.8,
     roomSize: "29-45",
     action: true,
     pics: [
@@ -2156,15 +2156,15 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "gree-pulse-inverter-4-6-kw-klima-szett",
+    id: "gree-pulse-pro-inverter-5-3-kw-klima-szett",
     brand: "Gree",
-    serial: "GWH18AGD-K6DNA1D",
+    serial: "GWH18AGD-K6DNA1P",
     type: "ac",
-    name: "Gree Pulse 4,6 kW",
+    name: "Gree Pulse 5,3 kW",
     hu: {
-      fullName: "Gree Pulse inverter 4,6 kW klíma szett",
+      fullName: "Gree Pulse Pro inverter 5,3 kW klíma szett",
       typeName: "Klíma",
-      desc: "A Gree Pulse inverter 4,6 kW klíma szett ideális választás nagyobb nappalik, irodák vagy üzlethelyiségek hatékony hűtésére és fűtésére. Az inverteres technológia energiatakarékos működést, gyors hőmérséklet-szabályozást és csendes üzemet biztosít. A Wi-Fi vezérlés, a 3D légáram és a fejlett szűrőrendszer egész évben kényelmes és tiszta beltéri levegőt garantál.",
+      desc: "A Gree Pulse Pro inverter 5,3 kW klíma szett ideális választás nagyobb nappalik, irodák vagy üzlethelyiségek hatékony hűtésére és fűtésére. Az inverteres technológia energiatakarékos működést, gyors hőmérséklet-szabályozást és csendes üzemet biztosít. A Wi-Fi vezérlés, a 3D légáram és a fejlett szűrőrendszer egész évben kényelmes és tiszta beltéri levegőt garantál.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2176,8 +2176,8 @@ export const products: Product[] = [
         "7 fokozatú ventilátor",
       ],
       specsExtended: [
-        { label: "Hűtési teljesítmény", value: "4,6 kW" },
-        { label: "Fűtési teljesítmény", value: "5,2 kW" },
+        { label: "Hűtési teljesítmény", value: "5,3 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
         { label: "Ajánlott helyiségméret", value: "46–75 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
@@ -2187,7 +2187,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-          <p>A <strong>Gree Pulse inverter 4,6 kW klíma szett</strong> megbízható megoldást kínál nagyobb alapterületű helyiségek hűtésére és fűtésére. A korszerű inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely stabil hőmérsékletet és kedvező energiafelhasználást biztosít.</p>
+          <p>A <strong>Gree Pulse Pro inverter 5,3 kW klíma szett</strong> megbízható megoldást kínál nagyobb alapterületű helyiségek hűtésére és fűtésére. A korszerű inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely stabil hőmérsékletet és kedvező energiafelhasználást biztosít.</p>
           
           <p>A modern megjelenésű beltéri egység diszkréten illeszkedik lakó- és üzleti környezetbe egyaránt. Halk működésének köszönhetően komfortos használatot nyújt nappaliban, irodában vagy tárgyalóban is. A beépített Wi-Fi modul segítségével a készülék okostelefonról, távolról is vezérelhető.</p>
 
@@ -2204,9 +2204,9 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Pulse Inverter 4.6 kW Air Conditioning Set",
+      fullName: "Gree Pulse Pro Inverter 5.3 kW Air Conditioning Set",
       typeName: "AC",
-      desc: "The Gree Pulse Inverter 4.6 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of larger living rooms, offices, or retail spaces. Its inverter technology ensures energy-saving operation, rapid temperature control, and quiet performance. Wi-Fi control, 3D airflow, and the advanced filtration system guarantee comfortable and clean indoor air all year round.",
+      desc: "The Gree Pulse Pro Inverter 5.3 kW Air Conditioning Set is an ideal choice for the efficient cooling and heating of larger living rooms, offices, or retail spaces. Its inverter technology ensures energy-saving operation, rapid temperature control, and quiet performance. Wi-Fi control, 3D airflow, and the advanced filtration system guarantee comfortable and clean indoor air all year round.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2218,8 +2218,8 @@ export const products: Product[] = [
         "7-Speed Fan",
       ],
       specsExtended: [
-        { label: "Cooling capacity", value: "4.6 kW" },
-        { label: "Heating capacity", value: "5.2 kW" },
+        { label: "Cooling capacity", value: "5.3 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
         { label: "Recommended room size", value: "46–75 m²" },
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
@@ -2229,7 +2229,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
-          <p>The <strong>Gree Pulse Inverter 4.6 kW Air Conditioning Set</strong> provides a reliable solution for the cooling and heating of larger floor areas. Modern inverter technology enables continuous power regulation, ensuring a stable temperature and favorable energy consumption.</p>
+          <p>The <strong>Gree Pulse Pro Inverter 5.3 kW Air Conditioning Set</strong> provides a reliable solution for the cooling and heating of larger floor areas. Modern inverter technology enables continuous power regulation, ensuring a stable temperature and favorable energy consumption.</p>
           
           <p>The modern design of the indoor unit fits discreetly into both residential and business environments. Thanks to its quiet operation, it offers comfortable use in living rooms, offices, or meeting rooms. With the built-in Wi-Fi module, the device can be controlled remotely via smartphone.</p>
 
@@ -2247,8 +2247,8 @@ export const products: Product[] = [
     },
     price: "420.000 Ft",
     priceNum: 420000,
-    powerCooling: 4.6,
-    powerHeating: 5.2,
+    powerCooling: 5.3,
+    powerHeating: 5.6,
     roomSize: "46-75",
     pics: [
       { src: "gree-pulse.jpg", width: 1000, height: 1000 },
@@ -2258,15 +2258,15 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "gree-pulse-inverter-6-2-kw-klima-szett",
+    id: "gree-pulse-pro-inverter-7-1-kw-klima-szett",
     brand: "Gree",
-    serial: "GWH18AGD-K6DNA1D",
+    serial: "GWH24AGE-K6DNA1P",
     type: "ac",
-    name: "Gree Pulse 4,6 kW",
+    name: "Gree Pulse Pro 7,1 kW",
     hu: {
-      fullName: "Gree Pulse inverter 6,2 kW klíma szett",
+      fullName: "Gree Pulse Pro inverter 7,1 kW klíma szett",
       typeName: "Klíma",
-      desc: "A Gree Pulse inverter 6,2 kW klíma szett kiváló választás nagy alapterületű nappalik, irodák vagy üzlethelyiségek hatékony klimatizálására. Az inverteres technológia energiatakarékos működést és stabil hőmérsékletet biztosít, míg a Wi-Fi vezérlés, a 3D légáram és a fejlett szűrőrendszer egész évben kényelmes és egészséges beltéri klímát teremt.",
+      desc: "A Gree Pulse Pro inverter 7,1 kW klíma szett kiváló választás nagy alapterületű nappalik, irodák vagy üzlethelyiségek hatékony klimatizálására. Az inverteres technológia energiatakarékos működést és stabil hőmérsékletet biztosít, míg a Wi-Fi vezérlés, a 3D légáram és a fejlett szűrőrendszer egész évben kényelmes és egészséges beltéri klímát teremt.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2278,9 +2278,9 @@ export const products: Product[] = [
         "7 fokozatú ventilátor",
       ],
       specsExtended: [
-        { label: "Hűtési teljesítmény", value: "6,2 kW" },
-        { label: "Fűtési teljesítmény", value: "6,5 kW" },
-        { label: "Ajánlott helyiségméret", value: "76–100 m²" },
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "66-120 m²" },
         { label: "Hűtési energiaosztály", value: "A++" },
         { label: "Fűtési energiaosztály", value: "A+" },
         { label: "Fűtési működési tartomány", value: "-15°C" },
@@ -2289,7 +2289,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "3 év, +2 év a kompresszorra" },
       ],
       longDesc: `<div class="product-description">
-          <p>A <strong>Gree Pulse inverter 6,2 kW klíma szett</strong> nagy teljesítményű megoldást kínál tágas helyiségek, nappalik, irodák vagy üzlethelyiségek hűtésére és fűtésére. A fejlett inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely energiatakarékos működést és egyenletes hőmérsékletet biztosít.</p>
+          <p>A <strong>Gree Pulse Pro inverter 7,1 kW klíma szett</strong> nagy teljesítményű megoldást kínál tágas helyiségek, nappalik, irodák vagy üzlethelyiségek hűtésére és fűtésére. A fejlett inverteres technológia folyamatos teljesítményszabályozást tesz lehetővé, amely energiatakarékos működést és egyenletes hőmérsékletet biztosít.</p>
           
           <p>A készülék modern kialakítású beltéri egysége esztétikusan illeszkedik a különböző enteriőrökbe, miközben halk működésével nem zavarja a mindennapi tevékenységeket. A beépített Wi-Fi vezérlés lehetővé teszi a távoli irányítást, így a kívánt hőmérséklet már érkezés előtt beállítható.</p>
 
@@ -2306,9 +2306,9 @@ export const products: Product[] = [
       </div>`,
     },
     en: {
-      fullName: "Gree Pulse Inverter 6.2 kW Air Conditioning Set",
+      fullName: "Gree Pulse Pro Inverter 7.1 kW Air Conditioning Set",
       typeName: "AC",
-      desc: "The Gree Pulse Inverter 6.2 kW Air Conditioning Set is an excellent choice for the efficient climate control of large floor area living rooms, offices, or retail spaces. Inverter technology ensures energy-saving operation and a stable temperature, while Wi-Fi control, 3D airflow, and the advanced filtration system create a comfortable and healthy indoor climate all year round.",
+      desc: "The Gree Pulse Pro Inverter 7.1 kW Air Conditioning Set is an excellent choice for the efficient climate control of large floor area living rooms, offices, or retail spaces. Inverter technology ensures energy-saving operation and a stable temperature, while Wi-Fi control, 3D airflow, and the advanced filtration system create a comfortable and healthy indoor climate all year round.",
       specs: [
         "A++",
         "Wi-Fi",
@@ -2320,9 +2320,9 @@ export const products: Product[] = [
         "7-Speed Fan",
       ],
       specsExtended: [
-        { label: "Cooling capacity", value: "6.2 kW" },
-        { label: "Heating capacity", value: "6.5 kW" },
-        { label: "Recommended room size", value: "76–100 m²" },
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.8 kW" },
+        { label: "Recommended room size", value: "66-120 m²" },
         { label: "Energy class (Cooling)", value: "A++" },
         { label: "Energy class (Heating)", value: "A+" },
         { label: "Heating Operating Range", value: "-15°C" },
@@ -2331,7 +2331,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "3 years, +2 years for the compressor" },
       ],
       longDesc: `<div class="product-description">
-          <p>The <strong>Gree Pulse Inverter 6.2 kW Air Conditioning Set</strong> offers a high-performance solution for the cooling and heating of spacious rooms, living rooms, offices, or retail spaces. Advanced inverter technology enables continuous power regulation, ensuring energy-efficient operation and a consistent temperature.</p>
+          <p>The <strong>Gree Pulse Pro Inverter 7.1 kW Air Conditioning Set</strong> offers a high-performance solution for the cooling and heating of spacious rooms, living rooms, offices, or retail spaces. Advanced inverter technology enables continuous power regulation, ensuring energy-efficient operation and a consistent temperature.</p>
           
           <p>The unit's modern indoor design fits aesthetically into various interiors, while its quiet operation ensures it does not disturb daily activities. Built-in Wi-Fi control allows for remote management, so the desired temperature can be set even before you arrive.</p>
 
@@ -2347,10 +2347,10 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "510.000 Ft",
-    priceNum: 510000,
-    powerCooling: 6.2,
-    powerHeating: 6.5,
+    price: "485.000 Ft",
+    priceNum: 485000,
+    powerCooling: 7.1,
+    powerHeating: 7.8,
     roomSize: "66-120",
     pics: [
       { src: "gree-pulse.jpg", width: 1000, height: 1000 },
@@ -2457,8 +2457,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "300.000 Ft",
-    priceNum: 300000,
+    price: "315.000 Ft",
+    priceNum: 315000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     action: true,
@@ -2568,8 +2568,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "320.000 Ft",
-    priceNum: 320000,
+    price: "325.000 Ft",
+    priceNum: 325000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
@@ -2679,8 +2679,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "410.000 Ft",
-    priceNum: 410000,
+    price: "445.000 Ft",
+    priceNum: 445000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
@@ -2790,8 +2790,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "540.000 Ft",
-    priceNum: 540000,
+    price: "515.000 Ft",
+    priceNum: 515000,
     powerCooling: 7.1,
     powerHeating: 7.8,
     roomSize: "66-120",
@@ -3278,8 +3278,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "330.000 Ft",
-    priceNum: 330000,
+    price: "335.000 Ft",
+    priceNum: 335000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     roomSize: "8-28",
@@ -3384,8 +3384,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "350.000 Ft",
-    priceNum: 350000,
+    price: "355.000 Ft",
+    priceNum: 355000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
@@ -3490,8 +3490,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "460.000 Ft",
-    priceNum: 460000,
+    price: "455.000 Ft",
+    priceNum: 455000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
@@ -3500,6 +3500,498 @@ export const products: Product[] = [
       { src: "dark-pro-2.jpg", width: 1200, height: 1200 },
       { src: "dark-pro-4.jpg", width: 1200, height: 1200 },
       { src: "taviranyito-010-1.jpg", width: 1200, height: 1200 },
+    ],
+  },
+  {
+    id: "gree-g-time-inverter-2-7-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH09BCCXB-K6DNA1A",
+    type: "ac",
+    name: "Gree G-Time 2,7 kW",
+    hu: {
+      fullName: "Gree G-Time inverter 2,7 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A prémium technológia új generációja. A Gree G-Time a G-AI mesterséges intelligencia és a nagy teljesítményű G-STORM kompresszor kombinációjával gyors, energiatakarékos és rendkívül csendes működést kínál. A+++ hűtési hatékonysága, beépített páratartalom-érzékelője és akár -25°C külső hőmérsékletig biztosított fűtési teljesítménye egész évben kényelmes klímát teremt. Ideális választás azok számára, akik a maximális komfortot, az intelligens vezérlést és a halk működést egyetlen készülékben keresik.",
+      specs: [
+        "A+++",
+        "Páratartalom-szabályozás",
+        "Gree-AI (Mesterséges Intelligencia)",
+        "UV-C sterilizáló",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "2,7 kW" },
+        { label: "Fűtési teljesítmény", value: "3,0 kW" },
+        { label: "Ajánlott helyiségméret", value: "8-28 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "Gree-AI technológia (öntanuló algoritmus)", value: "Igen" },
+        { label: "UV-C sterilizáló", value: "Igen" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree G-Time 2,7 kW</strong> a bizonyíték arra, hogy a legmodernebb klímatechnológia és az intelligens vezérlés egy kompakt beltéri egységben is tökéletesen ötvözhető. A készüléket a modern otthonok igényeire tervezték, ahol a precíz hőmérséklet-szabályozás, az energiahatékonyság és a csendes működés egyaránt alapkövetelmény.</p>
+
+          <h3>A Gree G-Time 2,7 kW előnyei:</h3>
+          <ul>
+              <li><strong>G-AI intelligens vezérlés:</strong> Az öntanuló algoritmus folyamatosan elemzi a helyiség hőmérsékleti viszonyait és használati mintáit, majd ezekhez igazítva optimalizálja a működést a magasabb komfort és alacsonyabb energiafelhasználás érdekében.</li>
+              <li><strong>G-STORM inverter technológia:</strong> A nagy teljesítményű kompresszor gyors hűtést és stabil, egyenletes fűtést biztosít még szélsőségesebb külső hőmérsékleti viszonyok mellett is.</li>
+              <li><strong>Páratartalom-követés:</strong> A beépített érzékelés segít fenntartani az optimális beltéri páratartalmat, hozzájárulva a komfortosabb és egészségesebb levegőhöz.</li>
+              <li><strong>Valódi téli fűtés:</strong> A -25°C-ig garantált fűtési üzemtartomány révén a készülék a hideg téli időszakokban is megbízható, stabil meleget biztosít.</li>
+              <li><strong>3D légterelés:</strong> A motoros lamellák vízszintes és függőleges mozgatása egyenletes levegőelosztást biztosít, minimalizálva a huzathatást.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Magas szezonális hatékonyságának köszönhetően a készülék alkalmas kedvezményes fűtési tarifás üzemeltetésre is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree G-Time inverter 2.7 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The next generation of premium climate control technology. The Gree G-Time combines G-AI artificial intelligence with the high-performance G-STORM compressor to deliver fast, energy-efficient, and exceptionally quiet operation. Its A+++ cooling efficiency, built-in humidity sensor, and reliable heating performance down to -25°C ensure year-round comfort in any season. An ideal choice for those seeking maximum comfort, intelligent control, and whisper-quiet operation in a single air conditioning system.",
+      specs: [
+        "A+++/A++",
+        "Humidity control",
+        "Gree-AI (Artificial Intelligence)",
+        "UV-C Sterilization",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "-25°C Heating Operating Range",
+        "7-speed fan (Extra Quiet)",
+        "Crankcase Heater",
+        "Base Pan Heater",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "2.7 kW" },
+        { label: "Heating capacity", value: "3.0 kW" },
+        { label: "Recommended room size", value: "8–28 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "Gree-AI Technology (Self-learning algorithm)", value: "Yes" },
+        { label: "UV-C Sterilization", value: "Yes" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree G-Time 2.7 kW</strong> proves that cutting-edge climate technology and intelligent control can be perfectly combined in a compact indoor unit. It has been designed for modern homes where precise temperature control, energy efficiency, and quiet operation are essential requirements.</p>
+
+          <h3>Gree G-Time 2.7 kW advantages:</h3>
+          <ul>
+              <li><strong>G-AI intelligent control:</strong> The self-learning algorithm continuously analyzes room conditions and usage patterns, optimizing operation for enhanced comfort and lower energy consumption.</li>
+              <li><strong>G-STORM inverter technology:</strong> The high-performance compressor ensures fast cooling and stable, even heating even under more extreme outdoor temperature conditions.</li>
+              <li><strong>Humidity monitoring:</strong> The built-in sensor helps maintain optimal indoor humidity levels, contributing to a more comfortable and healthier indoor environment.</li>
+              <li><strong>True winter heating:</strong> With a guaranteed operating range down to -25°C, the unit delivers reliable and stable heating even during cold winter periods.</li>
+              <li><strong>3D airflow:</strong> Motorized horizontal and vertical louvers provide even air distribution throughout the room, minimizing direct draft.</li>
+              <li><strong>H-tariff compatibility:</strong> Thanks to its high seasonal efficiency, the unit is suitable for cost-effective operation under discounted heating electricity tariffs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "340.000 Ft",
+    priceNum: 340000,
+    powerCooling: 2.7,
+    powerHeating: 3.0,
+    roomSize: "8-28",
+    pics: [
+      { src: "g-time-01.jpg", width: 1000, height: 1000 },
+      { src: "g-time-02.jpg", width: 1000, height: 1000 },
+      { src: "g-time-03.jpg", width: 1000, height: 1000 },
+      { src: "g-time-04.jpg", width: 1000, height: 1000 },
+      { src: "g-time-05.jpg", width: 1000, height: 1000 },
+      { src: "g-time-06.jpg", width: 1000, height: 1000 },
+      { src: "xgree-kulteri-08.jpg", width: 1000, height: 1000 },
+    ],
+  },
+  {
+    id: "gree-g-time-inverter-3-5-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH12BCCXD-K6DNA1D",
+    type: "ac",
+    name: "Gree G-Time 3,5 kW",
+    hu: {
+      fullName: "Gree G-Time inverter 3,5 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A prémium technológia új generációja. A Gree G-Time a G-AI mesterséges intelligencia és a nagy teljesítményű G-STORM kompresszor kombinációjával gyors, energiatakarékos és rendkívül csendes működést kínál. A+++ hűtési hatékonysága, beépített páratartalom-érzékelője és akár -25°C külső hőmérsékletig biztosított fűtési teljesítménye egész évben kényelmes klímát teremt. Ideális választás azok számára, akik a maximális komfortot, az intelligens vezérlést és a halk működést egyetlen készülékben keresik.",
+      specs: [
+        "A+++",
+        "Páratartalom-szabályozás",
+        "Gree-AI (Mesterséges Intelligencia)",
+        "UV-C sterilizáló",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "3,5 kW" },
+        { label: "Fűtési teljesítmény", value: "3,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "29-45 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "Gree-AI technológia (öntanuló algoritmus)", value: "Igen" },
+        { label: "UV-C sterilizáló", value: "Igen" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree G-Time 3,5 kW</strong> a bizonyíték arra, hogy a legmodernebb klímatechnológia és az intelligens vezérlés egy kompakt beltéri egységben is tökéletesen ötvözhető. A készüléket a modern otthonok igényeire tervezték, ahol a precíz hőmérséklet-szabályozás, az energiahatékonyság és a csendes működés egyaránt alapkövetelmény.</p>
+
+          <h3>A Gree G-Time 3,5 kW előnyei:</h3>
+          <ul>
+              <li><strong>G-AI intelligens vezérlés:</strong> Az öntanuló algoritmus folyamatosan elemzi a helyiség hőmérsékleti viszonyait és használati mintáit, majd ezekhez igazítva optimalizálja a működést a magasabb komfort és alacsonyabb energiafelhasználás érdekében.</li>
+              <li><strong>G-STORM inverter technológia:</strong> A nagy teljesítményű kompresszor gyors hűtést és stabil, egyenletes fűtést biztosít még szélsőségesebb külső hőmérsékleti viszonyok mellett is.</li>
+              <li><strong>Páratartalom-követés:</strong> A beépített érzékelés segít fenntartani az optimális beltéri páratartalmat, hozzájárulva a komfortosabb és egészségesebb levegőhöz.</li>
+              <li><strong>Valódi téli fűtés:</strong> A -25°C-ig garantált fűtési üzemtartomány révén a készülék a hideg téli időszakokban is megbízható, stabil meleget biztosít.</li>
+              <li><strong>3D légterelés:</strong> A motoros lamellák vízszintes és függőleges mozgatása egyenletes levegőelosztást biztosít, minimalizálva a huzathatást.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Magas szezonális hatékonyságának köszönhetően a készülék alkalmas kedvezményes fűtési tarifás üzemeltetésre is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree G-Time inverter 3.5 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The next generation of premium climate control technology. The Gree G-Time combines G-AI artificial intelligence with the high-performance G-STORM compressor to deliver fast, energy-efficient, and exceptionally quiet operation. Its A+++ cooling efficiency, built-in humidity sensor, and reliable heating performance down to -25°C ensure year-round comfort in any season. An ideal choice for those seeking maximum comfort, intelligent control, and whisper-quiet operation in a single air conditioning system.",
+      specs: [
+        "A+++/A++",
+        "Humidity control",
+        "Gree-AI (Artificial Intelligence)",
+        "UV-C Sterilization",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "-25°C Heating Operating Range",
+        "7-speed fan (Extra Quiet)",
+        "Crankcase Heater",
+        "Base Pan Heater",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "3.5 kW" },
+        { label: "Heating capacity", value: "3.8 kW" },
+        { label: "Recommended room size", value: "29–45 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "Gree-AI Technology (Self-learning algorithm)", value: "Yes" },
+        { label: "UV-C Sterilization", value: "Yes" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree G-Time 3.5 kW</strong> proves that cutting-edge climate technology and intelligent control can be perfectly combined in a compact indoor unit. It has been designed for modern homes where precise temperature control, energy efficiency, and quiet operation are essential requirements.</p>
+
+          <h3>Gree G-Time 3.5 kW advantages:</h3>
+          <ul>
+              <li><strong>G-AI intelligent control:</strong> The self-learning algorithm continuously analyzes room conditions and usage patterns, optimizing operation for enhanced comfort and lower energy consumption.</li>
+              <li><strong>G-STORM inverter technology:</strong> The high-performance compressor ensures fast cooling and stable, even heating even under more extreme outdoor temperature conditions.</li>
+              <li><strong>Humidity monitoring:</strong> The built-in sensor helps maintain optimal indoor humidity levels, contributing to a more comfortable and healthier indoor environment.</li>
+              <li><strong>True winter heating:</strong> With a guaranteed operating range down to -25°C, the unit delivers reliable and stable heating even during cold winter periods.</li>
+              <li><strong>3D airflow:</strong> Motorized horizontal and vertical louvers provide even air distribution throughout the room, minimizing direct draft.</li>
+              <li><strong>H-tariff compatibility:</strong> Thanks to its high seasonal efficiency, the unit is suitable for cost-effective operation under discounted heating electricity tariffs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "360.000 Ft",
+    priceNum: 360000,
+    powerCooling: 3.5,
+    powerHeating: 3.8,
+    roomSize: "29-45",
+    pics: [
+      { src: "g-time-01.jpg", width: 1000, height: 1000 },
+      { src: "g-time-02.jpg", width: 1000, height: 1000 },
+      { src: "g-time-03.jpg", width: 1000, height: 1000 },
+      { src: "g-time-04.jpg", width: 1000, height: 1000 },
+      { src: "g-time-05.jpg", width: 1000, height: 1000 },
+      { src: "g-time-06.jpg", width: 1000, height: 1000 },
+      { src: "xgree-kulteri-08.jpg", width: 1000, height: 1000 },
+    ],
+  },
+  {
+    id: "gree-g-time-inverter-5-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH18BCDXE-K6DNA1A",
+    type: "ac",
+    name: "Gree G-Time 5,1 kW",
+    hu: {
+      fullName: "Gree G-Time inverter 5,1 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A prémium technológia új generációja. A Gree G-Time a G-AI mesterséges intelligencia és a nagy teljesítményű G-STORM kompresszor kombinációjával gyors, energiatakarékos és rendkívül csendes működést kínál. A+++ hűtési hatékonysága, beépített páratartalom-érzékelője és akár -25°C külső hőmérsékletig biztosított fűtési teljesítménye egész évben kényelmes klímát teremt. Ideális választás azok számára, akik a maximális komfortot, az intelligens vezérlést és a halk működést egyetlen készülékben keresik.",
+      specs: [
+        "A+++",
+        "Páratartalom-szabályozás",
+        "Gree-AI (Mesterséges Intelligencia)",
+        "UV-C sterilizáló",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "5,1 kW" },
+        { label: "Fűtési teljesítmény", value: "5,6 kW" },
+        { label: "Ajánlott helyiségméret", value: "46-75 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "Gree-AI technológia (öntanuló algoritmus)", value: "Igen" },
+        { label: "UV-C sterilizáló", value: "Igen" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree G-Time 5,1 kW</strong> a bizonyíték arra, hogy a legmodernebb klímatechnológia és az intelligens vezérlés egy kompakt beltéri egységben is tökéletesen ötvözhető. A készüléket a modern otthonok igényeire tervezték, ahol a precíz hőmérséklet-szabályozás, az energiahatékonyság és a csendes működés egyaránt alapkövetelmény.</p>
+
+          <h3>A Gree G-Time 5,1 kW előnyei:</h3>
+          <ul>
+              <li><strong>G-AI intelligens vezérlés:</strong> Az öntanuló algoritmus folyamatosan elemzi a helyiség hőmérsékleti viszonyait és használati mintáit, majd ezekhez igazítva optimalizálja a működést a magasabb komfort és alacsonyabb energiafelhasználás érdekében.</li>
+              <li><strong>G-STORM inverter technológia:</strong> A nagy teljesítményű kompresszor gyors hűtést és stabil, egyenletes fűtést biztosít még szélsőségesebb külső hőmérsékleti viszonyok mellett is.</li>
+              <li><strong>Páratartalom-követés:</strong> A beépített érzékelés segít fenntartani az optimális beltéri páratartalmat, hozzájárulva a komfortosabb és egészségesebb levegőhöz.</li>
+              <li><strong>Valódi téli fűtés:</strong> A -25°C-ig garantált fűtési üzemtartomány révén a készülék a hideg téli időszakokban is megbízható, stabil meleget biztosít.</li>
+              <li><strong>3D légterelés:</strong> A motoros lamellák vízszintes és függőleges mozgatása egyenletes levegőelosztást biztosít, minimalizálva a huzathatást.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Magas szezonális hatékonyságának köszönhetően a készülék alkalmas kedvezményes fűtési tarifás üzemeltetésre is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree G-Time inverter 5.1 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The next generation of premium climate control technology. The Gree G-Time combines G-AI artificial intelligence with the high-performance G-STORM compressor to deliver fast, energy-efficient, and exceptionally quiet operation. Its A+++ cooling efficiency, built-in humidity sensor, and reliable heating performance down to -25°C ensure year-round comfort in any season. An ideal choice for those seeking maximum comfort, intelligent control, and whisper-quiet operation in a single air conditioning system.",
+      specs: [
+        "A+++/A++",
+        "Humidity control",
+        "Gree-AI (Artificial Intelligence)",
+        "UV-C Sterilization",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "-25°C Heating Operating Range",
+        "7-speed fan (Extra Quiet)",
+        "Crankcase Heater",
+        "Base Pan Heater",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "5.1 kW" },
+        { label: "Heating capacity", value: "5.6 kW" },
+        { label: "Recommended room size", value: "46–75 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "Gree-AI Technology (Self-learning algorithm)", value: "Yes" },
+        { label: "UV-C Sterilization", value: "Yes" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree G-Time 5.1 kW</strong> proves that cutting-edge climate technology and intelligent control can be perfectly combined in a compact indoor unit. It has been designed for modern homes where precise temperature control, energy efficiency, and quiet operation are essential requirements.</p>
+
+          <h3>Gree G-Time 5.1 kW advantages:</h3>
+          <ul>
+              <li><strong>G-AI intelligent control:</strong> The self-learning algorithm continuously analyzes room conditions and usage patterns, optimizing operation for enhanced comfort and lower energy consumption.</li>
+              <li><strong>G-STORM inverter technology:</strong> The high-performance compressor ensures fast cooling and stable, even heating even under more extreme outdoor temperature conditions.</li>
+              <li><strong>Humidity monitoring:</strong> The built-in sensor helps maintain optimal indoor humidity levels, contributing to a more comfortable and healthier indoor environment.</li>
+              <li><strong>True winter heating:</strong> With a guaranteed operating range down to -25°C, the unit delivers reliable and stable heating even during cold winter periods.</li>
+              <li><strong>3D airflow:</strong> Motorized horizontal and vertical louvers provide even air distribution throughout the room, minimizing direct draft.</li>
+              <li><strong>H-tariff compatibility:</strong> Thanks to its high seasonal efficiency, the unit is suitable for cost-effective operation under discounted heating electricity tariffs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "460.000 Ft",
+    priceNum: 460000,
+    powerCooling: 5.1,
+    powerHeating: 5.6,
+    roomSize: "46-75",
+    pics: [
+      { src: "g-time-01.jpg", width: 1000, height: 1000 },
+      { src: "g-time-02.jpg", width: 1000, height: 1000 },
+      { src: "g-time-03.jpg", width: 1000, height: 1000 },
+      { src: "g-time-04.jpg", width: 1000, height: 1000 },
+      { src: "g-time-05.jpg", width: 1000, height: 1000 },
+      { src: "g-time-06.jpg", width: 1000, height: 1000 },
+      { src: "xgree-kulteri-08.jpg", width: 1000, height: 1000 },
+    ],
+  },
+  {
+    id: "gree-g-time-inverter-7-1-kw-klima-szett",
+    brand: "Gree",
+    serial: "GWH24BCEXF-K6DNA1A",
+    type: "ac",
+    name: "Gree G-Time 7,1 kW",
+    hu: {
+      fullName: "Gree G-Time inverter 7,1 kW klíma szett",
+      typeName: "Klíma",
+      desc: "A prémium technológia új generációja. A Gree G-Time a G-AI mesterséges intelligencia és a nagy teljesítményű G-STORM kompresszor kombinációjával gyors, energiatakarékos és rendkívül csendes működést kínál. A+++ hűtési hatékonysága, beépített páratartalom-érzékelője és akár -25°C külső hőmérsékletig biztosított fűtési teljesítménye egész évben kényelmes klímát teremt. Ideális választás azok számára, akik a maximális komfortot, az intelligens vezérlést és a halk működést egyetlen készülékben keresik.",
+      specs: [
+        "A+++",
+        "Páratartalom-szabályozás",
+        "Gree-AI (Mesterséges Intelligencia)",
+        "UV-C sterilizáló",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma ionizáló",
+        "3D légáram",
+        "I-Feel",
+        "8°C-os temperálás",
+        "-25°C-os fűtési működési tartomány",
+        "7 fokozatú ventilátor (Extra csendes)",
+        "Karterfűtés",
+        "Csepptálca fűtés",
+      ],
+      specsExtended: [
+        { label: "Hűtési teljesítmény", value: "7,1 kW" },
+        { label: "Fűtési teljesítmény", value: "7,8 kW" },
+        { label: "Ajánlott helyiségméret", value: "66-120 m²" },
+        { label: "Hűtési energiaosztály", value: "A+++" },
+        { label: "Fűtési energiaosztály", value: "A++" },
+        { label: "Páratartalom-szabályozás", value: "Igen" },
+        { label: "Gree-AI technológia (öntanuló algoritmus)", value: "Igen" },
+        { label: "UV-C sterilizáló", value: "Igen" },
+        { label: "Légszűrés", value: "Cold Plasma ionizáló" },
+        { label: "Fűtési működési tartomány", value: "-25°C" },
+        { label: "WiFi vezérlés", value: "Igen (Gree+)" },
+        { label: "H-tarifa igényelhető", value: "Igen" },
+        { label: "Garancia", value: "3+2 év" },
+        { label: "Karterfűtés", value: "Igen" },
+        { label: "Csepptálca fűtés", value: "Igen" },
+        { label: "Extra csendes üzemmód", value: "Igen (19 dB-től)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>A <strong>Gree G-Time 7,1 kW</strong> a bizonyíték arra, hogy a legmodernebb klímatechnológia és az intelligens vezérlés egy kompakt beltéri egységben is tökéletesen ötvözhető. A készüléket a modern otthonok igényeire tervezték, ahol a precíz hőmérséklet-szabályozás, az energiahatékonyság és a csendes működés egyaránt alapkövetelmény.</p>
+
+          <h3>A Gree G-Time 7,1 kW előnyei:</h3>
+          <ul>
+              <li><strong>G-AI intelligens vezérlés:</strong> Az öntanuló algoritmus folyamatosan elemzi a helyiség hőmérsékleti viszonyait és használati mintáit, majd ezekhez igazítva optimalizálja a működést a magasabb komfort és alacsonyabb energiafelhasználás érdekében.</li>
+              <li><strong>G-STORM inverter technológia:</strong> A nagy teljesítményű kompresszor gyors hűtést és stabil, egyenletes fűtést biztosít még szélsőségesebb külső hőmérsékleti viszonyok mellett is.</li>
+              <li><strong>Páratartalom-követés:</strong> A beépített érzékelés segít fenntartani az optimális beltéri páratartalmat, hozzájárulva a komfortosabb és egészségesebb levegőhöz.</li>
+              <li><strong>Valódi téli fűtés:</strong> A -25°C-ig garantált fűtési üzemtartomány révén a készülék a hideg téli időszakokban is megbízható, stabil meleget biztosít.</li>
+              <li><strong>3D légterelés:</strong> A motoros lamellák vízszintes és függőleges mozgatása egyenletes levegőelosztást biztosít, minimalizálva a huzathatást.</li>
+              <li><strong>H-tarifa kompatibilitás:</strong> Magas szezonális hatékonyságának köszönhetően a készülék alkalmas kedvezményes fűtési tarifás üzemeltetésre is.</li>
+          </ul>
+      </div>`,
+    },
+    en: {
+      fullName: "Gree G-Time inverter 7.1 kW Air Conditioning Set",
+      typeName: "AC",
+      desc: "The next generation of premium climate control technology. The Gree G-Time combines G-AI artificial intelligence with the high-performance G-STORM compressor to deliver fast, energy-efficient, and exceptionally quiet operation. Its A+++ cooling efficiency, built-in humidity sensor, and reliable heating performance down to -25°C ensure year-round comfort in any season. An ideal choice for those seeking maximum comfort, intelligent control, and whisper-quiet operation in a single air conditioning system.",
+      specs: [
+        "A+++/A++",
+        "Humidity control",
+        "Gree-AI (Artificial Intelligence)",
+        "UV-C Sterilization",
+        "Wi-Fi (Gree+)",
+        "Cold Plasma Ionizer",
+        "3D Airflow",
+        "I-Feel",
+        "8°C Heating",
+        "-25°C Heating Operating Range",
+        "7-speed fan (Extra Quiet)",
+        "Crankcase Heater",
+        "Base Pan Heater",
+      ],
+      specsExtended: [
+        { label: "Cooling capacity", value: "7.1 kW" },
+        { label: "Heating capacity", value: "7.8 kW" },
+        { label: "Recommended room size", value: "66–120 m²" },
+        { label: "Energy class (Cooling)", value: "A+++" },
+        { label: "Energy class (Heating)", value: "A++" },
+        { label: "Humidity control", value: "Yes" },
+        { label: "Gree-AI Technology (Self-learning algorithm)", value: "Yes" },
+        { label: "UV-C Sterilization", value: "Yes" },
+        { label: "Air Filtration", value: "Cold Plasma Ionizer" },
+        { label: "Heating Operating Range", value: "-25°C" },
+        { label: "WiFi control", value: "Yes (Gree+)" },
+        { label: "H-tariff eligible", value: "Yes" },
+        { label: "Warranty", value: "3+2 years" },
+        { label: "Crankcase Heater", value: "Yes" },
+        { label: "Base Pan Heater", value: "Yes" },
+        { label: "Extra Quiet Mode", value: "Yes (from 19 dB)" },
+      ],
+      longDesc: `<div class="product-description">
+          <p>The <strong>Gree G-Time 7.1 kW</strong> proves that cutting-edge climate technology and intelligent control can be perfectly combined in a compact indoor unit. It has been designed for modern homes where precise temperature control, energy efficiency, and quiet operation are essential requirements.</p>
+
+          <h3>Gree G-Time 7.1 kW advantages:</h3>
+          <ul>
+              <li><strong>G-AI intelligent control:</strong> The self-learning algorithm continuously analyzes room conditions and usage patterns, optimizing operation for enhanced comfort and lower energy consumption.</li>
+              <li><strong>G-STORM inverter technology:</strong> The high-performance compressor ensures fast cooling and stable, even heating even under more extreme outdoor temperature conditions.</li>
+              <li><strong>Humidity monitoring:</strong> The built-in sensor helps maintain optimal indoor humidity levels, contributing to a more comfortable and healthier indoor environment.</li>
+              <li><strong>True winter heating:</strong> With a guaranteed operating range down to -25°C, the unit delivers reliable and stable heating even during cold winter periods.</li>
+              <li><strong>3D airflow:</strong> Motorized horizontal and vertical louvers provide even air distribution throughout the room, minimizing direct draft.</li>
+              <li><strong>H-tariff compatibility:</strong> Thanks to its high seasonal efficiency, the unit is suitable for cost-effective operation under discounted heating electricity tariffs.</li>
+          </ul>
+      </div>`,
+    },
+    price: "520.000 Ft",
+    priceNum: 520000,
+    powerCooling: 7.1,
+    powerHeating: 7.8,
+    roomSize: "66-120",
+    pics: [
+      { src: "g-time-01.jpg", width: 1000, height: 1000 },
+      { src: "g-time-02.jpg", width: 1000, height: 1000 },
+      { src: "g-time-03.jpg", width: 1000, height: 1000 },
+      { src: "g-time-04.jpg", width: 1000, height: 1000 },
+      { src: "g-time-05.jpg", width: 1000, height: 1000 },
+      { src: "g-time-06.jpg", width: 1000, height: 1000 },
+      { src: "xgree-kulteri-08.jpg", width: 1000, height: 1000 },
     ],
   },
   {
@@ -3971,7 +4463,7 @@ export const products: Product[] = [
       specs: [
         "A+++/A++",
         "Mesterséges intelligencia (Gree-AI)",
-        "Páratartalomra történő szabályozás",
+        "Páratartalom-szabályozás",
         "UV-C szűrő",
         "Wi-Fi (Gree+)",
         "3D légáram",
@@ -4065,8 +4557,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "410.000 Ft",
-    priceNum: 410000,
+    price: "395.000 Ft",
+    priceNum: 395000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     roomSize: "8-28",
@@ -4185,8 +4677,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "430.000 Ft",
-    priceNum: 430000,
+    price: "405.000 Ft",
+    priceNum: 405000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
@@ -4305,8 +4797,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "540.000 Ft",
-    priceNum: 540000,
+    price: "495.000 Ft",
+    priceNum: 495000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
@@ -4425,8 +4917,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "590.000 Ft",
-    priceNum: 590000,
+    price: "550.000 Ft",
+    priceNum: 550000,
     powerCooling: 7.1,
     powerHeating: 7.8,
     roomSize: "66-120",
@@ -4642,8 +5134,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "490.000 Ft",
-    priceNum: 490000,
+    price: "475.000 Ft",
+    priceNum: 475000,
     powerCooling: 3.5,
     powerHeating: 4.2,
     roomSize: "29-45",
@@ -4750,8 +5242,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "550.000 Ft",
-    priceNum: 550000,
+    price: "530.000 Ft",
+    priceNum: 530000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",
@@ -9718,8 +10210,8 @@ export const products: Product[] = [
         </ul>
       </div>`,
     },
-    price: "270.000 Ft",
-    priceNum: 270000,
+    price: "280.000 Ft",
+    priceNum: 280000,
     powerCooling: 3.2,
     powerHeating: 3.4,
     roomSize: "29-45",
@@ -9817,8 +10309,8 @@ export const products: Product[] = [
           </ul>
         </div>`,
     },
-    price: "350.000 Ft",
-    priceNum: 350000,
+    price: "360.000 Ft",
+    priceNum: 360000,
     powerCooling: 4.6,
     powerHeating: 5.2,
     roomSize: "46-75",
@@ -10022,8 +10514,8 @@ export const products: Product[] = [
         </ul>
       </div>`,
     },
-    price: "290.000 Ft",
-    priceNum: 290000,
+    price: "295.000 Ft",
+    priceNum: 295000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",
@@ -10124,8 +10616,8 @@ export const products: Product[] = [
         </ul>
       </div>`,
     },
-    price: "370.000 Ft",
-    priceNum: 370000,
+    price: "385.000 Ft",
+    priceNum: 385000,
     powerCooling: 5.3,
     powerHeating: 5.6,
     roomSize: "46-75",

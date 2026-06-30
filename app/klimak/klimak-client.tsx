@@ -24,11 +24,17 @@ export default function KlimakClient() {
                 Az oldalfali split klíma a legelterjedtebb és legkedvezőbb árú klimatizálási megoldás lakossági felhasználók számára. Egyszerű telepítés, megbízható működés és kiváló ár-érték arány jellemzi, ezért családi házakban, lakásokban és kisebb irodákban egyaránt ideális választás.
                 <br /><br />
                 A modern inverteres technológiának köszönhetően nemcsak hűtésre, hanem hatékony fűtésre is alkalmasak, miközben energiatakarékosan és csendesen üzemelnek. A legtöbb modell már Wi-Fi vezérléssel, levegőtisztító funkciókkal és kényelmi extrákkal érkezik.
+                <br /><br />
+                A feltüntetett árak alapszereléssel együtt (max. 5 méter csőhossz + házoldalfali tartókonzol) értendők.
+                Hosszab csőhossz, tetőre szerelés, egyéb speciális esetekben az anyag- és munkaköltség növekedésére kell számítani.
                 </>
                 : <>
                 Wall-mounted split air conditioners are the most widely used and cost-effective climate control solution for residential applications. Easy installation, reliable operation, and excellent value for money make them an ideal choice for houses, apartments, and small offices alike.
                 <br /><br />
                 Thanks to modern inverter technology, these units are suitable not only for cooling but also for efficient heating, while operating quietly and energy-efficiently. Most models now come equipped with built-in Wi-Fi control, air purification features, and a range of comfort functions.
+                <br /><br />
+                The indicated prices include standard installation (up to 5 meters of pipe length + wall mounting bracket).
+                In the case of longer pipe lengths, roof installation, or other special circumstances, an increase in material and labor costs is to be expected.
                 </>}
             </p>
           </div>

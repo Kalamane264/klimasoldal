@@ -23,12 +23,18 @@ export default function KlimakClient() {
                 ? <>
                 Találja meg az otthonába legjobban illő klímaberendezést kedvezményes áron! Akciós kínálatunkban megbízható gyártók modelljeit gyűjtöttük össze, hogy Önnek ne kelljen kompromisszumot kötnie a minőség és a költségek között. 
                 <br /><br />
-                Minden nálunk vásárolt készülékhez szakszerű telepítést és a gyártó által vállalt teljes körű garanciát (típustól függően akár 5 évet) biztosítunk. Böngésszen aktuális ajánlataink között a készlet erejéig!
+                Minden nálunk vásárolt készülékhez szakszerű telepítést és a gyártó által vállalt teljes körű garanciát (típustól függően akár 7 évet) biztosítunk. Böngésszen aktuális ajánlataink között a készlet erejéig!
+                <br /><br />
+                A feltüntetett árak alapszereléssel együtt (max. 5 méter csőhossz + házoldalfali tartókonzol) értendők.
+                Hosszab csőhossz, tetőre szerelés, egyéb speciális esetekben az anyag- és munkaköltség növekedésére kell számítani.
                 </>
                 : <>
                 Find the perfect air conditioning solution for your home at a discounted price! Our special offers feature models from reliable manufacturers, ensuring you don't have to compromise on quality or your budget. 
                 <br /><br />
-                For every unit purchased, we provide professional installation and the full manufacturer's warranty (up to 5 years, depending on the model). Browse our current deals while stocks last!
+                For every unit purchased, we provide professional installation and the full manufacturer's warranty (up to 7 years, depending on the model). Browse our current deals while stocks last!
+                <br /><br />
+                The indicated prices include standard installation (up to 5 meters of pipe length + wall mounting bracket).
+                In the case of longer pipe lengths, roof installation, or other special circumstances, an increase in material and labor costs is to be expected.
                 </>}
             </p>
           </div>

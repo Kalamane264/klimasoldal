@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Akciós Klímák és Kedvezményes Telepítés 2026 | AClimate",
     description: "Prémium klímaberendezések akciós áron, szakszerű telepítéssel. Tekintse meg aktuális ajánlatainkat!",
-    images: ['https://aclimate.hu/akcios_klimak_og.png'],
+    images: ['https://aclimate.hu/akcios_klimak_og_01.png'],
   },
 };
 

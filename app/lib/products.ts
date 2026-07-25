@@ -3279,8 +3279,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "335.000 Ft",
-    priceNum: 335000,
+    price: "350.000 Ft",
+    priceNum: 350000,
     powerCooling: 2.7,
     powerHeating: 3.0,
     roomSize: "8-28",
@@ -3385,8 +3385,8 @@ export const products: Product[] = [
           </ul>
       </div>`,
     },
-    price: "355.000 Ft",
-    priceNum: 355000,
+    price: "370.000 Ft",
+    priceNum: 370000,
     powerCooling: 3.5,
     powerHeating: 3.8,
     roomSize: "29-45",

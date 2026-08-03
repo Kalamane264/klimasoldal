@@ -40,8 +40,8 @@ export default function KlimaFogyasztasaClient() {
       icon: <CheckCircle2 className="w-5 h-5 text-emerald-600" />,
       label: hu ? "Valóság" : "Reality",
       text: hu
-        ? "A 3,5 kW a hűtési/fűtési teljesítmény. Egy A+++ inverteres klíma maximális villamos teljesítményfelvétele ennek csak töredéke – kb. 750–800 W. De ez is csak az indulási csúcs: amint a szoba hőmérséklete közelít a célhoz, a kompresszor visszavesz, és a fenntartási fázisban a gép mindössze 100–200 W körül üzemel. Azzal kell tehát számolni, hogy az üzemelési idő nagy részében egy 3,5 kW-os klíma közelebb van egy izzóhoz, mint egy villanytűzhelyhez."
-        : "3.5 kW is the cooling/heating output. The maximum electrical draw of an A+++ inverter unit is only a fraction of that — around 750–800 W. But even that is just the startup peak: once the room temperature nears the target, the compressor throttles back and the unit idles at around 100–200 W. For most of its running time, a 3.5 kW AC draws closer to what a light bulb uses than what an electric hob uses.",
+        ? "A 3,5 kW a hűtési/fűtési teljesítmény. Egy A+++ inverteres klíma maximális villamos teljesítményfelvétele ennek csak töredéke – kb. 750–800 W. De ez is csak az indulási csúcs: amint a szoba hőmérséklete közelít a célhoz, a kompresszor visszavesz, és a fenntartási fázisban a gép mindössze 100–200 W körül üzemel. Azzal kell tehát számolni, hogy az üzemelési idő nagy részében egy 3,5 kW-os klíma közelebb van a konyhában a hűtőszekrényhez, mint a villanytűzhelyhez."
+        : "3.5 kW is the cooling/heating output. The maximum electrical draw of an A+++ inverter unit is only a fraction of that — around 750–800 W. But even that is just the startup peak: once the room temperature nears the target, the compressor throttles back and the unit idles at around 100–200 W. For most of its running time, a 3.5 kW AC is closer to your refrigerator than to your electric hob.",
       color: "bg-emerald-50 border-emerald-200",
     },
   ];

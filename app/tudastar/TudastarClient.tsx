@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/app/ui/card";
 import { Button } from "@/app/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { BookOpen, Lightbulb, ShieldCheck, Home, Droplets } from "lucide-react";
+import { BookOpen, Lightbulb, ShieldCheck, Home, Droplets, Zap } from "lucide-react";
 
 export default function TudastarClient() {
   const { language, t } = useLanguage();
@@ -69,6 +69,18 @@ export default function TudastarClient() {
       en: {
         title: "AC Cleaning: why it matters and what a real wash means",
         desc: "Warranty, health, energy efficiency – why spray treatment isn't enough and what a full chemical machine wash involves.",
+      },
+    },
+    {
+      id: "klima-fogyasztasa",
+      icon: <Zap className="w-8 h-8 text-yellow-500" />,
+      hu: {
+        title: "Mennyit fogyaszt valójában egy klíma?",
+        desc: "A 3,5 kW-os klíma nem fogyaszt 3,5 kW áramot! Konkrét számok, mennyibe kerül egy klíma egy átlagos nyári hónapban.",
+      },
+      en: {
+        title: "How Much Electricity Does an AC Actually Use?",
+        desc: "A 3.5 kW AC doesn't draw 3.5 kW! Real numbers on what it actually costs to run an air conditioner through summer.",
       },
     },
   ];

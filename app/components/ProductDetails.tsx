@@ -30,6 +30,8 @@ export default function ProductDetailsClient({ product }: Props) {
     language === "hu" ? product.hu.longDesc : product.en.longDesc;
   const specsExtended =
     language === "hu" ? product.hu.specsExtended : product.en.specsExtended;
+  const priceInfo = language === "hu" ? "Az ár alapszereléssel együtt értendő."
+    : "Price includes basic installation.";
 
   const [isBeginning, setIsBeginning] = useState(true);
   const [isEnd, setIsEnd] = useState(false);
@@ -163,6 +165,9 @@ export default function ProductDetailsClient({ product }: Props) {
                 </h1>
                 <div className="mt-4 text-3xl font-bold text-primary">
                   {product.price}
+                </div>
+                <div>
+                  { priceInfo }
                 </div>
               </div>
 

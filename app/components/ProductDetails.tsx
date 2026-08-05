@@ -58,14 +58,20 @@ export default function ProductDetailsClient({ product }: Props) {
     <div className="min-h-screen bg-background font-sans">
       <main className="pt-32 pb-24">
         <div className="container mx-auto px-4 md:px-6">
-          <Button
-            onClick={goBack}
-            variant="ghost"
-            className="cursor-pointer mb-8 flex items-center gap-2"
-          >
-            <ArrowLeft className="w-4 h-4" />
-            {language === "hu" ? "Vissza a listához" : "Back to list"}
-          </Button>
+          { window.history.length > 2 && (
+
+            <Button
+              onClick={goBack}
+              variant="ghost"
+              className="cursor-pointer mb-8 flex items-center gap-2"
+              >
+                <ArrowLeft className="w-4 h-4" />
+                {language === "hu" ? "Vissza a listához" : "Back to list"}
+            </Button>
+          )
+              
+             }
+          
 
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {/*  <motion.div

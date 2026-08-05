@@ -10064,7 +10064,7 @@ export const products: Product[] = [
         { label: "Garancia", value: "5 év teljes körű" },
       ],
       longDesc: `<div class="product-description">
-        <p>Az <strong>Auratsu Osaka ATC-12CLHO</strong> az elegancia és a hatékonyság találkozása. A modern inverteres technológiának köszönhetően rendkívül csendes működés mellett biztosít optimális hőmérsékletet egész évben, miközben letisztult, fényes fehér előlapja bármilyen enteriőrbe jól illeszkedik.</p>
+        <p>Az <strong>Auratsu Tokyo – 3,5 kW</strong> az elegancia és a hatékonyság találkozása. A modern inverteres technológiának köszönhetően rendkívül csendes működés mellett biztosít optimális hőmérsékletet egész évben, miközben letisztult, fényes fehér előlapja bármilyen enteriőrbe jól illeszkedik.</p>
         <h3>Főbb jellemzők:</h3>
         <ul>
         <li><strong>I FEEL funkció:</strong> A távirányítóba épített érzékelőnek köszönhetően a gép ott tartja a beállított hőmérsékletet, ahol Ön tartózkodik.</li>
@@ -10103,7 +10103,7 @@ export const products: Product[] = [
         { label: "Warranty", value: "5-Year Full Warranty" },
       ],
       longDesc: `<div class="product-description">
-        <p>The <strong>Auratsu Osaka ATC-12CLHO</strong> is where elegance meets efficiency. Thanks to modern inverter technology, it ensures optimal temperatures year-round with exceptionally quiet operation, while its sleek, glossy white front panel blends seamlessly into any interior.</p>
+        <p>The <strong>Auratsu Tokyo – 3,5 kW</strong> is where elegance meets efficiency. Thanks to modern inverter technology, it ensures optimal temperatures year-round with exceptionally quiet operation, while its sleek, glossy white front panel blends seamlessly into any interior.</p>
         <h3>Key Features:</h3>
         <ul>
         <li><strong>I FEEL Function:</strong> Thanks to the sensor built into the remote control, the unit maintains the set temperature exactly where you are located.</li>

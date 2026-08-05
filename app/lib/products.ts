@@ -10030,7 +10030,7 @@ export const products: Product[] = [
     ],
   },
   {
-    id: "auratsu-tokyo-3-4-kW-inverteres-split-klima",
+    id: "auratsu-tokyo-3-5-kW-inverteres-split-klima",
     brand: "Auratsu",
     serial: "ATC-12CLHO",
     type: "ac",
@@ -10120,8 +10120,8 @@ export const products: Product[] = [
     roomSize: "29-45",
     action: true,
     pics: [
-      { src: "auratsu_tokyo_front.webp", width: 1200, height: 1200 },
-      { src: "auratsu_tokyo_set.webp", width: 600, height: 600 },
+      { src: "auratsu_tokyo_front.jpg", width: 712, height: 319 },
+      { src: "auratsu_tokyo_set.jpg", width: 712, height: 375 },
     ],
   },
   {

@@ -69,10 +69,7 @@ export default function ProductDetailsClient({ product }: Props) {
                 {language === "hu" ? "Vissza a listához" : "Back to list"}
             </Button>
           )
-              
-             }
-          
-
+          }
           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
             {/*  <motion.div
               initial={{ opacity: 0, x: -20 }}

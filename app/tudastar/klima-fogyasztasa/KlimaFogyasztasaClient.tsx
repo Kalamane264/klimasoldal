@@ -320,7 +320,7 @@ export default function KlimaFogyasztasaClient() {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 mb-2 text-lg">
-                      {hu ? "A lényeg egy mondatban" : "The bottom line"}
+                      {hu ? "A lényeg röviden" : "The bottom line"}
                     </h3>
                     <p className="text-slate-700 leading-relaxed">
                       {hu
